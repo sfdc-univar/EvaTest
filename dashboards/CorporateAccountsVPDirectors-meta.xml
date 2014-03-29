@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Corporate Accounts VP &amp; Directors</name>
+    <publicFolderAccess>ReadWrite</publicFolderAccess>
+    <sharedTo>
+        <role>CorporateAccountDirectorSalesEast</role>
+        <role>CorporateAccountDirectorSalesWest</role>
+        <role>CorporateAccountVP</role>
+        <role>GlobalExecutives</role>
+    </sharedTo>
+</DashboardFolder>

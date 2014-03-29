@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Sales:Eastern Region:Sales Reports</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <roleAndSubordinates>EasternChemCareManagerNortheast</roleAndSubordinates>
+        <roleAndSubordinates>EasternChemCareStaffNortheast</roleAndSubordinates>
+        <roleAndSubordinates>EasternChemCareStaffSE</roleAndSubordinates>
+        <roleAndSubordinates>EasternIndustryManagerFood</roleAndSubordinates>
+        <roleAndSubordinates>EasternIndustryManagerPharma</roleAndSubordinates>
+        <roleAndSubordinates>EasternIndustryManagersMisc</roleAndSubordinates>
+        <roleAndSubordinates>EasternIndustryRepsFood</roleAndSubordinates>
+        <roleAndSubordinates>EasternIndustryRepsPharma</roleAndSubordinates>
+        <roleAndSubordinates>EasternInsideSalesMgrsNE0SE0</roleAndSubordinates>
+        <roleAndSubordinates>EasternMiniBulkRep1</roleAndSubordinates>
+        <roleAndSubordinates>EasternMiniBulkRep2</roleAndSubordinates>
+        <roleAndSubordinates>EasternMiniBulkSM1</roleAndSubordinates>
+        <roleAndSubordinates>EasternMiniBulkSM2</roleAndSubordinates>
+        <roleAndSubordinates>EasternRegionalAccessMisc</roleAndSubordinates>
+        <roleAndSubordinates>EasternRegionalChemCareManager</roleAndSubordinates>
+        <roleAndSubordinates>EasternRegionalManagers</roleAndSubordinates>
+        <roleAndSubordinates>EasternRegionalSalesDirector</roleAndSubordinates>
+        <roleAndSubordinates>Eastern_Inside_Sales_Mgr_NE0</roleAndSubordinates>
+        <roleAndSubordinates>GlobalExecutives</roleAndSubordinates>
+        <roleAndSubordinates>HAEAREasternHouseAccountUserOnly</roleAndSubordinates>
+        <roleAndSubordinates>MarketDevelopers</roleAndSubordinates>
+        <roleAndSubordinates>MarketDevelopmentManager</roleAndSubordinates>
+        <roleAndSubordinates>MarketingCommunications</roleAndSubordinates>
+        <roleAndSubordinates>NE0EasternBDR</roleAndSubordinates>
+        <roleAndSubordinates>RVPEasternRegion</roleAndSubordinates>
+        <roleAndSubordinates>VPMarketing</roleAndSubordinates>
+        <roleAndSubordinates>VPSalesMarketing</roleAndSubordinates>
+    </sharedTo>
+</DashboardFolder>

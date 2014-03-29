@@ -1,0 +1,17 @@
+*** Do not reply to this message ***
+
+Workflow rules have detected a new Ship-To owned by one of the House Accounts.  This situation should not be happening, so if it is, please troubleshoot to determine how this new account is making it through integration.  If the 'Created By' user is not 'integration' (SFDC Admin) then note who it is, and determine if they created this account via DataLoader or some other back-end tool.
+
+Account Name: {!Account.Name}
+Ship-To Name: {!Account.ShipToName__c}
+Customer #: {!Account.CustomerNumber__c}-{!Account.ShipToNumber__c}
+Corp Acct #:  {!Account.GroupAccountNumber__c}
+Owner: {!Account.OwnerFullName}
+Created By: {!Account.CreatedBy}
+  On:  {!Account.CreatedDate}
+Last Modified By:  {!Account.LastModifiedBy}
+  On:  {!Account.LastModifiedDate}
+
+{!Account.Link}
+
+*** Do not reply to this message ***

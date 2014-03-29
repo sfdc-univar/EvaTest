@@ -1,0 +1,23 @@
+Hello,
+
+My name is {!User.FirstName} {!User.LastName}, and I am excited to introduce myself as your new Univar Sales Specialist.
+
+Below you will find all my contact information.  In the coming days/weeks, I will be contacting you directly to introduce myself.  However, if I can help you today, please let me know. 
+
+Do you need to purchase material that comes in a drum, tote, bag, super sack or bulk truck this week?   If so, we need to talk.
+
+I am so excited to work with you and look forward to helping your company grow and thrive!
+
+Sincerely,
+
+
+{!User.FirstName} {!User.LastName}
+Sales Specialist
+Univar
+Phone: {!User.Phone}
+Fax: {!User.Fax
+Email: {!User.Email}
+
+www.univar.com 
+
+All transactions are subject to Univar's Standard Terms & Conditions, available at www.univarusa.com or upon request.  Univar rejects all other terms and conditions unless otherwise agreed upon in writing by an authorized Univar representative.

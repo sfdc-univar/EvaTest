@@ -1,0 +1,270 @@
+<html>
+<head>
+<custom name="opencounter" type="tracking">
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title>Generic Template - Right Sidebar</title>
+   <style type="text/css" media="screen">
+      body {
+         background-color: #eeeeee;
+      }
+
+      a img {
+         border: none;
+      }
+
+      table.bg1 {
+         background-color: #eeeeee;
+      }
+
+      table.bg2 {
+         background-color: #ffffff;
+      }
+
+      td.permission {
+         background-color: #eeeeee;
+         padding: 10px 20px 10px 20px;
+      }
+
+      td.permission p {
+         font-family: Arial;
+         font-size: 12px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.permission p a {
+         font-family: Arial;
+         font-size: 12px;
+         font-weight: normal;
+         color: #333333;
+      }
+
+      td.body {
+         padding: 0 20px 20px 20px;
+         background-color: #ffffff;
+      }
+
+      td.sidebar h3 {
+         font-family: Arial;
+         font-size: 15px;
+         font-weight: bold;
+         color: #333333;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.sidebar ul {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 6px 0 14px 24px;
+         padding: 0;
+      }
+
+      td.sidebar ul li a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+      }
+
+      td.sidebar h4 {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: bold;
+         color: #680606;
+         margin: 6px 0 0 0;
+         padding: 0;
+      }
+
+      td.sidebar h4 a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: bold;
+         color: #680606;
+         text-decoration: none;
+      }
+
+      td.sidebar p {
+         font-family: Arial;
+         font-size: 14px;
+         font-weight: normal;
+		 line-height: 20px;
+         color: #666666;
+         margin: 0 0 10px 0;
+         padding: 0;
+      }
+
+      td.sidebar p a {
+         font-family: Arial;
+         font-size: 12px;
+         font-weight: normal;
+		 line-height: 20px;
+         color: #00aedb;
+         text-decoration: underline;
+      }
+
+      td.buttons {
+        padding: 20px 0 0 0; 
+      }
+
+      td.mainbar h2 {
+         font-family: Arial;
+         font-size: 20px;
+         font-weight: bold;
+         color: #00aedb;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.mainbar h2 a {
+         font-family: Arial;
+         font-size: 20px;
+         font-weight: bold;
+         color: #00acd0;
+         text-decoration: none;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.mainbar img.hr {
+         margin: 0;
+         padding: 0 0 10px 0;
+      }
+
+      td.mainbar p {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #666666;
+         margin: 0 0 14px 0;
+         padding: 0;
+      }
+
+      td.mainbar p a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #00aedb;
+      }
+
+      td.mainbar p.more a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+         text-decoration: none;
+      }
+
+      td.mainbar ul {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 14px 24px;
+         padding: 0;
+      }
+
+      td.mainbar ul li a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #00aedb;
+      }
+
+      td.footer {
+         padding: 0 20px 0 20px;
+         background-image: url('https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000UUng&oid=00D300000000RsQ&lastMod=1257880344000');
+         background-repeat: no-repeat;
+         background-position: top center;
+         background-color: #666666;
+         height: 38px;
+         vertical-align: middle;
+      }
+
+      td.footer p {
+         font-family: Arial;
+         font-size: 14px;
+         font-weight: normal;
+         color: #ffffff;
+         line-height: 16px;
+         margin: 0;
+         padding: 10;
+		 
+      }
+	  
+	  td.footer p a {
+		 font-family: Arial;
+         font-size: 14px;
+         font-weight: normal;
+         color: #ffffff;
+		 text-decoration: underline
+		 
+	  }
+   </style>
+</head>
+<body>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="bg1">
+   <tr>
+      <td align="center">
+         
+         <table width="600" border="0" cellspacing="0" cellpadding="0" class="bg2">
+            <tr>
+               <td class="permission" align="left">
+                 
+               </td>
+            </tr>
+            <tr>
+               <td class="header" align="left"><a href="http://www.univarusa.com/"><a href="http://www.univarusa.com/"><a href="http://www.univarusa.com/"><img src="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000UWSn&oid=00D300000000RsQ&lastMod=1264200531000" alt="Header" width="600" height="150" /></a></td>
+            </tr>
+            <tr>
+               <td valign="top" class="body">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  
+ 					<tr>
+                        <td width="370" valign="top" class="mainbar" align="left">
+                           <!-- <img class="hr" src="hr.gif" alt="Header" width="340" height="3" /> -->
+                          <p>{!Contact.FirstName},<br>
+                          My name is Kathy Hamm. My responsibility as your Univar Sales Specialist is to make sure that Univar is providing you the best service possible for your raw material and related service needs. Whatever your requirements—industrial, food, personal care, energy, waste disposal—I’m here to help ensure that your business runs smoothly.</p>
+                          <p>I’ve been unable to reach you by phone, and I thought I would send you this message with my contact information in case you’d like to get in touch with me. I realize that you have a very busy schedule, but if there is a convenient time, I’m interested in learning more about your business, and how Univar can help your business grow.</p>
+                          <p>Please don’t hesitate to call or email if you have any questions, or if I can help you in any way. </p>
+                      
+            <p>Sincerely, </p>
+            <br>
+            <br>
+            <p><strong>Kathy Hamm</strong><br>Sales Specialist<br>Univar | Odessa, Farmington, Albuquerque</p></td>
+                        
+                        <td width="20"></td>
+                        
+                        <td valign="top" width="170" class="sidebar" align="center">
+                          <p><img src="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000UWr9&oid=00D300000000RsQ&lastMod=1265672622000" alt="First Button" width="150" height="170" border="0"><br /> 
+                            
+                            <p align="left"><strong><em>Kathy Hamm</em><br>Sales Specialist</strong><br>(800) 765-7300 <br><a href="mailto:Kathy.Hamm@univarusa.com ">Kathy.Hamm@univarusa.com </a> <br>
+<br>
+<strong>To place an order:</strong><br><em>Call our Odessa facility</em><br>(432)366-3243<br> </p>
+                       </p></td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+            <tr>
+               <td valign="middle" align="Center" class="footer" height="38">
+                  <p><a href="http://chemcare.univarusa.com/">ChemCare</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.univarusa.com/">Univar</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.univarusa.com/pagesi/ebusiness.htm">Online Ordering</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.univarusa.com/contactweb">Contact Us</a><br />
+                                </td>
+            </tr>
+         </table>
+        <table cellpadding="2" cellspacing="0" width="600" ID="Table5" Border=0 align="center"><tr><td align="center"><font face="verdana" size="1" color="#444444">This email was sent to <b> {!Contact.Email} </b> from <b> Univar USA Inc. </b> 
+<br>
+17425 NE Union Hill Rd., Redmond, WA 98052</font></td></tr></table>
+
+
+     </td>
+   </tr>
+</table>
+
+</body>
+</html>

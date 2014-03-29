@@ -1,0 +1,66 @@
+<apex:page standardController="copado__Org__c" extensions="copado.EditOrg" action="{!validate}" title="View {!$ObjectType.copado__Org__c.Label}">
+    <c:GAnalytics />
+	<apex:form >
+    <head>
+        <apex:includeScript value="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" />
+        <script type="text/javascript">
+            var __sfdcSessionId = '{!GETSESSIONID()}';
+        </script>
+        <script src="/soap/ajax/27.0/connection.js"></script>
+        <c:WizardUtils ></c:WizardUtils>
+        <style>
+            .col1commands {width:50px; }
+            .col2style {width:200px; font-color:inherit; font-weight:bold; font-style:inherit; text-align:right; }
+            .col3style {width:100px; font-color:inherit; font-weight:normal; font-style:inherit; text-align:right; }
+        </style>
+        <script language="javascript">
+                var rock = rock || {};
+                rock.config = {
+                    metadata_url : '{!JSENCODE(metadata_url)}',
+                };
+            </script>   
+    </head>
+	<apex:sectionHeader title="{!$ObjectType.copado__Org__c.Label}" subtitle="{!org.Name}"/>
+		<apex:pageMessages />
+		<apex:pageBlock id="pb_createOrg"  mode="view" helpUrl="http://www.copa.do/cms/documentation" helpTitle="{!$Label.copado__HELP_FOR_THIS_PAGE}">
+			<apex:pageblockButtons >
+                <apex:commandButton value="{!$Label.site.edit}" action="{!edit}" />
+                <apex:commandButton value="{!$Label.copado__DELETE}" action="{!delete}" />
+                <apex:commandButton value="{!$Label.copado__ADD_OAUTH}" action="{!doOauth}" />
+                <apex:commandButton value="{!$Label.copado__ADD_USERPASS}" action="{!addUserPass}" rendered="false"/>
+                <apex:commandButton value="{!$Label.copado__RUN_ALL_TESTS}" action="{!runAllTest}" />
+            </apex:pageblockButtons>
+            <apex:pageBlockSection columns="1">
+                <apex:outputField value="{!org.Name}" />
+                <apex:outputField value="{!org.copado__Username__c}" />
+                
+                <apex:pageBlockSectionItem rendered="{!showUserPass}">
+				  <apex:outputLabel value="Password" />
+				  <apex:outputText value="{!dumypass}"/>
+				</apex:pageBlockSectionItem> 
+                
+                <apex:outputText value="{!org.copado__Token__c}" rendered="{!showUserPass}"/>
+                <apex:outputField value="{!org.copado__Org_Type__c}" />
+                <apex:outputField value="{!org.copado__SFDC_Org_ID__c}" />
+                <apex:outputField value="{!org.copado__Validated_Date__c}" />
+                <apex:outputField value="{!org.copado__Test_Frequency__c}" />
+                <apex:outputField value="{!org.copado__Error__c}" rendered="{!if(not(isblank(org.copado__Error__c)),true,false)}"/>
+                
+                <apex:outputField value="{!org.copado__Disable_Validation__c}" rendered="{!showUserPass}"/>
+            </apex:pageBlockSection>
+            <apex:outputPanel id="pbs_metadata" rendered="{!not(isblank(org.copado__Username__c))}">
+                   <c:ViewOrgMetadataGrid orgId="{!org.Id}" />
+                   <script>
+                    ga('send', 'pageview', {
+                      'page': '/viewOrg',
+                      'title': 'View Org'
+                    });
+                    </script>
+            </apex:outputPanel>
+        </apex:pageBlock>
+     </apex:form>
+     
+     <apex:relatedList list="Apex_Test_Results__r" />
+     
+     <apex:relatedList list="Git_Org_Commits__r" />
+</apex:page>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Ethanol Invite</name>
+    <style>none</style>
+    <subject>Join Univar at the 20th Annual ACE Conference &amp; Tradeshow - Aug 7-9</subject>
+    <textOnly>Come visit Univar at the 20th annual ACE Conference and Tradeshow!
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+ 
+
+&lt;!-- 
+ --&gt;
+ 
+
+
+
+
+
+
+
+
+
+
+
+Special Services
+
+
+Access COA &amp; MSDS Online
+Customer inventory management
+Individual packaging &amp; labeling
+On-line Order Entry
+Rail-to-truck bulk transfer
+Tank Telemetry &amp; Monitoring
+Technical Support
+Waste Management
+
+
+
+
+
+
+
+
+
+
+As the leading supplier of sulfuric acid, urea, caustic soda liquid and other process chemicals to the Fuel Ethanol industry, Univar USA also provides extensive service packages that can be tailored to your production needs. Please stop by our booth #1147 to discuss how Univar’s products and services can let you focus on producing ethanol. 
+
+
+
+We look forward to seeing you at the ACE tradeshow next month!
+
+ 
+
+
+
+
+
+
+
+
+Sincerely, 
+
+
+
+
+Steve Grohs
+
+Regional Sales Manager – Biofuels
+
+Univar USA Inc
+
+Phone: (402) 738-4163
+
+steven.grohs@univarusa.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering
+
+
+
+
+
+
+
+
+
+
+This email was sent from Univar USA Inc. 
+
+
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

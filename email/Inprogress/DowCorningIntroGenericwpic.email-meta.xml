@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Dow Corning Intro Generic w.pic</name>
+    <style>none</style>
+    <subject>Univar and Dow Corning have teamed up to handle all your silicone needs!</subject>
+    <textOnly>Univar Has Expanded Distribution Agreement with Dow Corning
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+&lt;!-- 
+ --&gt;
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Univar, with one of the widest and deepest product portfolios, now adds Dow Corning&apos;s premier line of silicone additives to our nationwide line up.
+
+
+
+
+Included are functional fluids, emollients, paint additives, substrate wetting agents, antifoams, defoamers, silanes and other silicone based chemistries. 
+
+
+
+
+If you have a silicone need, we have a solution.
+ 
+
+
+
+
+
+Convenience 
+Service
+Technical Assistance
+Local Inventory with Prompt Deliveries
+Economical and Competitive 
+
+
+To learn more please speak with your Univar Representative or contact your nearest Univar branch. Make sure to ask how you can make the switch to Dow Corning silicones.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering
+
+
+
+
+
+
+
+
+
+
+This email was sent from Univar USA Inc. 
+
+
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

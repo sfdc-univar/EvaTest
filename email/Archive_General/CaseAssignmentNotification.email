@@ -1,0 +1,9 @@
+** NEW CASE ASSIGNMENT **
+
+Dear {!Case.OwnerFullName}, 
+
+A new case has been assigned to you.  Please see below for case details:  
+
+{!Case.CaseNumber}
+{!Case.Subject}
+{!Case.Link}

@@ -1,0 +1,19 @@
+*** DO NOT REPLY TO THIS MESSAGE.  IF YOU REPLY IT WILL GO TO A SYSTEM INBOX AND NOBODY WILL RESPOND *** 
+
+A new UVX customer Ship-To has been created in SFDC.  This may be a completely new account, a reactivated account or an account that has just now met the minimum criteria for export to SFDC.  If you already have a Prospect Account for this customer in SFDC, please have it merged with the new SFDC Ship-To Account. To do this, please forward this email to your Sales Manager and request that they perform the Account merge.
+
+ 
+
+Why did you receive this email?   Because this account is assigned to you in the UVX.  If you believe this account should not be assigned to you, or should be inactivated, please ask the appropriate Admin Manager to reassign it to the correct person or inactivate it in the UVX.  Once it is reassigned in the UVX, the reassignment will transfer over to SFDC by the next day.  If you have someone inactivate the customer in the UVX, your Sales Manager may also decide to delete the account from SFDC.  This is fine, as long there is no history (calls, tasks, CPPs, etc) to be lost on the SFDC account.
+
+ 
+
+If you have any further questions, please contact the Help Desk.
+
+Account Name: {!Account.Name}
+Ship-To Name: {!Account.ShipToName__c}
+Customer #: {!Account.CustomerNumber__c}-{!Account.ShipToNumber__c}
+
+{!Account.Link}
+
+*** DO NOT REPLY TO THIS MESSAGE***

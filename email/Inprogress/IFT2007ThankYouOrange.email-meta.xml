@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Thank you for those who visited our booth at IFT 2007</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>IFT 2007 Thank You Orange</name>
+    <style>none</style>
+    <subject>Univar Provides Boost of Energy for R&amp;D</subject>
+    <textOnly>Thank you for visiting Univar at IFT 2007!
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;!--
+
+Thank you for stopping by our
+
+
+booth at IFT 2007!
+
+
+
+
+--&gt;
+
+Our goal is to create new ideas with the latest ingredients to help you with your product and R&amp;D challenges. 
+
+
+
+
+We are offering our IFT attendees a first look at the latest tools in food ingredient selection. Please take a peek at these new tools.
+
+
+
+
+If you are in need of any products or further information, click here to send us an email.
+
+
+
+
+Fresh Ideas Univar Food Ingredients
+
+
+
+
+
+
+
+
+Contact our Food Technical Expert at: 843.532.1441
+&lt;!--
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Food Ingredients
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering
+--&gt;
+
+
+
+
+
+
+
+
+This email was sent from Univar USA Inc. 
+
+
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

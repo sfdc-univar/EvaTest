@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer Account Plan History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customer Account Plan Histories</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Customer Account Plan Histories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Annual Chemical Spend --></label>
+        <name>Annual_Chemical_Spend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Articulate differences current vs new --></label>
+        <name>Articulate_difference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current supplier falls short --></label>
+        <name>Current_supplier_falls__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Account Plan --></label>
+        <name>Customer_Account_Plan__c</name>
+        <relationshipLabel><!-- Revision Histories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Dissatisfaction with existing solutions --></label>
+        <name>Dissatisfaction_with_solutions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Does the customer have solutions? --></label>
+        <name>Does_the_customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engages in constructive dialogue --></label>
+        <name>Engages_in_constructive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Express openness to escalation --></label>
+        <name>Express_openness_to__c</name>
+    </fields>
+    <fields>
+        <label><!-- External pressures to change --></label>
+        <name>External_pressures__c</name>
+    </fields>
+    <fields>
+        <label><!-- Financially healthy organization --></label>
+        <name>Financially_healthy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frequent sharing of best practices --></label>
+        <name>Frequent_sharing__c</name>
+    </fields>
+    <fields>
+        <label><!-- General organizational needs unmet --></label>
+        <name>General_organizational__c</name>
+    </fields>
+    <fields>
+        <label><!-- How might this impact the customer? --></label>
+        <name>How_might_this_impact__c</name>
+    </fields>
+    <fields>
+        <label><!-- How might this impact the customer? --></label>
+        <name>How_might_this_impact_the_customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Improvement initiatives as ongoing --></label>
+        <name>Improvement_initiatives__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal pressures to change --></label>
+        <name>Internal_pressures__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is the competition entrenched? --></label>
+        <name>Is_the_competition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is the customer aware of these changes? --></label>
+        <name>Is_the_customer_aware__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level of Partnership --></label>
+        <name>Level_of_Partnership__c</name>
+    </fields>
+    <fields>
+        <label><!-- Main Competitor --></label>
+        <name>Main_Competitor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Review --></label>
+        <name>Manager_Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobilizers exist --></label>
+        <name>Mobilizers_exist__c</name>
+    </fields>
+    <fields>
+        <label><!-- Multiple stakeholders at learning events --></label>
+        <name>Multiple_stakeholders__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Readiness Score --></label>
+        <name>Net_Readiness__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization-wide discontent --></label>
+        <name>Organization_wide__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Name --></label>
+        <name>Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Perceived Univar Strengths --></label>
+        <name>Perceived_Univar_Strengths__c</name>
+    </fields>
+    <fields>
+        <label><!-- Perceived Univar Weaknesses --></label>
+        <name>Perceived_Univar_Weaknesses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request continuing conversations --></label>
+        <name>Request_continuing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rolling 12 Month - Closed Lost Ratio --></label>
+        <name>Rolling_12_Month_Closed_Lost_Ratio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rolling 12 Month Closed/Won Opptys --></label>
+        <name>Rolling_12_Month_Closed_Won_Opptys__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rolling 12 Month Sales --></label>
+        <name>Rolling_12_Month_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Manager --></label>
+        <name>SMLink__c</name>
+        <relationshipLabel><!-- Customer Account Plan Histories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Manager --></label>
+        <name>SMName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Manager Id (UVX) --></label>
+        <name>Sales_Manager_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Manager (UVX) --></label>
+        <name>Sales_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segment --></label>
+        <name>Segment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Senior leaders reach out for ideas --></label>
+        <name>Senior_leaders_reach__c</name>
+    </fields>
+    <fields>
+        <label><!-- Share of Wallet --></label>
+        <name>Share_of_Wallet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Significant current or potential spend --></label>
+        <name>Significant_current_or_potential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Open Opptys --></label>
+        <name>Total_Open_Opptys__c</name>
+    </fields>
+    <fields>
+        <label><!-- What Are the 3 Biggest Unknowns? --></label>
+        <name>What_Are_the_3_Biggest_Unknowns__c</name>
+    </fields>
+    <fields>
+        <label><!-- What can I use Manager Input On? --></label>
+        <name>What_can_I_use_Manager_Input_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- What changes are happening --></label>
+        <name>What_changes_are_happening__c</name>
+    </fields>
+    <layouts>
+        <layout>Customer Account Plan History Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Section 1: Current status and Shaping or Re-Shaping Customer Demand --></label>
+            <section>Section 1: Current status and Shaping or Re-Shaping Customer Demand</section>
+        </sections>
+        <sections>
+            <label><!-- Section 2: Key Stakeholders --></label>
+            <section>Section 2: Key Stakeholders</section>
+        </sections>
+        <sections>
+            <label><!-- Section 3: Opportunity Qualification Scorecard --></label>
+            <section>Section 3: Opportunity Qualification Scorecard</section>
+        </sections>
+        <sections>
+            <label><!-- Section 4: Pre-Call Checklist --></label>
+            <section>Section 4: Pre-Call Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Section 5: Action Plan --></label>
+            <section>Section 5: Action Plan</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

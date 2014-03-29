@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Promo: LAE Promotion</name>
+    <style>none</style>
+    <subject>Take another look at NPE replacements</subject>
+    <textOnly>Take Another Look at LAEs
+-------------------------------------------------------------------
+LAE’s are a well known replacement for 9Mol, but before the need for greener chemistry, the performance and lower cost of 9Mol have been solid reasons for formulator’s to select NPEs. 
+
+Newer LAE technology has closed the performance gap and erased the cost premium between NPEs and LAEs, as 9Mol pricing has moved dramatically higher with recent supply issues that are expected to remain over the next few months.
+
+Even if you currently use linear alcohol ethoxylates, it may be time to take another look at available LAEs.
+
+Resources
+-------------------------------------------------------------------
+More Information:  http://www.univarusa.com/infonotices/11E52D6BA9A7FD788825773B00612E03
+Order a Sample:  http://www.surveymonkey.com/s/M3WJPTS
+Contact Univar:  http://www.univarusa.com/contactweb
+-------------------------------------------------------------------
+ 
+ChemCare     |     http://chemcare.univarusa.com/
+Univar     |     http://www.univarusa.com/
+Online Ordering     |      http://www.univarusa.com/pagesi/ebusiness.htm
+Contact Us     |     http://www.univarusa.com/contactweb</textOnly>
+    <type>custom</type>
+</EmailTemplate>

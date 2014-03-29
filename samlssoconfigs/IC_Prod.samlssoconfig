@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <errorUrl>https://iam.univar.com/GIAM/sfdcerror.html</errorUrl>
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>FederationId</identityMapping>
+    <issuer>https://iam.univar.com/fed/idp</issuer>
+    <loginUrl>https://iam.univar.com/salesforceIC</loginUrl>
+    <logoutUrl>https://iam.univar.com/GIAM/fedsfdclogout.html</logoutUrl>
+    <name>IC Prod</name>
+    <oauthTokenEndpoint>https://univar--EvaTest.cs16.my.salesforce.com/services/oauth2/token?so=00Df0000002Mm80</oauthTokenEndpoint>
+    <redirectBinding>false</redirectBinding>
+    <salesforceLoginUrl>https://univar--EvaTest.cs16.my.salesforce.com?so=00Df0000002Mm80</salesforceLoginUrl>
+    <samlEntityId>https://univar.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <userProvisioning>true</userProvisioning>
+    <validationCert>MIIDSjCCAjKgAwIBAgIEUcST5DANBgkqhkiG9w0BAQUFADBnMQswCQYDVQQGEwJVUzELMAkGA1UECBMCV0ExEDAOBgNVBAcTB1JlZG1vbmQxDzANBgNVBAoTBlVuaXZhcjEPMA0GA1UECxMGVW5pdmFyMRcwFQYDVQQDEw5pYW0udW5pdmFyLmNvbTAeFw0xMzA2MjExNzU2NTJaFw0xNjA2MjAxNzU2NTJaMGcxCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJXQTEQMA4GA1UEBxMHUmVkbW9uZDEPMA0GA1UEChMGVW5pdmFyMQ8wDQYDVQQLEwZVbml2YXIxFzAVBgNVBAMTDmlhbS51bml2YXIuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh5gOviy8HbBLcQueqtOp6TRlEwSL8bOLQh+UxXzikVNDAnJtFJRBr1Rl2pHp3ul0aipyyGH0j6r87t2JGvlE6gQTlM5eVHxARz5Qcv1xP+Qtcqpfu+VsEQ3HAFB1v5bwUzQUPwxlVQFZ5p/tg+KN0UOPYXvq5Ie7u4olyuEm6EiRUiGkkWuyvCk03y0aHQPuR1PDilB5Hw4BmpVHQwyKtlJcazuGuoeLt75HnE9mebih7kGPAaByVOjCS3DkHtJBjUUvtNAH8wmhRebFgZ2A4gyzr4VhRdS7EI5MvpIoJ+us8FQz1ZDONGbHbvWqN9BlL6Pn/7/jzjj/auvZJW7bgQIDAQABMA0GCSqGSIb3DQEBBQUAA4IBAQA1+FfbDx4ATNng+Dz4AELzmkMA9O8kCU/it1TKQZucL6RTvwRMz4QWIpKhQbrm/x7VaAhhVsLqSE2X8wWrQiAqL42zN1A3yvhxj6lGBB/ASh/MCqtZ+iWwde1LdgKsdx/lV214DrWKtQpJ46H+SwaVgsQkmIQ3iTUK3DIFrR/NAeZ94POCgrrs32OKQwHwPTtoi1q6HAeSB04ocvhuFrIhx/Hw+C5oiu2Rc7cycnfnKJk+DVIl7l/2KguoE4j2kyANTUN9Y4X13w7m7KahZc6g5RhxHtTp1kXc38/6Z7J7wM4FbOqxnVqq7ojHonIU7TsqZcqnTSwOovvBLFc/4vwo</validationCert>
+</SamlSsoConfig>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Product Announcement Food</name>
+    <style>none</style>
+    <subject>New Food Product</subject>
+    <textOnly>Food Product Announcement
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;!-- 
+ --&gt;
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For Internal Use Only
+
+
+ Products: &amp;nbsp Locust Bean Gum, Lecithins, Alginates
+
+
+Manufacturer: &amp;nbsp Cargill 
+
+
+
+
+Value Propostion about Cargill and products, Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et 
+
+dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+
+Product Info
+
+
+Alginates
+&amp;nbsp 
+&amp;nbsp
+&amp;nbsp 
+&amp;nbsp
+Lecithins
+&amp;nbsp 
+&amp;nbsp
+&amp;nbsp 
+&amp;nbsp
+Locust bean gum
+
+
+Training
+
+
+Food 
+
+Morsels 2007 - Cargill Texture Modifiers
+
+
+
+
+Applications of Food Gums
+
+
+Selling Tools
+
+Texture Modifiers, 
+
+Hydrocolloids
+
+
+ 
+
+
+
+
+Fresh Ideas 
+on
+ VanNet
+
+
+Fresh Ideas
+
+
+Manufacturers for Food
+
+
+What&apos;s New for Food
+
+
+Who&apos;s Who in 
+
+Food
+
+
+Food Morsels 
+
+LearnNets
+
+
+Food Function Library
+
+
+Food Tools of the Trade
+
+
+Food Industry Links
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cargill Texturizing Solutions is one of the world’s leading suppliers of texturizers and emulsifiers to the global food and beverage industry, as well as the 
+
+pharmaceutical and cosmetics markets. Cargill Texturizing Solutions offers specific solutions for providing texture in multiple food applications, based on a 
+
+wide palette of ingredients, including hydrocolloids, emulsifiers, lecithins, cultures, starches, soy flour and functional systems.
+
+
+
+
+For more information, contact Mr. Cargill @ 123-456-7890 or CCargill@cargill.com 
+
+
+&lt;!-- 
+
+
+ --&gt;
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fresh Ideas
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+This email was sent from Univar USA Inc. 
+
+
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

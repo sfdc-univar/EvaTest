@@ -1,0 +1,4405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Waste Stream</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Waste Streams</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>AccountId__c</name>
+        <relationshipLabel><!-- Waste Streams (Account Name) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Annual LBs Generated --></label>
+        <name>AnnualGeneratedPounds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Amount Generated in UOM --></label>
+        <name>AnnualGeneratedUOM__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChemCare Corporate Account --></label>
+        <name>CCCorporateAccountId__c</name>
+        <relationshipLabel><!-- Waste Streams (ChemCare Corporate Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor TSDF --></label>
+        <name>CompetitorTSDF__c</name>
+        <picklistValues>
+            <masterLabel>A-Tech Recycling</masterLabel>
+            <translation><!-- A-Tech Recycling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AET</masterLabel>
+            <translation><!-- AET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AGFA Corporation</masterLabel>
+            <translation><!-- AGFA Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMS Environmental</masterLabel>
+            <translation><!-- AMS Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advanced Waste</masterLabel>
+            <translation><!-- Advanced Waste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agmet</masterLabel>
+            <translation><!-- Agmet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>American Waste</masterLabel>
+            <translation><!-- American Waste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amerifuel</masterLabel>
+            <translation><!-- Amerifuel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aristech Chemical</masterLabel>
+            <translation><!-- Aristech Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ash Grove Cement</masterLabel>
+            <translation><!-- Ash Grove Cement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ashland</masterLabel>
+            <translation><!-- Ashland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ausimont USA</masterLabel>
+            <translation><!-- Ausimont USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barton Solvents</masterLabel>
+            <translation><!-- Barton Solvents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beaver Oil</masterLabel>
+            <translation><!-- Beaver Oil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blacklidge Emulsions</masterLabel>
+            <translation><!-- Blacklidge Emulsions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brenntag</masterLabel>
+            <translation><!-- Brenntag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bridgeport United Recycling</masterLabel>
+            <translation><!-- Bridgeport United Recycling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burlington Environmental</masterLabel>
+            <translation><!-- Burlington Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CES</masterLabel>
+            <translation><!-- CES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casie Ecology Oil Salvage</masterLabel>
+            <translation><!-- Casie Ecology Oil Salvage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chem Con-Georgia</masterLabel>
+            <translation><!-- Chem Con-Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chem-Pak Corporation</masterLabel>
+            <translation><!-- Chem-Pak Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Pollution Control</masterLabel>
+            <translation><!-- Chemical Pollution Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Solvents</masterLabel>
+            <translation><!-- Chemical Solvents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Waste Management</masterLabel>
+            <translation><!-- Chemical Waste Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemtron</masterLabel>
+            <translation><!-- Chemtron --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chesapeake Waste Solutions</masterLabel>
+            <translation><!-- Chesapeake Waste Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chief Wastes</masterLabel>
+            <translation><!-- Chief Wastes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clean Harbors</masterLabel>
+            <translation><!-- Clean Harbors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coleman</masterLabel>
+            <translation><!-- Coleman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Continental Cement Co.</masterLabel>
+            <translation><!-- Continental Cement Co. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Covanta Energy</masterLabel>
+            <translation><!-- Covanta Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyanokem Inc.</masterLabel>
+            <translation><!-- Cyanokem Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyclechem</masterLabel>
+            <translation><!-- Cyclechem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyro Industries</masterLabel>
+            <translation><!-- Cyro Industries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DSM Chemicals</masterLabel>
+            <translation><!-- DSM Chemicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demenno Kerdoon</masterLabel>
+            <translation><!-- Demenno Kerdoon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposal Systems Inc.</masterLabel>
+            <translation><!-- Disposal Systems Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dukes Oil</masterLabel>
+            <translation><!-- Dukes Oil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dupont</masterLabel>
+            <translation><!-- Dupont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DuraTherm</masterLabel>
+            <translation><!-- DuraTherm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dynecol Inc.</masterLabel>
+            <translation><!-- Dynecol Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EOG Environmental</masterLabel>
+            <translation><!-- EOG Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecoflo Inc.</masterLabel>
+            <translation><!-- Ecoflo Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Effective Environmental</masterLabel>
+            <translation><!-- Effective Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emco</masterLabel>
+            <translation><!-- Emco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emerald Services</masterLabel>
+            <translation><!-- Emerald Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Encycle</masterLabel>
+            <translation><!-- Encycle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ensco</masterLabel>
+            <translation><!-- Ensco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirite</masterLabel>
+            <translation><!-- Envirite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirocare</masterLabel>
+            <translation><!-- Envirocare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental Compliance Corp.</masterLabel>
+            <translation><!-- Environmental Compliance Corp. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirosafe</masterLabel>
+            <translation><!-- Envirosafe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirosolve</masterLabel>
+            <translation><!-- Envirosolve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirosota</masterLabel>
+            <translation><!-- Envirosota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirotech</masterLabel>
+            <translation><!-- Envirotech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirotrol Inc.</masterLabel>
+            <translation><!-- Envirotrol Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Essroc Cement</masterLabel>
+            <translation><!-- Essroc Cement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excel TSD</masterLabel>
+            <translation><!-- Excel TSD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exide Corp.</masterLabel>
+            <translation><!-- Exide Corp. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fairbanks Disposal</masterLabel>
+            <translation><!-- Fairbanks Disposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ferguson Environmental (FER)</masterLabel>
+            <translation><!-- Ferguson Environmental (FER) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fielding Chemical</masterLabel>
+            <translation><!-- Fielding Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Chemical</masterLabel>
+            <translation><!-- First Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freehold Cartage</masterLabel>
+            <translation><!-- Freehold Cartage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Future Environmental</masterLabel>
+            <translation><!-- Future Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GCL Treatment</masterLabel>
+            <translation><!-- GCL Treatment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GNB Technologies</masterLabel>
+            <translation><!-- GNB Technologies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Giant Cement</masterLabel>
+            <translation><!-- Giant Cement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Giant Resource Recovery</masterLabel>
+            <translation><!-- Giant Resource Recovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Great Lakes Chemical</masterLabel>
+            <translation><!-- Great Lakes Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greenlights</masterLabel>
+            <translation><!-- Greenlights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greenway Environmental</masterLabel>
+            <translation><!-- Greenway Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gulf Coast Recycling</masterLabel>
+            <translation><!-- Gulf Coast Recycling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HazChem</masterLabel>
+            <translation><!-- HazChem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heritage Treatment Center</masterLabel>
+            <translation><!-- Heritage Treatment Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heritage-WTI</masterLabel>
+            <translation><!-- Heritage-WTI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Holnam Inc.</masterLabel>
+            <translation><!-- Holnam Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hukill Chemical</masterLabel>
+            <translation><!-- Hukill Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hydrite Chemical</masterLabel>
+            <translation><!-- Hydrite Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hydromet Environmental</masterLabel>
+            <translation><!-- Hydromet Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial Waste Services (IWS)</masterLabel>
+            <translation><!-- Industrial Waste Services (IWS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inmetco</masterLabel>
+            <translation><!-- Inmetco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intergulf</masterLabel>
+            <translation><!-- Intergulf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jacobus Quick Fuel</masterLabel>
+            <translation><!-- Jacobus Quick Fuel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kaiser Chemical</masterLabel>
+            <translation><!-- Kaiser Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keystone Cement</masterLabel>
+            <translation><!-- Keystone Cement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LWD, Inc.</masterLabel>
+            <translation><!-- LWD, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lederle Laboratories</masterLabel>
+            <translation><!-- Lederle Laboratories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leisch &amp; Associates</masterLabel>
+            <translation><!-- Leisch &amp; Associates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lone Star Alternate Fuels</masterLabel>
+            <translation><!-- Lone Star Alternate Fuels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lone Star Industries</masterLabel>
+            <translation><!-- Lone Star Industries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M&amp;M Chemical</masterLabel>
+            <translation><!-- M&amp;M Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M&amp;M Environmental</masterLabel>
+            <translation><!-- M&amp;M Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MFR</masterLabel>
+            <translation><!-- MFR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marathon Ashland</masterLabel>
+            <translation><!-- Marathon Ashland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marisol</masterLabel>
+            <translation><!-- Marisol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Martinez Refining</masterLabel>
+            <translation><!-- Martinez Refining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>McWhorter</masterLabel>
+            <translation><!-- McWhorter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metalico</masterLabel>
+            <translation><!-- Metalico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michigan Disposal</masterLabel>
+            <translation><!-- Michigan Disposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michigan Recovery Systems</masterLabel>
+            <translation><!-- Michigan Recovery Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MicroNutrients</masterLabel>
+            <translation><!-- MicroNutrients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Millennium Environmental</masterLabel>
+            <translation><!-- Millennium Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nepera Inc.</masterLabel>
+            <translation><!-- Nepera Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norlite</masterLabel>
+            <translation><!-- Norlite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norlite Corporation</masterLabel>
+            <translation><!-- Norlite Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Listed</masterLabel>
+            <translation><!-- Not Listed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peoria Disposal</masterLabel>
+            <translation><!-- Peoria Disposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perma-Fix Treatment Services</masterLabel>
+            <translation><!-- Perma-Fix Treatment Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Petro Chem</masterLabel>
+            <translation><!-- Petro Chem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phibro-Tech</masterLabel>
+            <translation><!-- Phibro-Tech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philip Services</masterLabel>
+            <translation><!-- Philip Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phillip Services</masterLabel>
+            <translation><!-- Phillip Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pollution Control Industries (PCI)</masterLabel>
+            <translation><!-- Pollution Control Industries (PCI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potomac Environmental</masterLabel>
+            <translation><!-- Potomac Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proliquids</masterLabel>
+            <translation><!-- Proliquids --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quemetco</masterLabel>
+            <translation><!-- Quemetco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R3 Environmental</masterLabel>
+            <translation><!-- R3 Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RS Used oil</masterLabel>
+            <translation><!-- RS Used oil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reclaimed Energy</masterLabel>
+            <translation><!-- Reclaimed Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recyclights</masterLabel>
+            <translation><!-- Recyclights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red Earth Environmental</masterLabel>
+            <translation><!-- Red Earth Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Redbud Environmental</masterLabel>
+            <translation><!-- Redbud Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regeneration Technologies</masterLabel>
+            <translation><!-- Regeneration Technologies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republic Environmental</masterLabel>
+            <translation><!-- Republic Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republic Services</masterLabel>
+            <translation><!-- Republic Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revere Refining</masterLabel>
+            <translation><!-- Revere Refining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rhodia</masterLabel>
+            <translation><!-- Rhodia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rineco</masterLabel>
+            <translation><!-- Rineco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollins</masterLabel>
+            <translation><!-- Rollins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romic Environmental</masterLabel>
+            <translation><!-- Romic Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ross Incineration</masterLabel>
+            <translation><!-- Ross Incineration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S and W Waste</masterLabel>
+            <translation><!-- S and W Waste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SET Environmental (Treatment One)</masterLabel>
+            <translation><!-- SET Environmental (Treatment One) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKB</masterLabel>
+            <translation><!-- SKB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPSA</masterLabel>
+            <translation><!-- SPSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety-Kleen</masterLabel>
+            <translation><!-- Safety-Kleen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Siemens</masterLabel>
+            <translation><!-- Siemens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solite Corporation</masterLabel>
+            <translation><!-- Solite Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solvent Recovery Corporation</masterLabel>
+            <translation><!-- Solvent Recovery Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solvent Systems</masterLabel>
+            <translation><!-- Solvent Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southeastern Chemicals</masterLabel>
+            <translation><!-- Southeastern Chemicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Waste Disposal, Inc. (SWDI)</masterLabel>
+            <translation><!-- Special Waste Disposal, Inc. (SWDI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strong Environmental</masterLabel>
+            <translation><!-- Strong Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superior Special Services</masterLabel>
+            <translation><!-- Superior Special Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Systech Corporation (LaFarge)</masterLabel>
+            <translation><!-- Systech Corporation (LaFarge) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teris</masterLabel>
+            <translation><!-- Teris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas Ecologists</masterLabel>
+            <translation><!-- Texas Ecologists --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas Molecular</masterLabel>
+            <translation><!-- Texas Molecular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Environmental Quality Company (EQ)</masterLabel>
+            <translation><!-- The Environmental Quality Company (EQ) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treatment One</masterLabel>
+            <translation><!-- Treatment One --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tri State</masterLabel>
+            <translation><!-- Tri State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Ecology</masterLabel>
+            <translation><!-- US Ecology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Oil</masterLabel>
+            <translation><!-- US Oil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USES</masterLabel>
+            <translation><!-- USES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USL City Environmental</masterLabel>
+            <translation><!-- USL City Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Oil Recovery</masterLabel>
+            <translation><!-- United Oil Recovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Univar USA</masterLabel>
+            <translation><!-- Univar USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Veolia ES Tech Solutions</masterLabel>
+            <translation><!-- Veolia ES Tech Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vexor Technologies</masterLabel>
+            <translation><!-- Vexor Technologies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vopak Logistics</masterLabel>
+            <translation><!-- Vopak Logistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vulcan Materials</masterLabel>
+            <translation><!-- Vulcan Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WRR</masterLabel>
+            <translation><!-- WRR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wabash Environmental</masterLabel>
+            <translation><!-- Wabash Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waste Control Specialists</masterLabel>
+            <translation><!-- Waste Control Specialists --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waste Management</masterLabel>
+            <translation><!-- Waste Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waste Recovery Services</masterLabel>
+            <translation><!-- Waste Recovery Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wayne Disposal</masterLabel>
+            <translation><!-- Wayne Disposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Central Environmental</masterLabel>
+            <translation><!-- West Central Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>World Resource Corporation (WRC)</masterLabel>
+            <translation><!-- World Resource Corporation (WRC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zinc Corporation</masterLabel>
+            <translation><!-- Zinc Corporation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Competitor TSDF --></label>
+        <name>Competitor_TSDF_Lookup__c</name>
+        <relationshipLabel><!-- Waste Streams (Competitor TSDF Lookup) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Container Size --></label>
+        <name>ContainerSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Container Type --></label>
+        <name>ContainerType__c</name>
+        <picklistValues>
+            <masterLabel>Burlap, Cloth, Paper, Plastic Bag</masterLabel>
+            <translation><!-- Burlap, Cloth, Paper, Plastic Bag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cylinders</masterLabel>
+            <translation><!-- Cylinders --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dump Truck</masterLabel>
+            <translation><!-- Dump Truck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiber or Plastic Boxes</masterLabel>
+            <translation><!-- Fiber or Plastic Boxes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiberboard or Plastic Drums</masterLabel>
+            <translation><!-- Fiberboard or Plastic Drums --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flow Bins</masterLabel>
+            <translation><!-- Flow Bins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lab Pack</masterLabel>
+            <translation><!-- Lab Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metal Boxes, Cartons, Cases</masterLabel>
+            <translation><!-- Metal Boxes, Cartons, Cases --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metal Drums, Barrels, Kegs</masterLabel>
+            <translation><!-- Metal Drums, Barrels, Kegs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rail Cars</masterLabel>
+            <translation><!-- Rail Cars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roll-off</masterLabel>
+            <translation><!-- Roll-off --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tank Truck</masterLabel>
+            <translation><!-- Tank Truck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tanks Portable</masterLabel>
+            <translation><!-- Tanks Portable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vacuum Box</masterLabel>
+            <translation><!-- Vacuum Box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wooden Boxes, Cartons, Cases</masterLabel>
+            <translation><!-- Wooden Boxes, Cartons, Cases --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wooden Drums, Barrels, Kegs</masterLabel>
+            <translation><!-- Wooden Drums, Barrels, Kegs --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Container UOM --></label>
+        <name>ContainerUOM__c</name>
+        <picklistValues>
+            <masterLabel>Bag</masterLabel>
+            <translation><!-- Bag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bottle</masterLabel>
+            <translation><!-- Bottle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Box</masterLabel>
+            <translation><!-- Box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulk</masterLabel>
+            <translation><!-- Bulk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can</masterLabel>
+            <translation><!-- Can --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carboy</masterLabel>
+            <translation><!-- Carboy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton</masterLabel>
+            <translation><!-- Carton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case</masterLabel>
+            <translation><!-- Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cylinder</masterLabel>
+            <translation><!-- Cylinder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drum</masterLabel>
+            <translation><!-- Drum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Each</masterLabel>
+            <translation><!-- Each --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiber Drum</masterLabel>
+            <translation><!-- Fiber Drum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gallon</masterLabel>
+            <translation><!-- Gallon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Half Pint</masterLabel>
+            <translation><!-- Half Pint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kilogram</masterLabel>
+            <translation><!-- Kilogram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LB</masterLabel>
+            <translation><!-- LB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pail</masterLabel>
+            <translation><!-- Pail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quart</masterLabel>
+            <translation><!-- Quart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supersack</masterLabel>
+            <translation><!-- Supersack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ton</masterLabel>
+            <translation><!-- Ton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tote</masterLabel>
+            <translation><!-- Tote --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contract Exp Date --></label>
+        <name>ContractExpDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- D Codes --></label>
+        <name>DCodes__c</name>
+        <picklistValues>
+            <masterLabel>D001</masterLabel>
+            <translation><!-- D001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D002</masterLabel>
+            <translation><!-- D002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D003</masterLabel>
+            <translation><!-- D003 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D004</masterLabel>
+            <translation><!-- D004 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D005</masterLabel>
+            <translation><!-- D005 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D006</masterLabel>
+            <translation><!-- D006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D007</masterLabel>
+            <translation><!-- D007 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D008</masterLabel>
+            <translation><!-- D008 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D009</masterLabel>
+            <translation><!-- D009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D010</masterLabel>
+            <translation><!-- D010 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D011</masterLabel>
+            <translation><!-- D011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D012</masterLabel>
+            <translation><!-- D012 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D013</masterLabel>
+            <translation><!-- D013 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D014</masterLabel>
+            <translation><!-- D014 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D015</masterLabel>
+            <translation><!-- D015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D016</masterLabel>
+            <translation><!-- D016 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D017</masterLabel>
+            <translation><!-- D017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D018</masterLabel>
+            <translation><!-- D018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D019</masterLabel>
+            <translation><!-- D019 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D020</masterLabel>
+            <translation><!-- D020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D021</masterLabel>
+            <translation><!-- D021 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D022</masterLabel>
+            <translation><!-- D022 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D023</masterLabel>
+            <translation><!-- D023 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D024</masterLabel>
+            <translation><!-- D024 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D025</masterLabel>
+            <translation><!-- D025 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D026</masterLabel>
+            <translation><!-- D026 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D027</masterLabel>
+            <translation><!-- D027 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D028</masterLabel>
+            <translation><!-- D028 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D029</masterLabel>
+            <translation><!-- D029 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D030</masterLabel>
+            <translation><!-- D030 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D031</masterLabel>
+            <translation><!-- D031 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D032</masterLabel>
+            <translation><!-- D032 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D033</masterLabel>
+            <translation><!-- D033 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D034</masterLabel>
+            <translation><!-- D034 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D035</masterLabel>
+            <translation><!-- D035 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D036</masterLabel>
+            <translation><!-- D036 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D037</masterLabel>
+            <translation><!-- D037 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D038</masterLabel>
+            <translation><!-- D038 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D039</masterLabel>
+            <translation><!-- D039 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D040</masterLabel>
+            <translation><!-- D040 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D041</masterLabel>
+            <translation><!-- D041 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D042</masterLabel>
+            <translation><!-- D042 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D043</masterLabel>
+            <translation><!-- D043 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Disposal Technology --></label>
+        <name>DisposalTechnology__c</name>
+        <picklistValues>
+            <masterLabel>Deep Well Injection</masterLabel>
+            <translation><!-- Deep Well Injection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fuel Blending</masterLabel>
+            <translation><!-- Fuel Blending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incineration (Hazardous Only)</masterLabel>
+            <translation><!-- Incineration (Hazardous Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incineration (Non-Hazardous Only)</masterLabel>
+            <translation><!-- Incineration (Non-Hazardous Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lab Packing</masterLabel>
+            <translation><!-- Lab Packing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landfill (Hazardous Only)</masterLabel>
+            <translation><!-- Landfill (Hazardous Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landfill (Non-Hazardous Only)</masterLabel>
+            <translation><!-- Landfill (Non-Hazardous Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off Spec Market</masterLabel>
+            <translation><!-- Off Spec Market --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recycling &amp; Recovery</masterLabel>
+            <translation><!-- Recycling &amp; Recovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary Fuels</masterLabel>
+            <translation><!-- Secondary Fuels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thermal Treatment</masterLabel>
+            <translation><!-- Thermal Treatment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treatment</masterLabel>
+            <translation><!-- Treatment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Universal Waste</masterLabel>
+            <translation><!-- Universal Waste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wastewater Treatment</masterLabel>
+            <translation><!-- Wastewater Treatment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Estimated Sales Value --></label>
+        <name>EstimatedSalesValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event/Ongoing Business --></label>
+        <name>EventOnGoingBusiness__c</name>
+        <picklistValues>
+            <masterLabel>Event (one-time)</masterLabel>
+            <translation><!-- Event (one-time) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ongoing Business</masterLabel>
+            <translation><!-- Ongoing Business --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- F Codes --></label>
+        <name>FCodes__c</name>
+        <picklistValues>
+            <masterLabel>F001</masterLabel>
+            <translation><!-- F001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F002</masterLabel>
+            <translation><!-- F002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F003</masterLabel>
+            <translation><!-- F003 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F004</masterLabel>
+            <translation><!-- F004 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F005</masterLabel>
+            <translation><!-- F005 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F006</masterLabel>
+            <translation><!-- F006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F007</masterLabel>
+            <translation><!-- F007 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F008</masterLabel>
+            <translation><!-- F008 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F009</masterLabel>
+            <translation><!-- F009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F010</masterLabel>
+            <translation><!-- F010 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F011</masterLabel>
+            <translation><!-- F011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F012</masterLabel>
+            <translation><!-- F012 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F019</masterLabel>
+            <translation><!-- F019 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F027</masterLabel>
+            <translation><!-- F027 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F032</masterLabel>
+            <translation><!-- F032 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F034</masterLabel>
+            <translation><!-- F034 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F035</masterLabel>
+            <translation><!-- F035 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F037</masterLabel>
+            <translation><!-- F037 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F038</masterLabel>
+            <translation><!-- F038 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F039</masterLabel>
+            <translation><!-- F039 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- FOB --></label>
+        <name>FOB__c</name>
+        <picklistValues>
+            <masterLabel>Delivered</masterLabel>
+            <translation><!-- Delivered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship point</masterLabel>
+            <translation><!-- Ship point --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse</masterLabel>
+            <translation><!-- Warehouse --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Hazardous --></label>
+        <name>Hazardous__c</name>
+    </fields>
+    <fields>
+        <label><!-- K Codes --></label>
+        <name>KCodes__c</name>
+        <picklistValues>
+            <masterLabel>K001</masterLabel>
+            <translation><!-- K001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K022</masterLabel>
+            <translation><!-- K022 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K044</masterLabel>
+            <translation><!-- K044 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K045</masterLabel>
+            <translation><!-- K045 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K046</masterLabel>
+            <translation><!-- K046 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K048</masterLabel>
+            <translation><!-- K048 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K049</masterLabel>
+            <translation><!-- K049 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K050</masterLabel>
+            <translation><!-- K050 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K051</masterLabel>
+            <translation><!-- K051 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K052</masterLabel>
+            <translation><!-- K052 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K060</masterLabel>
+            <translation><!-- K060 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K061</masterLabel>
+            <translation><!-- K061 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K062</masterLabel>
+            <translation><!-- K062 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K083</masterLabel>
+            <translation><!-- K083 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K086</masterLabel>
+            <translation><!-- K086 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K087</masterLabel>
+            <translation><!-- K087 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K088</masterLabel>
+            <translation><!-- K088 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K093</masterLabel>
+            <translation><!-- K093 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K094</masterLabel>
+            <translation><!-- K094 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K104</masterLabel>
+            <translation><!-- K104 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K126</masterLabel>
+            <translation><!-- K126 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K141</masterLabel>
+            <translation><!-- K141 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K142</masterLabel>
+            <translation><!-- K142 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K143</masterLabel>
+            <translation><!-- K143 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K144</masterLabel>
+            <translation><!-- K144 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K145</masterLabel>
+            <translation><!-- K145 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K147</masterLabel>
+            <translation><!-- K147 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K148</masterLabel>
+            <translation><!-- K148 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K156</masterLabel>
+            <translation><!-- K156 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K157</masterLabel>
+            <translation><!-- K157 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K158</masterLabel>
+            <translation><!-- K158 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K169</masterLabel>
+            <translation><!-- K169 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K170</masterLabel>
+            <translation><!-- K170 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K171</masterLabel>
+            <translation><!-- K171 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K172</masterLabel>
+            <translation><!-- K172 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KO88</masterLabel>
+            <translation><!-- KO88 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Name --></label>
+        <name>Opportunity_Name__c</name>
+        <relationshipLabel><!-- Waste Streams --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- P Codes --></label>
+        <name>PCodes__c</name>
+        <picklistValues>
+            <masterLabel>P001</masterLabel>
+            <translation><!-- P001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P002</masterLabel>
+            <translation><!-- P002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P003</masterLabel>
+            <translation><!-- P003 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P004</masterLabel>
+            <translation><!-- P004 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P005</masterLabel>
+            <translation><!-- P005 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P006</masterLabel>
+            <translation><!-- P006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P007</masterLabel>
+            <translation><!-- P007 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P008</masterLabel>
+            <translation><!-- P008 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P009</masterLabel>
+            <translation><!-- P009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P010</masterLabel>
+            <translation><!-- P010 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P011</masterLabel>
+            <translation><!-- P011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P012</masterLabel>
+            <translation><!-- P012 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P013</masterLabel>
+            <translation><!-- P013 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P014</masterLabel>
+            <translation><!-- P014 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P015</masterLabel>
+            <translation><!-- P015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P016</masterLabel>
+            <translation><!-- P016 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P017</masterLabel>
+            <translation><!-- P017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P018</masterLabel>
+            <translation><!-- P018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P020</masterLabel>
+            <translation><!-- P020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P021</masterLabel>
+            <translation><!-- P021 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P022</masterLabel>
+            <translation><!-- P022 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P023</masterLabel>
+            <translation><!-- P023 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P024</masterLabel>
+            <translation><!-- P024 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P026</masterLabel>
+            <translation><!-- P026 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P027</masterLabel>
+            <translation><!-- P027 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P028</masterLabel>
+            <translation><!-- P028 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P029</masterLabel>
+            <translation><!-- P029 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P030</masterLabel>
+            <translation><!-- P030 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P031</masterLabel>
+            <translation><!-- P031 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P033</masterLabel>
+            <translation><!-- P033 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P034</masterLabel>
+            <translation><!-- P034 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P036</masterLabel>
+            <translation><!-- P036 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P037</masterLabel>
+            <translation><!-- P037 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P038</masterLabel>
+            <translation><!-- P038 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P039</masterLabel>
+            <translation><!-- P039 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P040</masterLabel>
+            <translation><!-- P040 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P041</masterLabel>
+            <translation><!-- P041 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P042</masterLabel>
+            <translation><!-- P042 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P043</masterLabel>
+            <translation><!-- P043 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P044</masterLabel>
+            <translation><!-- P044 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P045</masterLabel>
+            <translation><!-- P045 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P046</masterLabel>
+            <translation><!-- P046 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P047</masterLabel>
+            <translation><!-- P047 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P048</masterLabel>
+            <translation><!-- P048 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P049</masterLabel>
+            <translation><!-- P049 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P050</masterLabel>
+            <translation><!-- P050 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P051</masterLabel>
+            <translation><!-- P051 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P054</masterLabel>
+            <translation><!-- P054 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P056</masterLabel>
+            <translation><!-- P056 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P057</masterLabel>
+            <translation><!-- P057 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P058</masterLabel>
+            <translation><!-- P058 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P059</masterLabel>
+            <translation><!-- P059 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P060</masterLabel>
+            <translation><!-- P060 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P062</masterLabel>
+            <translation><!-- P062 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P063</masterLabel>
+            <translation><!-- P063 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P064</masterLabel>
+            <translation><!-- P064 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P065</masterLabel>
+            <translation><!-- P065 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P066</masterLabel>
+            <translation><!-- P066 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P067</masterLabel>
+            <translation><!-- P067 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P068</masterLabel>
+            <translation><!-- P068 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P069</masterLabel>
+            <translation><!-- P069 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P070</masterLabel>
+            <translation><!-- P070 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P071</masterLabel>
+            <translation><!-- P071 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P072</masterLabel>
+            <translation><!-- P072 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P073</masterLabel>
+            <translation><!-- P073 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P074</masterLabel>
+            <translation><!-- P074 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P075</masterLabel>
+            <translation><!-- P075 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P076</masterLabel>
+            <translation><!-- P076 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P077</masterLabel>
+            <translation><!-- P077 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P078</masterLabel>
+            <translation><!-- P078 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P081</masterLabel>
+            <translation><!-- P081 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P082</masterLabel>
+            <translation><!-- P082 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P084</masterLabel>
+            <translation><!-- P084 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P085</masterLabel>
+            <translation><!-- P085 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P087</masterLabel>
+            <translation><!-- P087 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P088</masterLabel>
+            <translation><!-- P088 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P089</masterLabel>
+            <translation><!-- P089 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P092</masterLabel>
+            <translation><!-- P092 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P093</masterLabel>
+            <translation><!-- P093 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P094</masterLabel>
+            <translation><!-- P094 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P095</masterLabel>
+            <translation><!-- P095 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P096</masterLabel>
+            <translation><!-- P096 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P097</masterLabel>
+            <translation><!-- P097 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P098</masterLabel>
+            <translation><!-- P098 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P099</masterLabel>
+            <translation><!-- P099 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P101</masterLabel>
+            <translation><!-- P101 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P102</masterLabel>
+            <translation><!-- P102 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P103</masterLabel>
+            <translation><!-- P103 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P104</masterLabel>
+            <translation><!-- P104 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P105</masterLabel>
+            <translation><!-- P105 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P106</masterLabel>
+            <translation><!-- P106 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P107</masterLabel>
+            <translation><!-- P107 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P108</masterLabel>
+            <translation><!-- P108 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P109</masterLabel>
+            <translation><!-- P109 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P110</masterLabel>
+            <translation><!-- P110 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P111</masterLabel>
+            <translation><!-- P111 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P112</masterLabel>
+            <translation><!-- P112 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P113</masterLabel>
+            <translation><!-- P113 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P114</masterLabel>
+            <translation><!-- P114 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P115</masterLabel>
+            <translation><!-- P115 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P116</masterLabel>
+            <translation><!-- P116 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P118</masterLabel>
+            <translation><!-- P118 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P119</masterLabel>
+            <translation><!-- P119 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P120</masterLabel>
+            <translation><!-- P120 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P121</masterLabel>
+            <translation><!-- P121 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P122</masterLabel>
+            <translation><!-- P122 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P123</masterLabel>
+            <translation><!-- P123 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P127</masterLabel>
+            <translation><!-- P127 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P188</masterLabel>
+            <translation><!-- P188 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P194</masterLabel>
+            <translation><!-- P194 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P199</masterLabel>
+            <translation><!-- P199 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P205</masterLabel>
+            <translation><!-- P205 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Univar Partner TSDF --></label>
+        <name>PartnerTSDF__c</name>
+        <picklistValues>
+            <masterLabel>A-Tech Recycling</masterLabel>
+            <translation><!-- A-Tech Recycling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AET</masterLabel>
+            <translation><!-- AET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AGFA Corporation</masterLabel>
+            <translation><!-- AGFA Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMS Environmental</masterLabel>
+            <translation><!-- AMS Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advanced Waste</masterLabel>
+            <translation><!-- Advanced Waste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agmet</masterLabel>
+            <translation><!-- Agmet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>American Waste</masterLabel>
+            <translation><!-- American Waste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amerifuel</masterLabel>
+            <translation><!-- Amerifuel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aristech Chemical</masterLabel>
+            <translation><!-- Aristech Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ash Grove Cement</masterLabel>
+            <translation><!-- Ash Grove Cement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ashland</masterLabel>
+            <translation><!-- Ashland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ausimont USA</masterLabel>
+            <translation><!-- Ausimont USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barton Solvents</masterLabel>
+            <translation><!-- Barton Solvents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beaver Oil</masterLabel>
+            <translation><!-- Beaver Oil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blacklidge Emulsions</masterLabel>
+            <translation><!-- Blacklidge Emulsions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brenntag</masterLabel>
+            <translation><!-- Brenntag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bridgeport United Recycling</masterLabel>
+            <translation><!-- Bridgeport United Recycling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burlington Environmental</masterLabel>
+            <translation><!-- Burlington Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CES</masterLabel>
+            <translation><!-- CES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casie Ecology Oil Salvage</masterLabel>
+            <translation><!-- Casie Ecology Oil Salvage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chem Con-Georgia</masterLabel>
+            <translation><!-- Chem Con-Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chem-Pak Corporation</masterLabel>
+            <translation><!-- Chem-Pak Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Pollution Control</masterLabel>
+            <translation><!-- Chemical Pollution Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Solvents</masterLabel>
+            <translation><!-- Chemical Solvents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Waste Management</masterLabel>
+            <translation><!-- Chemical Waste Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemtron</masterLabel>
+            <translation><!-- Chemtron --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chesapeake Waste Solutions</masterLabel>
+            <translation><!-- Chesapeake Waste Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chief Wastes</masterLabel>
+            <translation><!-- Chief Wastes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clean Harbors</masterLabel>
+            <translation><!-- Clean Harbors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coleman</masterLabel>
+            <translation><!-- Coleman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Continental Cement Co.</masterLabel>
+            <translation><!-- Continental Cement Co. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Covanta Energy</masterLabel>
+            <translation><!-- Covanta Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyanokem Inc.</masterLabel>
+            <translation><!-- Cyanokem Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyclechem</masterLabel>
+            <translation><!-- Cyclechem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyro Industries</masterLabel>
+            <translation><!-- Cyro Industries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DSM Chemicals</masterLabel>
+            <translation><!-- DSM Chemicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demenno Kerdoon</masterLabel>
+            <translation><!-- Demenno Kerdoon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposal Systems Inc.</masterLabel>
+            <translation><!-- Disposal Systems Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dukes Oil</masterLabel>
+            <translation><!-- Dukes Oil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dupont</masterLabel>
+            <translation><!-- Dupont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dynecol Inc.</masterLabel>
+            <translation><!-- Dynecol Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EOG Environmental</masterLabel>
+            <translation><!-- EOG Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecoflo Inc.</masterLabel>
+            <translation><!-- Ecoflo Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Effective Environmental</masterLabel>
+            <translation><!-- Effective Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emco</masterLabel>
+            <translation><!-- Emco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emerald Services</masterLabel>
+            <translation><!-- Emerald Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Encycle</masterLabel>
+            <translation><!-- Encycle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ensco</masterLabel>
+            <translation><!-- Ensco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirite</masterLabel>
+            <translation><!-- Envirite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirocare</masterLabel>
+            <translation><!-- Envirocare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental Compliance Corp.</masterLabel>
+            <translation><!-- Environmental Compliance Corp. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirosafe</masterLabel>
+            <translation><!-- Envirosafe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirosolve</masterLabel>
+            <translation><!-- Envirosolve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirosota</masterLabel>
+            <translation><!-- Envirosota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirotech</masterLabel>
+            <translation><!-- Envirotech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirotrol Inc.</masterLabel>
+            <translation><!-- Envirotrol Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Essroc Cement</masterLabel>
+            <translation><!-- Essroc Cement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excel TSD</masterLabel>
+            <translation><!-- Excel TSD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exide Corp.</masterLabel>
+            <translation><!-- Exide Corp. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fairbanks Disposal</masterLabel>
+            <translation><!-- Fairbanks Disposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ferguson Environmental (FER)</masterLabel>
+            <translation><!-- Ferguson Environmental (FER) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fielding Chemical</masterLabel>
+            <translation><!-- Fielding Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Chemical</masterLabel>
+            <translation><!-- First Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freehold Cartage</masterLabel>
+            <translation><!-- Freehold Cartage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Future Environmental</masterLabel>
+            <translation><!-- Future Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GCL Treatment</masterLabel>
+            <translation><!-- GCL Treatment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GNB Technologies</masterLabel>
+            <translation><!-- GNB Technologies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Giant Cement</masterLabel>
+            <translation><!-- Giant Cement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Giant Resource Recovery</masterLabel>
+            <translation><!-- Giant Resource Recovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Great Lakes Chemical</masterLabel>
+            <translation><!-- Great Lakes Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greenlights</masterLabel>
+            <translation><!-- Greenlights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greenway Environmental</masterLabel>
+            <translation><!-- Greenway Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gulf Coast Recycling</masterLabel>
+            <translation><!-- Gulf Coast Recycling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HazChem</masterLabel>
+            <translation><!-- HazChem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heritage Treatment Center</masterLabel>
+            <translation><!-- Heritage Treatment Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heritage-WTI</masterLabel>
+            <translation><!-- Heritage-WTI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Holnam Inc.</masterLabel>
+            <translation><!-- Holnam Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hukill Chemical</masterLabel>
+            <translation><!-- Hukill Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hydrite Chemical</masterLabel>
+            <translation><!-- Hydrite Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hydromet Environmental</masterLabel>
+            <translation><!-- Hydromet Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial Waste Services (IWS)</masterLabel>
+            <translation><!-- Industrial Waste Services (IWS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inmetco</masterLabel>
+            <translation><!-- Inmetco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intergulf</masterLabel>
+            <translation><!-- Intergulf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jacobus Quick Fuel</masterLabel>
+            <translation><!-- Jacobus Quick Fuel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kaiser Chemical</masterLabel>
+            <translation><!-- Kaiser Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keystone Cement</masterLabel>
+            <translation><!-- Keystone Cement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LWD, Inc.</masterLabel>
+            <translation><!-- LWD, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lederle Laboratories</masterLabel>
+            <translation><!-- Lederle Laboratories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leisch &amp; Associates</masterLabel>
+            <translation><!-- Leisch &amp; Associates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lone Star Alternate Fuels</masterLabel>
+            <translation><!-- Lone Star Alternate Fuels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lone Star Industries</masterLabel>
+            <translation><!-- Lone Star Industries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M&amp;M Chemical</masterLabel>
+            <translation><!-- M&amp;M Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M&amp;M Environmental</masterLabel>
+            <translation><!-- M&amp;M Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MFR</masterLabel>
+            <translation><!-- MFR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marathon Ashland</masterLabel>
+            <translation><!-- Marathon Ashland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marisol</masterLabel>
+            <translation><!-- Marisol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Martinez Refining</masterLabel>
+            <translation><!-- Martinez Refining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>McWhorter</masterLabel>
+            <translation><!-- McWhorter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metalico</masterLabel>
+            <translation><!-- Metalico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michigan Disposal</masterLabel>
+            <translation><!-- Michigan Disposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michigan Recovery Systems</masterLabel>
+            <translation><!-- Michigan Recovery Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MicroNutrients</masterLabel>
+            <translation><!-- MicroNutrients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Millennium Environmental</masterLabel>
+            <translation><!-- Millennium Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nepera Inc.</masterLabel>
+            <translation><!-- Nepera Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norlite</masterLabel>
+            <translation><!-- Norlite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norlite Corporation</masterLabel>
+            <translation><!-- Norlite Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Listed</masterLabel>
+            <translation><!-- Not Listed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peoria Disposal</masterLabel>
+            <translation><!-- Peoria Disposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perma-Fix Treatment Services</masterLabel>
+            <translation><!-- Perma-Fix Treatment Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Petro Chem</masterLabel>
+            <translation><!-- Petro Chem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phibro-Tech</masterLabel>
+            <translation><!-- Phibro-Tech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philip Services</masterLabel>
+            <translation><!-- Philip Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phillip Services</masterLabel>
+            <translation><!-- Phillip Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pollution Control Industries (PCI)</masterLabel>
+            <translation><!-- Pollution Control Industries (PCI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potomac Environmental</masterLabel>
+            <translation><!-- Potomac Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proliquids</masterLabel>
+            <translation><!-- Proliquids --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quemetco</masterLabel>
+            <translation><!-- Quemetco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R3 Environmental</masterLabel>
+            <translation><!-- R3 Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RS Used oil</masterLabel>
+            <translation><!-- RS Used oil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reclaimed Energy</masterLabel>
+            <translation><!-- Reclaimed Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recyclights</masterLabel>
+            <translation><!-- Recyclights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red Earth Environmental</masterLabel>
+            <translation><!-- Red Earth Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Redbud Environmental</masterLabel>
+            <translation><!-- Redbud Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regeneration Technologies</masterLabel>
+            <translation><!-- Regeneration Technologies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republic Environmental</masterLabel>
+            <translation><!-- Republic Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republic Services</masterLabel>
+            <translation><!-- Republic Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revere Refining</masterLabel>
+            <translation><!-- Revere Refining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rhodia</masterLabel>
+            <translation><!-- Rhodia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rineco</masterLabel>
+            <translation><!-- Rineco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollins</masterLabel>
+            <translation><!-- Rollins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romic Environmental</masterLabel>
+            <translation><!-- Romic Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ross Incineration</masterLabel>
+            <translation><!-- Ross Incineration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S and W Waste</masterLabel>
+            <translation><!-- S and W Waste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SET Environmental (Treatment One)</masterLabel>
+            <translation><!-- SET Environmental (Treatment One) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKB</masterLabel>
+            <translation><!-- SKB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPSA</masterLabel>
+            <translation><!-- SPSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety-Kleen</masterLabel>
+            <translation><!-- Safety-Kleen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shamrock Environmental</masterLabel>
+            <translation><!-- Shamrock Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Siemens</masterLabel>
+            <translation><!-- Siemens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solite Corporation</masterLabel>
+            <translation><!-- Solite Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solvent Recovery Corporation</masterLabel>
+            <translation><!-- Solvent Recovery Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solvent Systems</masterLabel>
+            <translation><!-- Solvent Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southeastern Chemicals</masterLabel>
+            <translation><!-- Southeastern Chemicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Waste Disposal, Inc. (SWDI)</masterLabel>
+            <translation><!-- Special Waste Disposal, Inc. (SWDI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strong Environmental</masterLabel>
+            <translation><!-- Strong Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superior Special Services</masterLabel>
+            <translation><!-- Superior Special Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Systech Corporation (LaFarge)</masterLabel>
+            <translation><!-- Systech Corporation (LaFarge) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teris</masterLabel>
+            <translation><!-- Teris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas Ecologists</masterLabel>
+            <translation><!-- Texas Ecologists --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas Molecular</masterLabel>
+            <translation><!-- Texas Molecular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Environmental Quality Company (EQ)</masterLabel>
+            <translation><!-- The Environmental Quality Company (EQ) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treatment One</masterLabel>
+            <translation><!-- Treatment One --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tri State</masterLabel>
+            <translation><!-- Tri State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Ecology</masterLabel>
+            <translation><!-- US Ecology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Oil</masterLabel>
+            <translation><!-- US Oil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USES</masterLabel>
+            <translation><!-- USES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USL City Environmental</masterLabel>
+            <translation><!-- USL City Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Oil Recovery</masterLabel>
+            <translation><!-- United Oil Recovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Univar USA</masterLabel>
+            <translation><!-- Univar USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VLS Recovery</masterLabel>
+            <translation><!-- VLS Recovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Veolia ES Tech Solutions</masterLabel>
+            <translation><!-- Veolia ES Tech Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vexor Technologies</masterLabel>
+            <translation><!-- Vexor Technologies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vulcan Materials</masterLabel>
+            <translation><!-- Vulcan Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WRR</masterLabel>
+            <translation><!-- WRR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wabash Environmental</masterLabel>
+            <translation><!-- Wabash Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waste Control Specialists</masterLabel>
+            <translation><!-- Waste Control Specialists --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waste Management</masterLabel>
+            <translation><!-- Waste Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waste Recovery Services</masterLabel>
+            <translation><!-- Waste Recovery Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wayne Disposal</masterLabel>
+            <translation><!-- Wayne Disposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Central Environmental</masterLabel>
+            <translation><!-- West Central Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>World Resource Corporation (WRC)</masterLabel>
+            <translation><!-- World Resource Corporation (WRC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zinc Corporation</masterLabel>
+            <translation><!-- Zinc Corporation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- % Other --></label>
+        <name>PercentOther__c</name>
+    </fields>
+    <fields>
+        <label><!-- Physical State --></label>
+        <name>PhysicalState__c</name>
+        <picklistValues>
+            <masterLabel>Gas</masterLabel>
+            <translation><!-- Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lab Pack</masterLabel>
+            <translation><!-- Lab Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liquid</masterLabel>
+            <translation><!-- Liquid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liquid/Solid Mixture</masterLabel>
+            <translation><!-- Liquid/Solid Mixture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Powder</masterLabel>
+            <translation><!-- Powder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Solid</masterLabel>
+            <translation><!-- Semi-Solid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sludge</masterLabel>
+            <translation><!-- Sludge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solid</masterLabel>
+            <translation><!-- Solid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- $ per UOM --></label>
+        <name>PriceUOM__c</name>
+    </fields>
+    <fields>
+        <label><!-- $ UOM --></label>
+        <name>PricingUOM__c</name>
+        <picklistValues>
+            <masterLabel>Burlap, Cloth, Paper, Plastic Bag</masterLabel>
+            <translation><!-- Burlap, Cloth, Paper, Plastic Bag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cubic Meters</masterLabel>
+            <translation><!-- Cubic Meters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cubic Yards</masterLabel>
+            <translation><!-- Cubic Yards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cylinders</masterLabel>
+            <translation><!-- Cylinders --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dump Truck</masterLabel>
+            <translation><!-- Dump Truck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Each</masterLabel>
+            <translation><!-- Each --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiber Or Plastic Boxes, Cartons</masterLabel>
+            <translation><!-- Fiber Or Plastic Boxes, Cartons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiberboard Or Plastic Drum, Barrel</masterLabel>
+            <translation><!-- Fiberboard Or Plastic Drum, Barrel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foot</masterLabel>
+            <translation><!-- Foot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gallons</masterLabel>
+            <translation><!-- Gallons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kilogram</masterLabel>
+            <translation><!-- Kilogram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Linear Foot</masterLabel>
+            <translation><!-- Linear Foot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liter</masterLabel>
+            <translation><!-- Liter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metal Boxes, Cartons, Cases</masterLabel>
+            <translation><!-- Metal Boxes, Cartons, Cases --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metal Drums, Barrels, Kegs</masterLabel>
+            <translation><!-- Metal Drums, Barrels, Kegs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metric Tons</masterLabel>
+            <translation><!-- Metric Tons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pounds</masterLabel>
+            <translation><!-- Pounds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rail Cars</masterLabel>
+            <translation><!-- Rail Cars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tanks Portable</masterLabel>
+            <translation><!-- Tanks Portable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tons</masterLabel>
+            <translation><!-- Tons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wooden Boxes, Cartons, Cases</masterLabel>
+            <translation><!-- Wooden Boxes, Cartons, Cases --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wooden Drums, Barrels, Kegs</masterLabel>
+            <translation><!-- Wooden Drums, Barrels, Kegs --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Service Provider --></label>
+        <name>ServiceProvider__c</name>
+        <picklistValues>
+            <masterLabel>A-Tech Recycling</masterLabel>
+            <translation><!-- A-Tech Recycling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AET</masterLabel>
+            <translation><!-- AET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AGFA Corporation</masterLabel>
+            <translation><!-- AGFA Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMS Environmental</masterLabel>
+            <translation><!-- AMS Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advanced Waste</masterLabel>
+            <translation><!-- Advanced Waste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agmet</masterLabel>
+            <translation><!-- Agmet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>American Waste</masterLabel>
+            <translation><!-- American Waste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amerifuel</masterLabel>
+            <translation><!-- Amerifuel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aristech Chemical</masterLabel>
+            <translation><!-- Aristech Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ash Grove Cement</masterLabel>
+            <translation><!-- Ash Grove Cement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ashland</masterLabel>
+            <translation><!-- Ashland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ausimont USA</masterLabel>
+            <translation><!-- Ausimont USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barton Solvents</masterLabel>
+            <translation><!-- Barton Solvents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beaver Oil</masterLabel>
+            <translation><!-- Beaver Oil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blacklidge Emulsions</masterLabel>
+            <translation><!-- Blacklidge Emulsions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brenntag</masterLabel>
+            <translation><!-- Brenntag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bridgeport United Recycling</masterLabel>
+            <translation><!-- Bridgeport United Recycling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burlington Environmental</masterLabel>
+            <translation><!-- Burlington Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CES</masterLabel>
+            <translation><!-- CES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casie Ecology Oil Salvage</masterLabel>
+            <translation><!-- Casie Ecology Oil Salvage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chem Con-Georgia</masterLabel>
+            <translation><!-- Chem Con-Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chem-Pak Corporation</masterLabel>
+            <translation><!-- Chem-Pak Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Pollution Control</masterLabel>
+            <translation><!-- Chemical Pollution Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Solvents</masterLabel>
+            <translation><!-- Chemical Solvents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Waste Management</masterLabel>
+            <translation><!-- Chemical Waste Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemtron</masterLabel>
+            <translation><!-- Chemtron --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chesapeake Waste Solutions</masterLabel>
+            <translation><!-- Chesapeake Waste Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chief Wastes</masterLabel>
+            <translation><!-- Chief Wastes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clean Harbors</masterLabel>
+            <translation><!-- Clean Harbors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coleman</masterLabel>
+            <translation><!-- Coleman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Continental Cement Co.</masterLabel>
+            <translation><!-- Continental Cement Co. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Covanta Energy</masterLabel>
+            <translation><!-- Covanta Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyanokem Inc.</masterLabel>
+            <translation><!-- Cyanokem Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyclechem</masterLabel>
+            <translation><!-- Cyclechem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyro Industries</masterLabel>
+            <translation><!-- Cyro Industries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DSM Chemicals</masterLabel>
+            <translation><!-- DSM Chemicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demenno Kerdoon</masterLabel>
+            <translation><!-- Demenno Kerdoon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposal Systems Inc.</masterLabel>
+            <translation><!-- Disposal Systems Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dukes Oil</masterLabel>
+            <translation><!-- Dukes Oil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dupont</masterLabel>
+            <translation><!-- Dupont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dynecol Inc.</masterLabel>
+            <translation><!-- Dynecol Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EOG Environmental</masterLabel>
+            <translation><!-- EOG Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecoflo Inc.</masterLabel>
+            <translation><!-- Ecoflo Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Effective Environmental</masterLabel>
+            <translation><!-- Effective Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emco</masterLabel>
+            <translation><!-- Emco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emerald Services</masterLabel>
+            <translation><!-- Emerald Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Encycle</masterLabel>
+            <translation><!-- Encycle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ensco</masterLabel>
+            <translation><!-- Ensco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirite</masterLabel>
+            <translation><!-- Envirite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirocare</masterLabel>
+            <translation><!-- Envirocare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental Compliance Corp.</masterLabel>
+            <translation><!-- Environmental Compliance Corp. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirosafe</masterLabel>
+            <translation><!-- Envirosafe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirosolve</masterLabel>
+            <translation><!-- Envirosolve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirosota</masterLabel>
+            <translation><!-- Envirosota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirotech</masterLabel>
+            <translation><!-- Envirotech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envirotrol Inc.</masterLabel>
+            <translation><!-- Envirotrol Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Essroc Cement</masterLabel>
+            <translation><!-- Essroc Cement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excel TSD</masterLabel>
+            <translation><!-- Excel TSD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exide Corp.</masterLabel>
+            <translation><!-- Exide Corp. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fairbanks Disposal</masterLabel>
+            <translation><!-- Fairbanks Disposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ferguson Environmental (FER)</masterLabel>
+            <translation><!-- Ferguson Environmental (FER) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fielding Chemical</masterLabel>
+            <translation><!-- Fielding Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Chemical</masterLabel>
+            <translation><!-- First Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freehold Cartage</masterLabel>
+            <translation><!-- Freehold Cartage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Future Environmental</masterLabel>
+            <translation><!-- Future Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GCL Treatment</masterLabel>
+            <translation><!-- GCL Treatment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GNB Technologies</masterLabel>
+            <translation><!-- GNB Technologies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Giant Cement</masterLabel>
+            <translation><!-- Giant Cement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Giant Resource Recovery</masterLabel>
+            <translation><!-- Giant Resource Recovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Great Lakes Chemical</masterLabel>
+            <translation><!-- Great Lakes Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greenlights</masterLabel>
+            <translation><!-- Greenlights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greenway Environmental</masterLabel>
+            <translation><!-- Greenway Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gulf Coast Recycling</masterLabel>
+            <translation><!-- Gulf Coast Recycling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HazChem</masterLabel>
+            <translation><!-- HazChem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heritage Treatment Center</masterLabel>
+            <translation><!-- Heritage Treatment Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heritage-WTI</masterLabel>
+            <translation><!-- Heritage-WTI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Holnam Inc.</masterLabel>
+            <translation><!-- Holnam Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hukill Chemical</masterLabel>
+            <translation><!-- Hukill Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hydrite Chemical</masterLabel>
+            <translation><!-- Hydrite Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hydromet Environmental</masterLabel>
+            <translation><!-- Hydromet Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial Waste Services (IWS)</masterLabel>
+            <translation><!-- Industrial Waste Services (IWS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inmetco</masterLabel>
+            <translation><!-- Inmetco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intergulf</masterLabel>
+            <translation><!-- Intergulf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jacobus Quick Fuel</masterLabel>
+            <translation><!-- Jacobus Quick Fuel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kaiser Chemical</masterLabel>
+            <translation><!-- Kaiser Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keystone Cement</masterLabel>
+            <translation><!-- Keystone Cement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LWD, Inc.</masterLabel>
+            <translation><!-- LWD, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lederle Laboratories</masterLabel>
+            <translation><!-- Lederle Laboratories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leisch &amp; Associates</masterLabel>
+            <translation><!-- Leisch &amp; Associates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lone Star Alternate Fuels</masterLabel>
+            <translation><!-- Lone Star Alternate Fuels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lone Star Industries</masterLabel>
+            <translation><!-- Lone Star Industries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M&amp;M Chemical</masterLabel>
+            <translation><!-- M&amp;M Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M&amp;M Environmental</masterLabel>
+            <translation><!-- M&amp;M Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MFR</masterLabel>
+            <translation><!-- MFR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marathon Ashland</masterLabel>
+            <translation><!-- Marathon Ashland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marisol</masterLabel>
+            <translation><!-- Marisol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Martinez Refining</masterLabel>
+            <translation><!-- Martinez Refining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>McWhorter</masterLabel>
+            <translation><!-- McWhorter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metalico</masterLabel>
+            <translation><!-- Metalico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michigan Disposal</masterLabel>
+            <translation><!-- Michigan Disposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michigan Recovery Systems</masterLabel>
+            <translation><!-- Michigan Recovery Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MicroNutrients</masterLabel>
+            <translation><!-- MicroNutrients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Millennium Environmental</masterLabel>
+            <translation><!-- Millennium Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nepera Inc.</masterLabel>
+            <translation><!-- Nepera Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norlite</masterLabel>
+            <translation><!-- Norlite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norlite Corporation</masterLabel>
+            <translation><!-- Norlite Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Listed</masterLabel>
+            <translation><!-- Not Listed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peoria Disposal</masterLabel>
+            <translation><!-- Peoria Disposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perma-Fix Treatment Services</masterLabel>
+            <translation><!-- Perma-Fix Treatment Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Petro Chem</masterLabel>
+            <translation><!-- Petro Chem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phibro-Tech</masterLabel>
+            <translation><!-- Phibro-Tech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philip Services</masterLabel>
+            <translation><!-- Philip Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phillip Services</masterLabel>
+            <translation><!-- Phillip Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pollution Control Industries (PCI)</masterLabel>
+            <translation><!-- Pollution Control Industries (PCI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potomac Environmental</masterLabel>
+            <translation><!-- Potomac Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proliquids</masterLabel>
+            <translation><!-- Proliquids --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quemetco</masterLabel>
+            <translation><!-- Quemetco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R3 Environmental</masterLabel>
+            <translation><!-- R3 Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RS Used oil</masterLabel>
+            <translation><!-- RS Used oil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reclaimed Energy</masterLabel>
+            <translation><!-- Reclaimed Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recyclights</masterLabel>
+            <translation><!-- Recyclights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red Earth Environmental</masterLabel>
+            <translation><!-- Red Earth Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Redbud Environmental</masterLabel>
+            <translation><!-- Redbud Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regeneration Technologies</masterLabel>
+            <translation><!-- Regeneration Technologies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republic Environmental</masterLabel>
+            <translation><!-- Republic Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republic Services</masterLabel>
+            <translation><!-- Republic Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revere Refining</masterLabel>
+            <translation><!-- Revere Refining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rhodia</masterLabel>
+            <translation><!-- Rhodia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rineco</masterLabel>
+            <translation><!-- Rineco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollins</masterLabel>
+            <translation><!-- Rollins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romic Environmental</masterLabel>
+            <translation><!-- Romic Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ross Incineration</masterLabel>
+            <translation><!-- Ross Incineration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S and W Waste</masterLabel>
+            <translation><!-- S and W Waste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SET Environmental (Treatment One)</masterLabel>
+            <translation><!-- SET Environmental (Treatment One) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SKB</masterLabel>
+            <translation><!-- SKB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPSA</masterLabel>
+            <translation><!-- SPSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety-Kleen</masterLabel>
+            <translation><!-- Safety-Kleen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Siemens</masterLabel>
+            <translation><!-- Siemens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solite Corporation</masterLabel>
+            <translation><!-- Solite Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solvent Recovery Corporation</masterLabel>
+            <translation><!-- Solvent Recovery Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solvent Systems</masterLabel>
+            <translation><!-- Solvent Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southeastern Chemicals</masterLabel>
+            <translation><!-- Southeastern Chemicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Waste Disposal, Inc. (SWDI)</masterLabel>
+            <translation><!-- Special Waste Disposal, Inc. (SWDI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strong Environmental</masterLabel>
+            <translation><!-- Strong Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superior Special Services</masterLabel>
+            <translation><!-- Superior Special Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Systech Corporation (LaFarge)</masterLabel>
+            <translation><!-- Systech Corporation (LaFarge) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teris</masterLabel>
+            <translation><!-- Teris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas Ecologists</masterLabel>
+            <translation><!-- Texas Ecologists --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas Molecular</masterLabel>
+            <translation><!-- Texas Molecular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Environmental Quality Company (EQ)</masterLabel>
+            <translation><!-- The Environmental Quality Company (EQ) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treatment One</masterLabel>
+            <translation><!-- Treatment One --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tri State</masterLabel>
+            <translation><!-- Tri State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Ecology</masterLabel>
+            <translation><!-- US Ecology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Oil</masterLabel>
+            <translation><!-- US Oil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USES</masterLabel>
+            <translation><!-- USES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USL City Environmental</masterLabel>
+            <translation><!-- USL City Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Oil Recovery</masterLabel>
+            <translation><!-- United Oil Recovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Univar USA</masterLabel>
+            <translation><!-- Univar USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Veolia ES Tech Solutions</masterLabel>
+            <translation><!-- Veolia ES Tech Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vexor Technologies</masterLabel>
+            <translation><!-- Vexor Technologies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vopak Logistics</masterLabel>
+            <translation><!-- Vopak Logistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vulcan Materials</masterLabel>
+            <translation><!-- Vulcan Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WRR</masterLabel>
+            <translation><!-- WRR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wabash Environmental</masterLabel>
+            <translation><!-- Wabash Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waste Control Specialists</masterLabel>
+            <translation><!-- Waste Control Specialists --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waste Management</masterLabel>
+            <translation><!-- Waste Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waste Recovery Services</masterLabel>
+            <translation><!-- Waste Recovery Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wayne Disposal</masterLabel>
+            <translation><!-- Wayne Disposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Central Environmental</masterLabel>
+            <translation><!-- West Central Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>World Resource Corporation (WRC)</masterLabel>
+            <translation><!-- World Resource Corporation (WRC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zinc Corporation</masterLabel>
+            <translation><!-- Zinc Corporation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Service Provider --></label>
+        <name>Service_Provider_Lookup__c</name>
+        <relationshipLabel><!-- Waste Streams (Service Provider Lookup) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- U Codes --></label>
+        <name>UCodes__c</name>
+        <picklistValues>
+            <masterLabel>U001</masterLabel>
+            <translation><!-- U001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U002</masterLabel>
+            <translation><!-- U002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U003</masterLabel>
+            <translation><!-- U003 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U004</masterLabel>
+            <translation><!-- U004 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U005</masterLabel>
+            <translation><!-- U005 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U006</masterLabel>
+            <translation><!-- U006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U007</masterLabel>
+            <translation><!-- U007 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U008</masterLabel>
+            <translation><!-- U008 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U009</masterLabel>
+            <translation><!-- U009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U010</masterLabel>
+            <translation><!-- U010 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U011</masterLabel>
+            <translation><!-- U011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U012</masterLabel>
+            <translation><!-- U012 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U014</masterLabel>
+            <translation><!-- U014 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U015</masterLabel>
+            <translation><!-- U015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U016</masterLabel>
+            <translation><!-- U016 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U017</masterLabel>
+            <translation><!-- U017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U018</masterLabel>
+            <translation><!-- U018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U019</masterLabel>
+            <translation><!-- U019 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U020</masterLabel>
+            <translation><!-- U020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U021</masterLabel>
+            <translation><!-- U021 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U022</masterLabel>
+            <translation><!-- U022 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U023</masterLabel>
+            <translation><!-- U023 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U024</masterLabel>
+            <translation><!-- U024 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U025</masterLabel>
+            <translation><!-- U025 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U026</masterLabel>
+            <translation><!-- U026 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U027</masterLabel>
+            <translation><!-- U027 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U028</masterLabel>
+            <translation><!-- U028 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U029</masterLabel>
+            <translation><!-- U029 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U030</masterLabel>
+            <translation><!-- U030 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U031</masterLabel>
+            <translation><!-- U031 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U032</masterLabel>
+            <translation><!-- U032 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U033</masterLabel>
+            <translation><!-- U033 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U034</masterLabel>
+            <translation><!-- U034 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U035</masterLabel>
+            <translation><!-- U035 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U036</masterLabel>
+            <translation><!-- U036 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U037</masterLabel>
+            <translation><!-- U037 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U038</masterLabel>
+            <translation><!-- U038 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U039</masterLabel>
+            <translation><!-- U039 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U041</masterLabel>
+            <translation><!-- U041 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U042</masterLabel>
+            <translation><!-- U042 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U043</masterLabel>
+            <translation><!-- U043 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U044</masterLabel>
+            <translation><!-- U044 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U045</masterLabel>
+            <translation><!-- U045 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U046</masterLabel>
+            <translation><!-- U046 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U047</masterLabel>
+            <translation><!-- U047 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U048</masterLabel>
+            <translation><!-- U048 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U049</masterLabel>
+            <translation><!-- U049 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U050</masterLabel>
+            <translation><!-- U050 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U051</masterLabel>
+            <translation><!-- U051 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U052</masterLabel>
+            <translation><!-- U052 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U053</masterLabel>
+            <translation><!-- U053 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U055</masterLabel>
+            <translation><!-- U055 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U056</masterLabel>
+            <translation><!-- U056 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U057</masterLabel>
+            <translation><!-- U057 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U058</masterLabel>
+            <translation><!-- U058 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U059</masterLabel>
+            <translation><!-- U059 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U060</masterLabel>
+            <translation><!-- U060 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U061</masterLabel>
+            <translation><!-- U061 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U062</masterLabel>
+            <translation><!-- U062 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U063</masterLabel>
+            <translation><!-- U063 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U064</masterLabel>
+            <translation><!-- U064 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U066</masterLabel>
+            <translation><!-- U066 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U067</masterLabel>
+            <translation><!-- U067 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U068</masterLabel>
+            <translation><!-- U068 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U069</masterLabel>
+            <translation><!-- U069 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U070</masterLabel>
+            <translation><!-- U070 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U071</masterLabel>
+            <translation><!-- U071 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U072</masterLabel>
+            <translation><!-- U072 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U073</masterLabel>
+            <translation><!-- U073 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U074</masterLabel>
+            <translation><!-- U074 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U075</masterLabel>
+            <translation><!-- U075 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U076</masterLabel>
+            <translation><!-- U076 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U077</masterLabel>
+            <translation><!-- U077 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U078</masterLabel>
+            <translation><!-- U078 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U079</masterLabel>
+            <translation><!-- U079 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U080</masterLabel>
+            <translation><!-- U080 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U081</masterLabel>
+            <translation><!-- U081 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U082</masterLabel>
+            <translation><!-- U082 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U083</masterLabel>
+            <translation><!-- U083 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U084</masterLabel>
+            <translation><!-- U084 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U085</masterLabel>
+            <translation><!-- U085 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U086</masterLabel>
+            <translation><!-- U086 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U087</masterLabel>
+            <translation><!-- U087 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U088</masterLabel>
+            <translation><!-- U088 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U089</masterLabel>
+            <translation><!-- U089 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U090</masterLabel>
+            <translation><!-- U090 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U091</masterLabel>
+            <translation><!-- U091 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U092</masterLabel>
+            <translation><!-- U092 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U093</masterLabel>
+            <translation><!-- U093 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U094</masterLabel>
+            <translation><!-- U094 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U095</masterLabel>
+            <translation><!-- U095 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U096</masterLabel>
+            <translation><!-- U096 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U097</masterLabel>
+            <translation><!-- U097 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U098</masterLabel>
+            <translation><!-- U098 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U099</masterLabel>
+            <translation><!-- U099 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U101</masterLabel>
+            <translation><!-- U101 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U102</masterLabel>
+            <translation><!-- U102 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U103</masterLabel>
+            <translation><!-- U103 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U105</masterLabel>
+            <translation><!-- U105 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U106</masterLabel>
+            <translation><!-- U106 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U107</masterLabel>
+            <translation><!-- U107 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U108</masterLabel>
+            <translation><!-- U108 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U109</masterLabel>
+            <translation><!-- U109 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U110</masterLabel>
+            <translation><!-- U110 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U111</masterLabel>
+            <translation><!-- U111 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U112</masterLabel>
+            <translation><!-- U112 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U113</masterLabel>
+            <translation><!-- U113 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U114</masterLabel>
+            <translation><!-- U114 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U115</masterLabel>
+            <translation><!-- U115 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U116</masterLabel>
+            <translation><!-- U116 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U117</masterLabel>
+            <translation><!-- U117 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U118</masterLabel>
+            <translation><!-- U118 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U119</masterLabel>
+            <translation><!-- U119 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U120</masterLabel>
+            <translation><!-- U120 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U121</masterLabel>
+            <translation><!-- U121 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U122</masterLabel>
+            <translation><!-- U122 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U123</masterLabel>
+            <translation><!-- U123 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U124</masterLabel>
+            <translation><!-- U124 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U125</masterLabel>
+            <translation><!-- U125 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U126</masterLabel>
+            <translation><!-- U126 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U127</masterLabel>
+            <translation><!-- U127 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U128</masterLabel>
+            <translation><!-- U128 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U129</masterLabel>
+            <translation><!-- U129 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U130</masterLabel>
+            <translation><!-- U130 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U131</masterLabel>
+            <translation><!-- U131 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U132</masterLabel>
+            <translation><!-- U132 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U133</masterLabel>
+            <translation><!-- U133 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U134</masterLabel>
+            <translation><!-- U134 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U135</masterLabel>
+            <translation><!-- U135 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U136</masterLabel>
+            <translation><!-- U136 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U137</masterLabel>
+            <translation><!-- U137 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U138</masterLabel>
+            <translation><!-- U138 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U139</masterLabel>
+            <translation><!-- U139 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U140</masterLabel>
+            <translation><!-- U140 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U141</masterLabel>
+            <translation><!-- U141 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U142</masterLabel>
+            <translation><!-- U142 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U143</masterLabel>
+            <translation><!-- U143 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U144</masterLabel>
+            <translation><!-- U144 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U145</masterLabel>
+            <translation><!-- U145 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U146</masterLabel>
+            <translation><!-- U146 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U147</masterLabel>
+            <translation><!-- U147 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U148</masterLabel>
+            <translation><!-- U148 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U149</masterLabel>
+            <translation><!-- U149 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U150</masterLabel>
+            <translation><!-- U150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U151</masterLabel>
+            <translation><!-- U151 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U152</masterLabel>
+            <translation><!-- U152 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U153</masterLabel>
+            <translation><!-- U153 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U154</masterLabel>
+            <translation><!-- U154 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U155</masterLabel>
+            <translation><!-- U155 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U156</masterLabel>
+            <translation><!-- U156 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U157</masterLabel>
+            <translation><!-- U157 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U158</masterLabel>
+            <translation><!-- U158 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U159</masterLabel>
+            <translation><!-- U159 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U160</masterLabel>
+            <translation><!-- U160 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U161</masterLabel>
+            <translation><!-- U161 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U162</masterLabel>
+            <translation><!-- U162 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U163</masterLabel>
+            <translation><!-- U163 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U164</masterLabel>
+            <translation><!-- U164 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U165</masterLabel>
+            <translation><!-- U165 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U166</masterLabel>
+            <translation><!-- U166 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U167</masterLabel>
+            <translation><!-- U167 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U168</masterLabel>
+            <translation><!-- U168 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U169</masterLabel>
+            <translation><!-- U169 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U170</masterLabel>
+            <translation><!-- U170 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U171</masterLabel>
+            <translation><!-- U171 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U172</masterLabel>
+            <translation><!-- U172 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U173</masterLabel>
+            <translation><!-- U173 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U174</masterLabel>
+            <translation><!-- U174 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U176</masterLabel>
+            <translation><!-- U176 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U177</masterLabel>
+            <translation><!-- U177 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U178</masterLabel>
+            <translation><!-- U178 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U179</masterLabel>
+            <translation><!-- U179 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U180</masterLabel>
+            <translation><!-- U180 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U181</masterLabel>
+            <translation><!-- U181 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U182</masterLabel>
+            <translation><!-- U182 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U183</masterLabel>
+            <translation><!-- U183 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U184</masterLabel>
+            <translation><!-- U184 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U185</masterLabel>
+            <translation><!-- U185 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U186</masterLabel>
+            <translation><!-- U186 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U187</masterLabel>
+            <translation><!-- U187 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U188</masterLabel>
+            <translation><!-- U188 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U189</masterLabel>
+            <translation><!-- U189 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U190</masterLabel>
+            <translation><!-- U190 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U191</masterLabel>
+            <translation><!-- U191 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U192</masterLabel>
+            <translation><!-- U192 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U193</masterLabel>
+            <translation><!-- U193 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U194</masterLabel>
+            <translation><!-- U194 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U196</masterLabel>
+            <translation><!-- U196 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U197</masterLabel>
+            <translation><!-- U197 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U200</masterLabel>
+            <translation><!-- U200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U201</masterLabel>
+            <translation><!-- U201 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U202</masterLabel>
+            <translation><!-- U202 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U203</masterLabel>
+            <translation><!-- U203 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U204</masterLabel>
+            <translation><!-- U204 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U205</masterLabel>
+            <translation><!-- U205 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U206</masterLabel>
+            <translation><!-- U206 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U207</masterLabel>
+            <translation><!-- U207 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U208</masterLabel>
+            <translation><!-- U208 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U209</masterLabel>
+            <translation><!-- U209 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U210</masterLabel>
+            <translation><!-- U210 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U211</masterLabel>
+            <translation><!-- U211 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U213</masterLabel>
+            <translation><!-- U213 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U214</masterLabel>
+            <translation><!-- U214 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U215</masterLabel>
+            <translation><!-- U215 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U216</masterLabel>
+            <translation><!-- U216 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U217</masterLabel>
+            <translation><!-- U217 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U218</masterLabel>
+            <translation><!-- U218 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U219</masterLabel>
+            <translation><!-- U219 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U220</masterLabel>
+            <translation><!-- U220 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U221</masterLabel>
+            <translation><!-- U221 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U222</masterLabel>
+            <translation><!-- U222 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U223</masterLabel>
+            <translation><!-- U223 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U225</masterLabel>
+            <translation><!-- U225 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U226</masterLabel>
+            <translation><!-- U226 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U227</masterLabel>
+            <translation><!-- U227 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U228</masterLabel>
+            <translation><!-- U228 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U234</masterLabel>
+            <translation><!-- U234 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U235</masterLabel>
+            <translation><!-- U235 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U236</masterLabel>
+            <translation><!-- U236 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U237</masterLabel>
+            <translation><!-- U237 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U238</masterLabel>
+            <translation><!-- U238 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U239</masterLabel>
+            <translation><!-- U239 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U240</masterLabel>
+            <translation><!-- U240 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U243</masterLabel>
+            <translation><!-- U243 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U244</masterLabel>
+            <translation><!-- U244 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U246</masterLabel>
+            <translation><!-- U246 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U247</masterLabel>
+            <translation><!-- U247 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U248</masterLabel>
+            <translation><!-- U248 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U249</masterLabel>
+            <translation><!-- U249 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U271</masterLabel>
+            <translation><!-- U271 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U279</masterLabel>
+            <translation><!-- U279 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U328</masterLabel>
+            <translation><!-- U328 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U353</masterLabel>
+            <translation><!-- U353 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U359</masterLabel>
+            <translation><!-- U359 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U383</masterLabel>
+            <translation><!-- U383 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U404</masterLabel>
+            <translation><!-- U404 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U410</masterLabel>
+            <translation><!-- U410 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U411</masterLabel>
+            <translation><!-- U411 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User Last Modified By --></label>
+        <name>UserLastModifiedBy__c</name>
+        <relationshipLabel><!-- Waste Streams --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User Last Modified Date --></label>
+        <name>UserLastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Waste Stream Name --></label>
+        <name>WasteStreamName__c</name>
+    </fields>
+    <layouts>
+        <layout>CPP (ChemCare) Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- Service Provider/TSDF - System Admin Only --></label>
+            <section>Service Provider/TSDF - System Admin Only</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Create_Opportunity_URL --></label>
+        <name>Create_Opportunity_URL</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Waste_Stream --></label>
+        <name>New_Waste_Stream</name>
+    </webLinks>
+</CustomObjectTranslation>

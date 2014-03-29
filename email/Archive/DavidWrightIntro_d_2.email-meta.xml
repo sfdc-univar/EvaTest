@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Email to Cincinnati customers, May 2008</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>David Wright Intro</name>
+    <style>none</style>
+    <subject>Univar: Hello from David Wright, your new Sales Specialist</subject>
+    <textOnly>Hello from David Wright, your Univar Sales Specialist
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+&lt;!-- 
+
+ --&gt;
+
+
+
+
+
+
+
+
+{!Contact.FirstName},
+
+I’m pleased to introduce myself as your new Univar Sales Specialist. You have my assurance that you’ll continue to receive the same great service you’ve always received from Univar. 
+
+
+In the coming weeks, I’d like to speak with you for a few minutes to learn more about your business and the ways Univar and I can assist you. 
+
+
+In the meantime, please contact me if there’s anything I can do for you. My number one priority is to help your business grow. Your success is my success.
+
+
+
+
+
+
+
+David Wright
+Sales Specialist
+
+
+866.644.6515
+
+David.Wright@univarusa.com 
+
+
+
+To place an order,
+call my associate DeeDee Hersey:
+
+
+
+888.391.2436
+
+
+
+
+
+Sincerely, 
+
+
+
+
+David Wright
+
+Sales Specialist
+
+Univar | North Central Region
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering</textOnly>
+    <type>custom</type>
+</EmailTemplate>

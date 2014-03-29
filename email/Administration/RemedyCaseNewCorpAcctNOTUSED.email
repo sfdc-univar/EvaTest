@@ -1,0 +1,39 @@
+#System Info 
+#AR-Message-Begin Do Not Delete This Line 
+Schema: HPD:HelpDesk 
+Server: ARSERVER 
+Login: Vanmail 
+Password: 
+Action: Submit 
+Format: Short 
+#Case Info 
+Requester Login Name+ !240000005!:idkam
+Requester Name+ !240000001!: Kathy Miller
+Category !200000003!: salesforce.com (SFDC) 
+Type !200000004!: Production Support 
+Item !200000005!: Security 
+
+Assigned To Group+ !240000006!: Security/Email Admin 
+
+Summary ! 8!: New Corporate Account Setup for SFDC Needed for {!Account.Name}, CA number {!Account.GroupAccountNumber__c}.
+Description !240000007!: [$$The Corporate Account listed below has been created:
+
+Corporate Account Name:   {!Account.Name}
+Owner (CAM): {!Account.OwnerFullName}
+Corporate Account Number: {!Account.GroupAccountNumber__c}.
+
+Please use Mass Reassign Account Team to do the following:
+
+1. Add the Corporate Account owner ({!Account.OwnerFullName})  with READ/WRITE access to the  Account Teams on all related ship-to accounts - that is, all ship-to accounts with Corporate/Multi-Plant Account Number = {!Account.GroupAccountNumber__c}.  The Team Member Role should be "CA / MPA Manager".
+
+2. Add the CASC (if there is one) to the same set of accounts as above, with Team Member Role of "CA Support Coordinator" (also READ/WRITE access).
+
+3. Add the CASC to the parent Corporate Account (CA # {!Account.GroupAccountNumber__c}) with Team Member Role "CA Support Coordinator" and READ/WRITE access (that is, add the CASC to this Corporate Account that was just created and was the cause for this ticket.)
+
+Not all CAMs have CASCS. If there is a CASC, s/he will be listed on the Default Account Team on the CAM's User record.$$]
+
+Status ! 7!: New 
+Case Type !260000130!: Request 
+Source !260000128!: Web 
+Submitter !2!: idkam
+#AR-Message-End Do Not Delete This Line

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email sent to the random winner of the Personal Care Publication survey conducted by MD</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Personal Care Publication - Survey Winner</name>
+    <style>none</style>
+    <subject>Congratulatons - Univar Personal Care Publication Survey Random Winner!</subject>
+    <textOnly>Personal Care Survey Random Winner
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Joel,
+
+
+You recently completed the Univar Personal Care Publications Survey. We are pleased to inform you that you were selected as the winner in the random drawing for a $100 gift card!
+
+
+Your Sales Representative, Joni Worthington may be in contact with you soon to verify your contact information.
+
+
+In the meantime, if you have any questions please feel free to call us at 877-203-0045.
+
+
+Thank you,
+
+
+
+
+Univar Market Development
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Personal Care
+
+
+
+
+
+
+
+
+
+
+This email was sent from Univar USA Inc. 
+
+
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

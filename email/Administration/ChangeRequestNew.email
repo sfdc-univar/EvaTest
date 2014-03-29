@@ -1,0 +1,12 @@
+The Change Request listed below has been created in Salesforce.com and is awaiting your review:
+
+Change Request Name:  
+  {!Change_Request__c.Name}
+
+Business Opportunity or Problem:
+  {!Change_Request__c.Business_Opportunity_or_Problem__c}
+
+To view this Change Request, click the link below:
+{!Change_Request__c.Link}
+
+Salesforce.com Administrator

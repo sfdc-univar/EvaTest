@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Sales:Eastern:NE3:GM:Jeffrey Silcox</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <group>ReportingViewAllReportsEastern</group>
+        <role>GlobalExecutives</role>
+        <role>NE34ENCSalesManager</role>
+        <role>NE34NCOSalesManagerLouisville</role>
+        <role>NE34NCSSalesManagerCincinnati</role>
+        <role>NE34NEKDistrictManagerCILS</role>
+        <role>NE34NEWSalesManagerCleveland</role>
+        <role>NE3DistrictManagerPittsburgh_BF_CL</role>
+        <role>NE3GeneralManagers</role>
+    </sharedTo>
+</DashboardFolder>

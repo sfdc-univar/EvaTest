@@ -1,0 +1,24 @@
+One of the following is true:
+1. This Ship-To is new to SFDC, and it rolls up to Corporate Account #{!Account.GroupAccountNumber__c}
+2. OR, this Ship-To was already in SFDC, but did not roll up to any Corporate Account until now.  Now it's been updated to roll up to CA #{!Account.GroupAccountNumber__c} 
+
+Ship-To Details:  {!Account.Name}, Cust #{!Account.CustomerNumber__c}-{!Account.ShipToNumber__c}
+Owner: {!Account.OwnerFullName}
+
+If the Semi-Automated CA Account Team maintenance process is going to be run, you do not need to do anything now. Just keep this email as a record of CA-related maintenance for this week.
+
+Otherwise, please follow these 2 steps:
+
+1. Add the CAM and CASC to this Ship-To's Account Team:
+  - link to this Ship-To: {!Account.Link}
+  - READ/WRITE access
+  - CAM's Team Role = 'CA/MPA Manager'
+  - CASC's Team Role = 'CA Support Coordinator'
+  - The CAM is the owner of the parent CA, visible using View Hierarchy from this Ship-To Account.
+  - The CASC is available from the CAM's Outlook record, and also on the Default Account Team of the CAM's SFDC user record. 
+  - Not all CAMs have CASCS.
+ 
+2. Add the owner of this ship-to ({!Account.OwnerFullName}) to the Account Team on the parent Corporate Account:
+  - READ-ONLY ACCESS
+  - Team Role = "CA / MPA Ship-To Owner"
+  - Not necessary if this ship-to owner is already on the CA Account Team due to owning other accounts rolling up to the same CA.

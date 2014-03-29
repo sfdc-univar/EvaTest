@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Email to wish customers a Happy New Year</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Happy New Year</name>
+    <style>none</style>
+    <subject>Happy New Year</subject>
+    <textOnly>Happy New Year from your Univar Sales Specialist!
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+&lt;!-- 
+
+ --&gt;
+
+
+
+
+ 
+
+{!Contact.FirstName},
+
+On behalf of everyone at Univar, I hope 2006 was a prosperous year for you, your family and friends. With every new year, there are opportunities and challenges for each of us. I hope that whatever the coming year brings, I can continue to help you with your chemical and ingredient needs, simplifying the process of ordering, delivery and storage for you. 
+
+
+I look forward to all the new opportunities and challenges that this new year will bring, and to our continued, successful working relationship in 2007. 
+
+
+Happy New Year!!
+
+
+
+
+
+
+Sincerely, 
+
+
+
+
+David Wright
+
+Univar | Los Angeles
+
+(866) 456-8948
+
+2600 S Garfield Ave
+
+Commerce, CA 90040
+
+David.Wright@univarusa.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering</textOnly>
+    <type>custom</type>
+</EmailTemplate>

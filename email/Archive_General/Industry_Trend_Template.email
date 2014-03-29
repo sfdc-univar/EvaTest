@@ -1,0 +1,6 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<font face="arial" size="3">Dear&nbsp;{!Contact.FirstName},</font><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; "><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; ">I wanted to share with you our latest market intelligence report. &nbsp; Looking forward to our next conversation.</div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; "><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; "><b><a href="https://univar.my.salesforce.com/sfc/p/300000000RsQ5TrL1haZ77kReHEEucGXNuSVwDs=">Q2 2012 Economic Trend Report</a></b></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; "><br></div><div><font face="arial">{!Contact.OwnerFirstName}</font></div>]]></td>
+</tr>
+</table>

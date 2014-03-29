@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <description>CONTACTS:
+Depth of Contact Report - # of Contacts at Customers w/ rolling 12 mo sales &gt; $5K</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>CONTACTS</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>https://na1.salesforce.com/00O30000001KTB4</url>
+</CustomPageWebLink>

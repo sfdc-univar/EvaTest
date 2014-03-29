@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Lost Business - Low Touch Customers</name>
+    <style>none</style>
+    <subject>Is there anything Univar can help you with?</subject>
+    <textOnly>{!Contact.FirstName},
+
+At Univar, we value each and every one of our customers. It’s been a while since you’ve last placed an order with us, and we would like to take the opportunity to re-introduce ourselves.
+
+As a valued Univar customer, you can expect an innovative approach to your formulation challenges, receiving technical support from concept to production. Univar supplies the market place with much more than a comprehensive line of chemicals and ingredients. When considering a supply, consider Univar as your one-stop for innovation, expertise, and a partner in meeting your business challenges.
+
+Univar would like the opportunity to assist with your needs. If you have a questions, or want to learn more about our line of products and services simply respond to this email, and a representative will respond to your request. 
+
+We look forward to assisting you. 
+
+Sincerely, 
+ 
+Univar
+ 
+
+ 
+This email was sent to {!Contact.Email} from Univar 
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

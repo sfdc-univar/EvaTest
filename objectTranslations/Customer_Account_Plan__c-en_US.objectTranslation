@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer Account Plan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customer Account Plans</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Customer Account Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Sum of all CPPs = &quot;Estimated Sales Value&quot; --></help>
+        <label><!-- Annual Chemical Spend --></label>
+        <name>Annual_Chemical_Spend__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stakeholder(s) articulate the differences between current state and a new insight learned --></help>
+        <label><!-- Articulate differences current vs new --></label>
+        <name>Articulate_differences_current_vs_new__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Create Date --></label>
+        <name>Create_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current supplier falls short --></label>
+        <name>Current_supplier_falls_short__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dissatisfaction with existing solutions --></label>
+        <name>Dissatisfaction_with_existing_solutions__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Does the customer have solutions? --></label>
+        <name>Does_the_customer_have_solutions__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Stakeholders(s) engage in a constructive dialogue when initial assumptions are challenged --></help>
+        <label><!-- Engages in constructive dialogue --></label>
+        <name>Engages_in_constructive_dialogue__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Stakeholder(s) express openness to escalating the problem to an organizational-level --></help>
+        <label><!-- Express openness to escalation --></label>
+        <name>Express_openness_to_escalation__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- New industry regulations, loss of market position --></help>
+        <label><!-- External pressures to change --></label>
+        <name>External_pressures_to_change__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Financially healthy organization --></label>
+        <name>Financially_healthy_organization__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Frequent sharing of best practices --></label>
+        <name>Frequent_sharing_of_best_practices__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- General organizational needs unmet --></label>
+        <name>General_organizational_needs_unmet__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- what KPIs may be impacted? --></help>
+        <label><!-- How might this impact the customer? --></label>
+        <name>How_might_this_impact_the_customer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Initiatives are treated as ongoing (not discrete) events --></help>
+        <label><!-- Improvement initiatives as ongoing --></label>
+        <name>Improvement_initiatives_as_ongoing__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Change in top management, change in strategic direction --></help>
+        <label><!-- Internal pressures to change --></label>
+        <name>Internal_pressures_to_change__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IsClone --></label>
+        <name>IsClone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is the competition entrenched? --></label>
+        <name>Is_the_competition_entrenched__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Is the customer aware of these changes? --></label>
+        <name>Is_the_customer_aware_of_these_changes__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Reviewed --></label>
+        <name>Last_Reviewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Updated --></label>
+        <name>Last_Updated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level of Partnership --></label>
+        <name>Level_of_Partnership__c</name>
+        <picklistValues>
+            <masterLabel>High - 2 - Way Value</masterLabel>
+            <translation><!-- High - 2 - Way Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low - Transactional</masterLabel>
+            <translation><!-- Low - Transactional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Main Competitor --></label>
+        <name>Main_Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Alchem</masterLabel>
+            <translation><!-- Alchem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Astro</masterLabel>
+            <translation><!-- Astro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barton Solvents</masterLabel>
+            <translation><!-- Barton Solvents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bell Chem Corp</masterLabel>
+            <translation><!-- Bell Chem Corp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brenntag</masterLabel>
+            <translation><!-- Brenntag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Callahan Chemical Co.</masterLabel>
+            <translation><!-- Callahan Chemical Co. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cascade Chemical</masterLabel>
+            <translation><!-- Cascade Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemicals Inc., USA</masterLabel>
+            <translation><!-- Chemicals Inc., USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemsolv</masterLabel>
+            <translation><!-- Chemsolv --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coast Chemical</masterLabel>
+            <translation><!-- Coast Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colonial Chemical</masterLabel>
+            <translation><!-- Colonial Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cone Solvents Inc.</masterLabel>
+            <translation><!-- Cone Solvents Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coyne Chemical</masterLabel>
+            <translation><!-- Coyne Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DPC Ind</masterLabel>
+            <translation><!-- DPC Ind --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMCO Chemical Distributors</masterLabel>
+            <translation><!-- EMCO Chemical Distributors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ET Horn</masterLabel>
+            <translation><!-- ET Horn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBC Chemical</masterLabel>
+            <translation><!-- FBC Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GS Robins</masterLabel>
+            <translation><!-- GS Robins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Harcros Chemicals</masterLabel>
+            <translation><!-- Harcros Chemicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawkins Inc.</masterLabel>
+            <translation><!-- Hawkins Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hydrate Chemical Co.</masterLabel>
+            <translation><!-- Hydrate Chemical Co. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ideal Chemical &amp; Supply</masterLabel>
+            <translation><!-- Ideal Chemical &amp; Supply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial Chemicals</masterLabel>
+            <translation><!-- Industrial Chemicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial Chemicals Inc.</masterLabel>
+            <translation><!-- Industrial Chemicals Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interstate Chemical</masterLabel>
+            <translation><!-- Interstate Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JM Swank</masterLabel>
+            <translation><!-- JM Swank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mays Chemical Co.</masterLabel>
+            <translation><!-- Mays Chemical Co. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mitsubishi Chemical</masterLabel>
+            <translation><!-- Mitsubishi Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monson Companies</masterLabel>
+            <translation><!-- Monson Companies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nexeo Solutions</masterLabel>
+            <translation><!-- Nexeo Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norfox</masterLabel>
+            <translation><!-- Norfox --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Listed</masterLabel>
+            <translation><!-- Not Listed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oxy</masterLabel>
+            <translation><!-- Oxy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PVS Chemicals</masterLabel>
+            <translation><!-- PVS Chemicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific Coast Chemicals</masterLabel>
+            <translation><!-- Pacific Coast Chemicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium Ingredients</masterLabel>
+            <translation><!-- Premium Ingredients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pride Solvents &amp; Chemical</masterLabel>
+            <translation><!-- Pride Solvents &amp; Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quaker City Chemical</masterLabel>
+            <translation><!-- Quaker City Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reagent Chemicals &amp; Resins</masterLabel>
+            <translation><!-- Reagent Chemicals &amp; Resins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sal Chemical Co Inc</masterLabel>
+            <translation><!-- Sal Chemical Co Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Startex Chemical Inc</masterLabel>
+            <translation><!-- Startex Chemical Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superior Solvents &amp; Chemicals</masterLabel>
+            <translation><!-- Superior Solvents &amp; Chemicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tarr</masterLabel>
+            <translation><!-- Tarr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thatcher</masterLabel>
+            <translation><!-- Thatcher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tilley Chemical Co.</masterLabel>
+            <translation><!-- Tilley Chemical Co. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vivion</masterLabel>
+            <translation><!-- Vivion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Walsh &amp; Associates</masterLabel>
+            <translation><!-- Walsh &amp; Associates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webb Chemical Service Cor</masterLabel>
+            <translation><!-- Webb Chemical Service Cor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Westco Chemical</masterLabel>
+            <translation><!-- Westco Chemical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whitaker Oil Co</masterLabel>
+            <translation><!-- Whitaker Oil Co --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Young Chemical</masterLabel>
+            <translation><!-- Young Chemical --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Manager Review --></label>
+        <name>Manager_Review__c</name>
+    </fields>
+    <fields>
+        <help><!-- Known mobilizer(s) exist and have been confirmed --></help>
+        <label><!-- Mobilizers exist --></label>
+        <name>Mobilizers_exist__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Attendance at conferences and learning events --></help>
+        <label><!-- Multiple stakeholders at learning events --></label>
+        <name>Multiple_stakeholders_learning__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This value is calculated based on Section 3: Opportunity Qualification Scorecard&apos;s values. --></help>
+        <label><!-- Net Readiness Score --></label>
+        <name>Net_Readiness_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- Discontent with status quo --></help>
+        <label><!-- Organization-wide discontent --></label>
+        <name>Organization_wide_discontent__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Owner Name --></label>
+        <name>Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Perceived Univar Strengths --></label>
+        <name>Perceived_Univar_Strengths__c</name>
+    </fields>
+    <fields>
+        <label><!-- Perceived Univar Weaknesses --></label>
+        <name>Perceived_Univar_Weaknesses__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stakeholder(s) request to continue conversations on industry trends and benchmarks --></help>
+        <label><!-- Request continuing conversations --></label>
+        <name>Request_continuing_conversations__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Manager --></label>
+        <name>SMLink__c</name>
+        <relationshipLabel><!-- Customer Account Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Manager --></label>
+        <name>SMName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Manager Id (UVX) --></label>
+        <name>Sales_Manager_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sales Manager from the UVX. --></help>
+        <label><!-- Sales Manager (UVX) --></label>
+        <name>Sales_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segment --></label>
+        <name>Segment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Senior leaders reach out for ideas --></label>
+        <name>Senior_leaders_reach_out_for_ideas__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Share of Wallet --></label>
+        <name>Share_of_Wallet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Significant current or potential spend --></label>
+        <name>Significant_current_or_potential_spend__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rolling 12 Month - Closed Lost Ratio --></label>
+        <name>TTM_Closed_Won_Closed_Lost_Ratio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rolling 12 Month Closed/Won Opptys --></label>
+        <name>TTM_Closed_Won_Opportunities__c</name>
+    </fields>
+    <fields>
+        <help><!-- Twelve Month Rolling Sales --></help>
+        <label><!-- Rolling 12 Month Sales --></label>
+        <name>TTM_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Open Opptys --></label>
+        <name>Total_Open_Opportunities__c</name>
+    </fields>
+    <fields>
+        <label><!-- What Are the 3 Biggest Unknowns? --></label>
+        <name>What_Are_the_3_Biggest_Unknowns__c</name>
+    </fields>
+    <fields>
+        <label><!-- What can I use Manager Input On? --></label>
+        <name>What_can_I_use_Manager_Input_On__c</name>
+    </fields>
+    <fields>
+        <help><!-- What changes are happening or forecasted in the industry/marketplace? --></help>
+        <label><!-- What changes are happening --></label>
+        <name>What_changes_are_happening__c</name>
+    </fields>
+    <fields>
+        <label><!-- setReadOnly --></label>
+        <name>setReadOnly__c</name>
+    </fields>
+    <layouts>
+        <layout>Customer Account Plan Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Section 1: Current status and Shaping or Re-Shaping Customer Demand --></label>
+            <section>Section 1: Current status and Shaping or Re-Shaping Customer Demand</section>
+        </sections>
+        <sections>
+            <label><!-- Section 2: Key Stakeholders --></label>
+            <section>Section 2: Key Stakeholders</section>
+        </sections>
+        <sections>
+            <label><!-- Section 3: Opportunity Qualification Scorecard --></label>
+            <section>Section 3: Opportunity Qualification Scorecard</section>
+        </sections>
+        <sections>
+            <label><!-- Section 3: Pre-Call Checklist --></label>
+            <section>Section 3: Pre-Call Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Section 4: Action Plan --></label>
+            <section>Section 4: Action Plan</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

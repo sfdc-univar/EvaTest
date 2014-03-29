@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Email to follow-up with intro call.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Diane&apos;s Kansas City Intro letter</name>
+    <style>none</style>
+    <subject>Thank you from Diane Romcoe and Univar</subject>
+    <textOnly>Hello from Diane Romcoe, your Univar Sales Specialist
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+&lt;!-- 
+
+ --&gt;
+
+
+
+
+
+
+
+
+{!Contact.FirstName},
+
+Thank you for allowing me to introduce myself as your new Univar Sales Specialist. It was a pleasure speaking to you on the phone today. I&apos;ll be calling you again in the coming weeks to ensure that Univar is providing you with the products and services you require.
+
+If you have any current need or requirement you would like to discuss please feel free to contact me at your leisure.
+
+
+I look forward to working with you and making the process of acquiring industrial chemicals and ingredients as easy and cost-efficient as possible. Univar and I can show you how.
+
+
+
+
+
+
+Diane Romcoe
+Sales Specialist
+
+
+(877) 807-6741
+
+Diane.Romcoe@univarusa.com 
+
+
+
+To place an order,
+call our order desk:
+
+
+
+(314)522-6400 
+
+
+
+
+
+Sincerely, 
+
+
+
+
+Diane Romcoe
+
+Sales Specialist
+
+Univar | St Louis, MO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering</textOnly>
+    <type>custom</type>
+</EmailTemplate>

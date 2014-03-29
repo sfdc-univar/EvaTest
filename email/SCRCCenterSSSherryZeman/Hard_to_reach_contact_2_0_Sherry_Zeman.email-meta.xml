@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Hard to reach contact 2.0 Sherry Zeman</name>
+    <style>none</style>
+    <subject>Is there anything Univar can help you with?</subject>
+    <textOnly>{!Contact.FirstName},
+
+My name is Sherry Zeman. My responsibility as your Univar Sales Specialist is to make sure that Univar is providing you the best service possible for your raw material and related service needs. Whatever your requirements—industrial, food, personal care, energy, waste disposal—I’m here to help ensure that your business runs smoothly.
+
+I’ve been unable to reach you by phone, and I thought I would send you this message with my contact information in case you’d like to get in touch with me. I realize that you have a very busy schedule, but if there is a convenient time, I’m interested in learning more about your business, and how Univar can help your business grow.
+
+Please don’t hesitate to call or email if you have any questions, or if I can help you in any way. 
+ 
+Sincerely, 
+ 
+Sherry Zeman
+Sales Specialist
+Univar | South Central Region
+(800)765-7300
+Sherry.Zeman@univarusa.com 
+
+To place an order, 
+Call Customer Service
+(800)765-7300
+
+This email was sent to {!Contact.Email} from Univar USA Inc. 
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

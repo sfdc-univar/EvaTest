@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Intro w/brochure- follow up</name>
+    <style>none</style>
+    <subject>Hello from-------</subject>
+    <textOnly>Hello from your Univar Sales Specialist
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+&lt;!-- 
+
+ --&gt;
+
+
+
+
+
+
+
+
+{!Contact.FirstName},
+
+Thank you for allowing me to introduce myself as your new Univar Sales Specialist. It was a pleasure speaking to you on the phone yesterday. I&apos;ll be calling you again in the coming weeks to ensure that Univar is providing you with the products and services you require.
+
+I&apos;ve attached a product brochure to this email in pdf form for your reference. If you have any current need or requirement you would like to discuss please feel free to contact me at your leisure.
+
+
+I look forward to working with you and making the process of acquiring industrial chemicals and ingredients as easy and cost-efficient as possible. Univar and I can show you how.
+
+
+
+
+
+
+Sales Rep Name
+Sales Specialist
+
+
+Sales Rep Number
+
+Sales Rep Email
+
+
+
+To place an order:
+Call -----
+
+
+
+Order Phone Number
+
+
+
+order email
+
+
+
+
+
+Sincerely, 
+
+
+
+
+Rep Name
+
+Sales Specialist
+
+Branch Name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering
+
+
+
+
+
+
+
+
+
+
+This email was sent to {!Contact.Email} from Univar USA Inc. 
+
+
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

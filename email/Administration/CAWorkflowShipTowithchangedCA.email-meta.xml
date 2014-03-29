@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Ship-to whose CA# is updated - from one CA# to another CA#</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CA Workflow: Ship-To with changed CA#</name>
+    <style>none</style>
+    <subject>CA rollup updated on Ship-To: {!Account.Name} ({!Account.CustomerNumber__c}-{!Account.ShipToNumber__c}) - CA #{!Account.GroupAccountNumber__c}</subject>
+    <type>text</type>
+</EmailTemplate>

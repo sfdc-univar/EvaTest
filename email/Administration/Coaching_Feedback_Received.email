@@ -1,0 +1,7 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFCC; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<p class="MsoNormal" style="font-family: arial; font-size: 12pt; color: rgb(0, 0, 0); "><span style="color: rgb(31, 73, 125); font-family: Calibri, sans-serif; font-size: 11pt; ">Dear {!CoachingWorksheet__c.ManagerFirstName__c},</span></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; color: rgb(0, 0, 0); "><span style="color: rgb(31, 73, 125); font-family: Calibri, sans-serif; font-size: 11pt; ">I have just finished reviewing the coaching
+worksheet and added comments as appropriate.</span></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; color: rgb(0, 0, 0); "><span style="color: rgb(31, 73, 125); font-family: Calibri, sans-serif; font-size: 11pt; ">To approve, please click here: &nbsp;</span><span style="color: rgb(31, 73, 125); font-family: Calibri, sans-serif; font-size: 15px; ">{!CoachingWorksheet__c.Link}</span></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; color: rgb(0, 0, 0); "><span style="font-family: arial; font-size: 12pt; color: rgb(31, 73, 125); "><br></span></p><p class="MsoNormal" style="font-family: arial; font-size: 12pt; color: rgb(0, 0, 0); "><br></p>]]></td>
+</tr>
+</table>

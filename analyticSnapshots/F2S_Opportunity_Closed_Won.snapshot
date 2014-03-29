@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalyticSnapshot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>To report on Closed/Won Opportunities</description>
+    <groupColumn>User.Opportunity$OwnerId$StageName</groupColumn>
+    <mappings>
+        <sourceField>FORMULA1</sourceField>
+        <sourceType>summary</sourceType>
+        <targetField>F2S_Opportunity_Snapshot__c.Count__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>ExecutionTime</sourceField>
+        <sourceType>snapshot</sourceType>
+        <targetField>F2S_Opportunity_Snapshot__c.Date__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>FORMULA2</sourceField>
+        <sourceType>summary</sourceType>
+        <targetField>F2S_Opportunity_Snapshot__c.Est_Sales__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>User.Opportunity$OwnerId$Account.OwnerLink__c.UserRole.Id</sourceField>
+        <sourceType>tabular</sourceType>
+        <targetField>F2S_Opportunity_Snapshot__c.Role_ID__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>User.Opportunity$OwnerId$Account.OwnerLink__c.Id</sourceField>
+        <sourceType>tabular</sourceType>
+        <targetField>F2S_Opportunity_Snapshot__c.User_ID__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>User.Opportunity$OwnerId$StageName</sourceField>
+        <sourceType>tabular</sourceType>
+        <targetField>F2S_Opportunity_Snapshot__c.Stage__c</targetField>
+    </mappings>
+    <name>F2S Opportunity Closed/Won</name>
+    <runningUser>sheila.mcevoy@univarusa.com</runningUser>
+    <sourceReport>Slalom_Test/F2S_Opportunity_Closed_Won</sourceReport>
+    <targetObject>F2S_Opportunity_Snapshot__c</targetObject>
+</AnalyticSnapshot>

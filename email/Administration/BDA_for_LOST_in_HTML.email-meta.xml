@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>LOST Big Deal Alert for Opportunities over threshold</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>UnivarLetterhead</letterhead>
+    <name>BDA for LOST in HTML</name>
+    <style>freeForm</style>
+    <subject>Big Deal Alert - Opportunity LOST: {!Opportunity.Name} for {!Opportunity.Amount}</subject>
+    <textOnly>We have LOST an important Opportunity.
+
+Region: {!Account.RegionName__c}
+General Manager: {!Account.GeneralMgrName__c}
+Sales Manager: {!Account.SalesMgrName__c}
+Account Owner: {!Account.OwnerFullName}
+
+Account Name: {!Opportunity.Account}
+Opportunity Name: {!Opportunity.Name}
+Opportunity Owner: {!Opportunity.OwnerFullName}
+
+Product: {!Opportunity.Product__c}
+Product Description: {!Opportunity.Product_Description__c}
+
+Annual LBs: {!Opportunity.Annual_LBs__c}
+$UOM: {!Opportunity.PricingUOM__c}
+$ Per UOM: {!Opportunity.PriceperUOM__c}
+Est. Sales: {!Opportunity.Amount}
+Est. $GM: {!Opportunity.Est_GMDollar__c}
+Est. GM%: {!Opportunity.Est_GMPercent__c}
+
+Stage: {!Opportunity.StageName}
+
+Created Date: {!Opportunity.CreatedDate}
+Close Date: {!Opportunity.CloseDate}
+
+Industry: {!Opportunity.Opportunity_Industry__c}
+Producer Partner: {!Opportunity.Producer_Partner__c}
+Campaign: {!Opportunity.Campaign}
+
+
+Description: {!Opportunity.Description}
+
+To view the entire Opportunity, click on the following link:
+
+{!Opportunity.Link}</textOnly>
+    <type>html</type>
+</EmailTemplate>

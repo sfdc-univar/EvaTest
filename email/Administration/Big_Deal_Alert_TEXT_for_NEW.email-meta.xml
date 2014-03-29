@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>NEW Big Deal Alert for Opportunities over threshold, new Opportunities only.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Big Deal Alert TEXT for NEW</name>
+    <style>none</style>
+    <subject>Big Deal Alert!!! NEW Opportunity: {!Opportunity.Name} for {!Opportunity.Amount}</subject>
+    <type>text</type>
+</EmailTemplate>

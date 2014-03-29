@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Corporate Account - Sends Remedy case to Data Security - REPLACED BY SEMI-AUTOMATED PROCESS. KEEP FOR REMEDY EXAMPLE.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Remedy Case:  New Corp Acct - NOT USED</name>
+    <style>none</style>
+    <subject>New Corporate Account - {!Account.Name}, #{!Account.GroupAccountNumber__c}</subject>
+    <type>text</type>
+</EmailTemplate>

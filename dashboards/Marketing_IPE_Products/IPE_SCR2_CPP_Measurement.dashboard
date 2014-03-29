@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <description>National - Ascorbic Acid, Blach, Casutic Soda (liquid), EG/DEG/TEG, Sulfuric Acid</description>
+    <leftSection>
+        <columnSize>Medium</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Gauge</componentType>
+            <displayUnits>Auto</displayUnits>
+            <gaugeMax>5161000.0</gaugeMax>
+            <gaugeMin>0.0</gaugeMin>
+            <header>SCR CPPs - Ascorbic Acid</header>
+            <indicatorBreakpoint1>3354000.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>4128000.0</indicatorBreakpoint2>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Dashboard_IPE_Products/SCR_Product_Ascorbic_Acid</report>
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>false</showValues>
+            <title>ALL Supplier CPPs</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Gauge</componentType>
+            <displayUnits>Millions</displayUnits>
+            <gaugeMax>1.47444E9</gaugeMax>
+            <gaugeMin>0.0</gaugeMin>
+            <header>SCR CPPs - Sodium Hypochlorite</header>
+            <indicatorBreakpoint1>9.58386E8</indicatorBreakpoint1>
+            <indicatorBreakpoint2>1.179552E9</indicatorBreakpoint2>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Dashboard_IPE_Products/SCR_Product_Sodium_Hypochlorite</report>
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>false</showValues>
+            <title>ALL Supplier CPPs</title>
+        </components>
+    </leftSection>
+    <middleSection>
+        <columnSize>Medium</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Gauge</componentType>
+            <displayUnits>Millions</displayUnits>
+            <footer>Suppliers NOT Included: Olin, Oxy, PPG</footer>
+            <gaugeMax>2.019388E9</gaugeMax>
+            <gaugeMin>0.0</gaugeMin>
+            <header>SCR  CPPs - Caustic Soda (Liquid)</header>
+            <indicatorBreakpoint1>1.312602E9</indicatorBreakpoint1>
+            <indicatorBreakpoint2>1.61551E9</indicatorBreakpoint2>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Dashboard_IPE_Products/SCR_Product_Caustic_Soda</report>
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>false</showValues>
+            <title>ALL Supplier CPPs</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Gauge</componentType>
+            <displayUnits>Millions</displayUnits>
+            <footer>Suppliers NOT Included: DuPont, General, Kennecott, Norfalco, Rhodia, Simplot, Southern States, Teckominco</footer>
+            <gaugeMax>1.480849E9</gaugeMax>
+            <gaugeMin>0.0</gaugeMin>
+            <header>SCR CPPs - Sulfuric Acid</header>
+            <indicatorBreakpoint1>9.62551E8</indicatorBreakpoint1>
+            <indicatorBreakpoint2>1.184679E9</indicatorBreakpoint2>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Dashboard_IPE_Products/SCR_Product_Sulfuric_Acid</report>
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>false</showValues>
+            <title>ALL Supplier CPPs</title>
+        </components>
+    </middleSection>
+    <rightSection>
+        <columnSize>Medium</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Gauge</componentType>
+            <displayUnits>Auto</displayUnits>
+            <gaugeMax>2.25785E8</gaugeMax>
+            <gaugeMin>0.0</gaugeMin>
+            <header>SCR CPPs - EG/DEG/TEG</header>
+            <indicatorBreakpoint1>1.4676E8</indicatorBreakpoint1>
+            <indicatorBreakpoint2>1.80628E8</indicatorBreakpoint2>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Dashboard_IPE_Products/SCR_Product_EG_DEG_TEG</report>
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>false</showValues>
+            <title>ALL Supplier CPPs</title>
+        </components>
+    </rightSection>
+    <runningUser>xxx@univarusa.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>IPE - *SCR CPP Measurement Gauge</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

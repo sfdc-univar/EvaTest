@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>To be sent to all Mobile Users after &quot;Mobile User&quot; is active on Profile.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Mobile Users Initial Note</name>
+    <style>none</style>
+    <subject>Salesforce.Com Mobile User Setup</subject>
+    <type>text</type>
+</EmailTemplate>

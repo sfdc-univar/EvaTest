@@ -1,0 +1,3 @@
+Your contact, {!Contact.Name}, is selected to receive an emailed quote.  Today, that email has been rejected, or has "bounced".  Please confirm that the email address on your contact is correct.  If so, please contact the person to find out why the email may have bounced.
+
+Here is the link to the Contact:  https://salesforce.com/{!Contact.Id}

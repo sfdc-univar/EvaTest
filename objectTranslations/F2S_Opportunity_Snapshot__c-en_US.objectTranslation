@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>F2S Opportunity Snapshot</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>F2S Opportunity Snapshots</value>
+    </caseValues>
+    <fields>
+        <label><!-- Count --></label>
+        <name>Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Est Sales --></label>
+        <name>Est_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opp Role ID --></label>
+        <name>Role_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opp User ID --></label>
+        <name>User_ID__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

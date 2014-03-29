@@ -1,0 +1,16 @@
+Dear {!Contact.FirstName},
+
+In an effort to continue to provide you with exceptional customer service, we are requesting that you provide us with accurate and up to date information regarding your quality contact for all Univar Change Management Notifications.
+
+Please forward the name, address, phone number, and most importantly updated e-mail address(es) for the appropriate contact(s) for these announcements.  
+
+Please send to NE2SalesSupport@univarusa.com by Monday January 6, 2014.
+
+Thank you for your business and attention to this important request.
+
+Kind regards, 
+
+
+{!Contact.OwnerFullName}
+{!Contact.OwnerTitle}
+{!Contact.OwnerEmail}

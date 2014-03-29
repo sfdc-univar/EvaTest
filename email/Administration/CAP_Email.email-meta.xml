@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email Sales Manager when a CAP is created or updated</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Workflow_Email_Letterhead</letterhead>
+    <name>CAP Email</name>
+    <style>freeForm</style>
+    <subject>{!Customer_Account_Plan__c.Account__c} - CAP has been updated</subject>
+    <textOnly>The Customer Account Plan (CAP) for {!Customer_Account_Plan__c.Account__c}  has been updated by {!Customer_Account_Plan__c.LastModifiedBy} for your review.
+
+Please date-stamp that you have reviewed the CAP by clicking the &quot;Manager Review&quot; box.
+
+
+To view the CAP, please use the link below:
+{!Customer_Account_Plan__c.Link}</textOnly>
+    <type>html</type>
+</EmailTemplate>

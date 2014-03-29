@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>USOP:CPP</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <group>AllGeneralManagers</group>
+        <group>CampaignAdmin</group>
+        <group>RVPPeopleinRVPRole</group>
+        <group>ReportingUnivarExecutive</group>
+        <role>CorporateAccountVP</role>
+    </sharedTo>
+</DashboardFolder>

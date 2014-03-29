@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Sales:Central:NC2:GM:Rick Roth</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <group>ReportingViewAllReportsCentral</group>
+        <role>GlobalExecutives</role>
+        <role>NC24NCESalesManagerBROmaha</role>
+        <role>NC24NCFSalesManagerStLouisSF_KC</role>
+        <role>NC2GeneralManagers</role>
+    </sharedTo>
+</DashboardFolder>

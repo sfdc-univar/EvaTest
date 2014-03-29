@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>CAS_Number__c</fullName>
+        <description>Chemical Abstracts Service number.</description>
+        <externalId>true</externalId>
+        <inlineHelpText>Chemical Abstracts Service number.</inlineHelpText>
+        <label>CAS Number</label>
+        <length>25</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CensusNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>Census Number</label>
+        <length>4</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Class__c</fullName>
+        <description>Product Class (PHL1) imported</description>
+        <externalId>false</externalId>
+        <label>Class</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DCSProductFamilyCode__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Family Code</label>
+        <length>4</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GS_E_Product_Manager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>GS&amp;E Product Manager</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Product1</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Group__c</fullName>
+        <description>Group(PHL3) imported</description>
+        <externalId>false</externalId>
+        <label>Group</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PANumber__c</fullName>
+        <description>Refers to &quot;PA Group&quot; in DCS, CC 502, far right column.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Refers to &quot;PA Group&quot; in DCS, CC 502, far right column.</inlineHelpText>
+        <label>PA Number</label>
+        <length>2</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Package__c</fullName>
+        <externalId>false</externalId>
+        <label>Package</label>
+        <picklist>
+            <picklistValues>
+                <fullName>100# Bags</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>50# Bags</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bulk</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Drums</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Supersacks</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Totes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>MultiselectPicklist</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Producers__c</fullName>
+        <externalId>false</externalId>
+        <label>Producers</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Church &amp; Dwight</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dow Chemical</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Exxon Mobil</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>FMC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>JBL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Lyondell</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>OCI</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Oxy</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PPG</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Shell</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sunoco</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Univar</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>MultiselectPicklist</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Product_Family__c</fullName>
+        <description>Product family populated by Data Loader.</description>
+        <externalId>false</externalId>
+        <label>Product Family</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Manager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Product Manager</description>
+        <externalId>false</externalId>
+        <label>Product Manager</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Products</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Sub_Class__c</fullName>
+        <description>Sub-Class(PHL2) imported</description>
+        <externalId>false</externalId>
+        <label>Sub Class</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sub_Family__c</fullName>
+        <description>Sub-Family(PHL5) imported</description>
+        <externalId>false</externalId>
+        <label>Sub Family</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>USPOT__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used for specifying a product not found during USPOT Opportunity Creation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Used for specifying a product not found during USPOT Opportunity Creation.  Only 1 product can have this setting.</inlineHelpText>
+        <label>USPOT</label>
+        <type>Checkbox</type>
+    </fields>
+</CustomObject>

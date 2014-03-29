@@ -1,0 +1,10 @@
+Dear {!Assigned_To__c.OwnerFullName}, 
+
+A Change Request, listed below, as been assigned to you: 
+
+{!Change_Request__c.Name}. 
+
+To view the Change Request, click below: 
+{!Change_Request__c.Link} 
+
+Salesforce.com Administrator

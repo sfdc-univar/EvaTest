@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>AS CPP</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>AS CPPs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Last Activity Date --></label>
+        <name>Account_Last_Activity_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Owner --></label>
+        <name>Account_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual LBs --></label>
+        <name>Annual_LBs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Usage in UOM --></label>
+        <name>Annual_Usage_in_UOM__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPP:CPP Number --></label>
+        <name>CPP_CPP_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPP:Created Date --></label>
+        <name>CPP_Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPP:Created by Name --></label>
+        <name>CPP_Created_by_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPP:Last Modified Date --></label>
+        <name>CPP_Last_Modified__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPP:Last Modified by Name --></label>
+        <name>CPP_Modified_by_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Ship To --></label>
+        <name>Customer_Ship_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Sales --></label>
+        <name>Estimated_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- FOB --></label>
+        <name>FOB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Form --></label>
+        <name>Form__c</name>
+    </fields>
+    <fields>
+        <label><!-- General Manager Name --></label>
+        <name>General_Manager_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grade --></label>
+        <name>Grade__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Cpp Review --></label>
+        <name>Manager_Cpp_Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pkg --></label>
+        <name>Pkg__c</name>
+    </fields>
+    <fields>
+        <label><!-- Producer --></label>
+        <name>Producer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Description --></label>
+        <name>Product_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region Name --></label>
+        <name>Region_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Manager Name --></label>
+        <name>Sales_Manager_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Report Name --></label>
+        <name>Source_Report_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier --></label>
+        <name>Supplier__c</name>
+    </fields>
+    <fields>
+        <label><!-- $UOM --></label>
+        <name>UOM__c</name>
+    </fields>
+    <fields>
+        <label><!-- $ per UOM --></label>
+        <name>per_UOM__c</name>
+    </fields>
+    <layouts>
+        <layout>CPP Snapshot</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Delete_Multiple_Records --></label>
+        <name>Delete_Multiple_Records</name>
+    </webLinks>
+</CustomObjectTranslation>

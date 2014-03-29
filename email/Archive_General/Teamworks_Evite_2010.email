@@ -1,0 +1,304 @@
+<html>
+<head>
+
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title>Generic Template - Right Sidebar</title>
+   <style type="text/css" media="screen">
+      body {
+         background-color: #eeeeee;
+      }
+
+      a img {
+         border: none;
+      }
+
+      table.bg1 {
+         background-color: #eeeeee;
+      }
+
+      table.bg2 {
+         background-color: #ffffff;
+      }
+
+      td.permission {
+         background-color: #eeeeee;
+         padding: 10px 20px 10px 20px;
+      }
+
+      td.permission p {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.permission p a {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #333333;
+      }
+
+      td.body {
+         padding: 0 20px 20px 20px;
+         background-color: #ffffff;
+      }
+
+      td.sidebar h3 {
+         font-family: Arial;
+         font-size: 15px;
+         font-weight: bold;
+         color: #333333;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.sidebar ul {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 6px 0 14px 24px;
+         padding: 0;
+      }
+
+      td.sidebar ul li a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+      }
+
+      td.sidebar h4 {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: bold;
+         color: #680606;
+         margin: 6px 0 0 0;
+         padding: 0;
+      }
+
+      td.sidebar h4 a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: bold;
+         color: #680606;
+         text-decoration: none;
+      }
+
+      td.sidebar p {
+         font-family: Arial;
+         font-size: 12px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 10px 0;
+         padding: 0;
+      }
+
+      td.sidebar p a {
+         font-family: Arial;
+         font-size: 12px;
+         font-weight: normal;
+         color: #680606;
+         text-decoration: none;
+      }
+
+      td.buttons {
+        padding: 20px 0 0 0; 
+      }
+
+      td.mainbar h2 {
+         font-family: Arial;
+         font-size: 20px;
+         font-weight: bold;
+         color: #00acd0;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.mainbar h2 a {
+         font-family: Arial;
+         font-size: 20px;
+         font-weight: bold;
+         color: #00acd0;
+         text-decoration: none;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.mainbar img.hr {
+         margin: 0;
+         padding: 0 0 10px 0;
+      }
+
+      td.mainbar p {
+         font-family: Arial;
+         font-size: 15px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 14px 0;
+         padding: 0;
+      }
+	  
+	  td.mainbar p strong {
+         font-family: Arial;
+         font-size: 18px;
+         font-weight: bold;
+         color: #00acd0;
+      }
+
+	  td.mainbar p em {
+         font-family: Arial;
+         font-size: 16px;
+         font-weight: normal;
+         color: #333333;
+      }
+	  
+      td.mainbar p a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #00acd0;
+      }
+
+      td.mainbar p.more a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+         text-decoration: none;
+      }
+
+      td.mainbar ul {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 14px 24px;
+         padding: 0;
+      }
+
+      td.mainbar ul li a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #00acd0;
+      }
+	  
+
+      td.footer {
+         padding: 0 20px 0 20px;
+         background-image: url('https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000UUng&oid=00D300000000RsQ&lastMod=1257880344000');
+         background-repeat: no-repeat;
+         background-position: top center;
+         background-color: #666666;
+         height: 38px;
+         vertical-align: middle;
+      }
+
+      td.footer p {
+         font-family: Arial;
+         font-size: 14px;
+         font-weight: normal;
+         color: #ffffff;
+         line-height: 16px;
+         margin: 0;
+         padding: 10;
+		 
+      }
+	  
+	  td.footer p a {
+		 font-family: Arial;
+         font-size: 14px;
+         font-weight: normal;
+         color: #ffffff;
+		 text-decoration: underline
+		 
+	  }
+   </style>
+</head>
+<body>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="bg1">
+   <tr>
+      <td align="center">
+         
+         <table width="600" border="0" cellspacing="0" cellpadding="0" class="bg2">
+
+            <tr>
+               <td class="header" align="left"><a href="http://www.univarusa.com/pagesi/personal"><a href="http://www.univarusa.com/pagesi/personal"><img src="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000UVmX&oid=00D300000000RsQ&lastMod=1264610053000" alt="Header" width="600" height="150" /></a></td>
+            </tr>
+            <tr>
+               <td valign="top" class="body">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                     <tr>
+                        <td valign="top" class="mainbar" align="left" colspan="3">
+                           <h2>Visit Univar at SCC TEAMWORKS 2010</h2>
+                          <hr class="hr">
+                          </td>
+                          </tr>
+ 					<tr>
+                        <td width="370" valign="top" class="mainbar" align="left">
+                           <!-- <img class="hr" src="hr.gif" alt="Header" width="340" height="3" /> -->
+                           
+                            <p align="center"><em>Univar Personal Care Ingredients invites you to visit </em><br><br>
+                              <Strong>Booth 211 & 213</Strong> <br>
+                          @ TEAMWORKS 2010 <br><br> Donald E. Stephens Convention Center <br> 
+                          Rosemont, IL.<br>
+                          March 31, 2010<br>
+                              9:00 AM - Noon &nbsp;  &nbsp;Educational Session<br>
+                          Noon - 6:00 PM  &nbsp;  &nbsp;Tradeshow Exhibits                         </p>
+                          <p align="left"><em>The following specialty ingredient suppliers will be displaying with Univar at our booth:</em></p>
+                          <p align="center">
+<img src="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000UNiw&oid=00D300000000RsQ&lastMod=1234804145000" alt="BASF" width="115" height="41" border="0">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<img src="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000Tp4j&oid=00D300000000RsQ&lastMod=1218581027000" alt="CP Kelco" width="130" height="46" border="0">
+<br><br>
+<img src="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000Tp41&oid=00D300000000RsQ&lastMod=1218580381000" alt="Dow Corning" width="100" height="46" border="0">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<img src="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000Tp53&oid=00D300000000RsQ&lastMod=1218581383000" alt="DuPont" width="150" height="46" border="0"><br>
+                                                    <br><strong>Univar will also have information on ingredients from other key specialty industry partners.</strong></em></p>
+                          <p style="background-color:#00acd0; border-width:medium; border-color:00acd0" align="center"><strong><font color="#FFFFFF">Be sure to stop by our booth to learn about our newest ingredients, and  to enter our drawing for a Spa Gift Certificate!</font></strong></p>
+                          
+                           <h2><a href="#">Resources</a></h2>
+                           <!-- <img class="hr" src="hr.gif" alt="Header" width="340" height="3" /> -->
+                           <hr>                      
+            <ul>
+                              <li><a href="http://www.midwestscc.org/teamworks/#about">About the Event</a></li>
+                              <li><a href="http://www.midwestscc.org/teamworks/#register">Register for the Event</a></li>
+                              <li><a href="mailto:debbie.zartler@univarusa.com?subject=TEAMWORKS 2010">Contact Univar</a></li>
+                          </ul>
+                 </td>
+                        
+                        <td width="20"></td>
+                        
+                        <td valign="top" width="170" class="sidebar" align="center">
+                          <p><a href="http://www.midwestscc.org/teamworks/#about"><img src="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000UXUz&oid=00D300000000RsQ&lastMod=1268246045000" alt="About Event" width="173" height="71" border="0"></a><br /> 
+                            <br>
+                            <a href="http://www.midwestscc.org/teamworks/#register"><img src="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000UXV4&oid=00D300000000RsQ&lastMod=1268246285000" alt="Register for Event" width="173" height="71" border="0"></a><br> 
+                            <br>
+<a href="%%ftaf_url%%"><img src="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000UXV9&oid=00D300000000RsQ&lastMod=1268248895000" alt="Forward to a Colleague" width="173" height="71" border="0"></a><br>
+                            <br>
+<a href="mailto:debbie.zartler@univarusa.com?subject=TEAMWORKS 2010"><img src="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000UVmh&oid=00D300000000RsQ&lastMod=1260920712000" alt="Contact Us" width="173" height="71"></a></p>
+                                           <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+                          <p><a href="http://www.univarusa.com/pagesi/personal"><a href="http://www.univarusa.com/pagesi/personal"><img src="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000UVnV&oid=00D300000000RsQ&lastMod=1260988087000" alt="Univar Personal Care" width="170" height="55" align="baseline"></a></p>
+                       </p></td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+            <tr>
+               <td valign="middle" align="Center" class="footer" height="38">
+                  <p><a href="http://chemcare.univarusa.com/">ChemCare</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.univarusa.com/">Univar</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.univarusa.com/pagesi/ebusiness.htm">Online Ordering</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.univarusa.com/contactweb">Contact Us</a><br />
+                                </td>
+            </tr>
+         </table>
+
+      </td>
+   </tr>
+</table>
+
+</body>
+</html>

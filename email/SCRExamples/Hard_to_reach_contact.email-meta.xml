@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Email for contacts you haven&apos;t been able to reach by phone</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Hard-to-reach contact</name>
+    <style>none</style>
+    <subject>Is there anything Univar can help you with?</subject>
+    <textOnly>Is there anything Univar can help you with?
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+&lt;!--
+ --&gt;
+
+ 
+
+&lt;!-- 
+ --&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{!Contact.FirstName},
+
+My name is Jimmie Chevrier. My responsibility as your Univar Sales Specialist is to make sure that Univar is providing you with your chemical needs, so that your business always runs smoothly. I&apos;ve been unable to reach you by phone, and I thought I would send you this message and include my contact information in case you’d like to get in touch with me.
+
+
+I realize you have a very busy schedule, but if there is a convenient time, I’m interested in learning more about your business. 
+
+
+Please feel free to contact me if you have any questions or if I can help you in any way. 
+
+
+Sincerely, 
+
+
+
+
+Jimmie Chevrier
+
+Sales Specialist
+
+Univar | Richmond
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jimmie Chevrier
+Sales Specialist
+
+
+(800) 978-3079 
+
+Jimmie.Chevrier@univarusa.com 
+
+
+
+To place an order:
+Call Lori Reekes
+
+
+
+(804) 751-2712
+
+
+
+Lori.Reekes@univarusa.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering
+
+
+
+
+
+
+
+
+
+
+This email was sent to {!Contact.Email} from Univar USA Inc. 
+
+
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

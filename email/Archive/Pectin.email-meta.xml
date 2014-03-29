@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Pectin</name>
+    <style>none</style>
+    <subject>Finding the Right Hydrocolloid</subject>
+    <textOnly>Hello from Tamara Jerome, your Univar Sales Specialist
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+&lt;!-- 
+
+ --&gt;
+
+
+
+
+
+
+
+{!Contact.FirstName},
+
+It was a pleasure speaking with you on the phone today. I&apos;ll be calling again in the coming weeks to assist you in finding the right hydrocolloid for your product.
+
+The texture of your product is one of the key components to customer satisfaction. Univar has a great selection of hydrocolloids that can make your product a success in the marketplace. I have included literature with this email, if you have any questions about the information I&apos;ve provided, feel free to ask me. My contact information is on the right.
+
+
+I look forward to helping you make the process of creating the right texture for your product easy and cost-efficient. Univar and I can show you how.
+
+
+
+
+
+
+{!Account.OwnerFullName}
+Univar Sales Representative
+
+
+(866) 406-4721 
+
+Tamara.Jerome@univarusa.com 
+
+
+
+To place an order:
+Call Rebeca Vargas
+
+
+
+(323) 837-7029
+
+
+Rebeca.Vargas@univarusa.com
+
+
+
+
+
+Sincerely, 
+
+
+
+
+Tamara Jerome
+
+Food Specialist
+
+Univar | Los Angeles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Food Ingredients
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering
+
+
+
+
+
+
+
+
+
+
+This email was sent to {!Contact.Email} from Univar USA Inc. 
+
+
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

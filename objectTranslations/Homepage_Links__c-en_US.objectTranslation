@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Homepage Links</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Homepage Links</value>
+    </caseValues>
+    <fields>
+        <label><!-- Link 10 --></label>
+        <name>Link_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link 11 --></label>
+        <name>Link_11__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link 12 --></label>
+        <name>Link_12__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link 13 --></label>
+        <name>Link_13__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link 14 --></label>
+        <name>Link_14__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link 15 --></label>
+        <name>Link_15__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link 1 --></label>
+        <name>Link_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link 2 --></label>
+        <name>Link_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link 3 --></label>
+        <name>Link_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link 4 --></label>
+        <name>Link_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link 5 --></label>
+        <name>Link_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link 6 --></label>
+        <name>Link_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link 7 --></label>
+        <name>Link_7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link 8 --></label>
+        <name>Link_8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link 9 --></label>
+        <name>Link_9__c</name>
+    </fields>
+    <fields>
+        <label><!-- 10. Bookmark --></label>
+        <name>X10_Bookmark__c</name>
+    </fields>
+    <fields>
+        <label><!-- 11. Bookmark --></label>
+        <name>X11_Bookmark__c</name>
+    </fields>
+    <fields>
+        <label><!-- 12. Bookmark --></label>
+        <name>X12_Bookmark__c</name>
+    </fields>
+    <fields>
+        <label><!-- 13. Bookmark --></label>
+        <name>X13_Bookmark__c</name>
+    </fields>
+    <fields>
+        <label><!-- 14. Bookmark --></label>
+        <name>X14_Bookmark__c</name>
+    </fields>
+    <fields>
+        <label><!-- 15. Bookmark --></label>
+        <name>X15_Bookmark__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1. Bookmark --></label>
+        <name>X1_Bookmark__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2. Bookmark --></label>
+        <name>X2_Bookmark__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3. Bookmark --></label>
+        <name>X3_Bookmark__c</name>
+    </fields>
+    <fields>
+        <label><!-- 4. Bookmark --></label>
+        <name>X4_Bookmark__c</name>
+    </fields>
+    <fields>
+        <label><!-- 5. Bookmark --></label>
+        <name>X5_Bookmark__c</name>
+    </fields>
+    <fields>
+        <label><!-- 6. Bookmark --></label>
+        <name>X6_Bookmark__c</name>
+    </fields>
+    <fields>
+        <label><!-- 7. Bookmark --></label>
+        <name>X7_Bookmark__c</name>
+    </fields>
+    <fields>
+        <label><!-- 8. Bookmark --></label>
+        <name>X8_Bookmark__c</name>
+    </fields>
+    <fields>
+        <label><!-- 9. Bookmark --></label>
+        <name>X9_Bookmark__c</name>
+    </fields>
+    <layouts>
+        <layout>Homepage Links Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

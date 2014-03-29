@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>CASCC Suppliers&apos; Day</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Univar_email_template</letterhead>
+    <name>Sarah Koenig&apos;s CASCC 2013</name>
+    <style>formalLetter</style>
+    <subject>CASCC Suppliers&apos; Day</subject>
+    <textOnly>Hi {First Name},
+
+Shortly approaching is Society of Cosmetic Chemists California Chapter Suppliers’ day at the Long Beach Convention Center on Sept 24th and 25th.
+I wanted to both invite you to attend, and request that you visit me and many other Univar experts at Booth 215.
+
+This will be the first opportunity for you to meet me in person, and I am excited for the opportunity to learn more about you and your company. If you or one of your associates is planning on making it out for either day, I would love to know in advance so that I can make sure to specially plan to meet you.
+
+Additionally, we will have tables at our booth that we can reserve to enable you a more personalized conversation, where we can include Univar industry experts. If you would like to schedule a face-to-face of this nature, let me know, and I work with you to schedule a time that works for all.
+
+I look forward to hearing back from you, and hope for the opportunity to enhance your experience when working with Univar.
+
+
+Sarah Koenig
+Account Representative – Personal Care &amp; Pharmaceutical Ingredients
+Univar
+Kent, WA, USA
+T   +1 866.456.7148
+F   +1 425.497.3763 (Please Note my new Fax Number)
+E   sarah.koenig@univar.com
+www.univar.com</textOnly>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Custom District</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Custom District</value>
+    </caseValues>
+    <fields>
+        <label><!-- RSD Name --></label>
+        <name>RSD_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- RSD PerNr --></label>
+        <name>RSD_PerNr__c</name>
+    </fields>
+    <fields>
+        <label><!-- RVP Name --></label>
+        <name>RVP_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- RVP PerNr --></label>
+        <name>RVP_PerNr__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

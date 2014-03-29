@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Integration Status</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Integration Status</value>
+    </caseValues>
+    <fields>
+        <label><!-- Detailed Message --></label>
+        <name>DetailedMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Start Timestamp --></label>
+        <name>ExecutionStartTimestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process Name --></label>
+        <name>ProcessName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Process SubType --></label>
+        <name>ProcessSubType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summary Message --></label>
+        <name>SummaryMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

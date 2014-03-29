@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- ActivityDate --></label>
+        <name>InnovadexData1__ActivityDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- ActivityTypeId --></label>
+        <name>InnovadexData1__ActivityTypeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- ActivityType --></label>
+        <name>InnovadexData1__ActivityType__c</name>
+    </fields>
+    <fields>
+        <label><!-- AddressLine1 --></label>
+        <name>InnovadexData1__AddressLine1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application --></label>
+        <name>InnovadexData1__Application__c</name>
+    </fields>
+    <fields>
+        <label><!-- Body --></label>
+        <name>InnovadexData1__Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- BusinessType --></label>
+        <name>InnovadexData1__BusinessType__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>InnovadexData1__City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>InnovadexData1__Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- ContactByEmail --></label>
+        <name>InnovadexData1__ContactByEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- ContactByPhone --></label>
+        <name>InnovadexData1__ContactByPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>InnovadexData1__Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- DateTimeStamp --></label>
+        <name>InnovadexData1__DateTimeStamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- DecisionMakerRole --></label>
+        <name>InnovadexData1__DecisionMakerRole__c</name>
+    </fields>
+    <fields>
+        <label><!-- DecisionTimeFrame --></label>
+        <name>InnovadexData1__DecisionTimeFrame__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>InnovadexData1__Department__c</name>
+    </fields>
+    <fields>
+        <label><!-- DocumentActivityDetail --></label>
+        <name>InnovadexData1__DocumentActivityDetail__c</name>
+    </fields>
+    <fields>
+        <label><!-- DocumentTitle --></label>
+        <name>InnovadexData1__DocumentTitle__c</name>
+    </fields>
+    <fields>
+        <label><!-- DocumentType --></label>
+        <name>InnovadexData1__DocumentType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>InnovadexData1__Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- FirstName --></label>
+        <name>InnovadexData1__FirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- HitType --></label>
+        <name>InnovadexData1__HitType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Industry --></label>
+        <name>InnovadexData1__Industry__c</name>
+    </fields>
+    <fields>
+        <label><!-- InnovadexID --></label>
+        <name>InnovadexData1__InnovadexID__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsSample --></label>
+        <name>InnovadexData1__IsSample__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Name --></label>
+        <name>InnovadexData1__LastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>InnovadexData1__Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note --></label>
+        <name>InnovadexData1__Note__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>InnovadexData1__Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Origin --></label>
+        <name>InnovadexData1__Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- PhoneExt --></label>
+        <name>InnovadexData1__PhoneExt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>InnovadexData1__Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- PostalCode --></label>
+        <name>InnovadexData1__PostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- PotentialAnnualUsage --></label>
+        <name>InnovadexData1__PotentialAnnualUsage__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProductType --></label>
+        <name>InnovadexData1__ProductType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>InnovadexData1__Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProfessionalTitle --></label>
+        <name>InnovadexData1__ProfessionalTitle__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProjectApplication --></label>
+        <name>InnovadexData1__ProjectApplication__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>InnovadexData1__Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Type --></label>
+        <name>InnovadexData1__Request_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request --></label>
+        <name>InnovadexData1__Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salutation --></label>
+        <name>InnovadexData1__Salutation__c</name>
+    </fields>
+    <fields>
+        <label><!-- SampleSize --></label>
+        <name>InnovadexData1__SampleSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- SearchCriteria --></label>
+        <name>InnovadexData1__SearchCriteria__c</name>
+    </fields>
+    <fields>
+        <label><!-- SenderEmail --></label>
+        <name>InnovadexData1__SenderEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- SenderFirstName --></label>
+        <name>InnovadexData1__SenderFirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- SenderLastName --></label>
+        <name>InnovadexData1__SenderLastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- SenderUserId --></label>
+        <name>InnovadexData1__SenderUserId__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShippingMethod --></label>
+        <name>InnovadexData1__ShippingMethod__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShowName --></label>
+        <name>InnovadexData1__ShowName__c</name>
+    </fields>
+    <fields>
+        <label><!-- StateProvince --></label>
+        <name>InnovadexData1__StateProvince__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subject --></label>
+        <name>InnovadexData1__Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- SupplierSupport --></label>
+        <name>InnovadexData1__SupplierSupport__c</name>
+    </fields>
+    <fields>
+        <label><!-- UserId --></label>
+        <name>InnovadexData1__UserId__c</name>
+    </fields>
+    <fields>
+        <label><!-- VolumeOfBusiness --></label>
+        <name>InnovadexData1__VolumeOfBusiness__c</name>
+    </fields>
+    <fields>
+        <label><!-- Website --></label>
+        <name>InnovadexData1__Website__c</name>
+    </fields>
+</CustomObjectTranslation>

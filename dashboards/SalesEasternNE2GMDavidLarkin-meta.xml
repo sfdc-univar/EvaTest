@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Sales:Eastern:NE2:GM:David Larkin</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <group>ReportingViewAllReportsEastern</group>
+        <role>GlobalExecutives</role>
+        <role>NE24NEASalesManagerMorrisville</role>
+        <role>NE24NECSalesManagerMorrisville</role>
+        <role>NE24NEHSalesManagerHarrisburg</role>
+        <role>NE24NETSalesManagerAltoona</role>
+        <role>NE2DistrictManager</role>
+        <role>NE2GeneralManagers</role>
+    </sharedTo>
+</DashboardFolder>

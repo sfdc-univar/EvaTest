@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email Direct Report when a Manager rejects the Coaching Worksheet</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Workflow_Email_Letterhead</letterhead>
+    <name>Coaching - Rejected</name>
+    <style>freeForm</style>
+    <subject>{!CoachingWorksheet__c.Name}: Your Coaching Worksheet Needs Additional Updates</subject>
+    <textOnly>Dear {!CoachingWorksheet__c.DirectReportFirstName__c},
+
+I am returning this worksheet back to you for additional edits.  Please review my comments in the Approval History, make changes, and resubmit for approval.  To access the sheet directly, please click here: {!CoachingWorksheet__c.Link}
+
+Thanks in advance for your prompt attention to this.</textOnly>
+    <type>html</type>
+</EmailTemplate>

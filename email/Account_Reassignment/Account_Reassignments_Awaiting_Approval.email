@@ -1,0 +1,21 @@
+<messaging:emailTemplate subject="Account Reassignments Awaiting Approval" recipientType="User" >
+<messaging:plainTextEmailBody >
+Hello,
+
+You have Account Reassignment Requests pending your Approval. Please follow the instructions below to access your pending requests:
+
+1. Log into Salesforce
+2. Navigate to the Account Reassignments tab
+3. Click "Reassignment Requests Pending my Approval"
+4. Approve or Reject pending requests
+</messaging:plainTextEmailBody>
+<messaging:htmlEmailBody >
+Hello,
+<br/>
+<br/>
+You have Account Reassignment Requests pending your Approval. Please click the link below to view your pending requests.
+<br/>
+<br/>
+<apex:outputLink value="{!URLFOR($Page.AccountReassignmentApproval)}">Reassignment Requests Pending Your Approval</apex:outputLink>
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

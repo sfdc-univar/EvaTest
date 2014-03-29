@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpportunitySharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <ownerRules>
+        <fullName>MarketDevelopersA</fullName>
+        <sharedTo>
+            <role>MarketDevelopers</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>AllAccounts</roleAndSubordinates>
+        </sharedFrom>
+        <name>Market DevelopersA</name>
+        <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    </ownerRules>
+</OpportunitySharingRules>

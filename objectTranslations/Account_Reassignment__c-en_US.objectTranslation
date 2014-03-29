@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Account Reassignment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Account Reassignments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Type --></label>
+        <name>Account_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Account Reassignments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approved Date --></label>
+        <name>Approved_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Owner Manager Approval --></label>
+        <name>Current_Owner_Manager_Approval__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Current Owner Manager Approved Date --></label>
+        <name>Current_Owner_Manager_Approved_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Owner Manager --></label>
+        <name>Current_Owner_Manager__c</name>
+        <relationshipLabel><!-- Account Reassignments (Current Owner Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Owner RSD Approval --></label>
+        <name>Current_Owner_RSD_Approval__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Current Owner RSD Approved Date --></label>
+        <name>Current_Owner_RSD_Approved_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Owner RSD --></label>
+        <name>Current_Owner_RSD__c</name>
+        <relationshipLabel><!-- Account Reassignments (Current Owner RSD) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Owner RVP --></label>
+        <name>Current_Owner_RVP__c</name>
+        <relationshipLabel><!-- Account Reassignments (Current Owner RVP) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Owner Role --></label>
+        <name>Current_Owner_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Owner --></label>
+        <name>Current_Owner__c</name>
+        <relationshipLabel><!-- Account Reassignments (Current Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Ship To Number --></label>
+        <name>Customer_Ship_To_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days in Approved Status --></label>
+        <name>Days_in_Approved_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days in Pending Approval Status --></label>
+        <name>Days_in_Pending_Approval_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Owner Manager Approval --></label>
+        <name>New_Owner_Manager_Approval__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- New Owner Manager Approved Date --></label>
+        <name>New_Owner_Manager_Approved_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Owner Manager --></label>
+        <name>New_Owner_Manager__c</name>
+        <relationshipLabel><!-- Account Reassignments (New Owner Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- New Owner RSD Approval --></label>
+        <name>New_Owner_RSD_Approval__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- New Owner RSD Approved Date --></label>
+        <name>New_Owner_RSD_Approved_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Owner RSD --></label>
+        <name>New_Owner_RSD__c</name>
+        <relationshipLabel><!-- Account Reassignments (New Owner RSD) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- New Owner RVP --></label>
+        <name>New_Owner_RVP__c</name>
+        <relationshipLabel><!-- Account Reassignments (New Owner RVP) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- New Owner Role --></label>
+        <name>New_Owner_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Owner --></label>
+        <name>New_Owner__c</name>
+        <relationshipLabel><!-- Account Reassignments (New Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pending Approval Date --></label>
+        <name>Pending_Approval_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejected Date --></label>
+        <name>Rejected_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejection Reason --></label>
+        <name>Rejection_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship To --></label>
+        <name>ShipToNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- Statuses will dynamically change depending on stage in the Approval process --></help>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn</masterLabel>
+            <translation><!-- Withdrawn --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Account Reassignment Layout</layout>
+        <sections>
+            <label><!-- Approvals --></label>
+            <section>Approvals</section>
+        </sections>
+        <sections>
+            <label><!-- Approvers --></label>
+            <section>Approvers</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Owners --></label>
+            <section>Owners</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Account Reassignments that have been completed cannot be withdrawn. --></errorMessage>
+        <name>CantWithdrawIfCompletedStatus</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_Reassignment_Request --></label>
+        <name>New_Reassignment_Request</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Reassignment_Requests_Pending_My_Approval --></label>
+        <name>Reassignment_Requests_Pending_My_Approval</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Withdraw_Request --></label>
+        <name>Withdraw_Request</name>
+    </webLinks>
+</CustomObjectTranslation>

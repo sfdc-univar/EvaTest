@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>F2S CPP Snapshot</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>F2S CPP Snapshots</value>
+    </caseValues>
+    <fields>
+        <label><!-- Count --></label>
+        <name>Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPP Role ID --></label>
+        <name>Role_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Annual Lbs --></label>
+        <name>Total_Annual_Lbs__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPP User ID --></label>
+        <name>User_ID__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

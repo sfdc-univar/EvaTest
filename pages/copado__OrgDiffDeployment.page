@@ -1,0 +1,55 @@
+<apex:page showHeader="true" sidebar="true" standardController="copado__OrgDiff__c" extensions="copado.OrgDiffExtension" title="{!$ObjectType.copado__OrgDiff__c.Label} {!$ObjectType.copado__Deployment__c.Label}">
+	<c:GAnalytics />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript">
+        var __sfdcSessionId = '{!GETSESSIONID()}';
+    </script>
+    <script src="/soap/ajax/27.0/connection.js"></script>
+
+    <c:WizardUtils />
+
+    <script>
+        //todo get url by method
+        var diffDeployment = {}; 
+        $(function(){
+            diffDeployment.apiUrl = '{!deploy_url}';
+            diffDeployment.onSuccess = function(d){
+                $('.js-diffDeployment').fadeOut();
+                console.log(11,d);
+                window.location.replace('/'+d.deploymentId+'/e');
+                //savediffDeployment(d.organizationId);
+                //TODO RErender form
+                //check secure DML save logic from editOrg.cls
+            };
+            diffDeployment.onError = function(d){
+                $('.js-diffDeployment').fadeOut();
+                //TODO: translate message to fix diffDeployment data
+                showMessage('ERROR',d);
+                //TODO: save result
+            };
+            
+            dw.u.getRemote(diffDeployment.apiUrl,diffDeployment.onSuccess,false,true, diffDeployment.onError);
+
+        });
+
+    </script>
+    <apex:form id="theForm" >
+    <c:getSatisfaction />
+    <apex:sectionHeader title="{!$ObjectType.copado__OrgDiff__c.Label} {!$ObjectType.copado__Deployment__c.Label}" subtitle="{!copado__OrgDiff__c.Name}"/>
+	<apex:pageBlock helpUrl="http://www.copa.do/cms/documentation" helpTitle="{!$Label.copado__HELP_FOR_THIS_PAGE}">
+
+		<apex:pageBlockSection title="">
+			<apex:outputField value="{!copado__OrgDiff__c.Name}"/>
+			<apex:outputField value="{!copado__OrgDiff__c.copado__From_Org__c}"/>
+			<apex:outputField value="{!copado__OrgDiff__c.copado__To_Org__c}"/>
+		</apex:pageBlockSection>
+	</apex:pageBlock>
+	<apex:pageBlock >
+		<apex:outputPanel styleClass="js-diffDeployment">
+	        <div id="loading">
+	            <center><img src="/img/loading.gif" /> <i>{!$Label.LOADING}<span id="retry-label"></span></i></center>
+	        </div>
+	    </apex:outputPanel>
+	</apex:pageBlock>
+	</apex:form>
+</apex:page>

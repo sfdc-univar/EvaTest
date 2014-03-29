@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <fields>
+        <fullName>Accepted_Terms_of_Use__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Field use to determine if the Terms of Use should be presented</description>
+        <externalId>false</externalId>
+        <label>Accepted Terms of Use</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <description>Optional comments about why the user is in a specific profile or role, or anything else we might need to know about their sharing groups, setup, etc.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Optional comments about why the user is in a specific profile or role, or anything else we might need to know about their sharing groups, setup, etc.</inlineHelpText>
+        <label>Comments</label>
+        <length>500</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DB_Region__c</fullName>
+        <description>This is a field that is installed by and used with the Adoption Dashboard AppExchange package. If your org already has a similar field, you can change the reports that are part of the Adoption Dashboard package to use your custom field and then delete this field.</description>
+        <externalId>false</externalId>
+        <label>DB Region</label>
+        <picklist>
+            <picklistValues>
+                <fullName>NA</fullName>
+                <color>#009900</color>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>EMEA</fullName>
+                <color>#3333FF</color>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>APAC</fullName>
+                <color>#CC6600</color>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LA</fullName>
+                <color>#990000</color>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>F2S_Wave__c</fullName>
+        <description>Used to identify which Wave of F2S the user participated in.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Used to identify which Wave of F2S the user participated in.</inlineHelpText>
+        <label>F2S Wave</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IntegratedCountry__c</fullName>
+        <externalId>false</externalId>
+        <label>Integrated Country</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IntegratedState__c</fullName>
+        <externalId>false</externalId>
+        <label>Integrated State</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ManagerDM__c</fullName>
+        <description>Manager DM field data from OIM that will be in the format:  cn=10003168,cn=Users,dc=univar,dc=com</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Manager DM field data from OIM that will be in the format:  cn=10003168,cn=Users,dc=univar,dc=com.  Workflow will truncate the PerNr and drop it into the Manager PerNr field.</inlineHelpText>
+        <label>ManagerDM</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ManagerPerNr__c</fullName>
+        <description>Will be populated by GIAM, eventually.</description>
+        <externalId>false</externalId>
+        <label>Manager PerNr</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PerNr__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>PerNr from SAP User record. Required for all Univar employees, but not for non-human licenses, consultants w/o PerNr, etc.</description>
+        <externalId>true</externalId>
+        <inlineHelpText>PerNr from SAP User record.  Required if it exists in SAP for this user.</inlineHelpText>
+        <label>PerNr</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>TEMPStateLength__c</fullName>
+        <description>temporary for data cleanup.</description>
+        <externalId>false</externalId>
+        <formula>Len(TEMPStateShort__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TEMPStateLength</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TEMPStateShort__c</fullName>
+        <description>temporary for data cleanup. DemandTools will set to the short version of the state. If blank, and state is not blank, this indicates an invalid state that needs to be cleaned up.</description>
+        <externalId>false</externalId>
+        <label>TEMPStateShort</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>User_District__c</fullName>
+        <description>User&apos;s District Code that is being populated manually from an export from the Business Warehouse - from GHR data from SAP.</description>
+        <externalId>false</externalId>
+        <label>User District</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>User_Region__c</fullName>
+        <description>User&apos;s Region populated from a weekly export of data from the Business Warehouse which is using GHR/SAP data and Cost Centers to determine the user&apos;s region.</description>
+        <externalId>false</externalId>
+        <label>User Region</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>copado__API_URL__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>$Api.Partner_Server_URL_260</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>API_URL</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>syncdirection__c</fullName>
+        <description>Populated with a 1 - for one-way syncronization from SFDC to Outlook or 2 - for two-way synchronization from and to SFDC for all Events, Tasks and Contacts.
+NOTE AS OF 2013-11-24: THESE FIELDS HAVE NEVER BEEN PUT TO USE.</description>
+        <externalId>false</externalId>
+        <label>Sync Direction</label>
+        <picklist>
+            <picklistValues>
+                <fullName>1</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+</CustomObject>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Sales Rep Transfer</name>
+    <style>none</style>
+    <subject>Introducing Caryl Caskey, your new Univar Sales Specialist</subject>
+    <textOnly>Goodbye,
+
+
+I have been given a new role within Univar and will not be your salesperson any longer. It has been a pleasure servicing your account. I am putting you in great hands, so please be ensured that your chemical requirements will be handled as they have been in the past.
+ 
+Sincerely,
+
+Allison Johnson
+Sales Specialist
+Univar | SCR 
+ 
+--------------------------------------------------------------------------------------------------------- 
+Hello!
+
+I’m your new Sales Specialist. You have my assurance that you’ll continue to receive the same great service you’ve always received from Univar. 
+
+Allison has filled me in on your company’s operations. I have many years of sales experience serving customers in the South Central area. I am excited in this new role and am looking forward to servicing your chemical needs. Please be ensured that I am here to assist you with your chemical requirements.
+
+In the coming weeks, I’d like to speak with you for a few minutes to learn more about your business and the ways Univar and I can assist you.
+
+In the meantime, please contact me if there’s anything I can do for you. My number one priority is to help your business grow. Your success is my success.
+ 
+Sincerely, 
+ 
+Caryl Caskey
+Sales Specialist
+Univar | SCR
+(713)589-6283
+Caryl.Caskey@univarusa.com 
+ 
+ 
+This email was sent to {!Contact.Email} from Univar USA Inc. 
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>Univar Has Expanded Distribution Agreement with Dow Corning</TITLE>
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+
+<!-- /// CSS goes here in case the /HEAD tags get stripped \\\ --> 
+<STYLE TYPE="text/css">
+<!--
+ .topText {font-size:10px; color:#003399; line-height:25px; align:"center";}
+.introText {font-size:20px; color:#FFFFFF; line-height 30px; text-align:"center";}
+ .title {font-size:16px; font-weight:bold; color:#000000;}
+ .subTitle {font-size:13px; font-weight:bold; color:#4B4C4D;}
+ p {font-size:12px; color:#666666; line-height:20px; font-family: verdana;}
+.sideText{font-size:12px; color:#4B4C4D; line-height:20px; font-family: verdana;}
+ .footerText {font-size:11px; color:#666666;}
+ .headerBanner {font-size: 18px; font-weight: bold;}
+ td {font-family: verdana;}
+-->
+</STYLE>
+<!-- \\\ CSS goes here in case the /HEAD tags get stripped /// --> 
+
+
+<!-- /// Sometimes, BODY tags get stripped. This table is for background color when that happens.  \\\ --> 
+<table width="100%" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+
+<tr>
+<td valign="top" align="center">
+
+<!-- \\\ Sometimes, BODY tags get stripped. This table is for background color when that happens.  /// --> 
+<table style="BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; cellSpacing=0; cellPadding=0; valign=top; aalign=center; width=530; bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+<!-- </tr>
+</td> -->
+<tr> 
+<td bgcolor="#000000" font="FFFFFF" class="headerBanner" colspan="2" WIDTH="770" HEIGHT="100" BORDER="0" cellSpacing=0; cellPadding=0>
+<p>
+<a href="http://www.univarusa.com/whatsnew/Press+Releases/FB39E80F5938F70A882572E500600555?OpenDocument&Industry=Press+Releases" title="Univar USA Announces Expanded Distribution Agreement with Dow Corning">
+<IMG align= "center" SRC="https://na1.salesforce.com/servlet/servlet.ImageServer?id=015300000008Dit&oid=00D300000000RsQ&lastMod=1183413434000" WIDTH="775" HEIGHT="126" BORDER="0" ALT="Univar USA Announces Expanded Distribution Agreement with Dow Corning">
+</a>
+</p>
+</tr>
+</td>
+<tr valign="top">
+<td valign="top" align="center" style="padding:0px" bgcolor="#FFFFFF">
+<a href="http://www.univarusa.com/product_services.htm" title="Univar Products & Services">
+<IMG align="center" SRC="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000891C&oid=00D300000000RsQ&lastMod=1181760485000" WIDTH="198" HEIGHT="402" BORDER="0" align="center" Alt="Industries & Markets">
+</td>
+<!-- /// content cell \\\ -->
+<td valign="top" style="padding:10px" rowspan="1">
+<p>
+{!Contact.FirstName},<br>
+You may know that Univar is the largest chemical distributor in North America. We carry hundreds of products for every industry and market, including amines, surfactants, acids, hydrocarbons, inorganics and many more.
+<br>
+<br>
+But did you know that Univar now carries Dow Corning anti-foams, defoamers and other silicone products? If you have a silicone need, we have a solution. 
+<br>  
+<br> 
+To learn more, call me at {!User.MobilePhone}.  I’ll be happy to answer any questions you have about our new line of Dow Corning silicones. <br>
+<br>
+Sincerely, <br>
+<br>
+<b>{!User.Name}</b><br>
+{!User.Title}<br>
+Univar USA Inc.<br>
+{!User.Phone} Local<br>
+{!User.MobilePhone} Other<br>
+{!User.Fax} Fax<br>
+{!User.Email}
+</p>
+</td>
+</tr>
+
+
+<!-- /// footer area with contact info and opt-out link \\\ -->
+<tr>
+<td bgcolor="#EEEEEE" style="border-top: 0px solid #333333;" valign="middle" align="center" colspan="3">
+<p>
+<a href="http://www.univarusa.com/chemcare.htm">ChemCare</a> &nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="http://www.univarusa.com">Univar USA</a>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="http://www.univarusa.com/ebusiness.htm">Online Ordering</a>
+<br>
+</p>
+</td>
+</tr>
+</table>
+<!-- \\\ footer area with contact info and opt-out link /// -->
+<span class="footerText">
+<br>
+This email was sent to <b> {!Contact.Email} </b> from <b> Univar USA Inc. </b> 
+<br>
+17425 NE Union Hill Rd., Redmond, WA 98052
+</span>
+
+
+
+
+
+<!-- /// Sometimes, BODY tags get stripped. This table is for background color when that happens.  \\\ --> 
+</td>
+</tr>
+</table>
+<!-- \\\ Sometimes, BODY tags get stripped. This table is for background color when that happens.  /// --> 
+
+<br>
+<br>
+
+</BODY>
+</HTML>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Send new user welcome letter</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>UnivarLetterhead</letterhead>
+    <name>New User Welcome</name>
+    <style>freeForm</style>
+    <subject>Welcome to Salesforce.com!</subject>
+    <textOnly>Welcome to Salesforce.com!
+
+
+Keep this message in a place where you can quickly retrieve it for future reference.  You may want to print a hard copy. Please note that “Salesforce.com” and “SFDC” are used synonymously.
+
+
+SFDC Login Information
+
+User Name:  Your Univar email address (firstname.lastname@univarusa.com)
+
+Password:  Your network password (case-sensitive)
+
+URL:  http://webapps.univarusa.com/
+
+
+Important Information To Help You Start Using Salesforce.com
+
+
+How will I be trained?
+
+Your first task in the training process is to complete the Salesforce.com online courses listed below:
+
+
+A. Getting Started: Navigating Salesforce
+
+1. Log in to Salesforce.com (www.salesforce.com).
+
+2. Click the Help &amp; Training link near the top of the screen.
+
+3. Scroll down to the Training panel in the lower left.
+
+4. Under Take an Online Course, click Getting Started: Navigating Salesforce.
+
+NOTE: not all of the features shown in the training are turned on in this instance.
+
+
+B. Salesforce.com Basic Training: Managing Accounts, CPPs, and Opportunities
+
+1. Log in to The U Online using Identity Access Management (IAM)* and your Global User ID.
+
+2. In the Featured panel, click Managing Accounts, CPPs, and   Opportunities.
+
+3. Click Enroll.
+
+4. Click the My Learning tab.
+
+5. Click a class listed under My Elective Learning.
+
+6. Begin a course by clicking the link beneath Activity Name.
+
+
+*More information on IAM
+
+
+
+
+How can I get my Outlook Contacts and Events into SFDC?
+
+Click here:  Working with Connect for Outlook
+
+
+
+What if I need additional help?
+
+If you need additional help or support, look for answers on the following topics in the following locations.
+
+
+General help in using SFDC to do your job
+
+Consult the SFDC page in the reSOURCE Library, the SFDC online Help &amp; Training section, or your direct supervisor or manager.
+
+
+Technical support (when things just don’t seem to be working right)
+
+Call the Univar USA Service Desk at 1-800-289-8892, or e-mail service.desk@univarusa.com
+
+
+
+Thank You!
+
+Univar Global Salesforce.com Support Team</textOnly>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Application --></label>
+        <name>InnovadexData1__Application__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact By Email --></label>
+        <name>InnovadexData1__ContactByEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact By Phone --></label>
+        <name>InnovadexData1__ContactByPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- DatetimeStamp --></label>
+        <name>InnovadexData1__DatetimeStamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Decision Maker Role --></label>
+        <name>InnovadexData1__DecisionMakerRole__c</name>
+    </fields>
+    <fields>
+        <label><!-- Decision Time Frame --></label>
+        <name>InnovadexData1__DecisionTimeFrame__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>InnovadexData1__Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- InnovadexID --></label>
+        <name>InnovadexData1__InnovadexID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Sample --></label>
+        <name>InnovadexData1__Is_Sample__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>InnovadexData1__Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Ext --></label>
+        <name>InnovadexData1__PhoneExt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>InnovadexData1__Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Annual Usage --></label>
+        <name>InnovadexData1__PotentialAnnualUsage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>InnovadexData1__Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Application --></label>
+        <name>InnovadexData1__ProjectApplication__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Type --></label>
+        <name>InnovadexData1__Request_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request --></label>
+        <name>InnovadexData1__Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sample Size --></label>
+        <name>InnovadexData1__SampleSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Method --></label>
+        <name>InnovadexData1__ShippingMethod__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Support --></label>
+        <name>InnovadexData1__SupplierSupport__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tradeshow Name --></label>
+        <name>InnovadexData1__TradeshowName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume Of Business --></label>
+        <name>InnovadexData1__VolumeOfBusiness__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- View_Details --></label>
+        <name>InnovadexData1__View_Details</name>
+    </webLinks>
+</CustomObjectTranslation>

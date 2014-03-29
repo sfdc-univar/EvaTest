@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>Food Product Announcement</TITLE>
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+
+<!-- /// CSS goes here in case the /HEAD tags get stripped \\\ --> 
+<STYLE TYPE="text/css">
+<!--
+ .topText {font-size:10px; color:#003399; line-height:25px; align:"center";}
+.introText {font-size:20px; color:#FFFFFF; line-height 30px; text-align:"center";}
+ .title {font-size:16px; font-weight:bold; color:#000000;}
+ .subTitle {font-size:13px; font-weight:bold; color:#4B4C4D;}
+ p {font-size:14px; color:#66B7D3; line-height:20px; font-family: verdana;}
+ .big {font-size:14px; color:#666666; line-height:20px; font-family: arial; font-weight: bold;}
+ .small {font-size:12px; color:#666666; line-height:20px; font-family: arial; font-weight: bold;}
+ .pink {font-size:14px; color:#FF8040; line-height:20px; font-family: verdana; font-weight: bold;}
+ .footerText {font-size:11px; color:#666666;}
+ .headerBanner {font-size: 18px; font-weight: bold;}
+ td {font-family: verdana;}
+ H1 {font-size:18px; color:#003366; line-height:20px; font-family: verdana;align:center}
+ H2 {font-size:20px; color:#4B4C4E; line-height:20px; font-family: verdana;font-weight: bold; align:center}
+ H3 {font-size:18px; color:#4B4C4E; line-height:20px; font-family: verdana;font-weight: bold; align:center}
+ H4 {font-size:18px; color:#003366; line-height:20px; font-family: verdana;font-weight: bold; align:center}
+ .top {font-size:18px; color:#003366; line-height:20px; font-family: verdana;align:center;font-weight: bold; }
+ ul {font-size:12px; color:#000000; line-height:20px; font-family: verdana; type="circle"}
+
+-->
+</STYLE>
+
+
+
+<table width="100%" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+
+<tr>
+<td valign="top" align="center">
+
+
+<table style="BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000
+1px solid; cellSpacing=0; cellPadding=0; valign=top; aalign=center; width=800; bgcolor="#FFFFFF" cellpadding="0" cellspacing="5">
+<!-- </tr>
+</td> -->
+<tr> 
+<td bgcolor="#000000" font="FFFFFF" class="headerBanner" colspan="2" WIDTH="800" HEIGHT="100" BORDER="#ffffff 5px solid" cellSpacing=0; 
+
+cellPadding=0>
+<p>
+<a href="http://vannet.univarusa.com" title="Univar USA">
+<IMG align="center" 
+SRC="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000RczA&oid=00D300000000RsQ&lastMod=1200678048000" WIDTH="800" 
+HEIGHT="137" BORDER="0" ALT="Generic Product Announcement">
+</a>
+</p>
+</td>
+</tr>
+<tr valign="top">
+
+<!-- /// content cell \\\ -->
+<td valign="top" style="border-left: solid 5px #ffffff" rowspan="1" colspan="1" width="580">
+<p>
+<H2>
+For Internal Use Only
+</H2>
+<p class="top">
+<b> Product:</b> &nbsp <i>Tomadol<sup>&#0174;</sup></i>
+<br>
+<b>Manufacturer:</b> &nbsp  <i>Air Products </i>
+<br>
+</p>
+<b class="big">
+Air Products (NYSE:APD) serves customers in industrial, energy, technology and healthcare markets worldwide with a unique portfolio of atmospheric gases, process and specialty gases, performance materials, and equipment and services.</p>
+<H1>
+Product Info
+</H1>
+<p>
+<a href="http://vannet.univarusa.com/supplierprofile/lookupdocid/204BE899BC483D2F882573D3006D62E7/$file/Tomadol+List+&+Dist+Price+Schedule+as+of+12-1-07-External.pdf?OpenElement" title="Distributor Price List">Distributor Price List</a>
+&nbsp 
+&nbsp
+&nbsp 
+&nbsp
+</p>
+<H1>
+Selling Tools
+</H1>
+<a href="http://vannet.univarusa.com/supplierprofile/lookupdocid/204CFF1C77EF6733882573D3006CD72A/$file/Tomadol+Cross+Refeence+6-16-2004.xls?OpenElement " title="Tomadol Cross Referrence">Tomadol Cross Referrence</a>
+</b>
+<br>  
+</p>
+</td>
+<td valign="top" align="left" style="padding:10px" cellspacing="10px" bgcolor="#B7F5FF" rowspan="1" width="200">
+<H3 align="center">
+<u>VanNet</u>
+</H3>
+<p align="center">
+<a href="http://vannet.univarusa.com/pagesv/food.htm" title="Fresh Ideas">Fresh Ideas</a><br><br>
+<a href="http://vannet.univarusa.com/pagesv/personal.htm" title="Personal Care">Personal Care</a><br><br>
+
+<a href="http://vannet.univarusa.com/pagesv/pharma.htm" title="Pharmaceutical">Pharmaceutical</a><br><br>
+
+</p>
+</td>
+</tr>
+
+<tr height="185" colspan="2">
+
+<td valign="abstop" style="border-left: solid 5px #ffffff" rowspan="1" colspan="2" width="800" bgcolor="#ffffff">
+<p>
+<hr>
+</p>
+<a href="http://www.cargilltexturizing.com/cts_index.shtml" 
+title="Cargill Texturizing Solutions">
+<IMG align= "left" 
+SRC="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000Rd8P&oid=00D300000000RsQ&lastMod=1200686087000" WIDTH="141" 
+HEIGHT="44" BORDER="0" ALT="Air Products"></a>
+<b class="small">
+Air Products (NYSE:APD) serves customers in industrial, energy, technology and healthcare markets worldwide with a unique portfolio of atmospheric gases, process and specialty gases, performance materials, and equipment and services.<br>
+<br>
+For more information, contact Mr. Cargill @ 123-456-7890 or  <a href="mailto:CCargill@cargill.com">CCargill@cargill.com </a>
+</b>
+</td>
+<!-- <td rowspan="1" width="276" valign="bottom"align="right">
+
+
+</td> -->
+</tr>
+
+
+<!-- /// footer area with contact info and opt-out link \\\ -->
+<tr>
+<td bgcolor="#F9FCD4" style="border-top: 0px solid #333333;" valign="middle" align="center" colspan="3">
+<p>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="http://www.univarusa.com/pagesi/food">Fresh Ideas</a>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="http://www.univarusa.com/chemcare.htm">ChemCare</a> &nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="http://www.univarusa.com">Univar USA</a>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="http://www.univarusa.com/ebusiness.htm">Online Ordering</a>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<br>
+</p>
+</td>
+</tr>
+</table>
+
+
+<span class="footerText">
+<br>
+This email was sent from <b> Univar USA Inc. </b> 
+<br>
+17425 NE Union Hill Rd., Redmond, WA 98052
+</span>
+
+
+
+
+</td>
+</tr>
+</table>
+<!-- \\\ Sometimes, BODY tags get stripped. This table is for background color when that happens.  /// --> 
+
+<br>
+<br>
+
+</BODY>
+</HTML>

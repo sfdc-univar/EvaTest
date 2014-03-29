@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <fields>
+        <fullName>BillToQuoteDate__c</fullName>
+        <description>Most recent date this Contact was updated to show that they have a Bill-To quote to be emailed on the next ExactTarget Send.  This field is determined in the weekly Quotes/Contact merge that happens on the Unix, and then updated via DataLoader.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date of the most recent quote sent to this contact.</inlineHelpText>
+        <label>Current Bill-To Quote Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>BilltoQuoteEmailFlag__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Flag indicating that this Contact is to receive a Bill-To quote email on the next ExactTarget Send.  This field is determined in the weekly Quotes/Contact merge that happens on the Unix, and then updated via DataLoader.</description>
+        <externalId>false</externalId>
+        <label>Current Bill-To Quote?</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ContactCustShipTo__c</fullName>
+        <description>This field mirrors the Account.CustomerShipTo__c field on the Account object. Used in ExactTarget and other processes.</description>
+        <externalId>false</externalId>
+        <formula>if( AccountId = &quot;&quot;,&quot;&quot;,Account.CustomerShipTo__c)</formula>
+        <inlineHelpText>6 digit Bill To number plus the 3 digit Ship To number.</inlineHelpText>
+        <label>Customer Ship-To</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ContactCustomer__c</fullName>
+        <description>Bill-To Account for which quotes are sent to this Contact</description>
+        <externalId>false</externalId>
+        <formula>IF( EmailQuoteBillTo__c  = True, Account.CustomerNumber__c , &quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Bill-To Account for which quotes are sent to this Contact</inlineHelpText>
+        <label>Receives Bill-To Quotes for Account</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Status__c</fullName>
+        <description>Used to indicate contact is no longer current, but we need to keep the contact around because they have call history.  When a contact is inactivated, the contact owner automatically changes to &quot;SFDC Admin&quot;. Call History is retained, but contact no longer syncs with Account Owner&apos;s Outlook.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Change status to Inactive if Contact is no longer current.  This retains Call History but stops contact from syncing with Outlook.  When a contact is inactivated, the contact owner automatically changes to &quot;SFDC Admin&quot;.</inlineHelpText>
+        <label>Contact Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Active</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Data_Quality_Score__c =100,&quot;All Contact Details Captured&quot;, &quot;Missing: &quot;
+&amp;IF( LEN( FirstName ) = 0, &quot;First Name, &quot;,&quot;&quot;)&amp;&quot;&quot;
+&amp;IF( LEN( LastName ) = 0, &quot;Last Name, &quot;,&quot;&quot;)&amp;&quot;&quot;
+&amp;IF( LEN( Title ) = 0, &quot;Title, &quot;,&quot;&quot;)&amp;&quot;&quot;
+&amp;IF( LEN( Phone ) = 0, &quot;Phone Number, &quot;,&quot;&quot;)&amp;&quot;&quot;
+&amp;IF( LEN( Email ) = 0, &quot;Email Address, &quot;,&quot;&quot;)&amp;&quot;&quot;
+&amp;IF( LEN( MailingCity ) = 0, &quot;Mailing City, &quot;,&quot;&quot;)&amp;&quot;&quot;
+&amp;IF( LEN( MailingState ) = 0, &quot;Mailing State, &quot;,&quot;&quot;))</formula>
+        <label>Data Quality Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Quality_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( LEN( FirstName ) = 0, 0, 15 ) + 
+IF( LEN( LastName ) = 0, 0, 15) + 
+IF( LEN( Title ) = 0, 0, 10) + 
+IF( LEN( Phone ) = 0, 0, 15) + 
+IF( LEN( Email ) = 0, 0, 15) + 
+IF( LEN( MailingCity ) = 0, 0, 15) + 
+IF( LEN( MailingState ) = 0, 0, 15)</formula>
+        <label>Data Quality Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Demand_Driver__c</fullName>
+        <externalId>false</externalId>
+        <label>Demand Driver</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Reputation &amp; Reach</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Fulfillment Visibility</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Product Portfolio Proficiency</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contingency Response</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Marketplace Command</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Economic_Outcome__c</fullName>
+        <externalId>false</externalId>
+        <label>Economic Outcome</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Cost/Productivity</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Revenue/Growth</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>EmailQuoteBillTo__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This Contact receives Bill-To price quote emails for the parent (Bill-To) account.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box for contacts who should receive Price Quote emails for their parent Bill-To account.</inlineHelpText>
+        <label>Email Quote</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>EmailQuoteShipTo__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This Contact receives Ship-To price quote emails for the parent (Ship-To) account.
+CURRENTLY NOT USED!!</description>
+        <externalId>false</externalId>
+        <inlineHelpText>NOT USED, BUT NEEDED FOR DATASTAGE PROCESS TO WORK.</inlineHelpText>
+        <label>Email Quote - Ship-To</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>EmailURL__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;http://pages.exacttarget.com/page.aspx?QS=38dfbe491fab00eac6d4c90f801056288eeb7a9c95c1ba4a69241cba504996ad&amp;sf=&quot; &amp; Id, &quot;View Emails Sent to this Contact on Your Behalf&quot;)</formula>
+        <inlineHelpText>View HTML emails sent to this contact, including quotes, change notifications and promotional emails.</inlineHelpText>
+        <label>Emails Sent</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FalseFlag__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Do not ever under any circumstances set this to True. It must remain False in order for the weekly Quoting Update process to work.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Never ever ever change the value of this field. It must stay &quot;False&quot;.</inlineHelpText>
+        <label>False Flag</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FullName__c</fullName>
+        <description>Needed for various reports where not otherwise available.</description>
+        <externalId>false</externalId>
+        <formula>FirstName &amp; &quot; &quot; &amp; LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact Full Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>InnovadexData1__ActivityTypeID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>ActivityTypeID</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>InnovadexData1__InnovadexID__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>InnovadexID</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IntegratedMailingCountry__c</fullName>
+        <externalId>false</externalId>
+        <label>Integrated Mailing Country</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IntegratedMailingState__c</fullName>
+        <externalId>false</externalId>
+        <label>Integrated Mailing State</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IntegratedOtherCountry__c</fullName>
+        <defaultValue>&quot;US&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>Integrated Other Country</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IntegratedOtherState__c</fullName>
+        <externalId>false</externalId>
+        <label>Integrated Other State</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Owner_PerNr__c</fullName>
+        <description>PerNr of the Contact&apos;s Owner</description>
+        <externalId>false</externalId>
+        <formula>Owner.PerNr__c</formula>
+        <inlineHelpText>PerNr of the Contact&apos;s Owner</inlineHelpText>
+        <label>Owner PerNr</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ShipToQuoteDate__c</fullName>
+        <description>Most recent date this Contact was updated to show that they have a Ship-To quote to be emailed on the next ExactTarget Send.  This field is determined in the weekly Quotes/Contact merge that happens on the Unix, and then updated via DataLoader. PLACEHOLDER - NOT CURRENTLY USED</description>
+        <externalId>false</externalId>
+        <label>Current Ship-To Quote Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ShipToQuoteEmailFlag__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Flag indicating that this Contact is to receive a Ship-To quote email on the next ExactTarget Send.  This field is determined in the weekly Quotes/Contact merge that happens on the Unix, and then updated via DataLoader.  PLACEHOLDER - NOT CURRENTLY USED.</description>
+        <externalId>false</externalId>
+        <label>Current Ship-To Quote?</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Stakeholder_Profile__c</fullName>
+        <externalId>false</externalId>
+        <label>Stakeholder Profile</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Approver</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Buyer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mobilizer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Talker</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Blocker</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>State_of_Relationship__c</fullName>
+        <externalId>false</externalId>
+        <label>State of Relationship</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>2</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TEMPMailingStateLength__c</fullName>
+        <description>temporary for data cleanup</description>
+        <externalId>false</externalId>
+        <formula>LEN( MailingState)</formula>
+        <label>TEMPMailingStateLength</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TEMPMailingStateShort__c</fullName>
+        <description>temporary for data cleanup. DemandTools will set to the short version of the state. If blank, and state is not blank, this indicates an invalid state that needs to be cleaned up.</description>
+        <externalId>false</externalId>
+        <label>TEMPMailingStateShort</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TEMPOtherStateLength__c</fullName>
+        <description>temp for data cleanup</description>
+        <externalId>false</externalId>
+        <formula>LEN( OtherState)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TEMPOtherStateLength</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TEMPOtherStateShort__c</fullName>
+        <description>temporary for data cleanup. DemandTools will set to the short version of the state. If blank, and state is not blank, this indicates an invalid state that needs to be cleaned up.</description>
+        <externalId>false</externalId>
+        <label>TEMPOtherStateShort</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UserLastModifiedBy__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Link to last non-System Admin to modify this Contact. Modifiable by Apex only.</description>
+        <externalId>false</externalId>
+        <label>User Last Modified By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Contact</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>UserLastModifiedDate__c</fullName>
+        <description>Non-Admin user who last modified this record.</description>
+        <externalId>false</externalId>
+        <label>User Last Modified Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+</CustomObject>

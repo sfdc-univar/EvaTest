@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Sales:Central:NC7:GM:Peter Goodwin</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <group>ReportingViewAllReportsCentral</group>
+        <role>GlobalExecutives</role>
+        <role>NC74CNASalesManagerIndianapolis</role>
+        <role>NC74CNBSalesManagerDetroitToledo</role>
+        <role>NC7GeneralManagers</role>
+    </sharedTo>
+</DashboardFolder>

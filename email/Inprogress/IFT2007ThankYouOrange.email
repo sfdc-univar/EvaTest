@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>Thank you for visiting Univar at IFT 2007!</TITLE>
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+
+<!-- /// CSS goes here in case the /HEAD tags get stripped \\\ --> 
+<STYLE TYPE="text/css">
+<!--
+ .topText {font-size:10px; color:#003399; line-height:25px; align:"center";}
+.introText {font-size:20px; color:#FFFFFF; line-height 30px; text-align:"center";}
+ .title {font-size:16px; font-weight:bold; color:#000000;}
+ .subTitle {font-size:13px; font-weight:bold; color:#000000;}
+ p {font-size:16px; color:#ffffff; line-height:20px; font face: Veranda; font-weight:bold}
+.center {font-size:20px; color:#0E5192; line-height:30px; font face: Veranda; font-weight:bold; text-align:"center"}
+.bolder {font-size:16px; color:#ffffff; line-height:20px; font face: Veranda; font-weight:bolder}
+.top {font-size:20px; color:#F16E26; line-height:30px; font face: Veranda; font-weight:bold}
+.header {font-size:22pt; color:#87232B; line-height:30px; font-family: Veranda; font-weight:bold}
+.yellow {font-size:18px; color:#800000; line-height:25px; font-family: Comic Sans Serif; font-weight:bold}
+.sideText{font-size:12px; color:#000000; line-height:20px; font-family: verdana;}
+ .footerText {font-size:11px; color:#666666;}
+ .headerBanner {font-size: 18px; font-weight: bold;}
+ td {font-family: verdana;}
+-->
+</STYLE>
+
+
+<table width="100%" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top" align="center"> 
+
+<!-- Formatting table--> 
+
+<table style="BORDER-RIGHT: #FFFFFF 1px solid; BORDER-TOP: #FFFFFF 1px solid; BORDER-LEFT: #FFFFFF 1px solid; BORDER-BOTTOM: #FFFFFF 1px solid; cellSpacing=0; cellPadding=0; valign=top; aalign=center; width=920; bgcolor="#ffffff" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top" align="center" colspan="3" bgcolor="#ffffff"> 
+<!-- style="padding:10px -->
+
+
+<a href="http://www.univarusa.com/pagesi/food" title="Visit Univarusa.com"><IMG align= "center" SRC="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000R6M1&oid=00D300000000RsQ&lastMod=1194292444000" WIDTH="920" HEIGHT="200" BORDER="0" ALT="Univar IFT Thank You"></a>
+</td>
+</tr>
+
+<tr>
+<td bgcolor="#FFFFFF" font="FFFFFF" colspan="1" WIDTH="233" HEIGHT="350" BORDER="0" align="left">
+
+<a href="http://www.univarusa.com/pagesi/food" title="Visit Univarusa.com"><IMG align= "center" SRC="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000R6Lw&oid=00D300000000RsQ&lastMod=1194281449000" WIDTH="233" HEIGHT="350" BORDER="0" ALT="Smoothie"></a>
+</td>
+<td bgcolor="#FFFFFF" font="FFFFFF" colspan="2" WIDTH="687" HEIGHT="350" BORDER="0"  align="left" style="PADDING:10px">
+<!--
+<p class="header">
+Thank you for stopping by our
+<br>
+booth at IFT 2007!<br>
+<br>
+</p>
+-->
+<p class="top">
+Our goal is to create new ideas with the latest ingredients to help you with your product and R&D challenges.  
+<br>
+<br>
+We are offering our IFT attendees a first look at the latest tools in food ingredient selection.  Please take a peek at these new tools.
+<br>
+<br>
+If you are in need of any products or further information, <A HREF="mailto:CustomerCare@univarusa.com">click here</a> to send us an email.
+<br>
+</p>
+<p class="center">
+<a href="http://www.univarusa.com/pagesi/food">Fresh Ideas Univar Food Ingredients</a>
+</p>
+
+</td>
+</tr>
+
+<!--Footer-->
+<tr>
+<td bgcolor="#0E5192" style="border-top: 1px solid #0E5192;" valign="middle" align="center" colspan="3">
+<p><i>Contact our Food Technical Expert at:</i> 843.532.1441
+<!--
+<a href="http://www.univarusa.com">Univar USA</a>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="http://www.univarusa.com/pagesi/food">Food Ingredients</a>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="http://www.univarusa.com/ebusiness.htm">Online Ordering</a>
+-->
+</p>
+</td>
+</tr>
+</table>
+<!-- \\\ footer area with contact info and opt-out link /// -->
+<span class="footerText">
+<br>
+This email was sent from <b> Univar USA Inc. </b> 
+<br>
+17425 NE Union Hill Rd., Redmond, WA 98052
+</span>
+
+
+
+<!-- /// Sometimes, BODY tags get stripped. This table is for background color when that happens.  \\\ --> 
+</td>
+</tr>
+</table>
+<!-- \\\ Sometimes, BODY tags get stripped. This table is for background color when that happens.  /// --> 
+
+<br>
+<br>
+
+</BODY>
+</HTML>

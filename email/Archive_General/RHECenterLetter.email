@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>Is there anything Univar can help you with?</TITLE>
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+
+<!-- /// CSS goes here in case the /HEAD tags get stripped \\\ --> 
+<STYLE TYPE="text/css">
+<!--
+ .topText {font-size:10px; color:#003399; line-height:25px; align:"center";}
+.introText {font-size:20px; color:#FFFFFF; line-height 30px; text-align:"center";}
+ .title {font-size:16px; font-weight:bold; color:#000000;}
+ .subTitle {font-size:13px; font-weight:bold; color:#4B4C4D;}
+ p {font-size:12px; color:#666666; line-height:20px; font-family: verdana;}
+.sideText{font-size:12px; color:#4B4C4D; line-height:20px; font-family: verdana;}
+ .footerText {font-size:11px; color:#666666;}
+ .headerBanner {font-size: 18px; font-weight: bold;}
+ td {font-family: verdana;}
+-->
+</STYLE>
+<!-- \\\ CSS goes here in case the /HEAD tags get stripped /// --> 
+
+
+<!-- /// Sometimes, BODY tags get stripped. This table is for background color when that happens.  \\\ --> 
+<table width="100%" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+
+<tr>
+<td valign="top" align="center">
+
+<!-- \\\ Sometimes, BODY tags get stripped. This table is for background color when that happens.  /// --> 
+<table style="BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; cellSpacing=0; cellPadding=0; valign=top; aalign=center; width=530; bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+</tr>
+</td> 
+<tr>
+<td bgcolor="#000000" font="FFFFFF" class="headerBanner" colspan="2" WIDTH="770" HEIGHT="100" BORDER="0" cellSpacing=0; cellPadding=0>
+<p>
+<a href="http://www.univarusa.com" title="Visit Univarusa.com">
+<IMG align= "center" SRC="https://na1.salesforce.com/servlet/servlet.ImageServer?id=015300000007ha9&oid=00D300000000RsQ&lastMod=1172613750000"  BORDER="0" ALT="Contact Center">
+</a>
+</p>
+</tr>
+</td>
+<tr>
+
+<!-- /// content cell \\\ -->
+<td valign="top" style="padding:10px" rowspan="2">
+<p>
+<br>
+{!Contact.FirstName},<br>
+</p>
+<p>
+I wanted to take a moment to invite you to sign up for the Rohm & Haas Coatings E-center.  The E-center is a service offered by Rohm & Haas to share information about products and technologies in your industry.
+</p>
+<p>
+Within the E-center, you will find technical literature, product specifications, MSDS’s, formulations, articles, publications, spotlights on new products, top topics like meeting VOC regulations, information from the exposure station, and much, much more on coatings, sealants and adhesive lines.
+</p>
+<p>
+If you are interested in gaining access to the E-center, fill out the attached form and forward back to me.  I will get you signed up with Rohm & Haas and e-mail your log in as soon as you are ready to go.  I hope you all take a moment to sign up as I know first-hand how informative and time-saving the website can be.  If you can’t find what you need there, then a Rohm & Haas professional is just a click away ready to help you.
+</p>
+<p>
+Feel free to contact me if you have any questions about the E-center or if you need to sign up other people within your company.  I look forward to hearing from you.
+</p>
+<p>
+Sincerely, <br>
+<b>Allison Johnson</b><br>
+Sales Specialist - CASE/Lube<br>
+Univar USA<br>
+</p>
+</td>
+<td valign="middle" align="center" style="padding:5px" bgcolor="#FFFFFF">
+<br>
+<IMG align="center" SRC="https://na1.salesforce.com/servlet/servlet.ImageServer?oid= "0" align="center" ALT="Allison Johnson">
+<br>
+<br>
+</td>
+</tr>
+<tr>
+<td width="220" style="BORDER: #00BEDC 5px solid; padding:5px" bgcolor="#FFFFFF">
+<p>
+<span class="subTitle"><i>Allison Johnson</i><br>Sales Specialist - CASE/Lube</span><br>
+<span class="sideText">
+713-589-6283<br>
+<a href="mailto:Allison.Johnson@univarusa.com">Allison.Johnson@univarusa.com </a>
+</span>
+</p>
+<p2>
+<span class="subTitle">:<br></span>
+<br>
+<span class="sideText">
+<br>
+<a href="mailto:"">
+</a>
+</span>
+</p>
+</td>
+</tr>
+
+
+
+
+<!-- \\\ content cell /// -->
+
+
+<!-- /// gutter \\\ -->
+
+<!-- \\\ gutter /// -->
+
+</tr>
+
+
+<!-- /// footer area with contact info and opt-out link \\\ -->
+<tr>
+<td bgcolor="#EEEEEE" style="border-top: 1px solid #333333;" valign="middle" align="center" colspan="3">
+<p>
+<a href="http://www.univarusa.com/chemcare.htm">ChemCare</a> &nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="http://www.univarusa.com">Univar USA</a>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="http://www.univarusa.com/ebusiness.htm">Online Ordering</a>
+<br>
+</p>
+</td>
+</tr>
+</table>
+<!-- \\\ footer area with contact info and opt-out link /// -->
+<span class="footerText">
+<br>
+This email was sent to <b> </b> from <b> Univar USA Inc. </b> 
+<br>
+17425 NE Union Hill Rd., Redmond, WA 98052
+</span>
+
+
+
+
+
+<!-- /// Sometimes, BODY tags get stripped. This table is for background color when that happens.  \\\ --> 
+</td>
+</tr>
+</table>
+<!-- \\\ Sometimes, BODY tags get stripped. This table is for background color when that happens.  /// --> 
+
+<br>
+<br>
+
+</BODY>
+</HTML>

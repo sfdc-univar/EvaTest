@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Univar_email_template</letterhead>
+    <name>OK to Dallas facility - John Whitaker</name>
+    <style>formalLetter</style>
+    <subject>Order processing moving to Dallas, TX</subject>
+    <textOnly>February 24, 2014
+
+Dear Customer,
+
+This letter is to inform you that Univar USA is making a change in how your orders will be processed.  In order to improve response time, we are moving the Customer Service responsibility of your account from our Oklahoma facility to our Dallas, TX facility.  Making this move will provide quicker answers when questions arise as Univar Dallas is our primary source of supply.
+
+Effective March 3, 2014, please call 800-765-7300 to place your orders.  If you e-mail your orders in, please send them to CUSTSVC-DAL@Univarusa.com.  
+
+If you have questions about the change, please contact your Account Manager, John Whitaker, via cell at 918-605-1035 or via e-mail at John.Whitaker@univarusa.com.
+
+Thank you for your understanding and patience.  
+
+Univar USA</textOnly>
+    <type>html</type>
+</EmailTemplate>

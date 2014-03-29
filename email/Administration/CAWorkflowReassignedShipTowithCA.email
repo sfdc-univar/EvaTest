@@ -1,0 +1,28 @@
+A Ship-To that rolls up to a Corporate Account has been reassigned.
+
+Details:
+New Ship-To Owner: {!Account.OwnerFullName}, 
+Corporate Account #: {!Account.GroupAccountNumber__c} 
+Ship-To Info: {!Account.Name}, Cust #{!Account.CustomerNumber__c}-{!Account.ShipToNumber__c}
+
+If the Semi-Automated CA Account Team maintenance process is going to be run, you do not need to do anything now. Just keep this email as a record of CA-related maintenance for this week.
+
+Otherwise, please  follow these steps to maintain the Account Team on the (previous or current) parent Corporate Account:
+
+1.  Link to this Ship-To: {!Account.Link}
+
+2.  Get the previous owner from the Account History section of the ship-to
+
+3.  On this ship-to record: Update the CAM's & CASC's Account Team records back to R/W access (because the reassignment automatically downgraded it to Read-only)
+
+4. Remove the previous owner from the CA Account Team:
+    - Go to the parent record (click the Parent Account link on the ship-to)
+    - Use View Hierarchy on (whichever) CA, to see if the previous owner owns any other ship-tos rolling to that CA
+    - If yes, continue to Step 5.
+    - If no, remove him/her from the parent CA's Account Team 
+
+5.  Add new ship-to owner to the CA Account Team:
+    - Be on the parent CA (from above step 4)
+    - If the new ship-to owner is not already on the parent CA's Account Team, add him/her
+    - Access = READ-ONLY
+    - Team Role = 'CA / MPA Ship-To Owner'

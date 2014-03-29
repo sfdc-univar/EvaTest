@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Caustic Soda Trial 2</name>
+    <style>none</style>
+    <subject>Pure Water</subject>
+    <textOnly>Happy New Year from your Univar Sales Specialist!
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+&lt;!-- 
+
+ --&gt;
+
+
+
+
+ 
+&lt;!--
+{!Contact.FirstName},
+ --&gt;
+ 
+PURE
+
+
+
+
+...is what water should be.
+
+
+
+
+
+Univar&apos;s Caustic Soda can make it happen.
+ 
+
+
+Call today to find out how
+ XXX-XXX-XXXX
+
+
+
+&lt;!-- 
+
+
+Sincerely, 
+
+
+
+
+Doug Sales
+
+Univar | Cincinnati
+
+(800) 978-2617 
+
+4600 Dues Dr
+
+Cincinnati, OH 45246
+
+Doug.Sales@univarusa.com
+
+
+
+
+
+ --&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering</textOnly>
+    <type>custom</type>
+</EmailTemplate>

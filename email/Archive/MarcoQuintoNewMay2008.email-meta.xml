@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Marco&apos;s intro to the new customers on his roster</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Marco Quinto New May 2008</name>
+    <style>none</style>
+    <subject>Thank you from Marco Quinto and Univar</subject>
+    <textOnly>&lt;!-- 
+
+ --&gt;
+
+
+
+
+
+
+
+
+{!Contact.FirstName},
+
+Thank you for being my customer.
+
+To my existing customers, I&apos;m honored to have the opportunity to serve you. To my new customers, I’m pleased to introduce myself as your new Univar Sales Specialist. I look forward to providing all of you the continued great service you’ve always received from Univar. 
+
+
+Over the next months, I plan to speak with you for a few minutes to learn more about your business and the ways Univar and I can assist you. 
+
+
+In the meantime, please contact me if there’s anything I can do for you. My number one priority is to help your business grow. Your success is my success.
+
+
+
+
+
+
+Marco Quinto
+Service Specialist
+
+
+(866) 577-1416
+
+Marco.Quinto@univarusa.com 
+
+
+
+
+
+Sincerely, 
+
+
+
+
+Marco Quinto
+
+Service Specialist
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering</textOnly>
+    <type>custom</type>
+</EmailTemplate>

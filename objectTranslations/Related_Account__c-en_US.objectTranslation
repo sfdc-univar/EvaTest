@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Related Account</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Related Accounts</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Owner Department --></label>
+        <name>Account_Owner_Department__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Owner Division --></label>
+        <name>Account_Owner_Division__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Owner --></label>
+        <name>Account_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Related Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Campaign --></label>
+        <name>Campaign__c</name>
+        <relationshipLabel><!-- Related Accounts --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Add_Related_Bid_Accounts --></label>
+        <name>Add_Related_Bid_Accounts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Delete --></label>
+        <name>Mass_Delete</name>
+    </webLinks>
+</CustomObjectTranslation>

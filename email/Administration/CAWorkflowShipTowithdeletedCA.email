@@ -1,0 +1,18 @@
+The Corporate Account number on this Ship-To has just been deleted. Account Teams on this Ship-To and its old parent Corporate Account will need to be maintained.
+
+Ship-To Details: {!Account.Name}, Cust #{!Account.CustomerNumber__c}-{!Account.ShipToNumber__c}
+Owner: {!Account.OwnerFullName}
+
+If the Semi-Automated CA Account Team maintenance process is going to be run, you do not need to do anything now. Just keep this email as a record of CA-related maintenance for this week.
+
+Otherwise, please follow these steps:
+
+1. Remove the CAM & CASC from the Ship-To Account Team:
+  - link to this Ship-To: {!Account.Link}
+  - remove all CAMs & CASCs from the Account Team on this Ship-To
+
+2. Maintain Account Team - OLD Corporate Account:
+  - Go to the old parent CA (you can get the old parent CA from the Account History section of this Ship-To)
+  - Use View Hierarchy on the old CA, to see if this ship-to owner ({!Account.OwnerFullName}) owns any other accounts rolling up to the old CA
+  - If yes, leave the ship-to owner on the old parent CA's Account Team
+  - If no, remove this ship-to owner from the old parent CA's Account Team

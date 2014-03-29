@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>EM Manager when Direct Report recalls a previously submitted worksheet</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Workflow_Email_Letterhead</letterhead>
+    <name>Coaching - Recalled</name>
+    <style>freeForm</style>
+    <subject>{!CoachingWorksheet__c.Name}: I Have Recalled My Coaching Worksheet</subject>
+    <textOnly>Dear {!CoachingWorksheet__c.ManagerFirstName__c},
+
+I have recalled this coaching worksheet to make additional edits.  You will receive another approval request once I have made my changes.</textOnly>
+    <type>html</type>
+</EmailTemplate>

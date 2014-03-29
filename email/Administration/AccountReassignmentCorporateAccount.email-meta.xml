@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notify new Owner when a Corporate Account has been assigned to them</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Account Reassignment: Corporate Account</name>
+    <style>none</style>
+    <subject>SFDC CA/MPA Account Reassigned to You: {!Account.Name} (#{!Account.GroupAccountNumber__c})</subject>
+    <type>text</type>
+</EmailTemplate>

@@ -1,0 +1,124 @@
+<apex:component >
+    <apex:attribute name="orgId" type="String" description="Organization Id"/>
+
+<apex:pageBlock >
+    <apex:pageblockButtons id="removeCacheContainer">
+        <apex:commandLink style="display:none;" value="{!$Label.copado__CACHE_REFRESHED_NOW}"  onclick="return rock.removeCached();" rerender="opDummy" id="removeCache"/>
+    </apex:pageblockButtons>
+    
+    <div id="jqxgrid"></div>
+    
+</apex:pageBlock>
+
+      <script>
+        var loadingHTML = '<center><img src="/img/loading.gif" /> <i>{!$Label.copado__LOADING}<span id="retry-label"></span></i></center>';
+        $('#jqxgrid').html(loadingHTML); 
+      </script>
+      
+       <apex:stylesheet value="{!URLFOR($Resource.copado__jqx,'jqwidgets/styles/jqx.base.css')}" />
+       <apex:includeScript value="{!URLFOR($Resource.copado__jqx,'jqwidgets/jqx-all.js')}" />
+       
+       <script>
+       
+        //namespace
+        var rock = rock || {};
+        
+        rock.stepType = 'MetaData';
+        
+        rock.createCacheDeleteButton = function(date){
+            if(!date){
+                 $('[id*=removeCacheContainer]').hide();
+            }else{
+                var $btn = $('[id$=removeCache]');
+                $btn.html($btn.html().replace('__DATE__',date)).show();
+            }    
+        };
+            
+        
+        rock.removeCached = function(){
+            //hide
+            $('#jqxgrid').html(loadingHTML);            
+            //reload
+            init(true);
+            
+            return false;
+        };
+        
+        //config grid
+        
+        rock.startGrid = function (data) {
+                    
+                try{    
+                    var theme = 'base',
+                    source = {
+                        localdata: data,
+                        datafields: [
+                            { name: 't', type: 'string' },
+                            { name: 'n', type: 'string' }
+                        ],
+                        datatype: "array",
+                        updaterow: function (rowid, rowdata, commit) {
+                            commit(true);
+                            data[rowid] = rowdata;
+                        }
+    
+                    },
+        
+                    //adapter wrapper
+                    dataAdapter = new $.jqx.dataAdapter(source),
+                    
+                    //keep jquery pointer for performance query
+                    $grid = $('<div>');
+                    
+                    $("#jqxgrid").html($grid);
+                    
+                    rock.datasource = source;
+                    
+                    $grid.jqxGrid({
+                        width: '100%',
+                        source: dataAdapter,
+                        showfilterrow: true,
+                        filterable: true,
+                        theme: theme,
+                        editable: true, 
+                        selectionmode: 'none',
+                        pageable: true,
+                        pagesizeoptions: ['10', '20', '50','100','200','500','1000','2000','5000'],
+                        pagesize: 20,
+                        sortable: true,
+                        columnsresize: true,
+                        localization: localizationobj,
+                        columns: [
+                          {text: '{!$Label.copado__NAME}', filtertype: 'textbox', filtercondition: 'contains', editable:false, datafield: 'n', width: 400},
+                          {text: '{!$Label.copado__TYPE}', datafield: 't', filtertype: 'checkedlist',editable:false ,  columntype: 'textbox' }
+                        ]
+                    });
+                    
+                }catch(e){
+                    console.error(e)
+                }
+         };
+          
+       function init(force){   
+           //start component
+           dw.u.getCachedRemote({
+               url:rock.config.metadata_url,
+               name:'MetaData',
+               parentId: '{!orgId}',
+               force: force,
+               success:function(metaOrgData, cachedDate){
+    
+                    rock.createCacheDeleteButton(cachedDate);
+                    rock.startGrid(metaOrgData);
+
+               },
+               error: function(r){
+                   //console.log('Error: ',r)
+               }
+           }); 
+        }
+        
+        init(false);   
+        
+       </script>
+</apex:component>

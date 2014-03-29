@@ -1,0 +1,28 @@
+<apex:page standardController="copado__Git_Backup__c" extensions="copado.BackupNow" title="View {!$ObjectType.copado__Git_Backup__c.Label}">
+    <c:GAnalytics />
+	<apex:form >    
+	<apex:sectionHeader title="{!$ObjectType.copado__Git_Backup__c.Label}" subtitle="{!copado__Git_Backup__c.Name}"/>
+		<apex:pageMessages />
+		<apex:pageBlock id="pb_viewGitBackup"  mode="view" helpUrl="http://www.copa.do/cms/documentation" helpTitle="{!$Label.copado__HELP_FOR_THIS_PAGE}">
+			<apex:pageblockButtons >
+                <apex:commandButton value="{!$Label.site.edit}" action="{!edit}" />
+                <apex:commandButton value="{!$Label.copado__DELETE}" action="{!delete}" />
+                <apex:commandButton value="{!$Label.copado__TEST_CONNECTIONS}" action="{!doTestConnections}" />
+                <apex:commandButton value="{!$Label.copado__BACKUP_NOW}" action="{!doBackup}" />
+            </apex:pageblockButtons>
+            <apex:pageBlockSection >
+                <apex:outputField value="{!copado__Git_Backup__c.Name}" />
+                <apex:outputField value="{!copado__Git_Backup__c.copado__Frequency__c}" />
+                <apex:outputField value="{!copado__Git_Backup__c.copado__Git_Repository__c}" />
+                <apex:outputField value="{!copado__Git_Backup__c.copado__Org__c}" />
+                <apex:outputField value="{!copado__Git_Backup__c.copado__Branch__c}" />
+                <apex:outputField value="{!copado__Git_Backup__c.copado__Last_Backup__c}" />
+                <apex:pageBlockSectionItem >
+                	<apex:outputLabel for="val" value="{!$Label.copado__VALIDATION}"> </apex:outputLabel>
+                	<apex:outputText id="val" value="{!validation}"></apex:outputText>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+     </apex:form>
+     <apex:relatedList list="Git_Org_Commits__r" />
+</apex:page>

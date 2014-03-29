@@ -1,0 +1,2432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Account Description</value>
+        </caseValues>
+        <name>description_account</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>No. of Employees</value>
+        </caseValues>
+        <name>employees_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- AGP Approved --></label>
+        <name>AGPManagerApprovalDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX Current APP Wave --></label>
+        <name>APPWaveCurrent__c</name>
+        <picklistValues>
+            <masterLabel>CA Wave 2009</masterLabel>
+            <translation><!-- CA Wave 2009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wave 1</masterLabel>
+            <translation><!-- Wave 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wave 1-2008</masterLabel>
+            <translation><!-- Wave 1-2008 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wave 1-2009</masterLabel>
+            <translation><!-- Wave 1-2009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wave 2</masterLabel>
+            <translation><!-- Wave 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wave 2-2008</masterLabel>
+            <translation><!-- Wave 2-2008 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wave 2-2009</masterLabel>
+            <translation><!-- Wave 2-2009 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- XX Original APP Wave --></label>
+        <name>APPWaveOriginal__c</name>
+        <picklistValues>
+            <masterLabel>CA Wave 2009</masterLabel>
+            <translation><!-- CA Wave 2009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wave 1</masterLabel>
+            <translation><!-- Wave 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wave 1-2008</masterLabel>
+            <translation><!-- Wave 1-2008 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wave 1-2009</masterLabel>
+            <translation><!-- Wave 1-2009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wave 2</masterLabel>
+            <translation><!-- Wave 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wave 2-2008</masterLabel>
+            <translation><!-- Wave 2-2008 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wave 2-2009</masterLabel>
+            <translation><!-- Wave 2-2009 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AR Office Code --></label>
+        <name>AROfficeCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Growth Plan Details --></label>
+        <name>AccountGrowthPlanDetails__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Industry --></label>
+        <name>AccountIndustry__c</name>
+    </fields>
+    <fields>
+        <name>AccountSource</name>
+        <picklistValues>
+            <masterLabel>Account Management</masterLabel>
+            <translation><!-- Account Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advertisement</masterLabel>
+            <translation><!-- Advertisement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Branch Office</masterLabel>
+            <translation><!-- Branch Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D&amp;B</masterLabel>
+            <translation><!-- D&amp;B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driver</masterLabel>
+            <translation><!-- Driver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IW</masterLabel>
+            <translation><!-- IW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Innovadex</masterLabel>
+            <translation><!-- Innovadex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Producer</masterLabel>
+            <translation><!-- Producer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC</masterLabel>
+            <translation><!-- SFDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Show</masterLabel>
+            <translation><!-- Trade Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USPOT</masterLabel>
+            <translation><!-- USPOT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web</masterLabel>
+            <translation><!-- Web --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Accounting Period --></label>
+        <name>AccountingPeriod__c</name>
+    </fields>
+    <fields>
+        <label><!-- AR Carrying Costs PYM --></label>
+        <name>AcornARCarryingCostsPYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- AR Carrying Costs PYTD --></label>
+        <name>AcornARCarryingCostsPYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- AR Carrying Costs CYM --></label>
+        <name>AcornARCarryingCostsYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- AR Carrying Costs YTD --></label>
+        <name>AcornARCarryingCostsYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total GM PYM --></label>
+        <name>AcornAdjGMPYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total GM PYTD --></label>
+        <name>AcornAdjGMPYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total GM CYM --></label>
+        <name>AcornAdjGMYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total GM YTD --></label>
+        <name>AcornAdjGMYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- EBITDA PYM --></label>
+        <name>AcornEBITDAPYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- EBITDA PYTD --></label>
+        <name>AcornEBITDAPYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- EBITDA CYM --></label>
+        <name>AcornEBITDAYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- EBITDA YTD --></label>
+        <name>AcornEBITDAYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- ECM PYM --></label>
+        <name>AcornECMPYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- ECM PYTD --></label>
+        <name>AcornECMPYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- ECM CYM --></label>
+        <name>AcornECMYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- ECM YTD --></label>
+        <name>AcornECMYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- EGM PYM --></label>
+        <name>AcornEconomicGMPYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- EGM PYTD --></label>
+        <name>AcornEconomicGMPYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- EGM CYM --></label>
+        <name>AcornEconomicGMYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- EGM YTD --></label>
+        <name>AcornEconomicGMYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fulfillment Costs PYM --></label>
+        <name>AcornFulfillmentCostsPYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fulfillment Costs PYTD --></label>
+        <name>AcornFulfillmentCostsPYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fulfillment Costs CYM --></label>
+        <name>AcornFulfillmentCostsYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fulfillment Costs YTD --></label>
+        <name>AcornFulfillmentCostsYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Carrying Costs PYM --></label>
+        <name>AcornInvCarryingCostsPYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Carrying Costs PYTD --></label>
+        <name>AcornInvCarryingCostsPYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Carrying Costs CYM --></label>
+        <name>AcornInvCarryingCostsYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Carrying Costs YTD --></label>
+        <name>AcornInvCarryingCostsYTD__c</name>
+    </fields>
+    <fields>
+        <help><!-- Credit and Debit Memos are not included in the Number of Orders. --></help>
+        <label><!-- Number of Orders PYM --></label>
+        <name>AcornNumOrdersPYM__c</name>
+    </fields>
+    <fields>
+        <help><!-- Credit and Debit Memos are not included in the Number of Orders. --></help>
+        <label><!-- Number of Orders PYTD --></label>
+        <name>AcornNumOrdersPYTD__c</name>
+    </fields>
+    <fields>
+        <help><!-- Credit and Debit Memos are not included in this total. --></help>
+        <label><!-- Number of Orders CYM --></label>
+        <name>AcornNumOrdersYM__c</name>
+    </fields>
+    <fields>
+        <help><!-- Credit and Debit Memos are not included in the Number of Orders. --></help>
+        <label><!-- Number of Orders YTD --></label>
+        <name>AcornNumOrdersYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw GM PYM --></label>
+        <name>AcornRawGMPYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw GM Prior YTD --></label>
+        <name>AcornRawGMPYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw GM% Prior YTD --></label>
+        <name>AcornRawGMPctPYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw GM% YTD --></label>
+        <name>AcornRawGMPctYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw GM CYM --></label>
+        <name>AcornRawGMYM__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sales and GM information is sourced from Acorn. --></help>
+        <label><!-- Raw GM YTD --></label>
+        <name>AcornRawGMYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rolling 13 - 24 Month Raw GM --></label>
+        <name>AcornRolling12MoRawGMPY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rolling 12 Month Raw GM --></label>
+        <name>AcornRolling12MoRawGM__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sales and GM information is sourced from Acorn. --></help>
+        <label><!-- Rolling 13 - 24 Month Sales --></label>
+        <name>AcornRolling12MoSalesPY__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sales and GM information is sourced from Acorn. --></help>
+        <label><!-- Rolling 12 Month Sales --></label>
+        <name>AcornRolling12MoSales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rolling Previous Year 90 Day Raw GM --></label>
+        <name>AcornRolling90DayRawGMPY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rolling 90 Day Raw GM --></label>
+        <name>AcornRolling90DayRawGM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rolling Previous Year 90 Day Sales --></label>
+        <name>AcornRolling90DaySalesPY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rolling 90 Day Sales --></label>
+        <name>AcornRolling90DaySales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales &amp; Marketing PYM --></label>
+        <name>AcornSalesMarketingPYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales &amp; Marketing PYTD --></label>
+        <name>AcornSalesMarketingPYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales &amp; Marketing CYM --></label>
+        <name>AcornSalesMarketingYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales &amp; Marketing YTD --></label>
+        <name>AcornSalesMarketingYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total GM Adjustments PYM --></label>
+        <name>AcornTotGMAdjPYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total GM Adjustments PYTD --></label>
+        <name>AcornTotGMAdjPYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total GM Adjustments CYM --></label>
+        <name>AcornTotGMAdjYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total GM Adjustments YTD --></label>
+        <name>AcornTotGMAdjYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Pounds PYM --></label>
+        <name>AcornTotPoundsPYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Pounds PYTD --></label>
+        <name>AcornTotPoundsPYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Pounds CYM --></label>
+        <name>AcornTotPoundsYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Pounds YTD --></label>
+        <name>AcornTotPoundsYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Sales PYM --></label>
+        <name>AcornTotSalesPYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Sales Prior YTD --></label>
+        <name>AcornTotSalesPYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Sales CYM --></label>
+        <name>AcornTotSalesYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Sales YTD --></label>
+        <name>AcornTotSalesYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transportation Expense PYM --></label>
+        <name>AcornTranspExpPYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transportation Expense PYTD --></label>
+        <name>AcornTranspExpPYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transportation Expense CYM --></label>
+        <name>AcornTranspExpYM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transportation Expense YTD --></label>
+        <name>AcornTranspExpYTD__c</name>
+    </fields>
+    <fields>
+        <label><!-- # Planned Annual Sales Calls --></label>
+        <name>AnnualSalesCalls__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sum of all CPPs = &quot;Estimated Sales Value&quot; --></help>
+        <label><!-- Annual Chemical Spend --></label>
+        <name>Annual_Chemical_Spend__c</name>
+    </fields>
+    <fields>
+        <label><!-- GM District Code --></label>
+        <name>AreaCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- GM District Name --></label>
+        <name>AreaName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Average Days Late --></label>
+        <name>AverageDaysLate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Id of the BCS SAM for this account, from UVX Code Category 762 --></help>
+        <label><!-- BCS SAM Id --></label>
+        <name>BCSSAMId__c</name>
+    </fields>
+    <fields>
+        <help><!-- BCS Strategic Account Manager --></help>
+        <label><!-- BCS SAM --></label>
+        <name>BCSSAMLink__c</name>
+        <relationshipLabel><!-- Accounts (BCS SAM) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Name of the BCS Strategic Account Manager for this account (text only) --></help>
+        <label><!-- BCS SAM Name --></label>
+        <name>BCSSAMName__c</name>
+    </fields>
+    <fields>
+        <help><!-- PerNr of the BCS SAM for this account, from UVX Code Category 762 --></help>
+        <label><!-- BCS SAM PerNr --></label>
+        <name>BCSSAMPerNr__c</name>
+    </fields>
+    <fields>
+        <label><!-- BCS Challenger Account --></label>
+        <name>BCS_Challenger_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Fax --></label>
+        <name>BillingFax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Phone --></label>
+        <name>BillingPhoneNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Buying Behavior --></label>
+        <name>BuyingBehavior__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Owner of the Parent Account, if the parent has a CA# and this account is a Prospect or a Ship-To. --></help>
+        <label><!-- CAM/RAM Name --></label>
+        <name>CAMRAMName__c</name>
+    </fields>
+    <fields>
+        <help><!-- UVX Id of the CC Acct Mgr for this account --></help>
+        <label><!-- CC Acct Mgr Id --></label>
+        <name>CCAcctMgrId__c</name>
+    </fields>
+    <fields>
+        <help><!-- ChemCare Account Manager --></help>
+        <label><!-- CC Acct Mgr --></label>
+        <name>CCAcctMgrLink__c</name>
+        <relationshipLabel><!-- Accounts (CC Acct Mgr) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Name of the CC Acct Mgr for this account --></help>
+        <label><!-- CC Acct Mgr Name --></label>
+        <name>CCAcctMgrName__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX ChemCare Contact Phone Number --></label>
+        <name>CCContactPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX ChemCare Container Type Code --></label>
+        <name>CCContainerTypeCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX ChemCare Container Type Name --></label>
+        <name>CCContainerTypeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChemCare Corp. Account Name --></label>
+        <name>CCCorpAccountName__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChemCare Corp. Account Number --></label>
+        <name>CCCorpAccountNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChemCare Forecast GM% --></label>
+        <name>CCForecastGMPercent__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChemCare Forecast GM$ --></label>
+        <name>CCForecastGrossMargin__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChemCare Forecast Sales --></label>
+        <name>CCForecastSales__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX ChemCare Physical State Code --></label>
+        <name>CCPhysicalStateCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX ChemCare Physical State Name --></label>
+        <name>CCPhysicalStateName__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChemCare GM% Prior YTD --></label>
+        <name>CCPrevYrGMPercent__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChemCare GM Prior YTD --></label>
+        <name>CCPrevYrGrossMargin__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChemCare Sales Prior YTD --></label>
+        <name>CCPrevYrSales__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChemCare Rolling 12 Month GM --></label>
+        <name>CCRolling12MoGM__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChemCare Rolling 12 Month Sales --></label>
+        <name>CCRolling12MoSales__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChemCare Rolling 13 - 24 Month GM --></label>
+        <name>CCRollingPrev12MoGM__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChemCare Rolling 13 - 24 Month Sales --></label>
+        <name>CCRollingPrev12MoSales__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChemCare GM% YTD --></label>
+        <name>CCYTDGMPercent__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChemCare GM YTD --></label>
+        <name>CCYTDGrossMargin__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChemCare Sales YTD --></label>
+        <name>CCYTDSales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Candidate --></label>
+        <name>Candidate__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX ChemCare Contact Name --></label>
+        <name>ChemCareContactName__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX ChemCare EPA Waste Code 1 --></label>
+        <name>ChemCareEPAWasteCode1__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX ChemCare EPA Waste Code 2 --></label>
+        <name>ChemCareEPAWasteCode2__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX ChemCare EPA Waste Code 3 --></label>
+        <name>ChemCareEPAWasteCode3__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX ChemCare EPA Waste Code 4 --></label>
+        <name>ChemCareEPAWasteCode4__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX ChemCare EPA Waste Code 5 --></label>
+        <name>ChemCareEPAWasteCode5__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX ChemCare EPA Waste Code 6 --></label>
+        <name>ChemCareEPAWasteCode6__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX ChemCare EPA Waste Code 7 --></label>
+        <name>ChemCareEPAWasteCode7__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX ChemCare EPA Waste Code 8 --></label>
+        <name>ChemCareEPAWasteCode8__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX ChemCare EPA Waste Code 9 --></label>
+        <name>ChemCareEPAWasteCode9__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date that an Account was qualified to solicit ChemCare. --></help>
+        <label><!-- ChemCare Qualified --></label>
+        <name>ChemCareQualified__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX ChemCare Waste Volumn UOM --></label>
+        <name>ChemCareWasteVolumnUOM__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX ChemCare Waste Weight UOM --></label>
+        <name>ChemCareWasteWeightUOM__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC Challenger Account --></label>
+        <name>ChemCare_Challenger_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX ChemCare Qualified --></label>
+        <name>ChemCare_Qualified__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChemCare Potential $ --></label>
+        <name>ChemcarePotential__c</name>
+    </fields>
+    <fields>
+        <label><!-- ChemCare Total Waste Spend --></label>
+        <name>ChemcareTotalWasteSpend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consolidated Invoice Code --></label>
+        <name>ConsolidatedInvoiceCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Center Comments --></label>
+        <name>ContactCenterComments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Corporation Code --></label>
+        <name>CorporationCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- County Code --></label>
+        <name>CountyCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- County Name --></label>
+        <name>CountyName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Contact Name --></label>
+        <name>CreditContactName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Contact Phone Number --></label>
+        <name>CreditContactPhoneNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Limit Type --></label>
+        <name>CreditLimitType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Limit --></label>
+        <name>CreditLimit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Rep Code --></label>
+        <name>CreditRepCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Rep --></label>
+        <name>CreditRep__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Annual Revenue --></label>
+        <name>CustomerAnnualRevenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Class Code --></label>
+        <name>CustomerClassCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Class Name --></label>
+        <name>CustomerClassName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Number --></label>
+        <name>CustomerNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- 9 digit ID corresponding to unique id from DCS: 6 digits for bill-to, plus 3 digits for ship-to.  Populated via integration only, non-editable. --></help>
+        <label><!-- Customer Ship To --></label>
+        <name>CustomerShipTo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Status Code --></label>
+        <name>CustomerStatusCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Status --></label>
+        <name>CustomerStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Type Code --></label>
+        <name>CustomerTypeCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCS Owner Code --></label>
+        <name>DCSOwnerCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Description --></label>
+        <name>Data_Quality_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Score --></label>
+        <name>Data_Quality_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Account Established --></label>
+        <name>DateAccountEstablished__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Contact Name --></label>
+        <name>DeliveryContactName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Contact Phone Number --></label>
+        <name>DeliveryContactPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department Code --></label>
+        <name>DepartmentCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department Name --></label>
+        <name>DepartmentName__c</name>
+    </fields>
+    <fields>
+        <label><!-- District Code --></label>
+        <name>DistrictCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- District Mgr ID --></label>
+        <name>DistrictMgrID__c</name>
+    </fields>
+    <fields>
+        <label><!-- District Mgr Name --></label>
+        <name>DistrictMgrName__c</name>
+    </fields>
+    <fields>
+        <label><!-- District Name --></label>
+        <name>DistrictName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duns # --></label>
+        <name>DunsNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- F2STemp Lost Checkbox --></label>
+        <name>F2STemp_Lost_Checkbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- F2STemp SoW Checkbox --></label>
+        <name>F2STemp_SoW_Checkbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- F2STemp Wounded Checkbox --></label>
+        <name>F2STemp_Wounded_Checkbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- F2S Start Date --></label>
+        <name>F2S_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Federal EPA Number --></label>
+        <name>FederalEPANumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Review Comments --></label>
+        <name>FieldManagerComments__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Invoice Date --></label>
+        <name>FirstInvoiceDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Customer Requires Global Food Safety Initiative Certification --></help>
+        <label><!-- Global Food Safety Initiative --></label>
+        <name>GFSI__c</name>
+    </fields>
+    <fields>
+        <label><!-- General Mgr ID --></label>
+        <name>GeneralMgrID__c</name>
+    </fields>
+    <fields>
+        <label><!-- General Mgr Name --></label>
+        <name>GeneralMgrName__c</name>
+    </fields>
+    <fields>
+        <label><!-- CA/MPA Number --></label>
+        <name>GroupAccountNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- CA/MPA Type --></label>
+        <name>GroupAccountType__c</name>
+        <picklistValues>
+            <masterLabel>Corporate</masterLabel>
+            <translation><!-- Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-plant Central</masterLabel>
+            <translation><!-- Multi-plant Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-plant Eastern</masterLabel>
+            <translation><!-- Multi-plant Eastern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-plant Western</masterLabel>
+            <translation><!-- Multi-plant Western --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Forecast Sales --></label>
+        <name>ICCurrentYrForecastSales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forecast GM% --></label>
+        <name>ICForecastGMPercent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forecast GM$ --></label>
+        <name>ICForecastGrossMargin__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX Prior YTD GM% --></label>
+        <name>ICPrevYrGMPercent__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX Prior YTD $GM --></label>
+        <name>ICPrevYrGrossMargin__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX Prior YTD Sales --></label>
+        <name>ICPrevYrSales__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX YTD GM% --></label>
+        <name>ICYTDGMPercent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sales and GM information is sourced from Acorn. --></help>
+        <label><!-- XX YTD $GM --></label>
+        <name>ICYTDGrossMargin__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX YTD Sales --></label>
+        <name>ICYTDSales__c</name>
+    </fields>
+    <fields>
+        <label><!-- IC Challenger Account --></label>
+        <name>IC_Challenger_Account__c</name>
+    </fields>
+    <fields>
+        <name>Industry</name>
+        <picklistValues>
+            <masterLabel>Adhesives</masterLabel>
+            <translation><!-- Adhesives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aerospace</masterLabel>
+            <translation><!-- Aerospace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agriculture/Fertilizer</masterLabel>
+            <translation><!-- Agriculture/Fertilizer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biofuels</masterLabel>
+            <translation><!-- Biofuels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Producers</masterLabel>
+            <translation><!-- Chemical Producers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation><!-- Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elastomers</masterLabel>
+            <translation><!-- Elastomers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics - Circuit Board</masterLabel>
+            <translation><!-- Electronics - Circuit Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics - Other</masterLabel>
+            <translation><!-- Electronics - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics - Semi Conductor</masterLabel>
+            <translation><!-- Electronics - Semi Conductor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy - Oil Field Services</masterLabel>
+            <translation><!-- Energy - Oil Field Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy - Other</masterLabel>
+            <translation><!-- Energy - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy - Petroleum Refinery</masterLabel>
+            <translation><!-- Energy - Petroleum Refinery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food - Flavor Extracts/Syrup</masterLabel>
+            <translation><!-- Food - Flavor Extracts/Syrup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food - Food Preparations</masterLabel>
+            <translation><!-- Food - Food Preparations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food - Other</masterLabel>
+            <translation><!-- Food - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forest Product - Pulp/Paper Mill</masterLabel>
+            <translation><!-- Forest Product - Pulp/Paper Mill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forest Products - Other</masterLabel>
+            <translation><!-- Forest Products - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HIC</masterLabel>
+            <translation><!-- HIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial - Misc. Mfg</masterLabel>
+            <translation><!-- Industrial - Misc. Mfg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ink</masterLabel>
+            <translation><!-- Ink --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mining</masterLabel>
+            <translation><!-- Mining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paint &amp; Coatings</masterLabel>
+            <translation><!-- Paint &amp; Coatings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Care</masterLabel>
+            <translation><!-- Personal Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmaceutical</masterLabel>
+            <translation><!-- Pharmaceutical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plating/Metal Finishing</masterLabel>
+            <translation><!-- Plating/Metal Finishing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preservatives</masterLabel>
+            <translation><!-- Preservatives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reseller/Subdistributor</masterLabel>
+            <translation><!-- Reseller/Subdistributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rubber &amp; Plastics</masterLabel>
+            <translation><!-- Rubber &amp; Plastics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sealants</masterLabel>
+            <translation><!-- Sealants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Textile</masterLabel>
+            <translation><!-- Textile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waste Management</masterLabel>
+            <translation><!-- Waste Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water Treatment</masterLabel>
+            <translation><!-- Water Treatment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Integrated Billing Country Code --></label>
+        <name>IntegratedBillingCtryCd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integrated Billing Country --></label>
+        <name>IntegratedBillingCtry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integrated Billing State Code --></label>
+        <name>IntegratedBillingStateCd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integrated Billing State --></label>
+        <name>IntegratedBillingState__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integrated Shipping Country Code --></label>
+        <name>IntegratedShippingCtryCd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integrated Shipping Country --></label>
+        <name>IntegratedShippingCtry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integrated Shipping State Code --></label>
+        <name>IntegratedShippingStateCd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integrated Shipping State --></label>
+        <name>IntegratedShippingState__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Competitors --></label>
+        <name>KeyCompetitors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Customers --></label>
+        <name>KeyCustomers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Invoice Date --></label>
+        <name>LastInvoiceDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Activity Date --></label>
+        <name>Last_Activity_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latitude --></label>
+        <name>Latitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Longitude --></label>
+        <name>Longitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- MUNIText --></label>
+        <name>MUNIText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager CPP Review --></label>
+        <name>ManagerCPPReview__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date that the Sales Manager Approved this customer for ChemCare sales. --></help>
+        <label><!-- Manager ChemCare Approval --></label>
+        <name>Manager_ChemCare_Approval__c</name>
+    </fields>
+    <fields>
+        <help><!-- Prospect = Prospect
+SOW = Share of Wallet based on Sales &gt;=50% in prior 12 mo vs. prior 13-24 mo.
+Wounded = Sales &lt; 50% in prior 12 mo vs. prior 13-24 mo.
+Lost = No sales in prior 12 mo vs. sales in prior 13-24 mo. --></help>
+        <label><!-- F2S ID --></label>
+        <name>MarketingSegment__c</name>
+        <picklistValues>
+            <masterLabel>1=Competitor</masterLabel>
+            <translation><!-- 1=Competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2=Municipality/Utility</masterLabel>
+            <translation><!-- 2=Municipality/Utility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3=Producer</masterLabel>
+            <translation><!-- 3=Producer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4=Export</masterLabel>
+            <translation><!-- 4=Export --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5=Univar Facility</masterLabel>
+            <translation><!-- 5=Univar Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6=Consultant/Marketing</masterLabel>
+            <translation><!-- 6=Consultant/Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7=Basic</masterLabel>
+            <translation><!-- 7=Basic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8=Unqualified</masterLabel>
+            <translation><!-- 8=Unqualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation><!-- Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect</masterLabel>
+            <translation><!-- Prospect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOW</masterLabel>
+            <translation><!-- SOW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wounded</masterLabel>
+            <translation><!-- Wounded --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If the Sales Rep Name contains MUNI, the box will be checked and unchecked if not. --></help>
+        <label><!-- Muni Team Account --></label>
+        <name>Muni_Team_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX Nat&apos;l Account Credit Limit --></label>
+        <name>NationalAccountCreditLimit__c</name>
+    </fields>
+    <fields>
+        <label><!-- No Turnover --></label>
+        <name>NoTurnover__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of CPPs --></label>
+        <name>NumberofCPPs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of ChemCare CPPs --></label>
+        <name>NumberofChemCare__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Contacts --></label>
+        <name>NumberofContacts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Opportunities --></label>
+        <name>NumberofOpportunities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Sample Requests --></label>
+        <name>NumberofSampleRequests__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Shipping Company --></label>
+        <name>OtherShippingCompany__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Link --></label>
+        <name>OwnerLink__c</name>
+        <relationshipLabel><!-- Accounts (Owner Link) --></relationshipLabel>
+    </fields>
+    <fields>
+        <name>Ownership</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private</masterLabel>
+            <translation><!-- Private --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public</masterLabel>
+            <translation><!-- Public --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subsidiary</masterLabel>
+            <translation><!-- Subsidiary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Parent Duns # --></label>
+        <name>ParentDunsNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms Code --></label>
+        <name>PaymentTermsCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms --></label>
+        <name>PaymentTerms__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contact your Regional Director of Marketing and Sales (RDMS) to add new initiatives. --></help>
+        <label><!-- Performance Improvement --></label>
+        <name>PerformanceImprovement__c</name>
+        <picklistValues>
+            <masterLabel>Account Improvement</masterLabel>
+            <translation><!-- Account Improvement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Improvement</masterLabel>
+            <translation><!-- Product Improvement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC ECM Kickoff</masterLabel>
+            <translation><!-- SFDC ECM Kickoff --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Port or Ports for customer. --></help>
+        <label><!-- Port --></label>
+        <name>Port__c</name>
+    </fields>
+    <fields>
+        <label><!-- Present Suppliers --></label>
+        <name>Present_Supplier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Delivery Method Code --></label>
+        <name>PrimaryDeliveryMethodCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Delivery Method --></label>
+        <name>PrimaryDeliveryMethod__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Warehouse Code --></label>
+        <name>PrimaryWarehouseCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Warehouse Name --></label>
+        <name>PrimaryWarehouseName__c</name>
+    </fields>
+    <fields>
+        <help><!-- List of Product Families. --></help>
+        <label><!-- Product Families --></label>
+        <name>Product_Families__c</name>
+    </fields>
+    <fields>
+        <help><!-- List of Product and Tariff Codes. --></help>
+        <label><!-- Products/Tariff Codes --></label>
+        <name>Products_Tariff_Codes__c</name>
+    </fields>
+    <fields>
+        <help><!-- 0=CSR (Customer Service Rep)
+1=ISR (Inside Sales Rep)
+2=OSR (Outside Sales Rep) --></help>
+        <label><!-- Profitability Segment --></label>
+        <name>ProfitabilitySegment__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Prospect Status --></label>
+        <name>Prospect_Status__c</name>
+        <picklistValues>
+            <masterLabel>Contacted</masterLabel>
+            <translation><!-- Contacted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disqualified</masterLabel>
+            <translation><!-- Disqualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ignored</masterLabel>
+            <translation><!-- Ignored --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified</masterLabel>
+            <translation><!-- Qualified --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Rating</name>
+        <picklistValues>
+            <masterLabel>Cold</masterLabel>
+            <translation><!-- Cold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot</masterLabel>
+            <translation><!-- Hot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warm</masterLabel>
+            <translation><!-- Warm --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Region Code --></label>
+        <name>RegionCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region Name --></label>
+        <name>RegionName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regional Mgr ID --></label>
+        <name>RegionalMgrID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regional Mgr Name --></label>
+        <name>RegionalMgrName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Reviewed by Field Manager --></label>
+        <name>Reviewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX Rolling 12 Month $GM --></label>
+        <name>Rolling12MonthGMDollars__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sales and GM information is sourced from Acorn. --></help>
+        <label><!-- XX Rolling 12 Month Sales --></label>
+        <name>Rolling12MonthSales__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX Rolling 90 Days Sales --></label>
+        <name>Rolling90DaySales__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX Rolling 90 Days $GM --></label>
+        <name>Rolling90DaysGMDollars__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX Rolling Previous Year 90 Days Sales --></label>
+        <name>RollingPrevious90DaysSales__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX Rolling 13 - 24 Month $GM --></label>
+        <name>RollingPreviousYr12MoGM__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX Rolling 13 - 24 Month Sales --></label>
+        <name>RollingPreviousYr12MoSales__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX Rolling Previous Year 90 Days $GM --></label>
+        <name>RollingPreviousYr90DaysGM__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Code 1 --></label>
+        <name>SICCode1__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Code 2 --></label>
+        <name>SICCode2__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Code 3 --></label>
+        <name>SICCode3__c</name>
+    </fields>
+    <fields>
+        <help><!-- Univar Industrial Classification.  This was named SIC Code 4. --></help>
+        <label><!-- UIC --></label>
+        <name>SICCode4__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Industry Group Code 1 --></label>
+        <name>SICIndustryGroupCode1__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Industry Group Code 2 --></label>
+        <name>SICIndustryGroupCode2__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Industry Group Code 3 --></label>
+        <name>SICIndustryGroupCode3__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Industry Group Code 4 --></label>
+        <name>SICIndustryGroupCode4__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Industry Group Name 1 --></label>
+        <name>SICIndustryGroupName1__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Industry Group Name 2 --></label>
+        <name>SICIndustryGroupName2__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Industry Group Name 3 --></label>
+        <name>SICIndustryGroupName3__c</name>
+    </fields>
+    <fields>
+        <label><!-- UIC Industry --></label>
+        <name>SICIndustryGroupName4__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Name 1 --></label>
+        <name>SICName1__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Name 2 --></label>
+        <name>SICName2__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Name 3 --></label>
+        <name>SICName3__c</name>
+    </fields>
+    <fields>
+        <help><!-- Univar Industrial Classification.  This was named &quot;SIC Name 4&quot;. --></help>
+        <label><!-- UIC Description --></label>
+        <name>SICName4__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Mapping --></label>
+        <name>SIC_Mapping__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales As Of - Hidden --></label>
+        <name>SalesAsOfHidden__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales As Of --></label>
+        <name>SalesAsOf__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Contact Name --></label>
+        <name>SalesContactName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Contact Phone Number --></label>
+        <name>SalesContactPhoneNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- Title assigned to this Salesrep Type. From DCS Code Category 134. --></help>
+        <label><!-- Sales Hierarchy Title --></label>
+        <name>SalesHierarchyTitle__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sales Manager ID from UVX --></help>
+        <label><!-- Sales Mgr ID --></label>
+        <name>SalesMgrID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Populated by CC 115 and CC 135 values from UVX. For changes, contact your Regional or District Admin Manager to update the values in the UVX. --></help>
+        <label><!-- Sales Mgr --></label>
+        <name>SalesMgrName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Office Code --></label>
+        <name>SalesOfficeCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Office Name --></label>
+        <name>SalesOfficeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Rep ID --></label>
+        <name>SalesRepID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Rep Name --></label>
+        <name>SalesRepName__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX Segmentation Priority --></label>
+        <name>SegmentationPriority__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- XX Segmentation Value --></label>
+        <name>SegmentationValue__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- you have multiple Account records for this customer but this is the one you use for Contacts, Activities, Opportunities, etc, mark this as the Sell-to Account. --></help>
+        <label><!-- Sell-To Account --></label>
+        <name>SellToAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Branch --></label>
+        <name>ServiceBranch__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Branch Code --></label>
+        <name>Service_Branch_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship Term Code --></label>
+        <name>ShipTermCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship To Name --></label>
+        <name>ShipToName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship To --></label>
+        <name>ShipToNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship Via Code --></label>
+        <name>ShipViaCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX Ship Via --></label>
+        <name>ShipViaName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sample Request Shipping Account # --></label>
+        <name>ShippingAccountNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sample Request Shipping Co --></label>
+        <name>ShippingCompany__c</name>
+        <picklistValues>
+            <masterLabel>DHL</masterLabel>
+            <translation><!-- DHL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Federal Express</masterLabel>
+            <translation><!-- Federal Express --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS</masterLabel>
+            <translation><!-- UPS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Shipping Fax --></label>
+        <name>ShippingFax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Phone --></label>
+        <name>ShippingPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Street MultiLine --></label>
+        <name>ShippingStreetMultiLine__c</name>
+    </fields>
+    <fields>
+        <label><!-- State EPA Number 1 --></label>
+        <name>StateEPANumber1__c</name>
+    </fields>
+    <fields>
+        <label><!-- State EPA Number 2 --></label>
+        <name>StateEPANumber2__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX Strengths --></label>
+        <name>Strengths__c</name>
+    </fields>
+    <fields>
+        <label><!-- TEMPBillingStateLength --></label>
+        <name>TEMPBillingStateLength__c</name>
+    </fields>
+    <fields>
+        <label><!-- TEMPBillingStateShort --></label>
+        <name>TEMPBillingStateShort__c</name>
+    </fields>
+    <fields>
+        <label><!-- TEMPShippingStateLength --></label>
+        <name>TEMPShippingStateLength__c</name>
+    </fields>
+    <fields>
+        <label><!-- TEMPShippingStateShort --></label>
+        <name>TEMPShippingStateShort__c</name>
+    </fields>
+    <fields>
+        <label><!-- TTM Closed Lost --></label>
+        <name>TTM_Closed_Lost__c</name>
+    </fields>
+    <fields>
+        <label><!-- TTM Closed Won Opportunities --></label>
+        <name>TTM_Closed_Won_Opportunities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Account --></label>
+        <name>TargetAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Exempt Cert. Number --></label>
+        <name>TaxExemptCertNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Exempt Exp. Date --></label>
+        <name>TaxExemptExpDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Indicator --></label>
+        <name>TaxIndicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Technical Contact Name --></label>
+        <name>TechnicalContactName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Technical Contact Phone Number --></label>
+        <name>TechnicalContactPhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Rep Type Code --></label>
+        <name>TerritoryTypeCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Rep Type --></label>
+        <name>TerritoryTypeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX Tier --></label>
+        <name>Tier__c</name>
+        <picklistValues>
+            <masterLabel>Tier 1 - Economic margin positive</masterLabel>
+            <translation><!-- Tier 1 - Economic margin positive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier 2 - Economic margin negative</masterLabel>
+            <translation><!-- Tier 2 - Economic margin negative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier 3 - Operating margin negative</masterLabel>
+            <translation><!-- Tier 3 - Operating margin negative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier 4 - Economic contribution margin negative</masterLabel>
+            <translation><!-- Tier 4 - Economic contribution margin negative --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Chemical Spend --></label>
+        <name>TotalChemicalSpend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Open Opportunities --></label>
+        <name>Total_Open_Opportunities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Turnover --></label>
+        <name>Turnover__c</name>
+    </fields>
+    <fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Corporate</masterLabel>
+            <translation><!-- Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Plant National</masterLabel>
+            <translation><!-- Multi-Plant National --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Plant Regional</masterLabel>
+            <translation><!-- Multi-Plant Regional --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UIC Industry Group --></label>
+        <name>UIC_Industry_Group__c</name>
+        <picklistValues>
+            <masterLabel>1 - SERVICES</masterLabel>
+            <translation><!-- 1 - SERVICES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - PEST CONTROL MGMT</masterLabel>
+            <translation><!-- 2 - PEST CONTROL MGMT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - PHARMACEUTICAL-UNIVAR</masterLabel>
+            <translation><!-- 3 - PHARMACEUTICAL-UNIVAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - PERSONAL CARE-UNIVAR</masterLabel>
+            <translation><!-- 4 - PERSONAL CARE-UNIVAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - OIL FIELD SERVICES-UNIVAR</masterLabel>
+            <translation><!-- 5 - OIL FIELD SERVICES-UNIVAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 - LUBRICANTS</masterLabel>
+            <translation><!-- 6 - LUBRICANTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 - OTHER INDUSTRY</masterLabel>
+            <translation><!-- 9 - OTHER INDUSTRY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A - AGRICULT,FORESTRY,FISHING</masterLabel>
+            <translation><!-- A - AGRICULT,FORESTRY,FISHING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B - MINING</masterLabel>
+            <translation><!-- B - MINING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C - ENERGY SECTOR</masterLabel>
+            <translation><!-- C - ENERGY SECTOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D - CONSTRUCTION</masterLabel>
+            <translation><!-- D - CONSTRUCTION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E - FOOD</masterLabel>
+            <translation><!-- E - FOOD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F - TEXTILE &amp; APPAREL</masterLabel>
+            <translation><!-- F - TEXTILE &amp; APPAREL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G - LUMBER &amp; WOOD PRODUCTS</masterLabel>
+            <translation><!-- G - LUMBER &amp; WOOD PRODUCTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H - FURNITURE &amp; FIXTURES</masterLabel>
+            <translation><!-- H - FURNITURE &amp; FIXTURES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I - PAPER &amp; ALLIED PRODUCTS</masterLabel>
+            <translation><!-- I - PAPER &amp; ALLIED PRODUCTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K - CHEMICAL PRODUCERS</masterLabel>
+            <translation><!-- K - CHEMICAL PRODUCERS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L - HOUSEHLD &amp; INDUST CLEANRS</masterLabel>
+            <translation><!-- L - HOUSEHLD &amp; INDUST CLEANRS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N - COATINGS, INK &amp; ADHESIVES</masterLabel>
+            <translation><!-- N - COATINGS, INK &amp; ADHESIVES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P - RUBBER &amp; PLASTICS</masterLabel>
+            <translation><!-- P - RUBBER &amp; PLASTICS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q - METAL &amp; METAL FINISHING</masterLabel>
+            <translation><!-- Q - METAL &amp; METAL FINISHING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R - MACHINERY</masterLabel>
+            <translation><!-- R - MACHINERY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T - ELEC EQUIP &amp; ELECTRONICS</masterLabel>
+            <translation><!-- T - ELEC EQUIP &amp; ELECTRONICS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V - MISC MANUFACTURING</masterLabel>
+            <translation><!-- V - MISC MANUFACTURING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W - TRANSPORTATION</masterLabel>
+            <translation><!-- W - TRANSPORTATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y - UTILITIES</masterLabel>
+            <translation><!-- Y - UTILITIES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z - WHOLESALE &amp; RETAIL</masterLabel>
+            <translation><!-- Z - WHOLESALE &amp; RETAIL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ultimate Duns # --></label>
+        <name>UltimateDunsNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ultimate Name --></label>
+        <name>UltimateName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Unique Identifier for each account record. --></help>
+        <label><!-- UnivarARID --></label>
+        <name>UnivarARID__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX SIC Code 4 --></label>
+        <name>UnivarIndustryCodeSIC4__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX SIC Name 4 --></label>
+        <name>UnivarIndustryNameSIC4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Univar Potential $ --></label>
+        <name>UnivarPotential__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX Univar Strategy --></label>
+        <name>Univar_Strategy__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Last Modified By --></label>
+        <name>UserLastModifiedBy__c</name>
+        <relationshipLabel><!-- Accounts (User Last Modified By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User Last Modified Date --></label>
+        <name>UserLastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Waive Deposit --></label>
+        <name>WaiveDeposit__c</name>
+    </fields>
+    <fields>
+        <label><!-- XX Weaknesses --></label>
+        <name>Weaknesses__c</name>
+    </fields>
+    <layouts>
+        <layout>Account Layout:  GS&amp;E Account</layout>
+        <sections>
+            <label><!-- Account Comments --></label>
+            <section>Account Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Account Details --></label>
+            <section>Account Details</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Layout: Consultant/Marketing</layout>
+        <sections>
+            <label><!-- Account Comments --></label>
+            <section>Account Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Account Detail --></label>
+            <section>Account Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Layout: Corporate - ChemCare</layout>
+        <sections>
+            <label><!-- Account Growth Plan --></label>
+            <section>Account Growth Plan</section>
+        </sections>
+        <sections>
+            <label><!-- Account Review --></label>
+            <section>Account Review</section>
+        </sections>
+        <sections>
+            <label><!-- Rolling 12 Month Targets --></label>
+            <section>Rolling 12 Month Targets</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Layout: Corporate Account</layout>
+        <sections>
+            <label><!-- Account Details --></label>
+            <section>Account Details</section>
+        </sections>
+        <sections>
+            <label><!-- Account Growth Plan --></label>
+            <section>Account Growth Plan</section>
+        </sections>
+        <sections>
+            <label><!-- Account Review --></label>
+            <section>Account Review</section>
+        </sections>
+        <sections>
+            <label><!-- Rolling 12 Month Targets --></label>
+            <section>Rolling 12 Month Targets</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Layout: Prospect</layout>
+        <sections>
+            <label><!-- Account Details --></label>
+            <section>Account Details</section>
+        </sections>
+        <sections>
+            <label><!-- Account Milestones --></label>
+            <section>Account Milestones</section>
+        </sections>
+        <sections>
+            <label><!-- Account Review --></label>
+            <section>Account Review</section>
+        </sections>
+        <sections>
+            <label><!-- Rolling 12 Month Targets --></label>
+            <section>Rolling 12 Month Targets</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Layout: Ship To</layout>
+        <sections>
+            <label><!-- Account Details --></label>
+            <section>Account Details</section>
+        </sections>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Account Profitability Summary --></label>
+            <section>Account Profitability Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Account Review --></label>
+            <section>Account Review</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- ChemCare Account Sales --></label>
+            <section>ChemCare Account Sales</section>
+        </sections>
+        <sections>
+            <label><!-- Description Information --></label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label><!-- IC Account Sales --></label>
+            <section>IC Account Sales</section>
+        </sections>
+        <sections>
+            <label><!-- Rolling 12 Month Targets --></label>
+            <section>Rolling 12 Month Targets</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+        <sections>
+            <label><!-- invisible sales placeholder --></label>
+            <section>invisible sales placeholder</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Layout: SysAdmin-Tmp Special with UVX fields</layout>
+        <sections>
+            <label><!-- Account Comments --></label>
+            <section>Account Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Account Details --></label>
+            <section>Account Details</section>
+        </sections>
+        <sections>
+            <label><!-- Account Growth Plan --></label>
+            <section>Account Growth Plan</section>
+        </sections>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Account Milestones --></label>
+            <section>Account Milestones</section>
+        </sections>
+        <sections>
+            <label><!-- Account Profitability - Actual fields for non-SSO layout only --></label>
+            <section>Account Profitability - Actual fields for non-SSO layout only</section>
+        </sections>
+        <sections>
+            <label><!-- Account Profitability Summary --></label>
+            <section>Account Profitability Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Account Sales Channel --></label>
+            <section>Account Sales Channel</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- ChemCare Account Sales --></label>
+            <section>ChemCare Account Sales</section>
+        </sections>
+        <sections>
+            <label><!-- Description Information --></label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label><!-- IC Account Sales --></label>
+            <section>IC Account Sales</section>
+        </sections>
+        <sections>
+            <label><!-- Other Hidden Fields - SysAdmin-tmp layout only! --></label>
+            <section>Other Hidden Fields - SysAdmin-tmp layout only!</section>
+        </sections>
+        <sections>
+            <label><!-- Rolling 12 Month Targets --></label>
+            <section>Rolling 12 Month Targets</section>
+        </sections>
+        <sections>
+            <label><!-- SIC Codes - SysAdmin layout only --></label>
+            <section>SIC Codes - SysAdmin layout only</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- UVX Sales Hierarchy - SysAdmin-tmp layout only! --></label>
+            <section>UVX Sales Hierarchy - SysAdmin-tmp layout only!</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+        <sections>
+            <label><!-- invisible sales placeholder --></label>
+            <section>invisible sales placeholder</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Non VF Page Layout</layout>
+        <sections>
+            <label><!-- Account Comments --></label>
+            <section>Account Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Account Details --></label>
+            <section>Account Details</section>
+        </sections>
+        <sections>
+            <label><!-- Account Growth Plan --></label>
+            <section>Account Growth Plan</section>
+        </sections>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Account Milestones --></label>
+            <section>Account Milestones</section>
+        </sections>
+        <sections>
+            <label><!-- Account Profitability Summary --></label>
+            <section>Account Profitability Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Account Sales Channel --></label>
+            <section>Account Sales Channel</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- ChemCare Account Sales --></label>
+            <section>ChemCare Account Sales</section>
+        </sections>
+        <sections>
+            <label><!-- Description Information --></label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label><!-- IC Account Sales --></label>
+            <section>IC Account Sales</section>
+        </sections>
+        <sections>
+            <label><!-- Rolling 12 Month Targets --></label>
+            <section>Rolling 12 Month Targets</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- TEMP FOR UPLOADING DUNS FIELDS - DELETE AFTERWARDS!! --></label>
+            <section>TEMP FOR UPLOADING DUNS FIELDS - DELETE AFTERWARDS!!</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+        <sections>
+            <label><!-- invisible sales placeholder --></label>
+            <section>invisible sales placeholder</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Consultant/Marketing --></label>
+        <name>Consultant_Marketing</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Corporate --></label>
+        <name>Corporate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Corporate - ChemCare --></label>
+        <name>CorporateChemCare</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GS&amp;E --></label>
+        <name>GS_E</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Prospect --></label>
+        <name>Prospect</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Ship To --></label>
+        <name>ShipTo</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You must enter a Shipping City. --></errorMessage>
+        <name>CityInfoRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Ship-To Accounts can have Account Numbers associated with them. If you&apos;re merging accounts, use the Ship-To Account as the &quot;Master Record&quot;. --></errorMessage>
+        <name>Non_ShipTo_Cannot_Have_Customer_Number</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- ShipTo Accounts must have Cust # and Suffix associated with them. If you&apos;re merging accounts, use the Ship-To Account as the &quot;Master Record&quot; and MAKE SURE TO SELECT APPROPRIATE FIELDS FROM THE SHIP-TO RECORD&apos;S COLUMN, including Customer and Ship-To #&apos;s. --></errorMessage>
+        <name>ShipTo_Must_Have_Customer_Number</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must enter a Shipping Country and State. --></errorMessage>
+        <name>StateInfoRequired</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- APP_Roll_up --></label>
+        <name>APP_Roll_up</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AccountActivityRollUp --></label>
+        <name>AccountActivityRollUp</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AccountGrowthPlan --></label>
+        <name>AccountGrowthPlan</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AccountSalesRollUp --></label>
+        <name>AccountSalesRollUp</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CASCCPPTemplate --></label>
+        <name>CASCCPPTemplate</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CA_Profitability_Summary --></label>
+        <name>CA_Profitability_Summary</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CPPRollUp --></label>
+        <name>CPPRollUp</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CPP_Rollup --></label>
+        <name>CPP_Rollup</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CPP_Where_Producer --></label>
+        <name>CPP_Where_Producer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CPP_Where_Producer_button --></label>
+        <name>CPP_Where_Producer_button</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CPP_Where_Supplier --></label>
+        <name>CPP_Where_Supplier</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CPP_Where_Supplier_button --></label>
+        <name>CPP_Where_Supplier_button</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CPPforAccount --></label>
+        <name>CPPforAccount</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CPPforParentAccount --></label>
+        <name>CPPforParentAccount</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CPPforthisAccount --></label>
+        <name>CPPforthisAccount</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ChemCare_CPP_Where_Acct_is_Univar_Partner_TSDF --></label>
+        <name>ChemCare_CPP_Where_Acct_is_Univar_Partner_TSDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ChemCare_CPP_Where_Competitor_TSDF --></label>
+        <name>ChemCare_CPP_Where_Competitor_TSDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ChemCare_CPP_Where_Service_Provider --></label>
+        <name>ChemCare_CPP_Where_Service_Provider</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ChemCare_For_This_Account --></label>
+        <name>ChemCare_For_This_Account</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ContactHierarchy --></label>
+        <name>ContactHierarchy</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CustomerLocations --></label>
+        <name>CustomerLocations</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ETEmailsforAccount --></label>
+        <name>ETEmailsforAccount</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ForecastRollupReport --></label>
+        <name>ForecastRollupReport</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Hoovers --></label>
+        <name>Hoovers</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- InfoNETCustomerReports --></label>
+        <name>InfoNETCustomerReports</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Map1 --></label>
+        <name>Map1</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Map2 --></label>
+        <name>Map2</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Merge_Accounts --></label>
+        <name>Merge_Accounts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NewSampleRequest --></label>
+        <name>NewSampleRequest</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Account_Reassignment_Request --></label>
+        <name>New_Account_Reassignment_Request</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- News --></label>
+        <name>News</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NewsGoogle --></label>
+        <name>NewsGoogle</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Opportunity_Rollup_to_Parent --></label>
+        <name>Opportunity_Rollup_to_Parent</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PM_Customer_Product_Detail_Report --></label>
+        <name>PM_Customer_Product_Detail_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Ship_To_Summary --></label>
+        <name>Ship_To_Summary</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- WasteStreamsforthisAccount --></label>
+        <name>WasteStreamsforthisAccount</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Waste_Stream_Roll_Up --></label>
+        <name>Waste_Stream_Roll_Up</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YTD_Customer_Product_Detail_Report --></label>
+        <name>YTD_Customer_Product_Detail_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- financialprofile --></label>
+        <name>financialprofile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- x90DayActivityReport --></label>
+        <name>x90DayActivityReport</name>
+    </webLinks>
+</CustomObjectTranslation>

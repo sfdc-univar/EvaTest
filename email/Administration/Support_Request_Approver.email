@@ -1,0 +1,29 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFCC; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<P>Dear {!Support_Request__c.Approver__c}, <BR><BR></P>
+<P class=MsoNormal style="MARGIN: 0in 0in 0pt"><SPAN style="COLOR: black; FONT-FAMILY: 'Arial','sans-serif'">A Support Request&nbsp;been assigned to you for your approval.</SPAN><BR></P>
+<P>____________________________________________________________</P>
+<P><FONT color=#3333ff><STRONG></STRONG></FONT>&nbsp;</P>
+<P>Request Name:<FONT color=#3333ff>&nbsp;</FONT><STRONG><FONT color=#3333ff> </FONT><FONT color=#000099>{!Support_Request__c.Name}</FONT></STRONG></P>
+<P>Request Creator:&nbsp;<STRONG> <FONT color=#000099>{!Support_Request__c.CreatedBy}<BR></FONT></STRONG><FONT color=#3333ff><FONT color=#000000>Account Name:&nbsp;</FONT> </FONT><FONT color=#000099><STRONG>{!Support_Request__c.Account__c}</STRONG></FONT></P>
+<P><FONT color=#3333ff><FONT color=#000000>Account Owner:</FONT><STRONG>&nbsp; <FONT color=#000099>{!Account.OwnerFullName}</FONT></STRONG></FONT></P>
+<P><FONT color=#000000>____________________________________________________________</FONT></P>
+<P>&nbsp;</P>
+<P><FONT color=#3333ff><FONT color=#000000>Product Name:</FONT><STRONG> <FONT color=#000099>{!Support_Request__c.Product__c} </FONT><BR></STRONG><FONT color=#000000>Product Desc:</FONT><STRONG> <FONT color=#000099>{!Support_Request__c.Product_Description__c} <BR></FONT></STRONG><FONT color=#000000>Product Number: </FONT><STRONG><FONT color=#000099>{!Support_Request__c.Product_Number__c} <BR></FONT></STRONG><FONT color=#000000>Competitive Supplier:</FONT><STRONG> <FONT color=#000099>{!Support_Request__c.Competitive_Supplier__c}</FONT> <BR></STRONG><FONT color=#000000>Competitive Producer: </FONT></FONT><FONT color=#000099><STRONG>{!Support_Request__c.Competitive_Producer__c}</STRONG></FONT></P>
+<P><FONT color=#3333ff><FONT color=#330033>Requestor Comments:&nbsp;</FONT><STRONG> <FONT color=#000099>{!Support_Request__c.Requestor_Comments__c}</FONT></STRONG></FONT></P>
+<P><STRONG><FONT color=#3333ff></FONT></STRONG>&nbsp;</P>
+<P><FONT color=#3333ff><FONT color=#000000>Annual Lbs:</FONT><STRONG> <FONT color=#000099>{!Support_Request__c.Annual_Lbs__c}</FONT></STRONG></FONT></P>
+<P><FONT color=#3333ff><FONT color=#000000>Average Order Size:</FONT><STRONG> <FONT color=#000099>{!Support_Request__c.Average_Order_Size__c} <BR></FONT></STRONG><FONT color=#000000>Specific Use: </FONT><STRONG><FONT color=#000099>{!Support_Request__c.Application__c}&nbsp;</FONT><BR></STRONG></FONT><FONT color=#000000>____________________________________________________________<BR></FONT></P>
+<P><FONT color=#000000>&nbsp;</FONT></P>
+<P><FONT color=#3333ff><FONT color=#000000>Requested Support Amount:&nbsp;</FONT><STRONG> <FONT color=#000099>{!Support_Request__c.Requested_Support_Amount__c}</FONT></STRONG></FONT></P>
+<P><FONT color=#3333ff><FONT color=#000000>Competitor's Price&nbsp;per UOM:&nbsp;</FONT></FONT><FONT color=#000099> <STRONG>{!Support_Request__c.Per_UOM__c} per {!Support_Request__c.UOM__c}</STRONG></FONT></P>
+<P>NOTE:&nbsp;Price is rounded to two decimal places. See entire Support Request for full details. </P>
+<P>____________________________________________________________</P>
+<P><BR></P>
+<P>To&nbsp;act upon this&nbsp;Support Request, click below: </P>
+<P><BR>{!Support_Request__c.Link} </P>
+<P><BR>&nbsp;</P>
+<P><IMG alt="" src="/servlet/servlet.ImageServer?id=015300000000iWW&amp;oid=00D300000000RsQ" align=left border=0></P>]]></td>
+</tr>
+</table>

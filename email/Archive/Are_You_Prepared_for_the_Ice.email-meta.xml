@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Be Prepared by calling Univar today for your Ice Melt needs.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Are You Prepared for the Ice?</name>
+    <style>none</style>
+    <subject>Aged/Excess Inventory Mass e-mail letter</subject>
+    <type>custom</type>
+</EmailTemplate>

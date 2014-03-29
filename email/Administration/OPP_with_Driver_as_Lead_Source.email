@@ -1,0 +1,17 @@
+{!Opportunity.Driver_Name__c} has discovered a new opportunity and the details have been entered into SFDC.   Please follow-up at your earliest convenience. 
+
+  Opportunity Name:  {!Opportunity.Name}
+  Account Name:  {!Opportunity.Account}
+  Driver Name:  {!Opportunity.Driver_Name__c}
+
+  Product:   {!Opportunity.Product__c}
+  Product Description:  {!Opportunity.Product_Description__c}
+  Annual Pounds:  {!Opportunity.Annual_LBs__c}
+  Est. Sales:  {!Opportunity.Amount}
+  Stage:  {!Opportunity.StageName}
+
+  Description (First 250 characters):
+  {!Opportunity.Description}
+
+To view the entire Opportunity, click on the link below: 
+{!Opportunity.Link}

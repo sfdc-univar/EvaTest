@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Happy Holidays</name>
+    <style>none</style>
+    <subject>Happy Holidays from Lidia Smorodina</subject>
+    <textOnly>Happy Holidays from Lidia Smorodina, your Univar Sales Specialist
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+&lt;!-- 
+
+ --&gt;
+
+
+
+
+
+
+{!Contact.FirstName},
+
+I’d like to wish you and your family a warm and peaceful holiday season, and a new year filled with happiness, health and success.
+
+
+Thank you for giving me the opportunity to serve you.
+
+
+Sincerely, 
+
+
+
+
+Lidia Smorodina 
+
+Univar USA, Inc. 
+
+(800) 978-2615
+
+Lidia.Smorodina@univarusa.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering</textOnly>
+    <type>custom</type>
+</EmailTemplate>

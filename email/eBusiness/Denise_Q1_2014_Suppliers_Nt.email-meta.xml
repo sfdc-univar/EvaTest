@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Denise - Q1 2014 - Suppliers Nt</name>
+    <style>none</style>
+    <subject>Suppliers&apos; Night Expo Tuesday, March 6, 2014 - 3:30 pm to 8:00 pm</subject>
+    <type>text</type>
+</EmailTemplate>

@@ -1,0 +1,69 @@
+<apex:page showHeader="true" sidebar="true" standardController="copado__OrgDiff__c" extensions="copado.OrgDiffExtension" title="{!$ObjectType.copado__OrgDiff__c.Label}">
+	<c:GAnalytics />
+	<head>
+        <apex:includeScript value="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" />
+        <script type="text/javascript">
+            var __sfdcSessionId = '{!GETSESSIONID()}';
+        </script>
+        <script src="/soap/ajax/27.0/connection.js"></script>
+        <c:WizardUtils ></c:WizardUtils>
+        <style>
+            .col1commands {width:50px; }
+            .col2style {width:200px; font-color:inherit; font-weight:bold; font-style:inherit; text-align:right; }
+            .col3style {width:100px; font-color:inherit; font-weight:normal; font-style:inherit; text-align:right; }
+        </style>
+        <script language="javascript">
+                var rock = rock || {};
+                rock.config = {
+                    diff_url : '{!JSENCODE(diff_url)}',
+                };
+            </script>   
+    </head>
+    <apex:form id="theForm" >
+    <c:getSatisfaction />
+    <apex:sectionHeader title="{!$ObjectType.copado__OrgDiff__c.LabelPlural}" subtitle="{!copado__OrgDiff__c.Name}" description="{!$Label.copado__ORG_DIFF_DESCRIPTION}"/>
+    <apex:pageMessages id="pmessages"/>
+	<apex:pageBlock helpUrl="http://www.copa.do/cms/documentation" helpTitle="{!$Label.copado__HELP_FOR_THIS_PAGE}">
+		<apex:pageBlockButtons >
+			<apex:commandButton action="{!edit}" value="{!$Label.site.edit}"/>
+			<apex:commandButton action="{!deploy}" value="{!$Label.copado__CREATE} {!$ObjectType.copado__Deployment__c.Label}"/>
+			<apex:commandButton action="{!delete}" value="{!$Label.copado__DELETE}"/>
+			<input value="{!$Label.CLONE}" class="btn" name="Clone" 
+                onclick="navigateToUrl('/{!copado__OrgDiff__c.Id}/e?clone=1&id={!OrgDiff__c.id}&retURL=%2F{!OrgDiff__c.id}')" 
+                title="{!$Label.CLONE}" type="button" />
+		</apex:pageBlockButtons>
+		<apex:pageBlockSection showHeader="false">
+			<apex:outputField value="{!copado__OrgDiff__c.copado__From_Org__c}"/>
+			<apex:outputField value="{!copado__OrgDiff__c.copado__To_Org__c}"/>
+			<apex:outputField value="{!copado__OrgDiff__c.copado__From_Date__c}" rendered="{!not(isblank(copado__OrgDiff__c.copado__From_Date__c))}"/>
+			<apex:outputField value="{!copado__OrgDiff__c.copado__To_Date__c}" rendered="{!not(isblank(copado__OrgDiff__c.copado__To_Date__c))}"/>
+			<apex:outputField value="{!copado__OrgDiff__c.copado__Last_Modified_By_Name__c}" rendered="{!not(isblank(copado__OrgDiff__c.copado__Last_Modified_By_Name__c))}"/>
+			<apex:pageBlockSectionItem >
+				<apex:outputLabel for="label_create" value="{!$Label.copado__WITH_CREATE}"/>
+				<apex:inputCheckbox value="{!withCreate}" id="label_create"/>
+			</apex:pageBlockSectionItem>
+			<apex:pageBlockSectionItem >
+				<apex:outputLabel for="label_update" value="{!$Label.copado__WITH_UPDATE}"/>
+				<apex:inputCheckbox value="{!withUpdate}" id="label_update"/>
+			</apex:pageBlockSectionItem>
+			<apex:pageBlockSectionItem >
+				<apex:outputLabel for="label_delete" value="{!$Label.copado__WITH_DELETE}"/>
+				<apex:inputCheckbox value="{!withDelete}" id="label_delete"/>
+			</apex:pageBlockSectionItem>	
+		</apex:pageBlockSection>
+			
+		<apex:actionFunction name="validateOrgs_JS" action="{!validateOrgs}" rerender="pmessages"/>
+		<apex:outputPanel id="pbs_metadata">
+	               <c:DiffOrgGrid diffId="{!copado__OrgDiff__c.Id}"/>
+	               <script>
+	                ga('send', 'pageview', {
+	                  'page': '/viewOrgDiff',
+	                  'title': 'View Org Diff'
+	                });
+	                </script>
+	    
+		</apex:outputPanel>
+	</apex:pageBlock>
+	</apex:form>
+	<script>validateOrgs_JS();</script>
+</apex:page>

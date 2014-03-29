@@ -1,0 +1,10 @@
+The Change Request listed below has received its final approval and is ready to be worked on:
+
+{!Change_Request__c.Name}
+  ({!Change_Request__c.Link})
+
+The process is:
+1. Assign the Change Request to a specific person and change the status to Assigned.
+2. If there are no resources to work on it right away, change the status to 'Pending I.S. Resources' or 'Pending L.S. Resources', as appropriate.
+3. Whoever starts working on it, change the status to 'In Development'.
+4. When you are done, change the status to 'Complete'.

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Air Products Tomadol Intro</name>
+    <style>none</style>
+    <subject>Univar adds Environmentally Friendly Surfactants to Product Line</subject>
+    <textOnly>Univar adds Environmentally Friendly Surfactants to Product Line
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+&lt;!-- 
+ --&gt;
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+Univar, with one of the widest and deepest product portfolios, now adds Tomadol&amp;#0174; Surfactants to our nationwide line up.
+
+
+
+
+The Tomadol&amp;#0174; line includes high performance, environmentally friendly surfactants for a wide variety of applications, as well as a series of linear alcohol ethoxylates ideally suited to replace NPE&apos;s in cleaning formulations.
+
+
+
+
+If you have a surfactant need, we have a solution.
+ 
+
+
+
+
+
+Convenience 
+Service
+Technical Assistance
+Local Inventory with Prompt Deliveries
+Economical and Competitive 
+
+
+To learn more please speak with your Univar Representative or contact your nearest Univar branch. Make sure to ask how you can make the switch to Air Products, Tomadol&amp;#0174; Surfactants.
+
+
+&lt;!--
+
+
+
+--&gt;
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering
+
+
+
+
+
+
+
+
+
+
+This email was sent from Univar USA Inc. 
+
+
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

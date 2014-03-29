@@ -1,0 +1,30 @@
+<table height="400" width="600" cellpadding="5" border="0" cellspacing="5" >
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<P><FONT color=#666666 size=2 face=Arial,Sans-Serif>Dear {!Contact.Name},</FONT></P>]]></td>
+</tr>
+<tr height="300" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r2" locked="0" aEditID="c1r2" >
+<![CDATA[<P><FONT color=#666666 size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P><FONT color=#666666 size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P><FONT color=#666666 size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P><FONT color=#666666 size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P><FONT color=#666666 size=2 face=Arial,Sans-Serif>&nbsp;</FONT></P>
+<P><FONT color=#666666 size=2 face=Arial,Sans-Serif>Yours,</FONT></P>
+<P><FONT color=#666666 size=2 face=Arial,Sans-Serif>{!User.Name}<BR>{!User.Title}<BR>{!User.Phone}</FONT></P>]]></td>
+</tr>
+<tr height="50" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r3" locked="1" aEditID="c1r3" >
+<![CDATA[<TABLE border=0 cellSpacing=0 cellPadding=0 width=601 align=center>
+<TBODY>
+<TR>
+<TD class=content vAlign=top width=68 align=left>
+<P class=sidebar><A href="http://www.univar.com/us"><FONT size=2 face=Arial,Sans-Serif><IMG border=0 src="https://c.na13.content.force.com/servlet/servlet.ImageServer?id=015a0000002jeAM&amp;oid=00D300000000RsQ&amp;lastMod=1363363383000" width=72 height=72></FONT></A></P></TD>
+<TD class=content vAlign=top width=312 align=left>
+<P class=sidebar><B><A href="http://www.univar.com/US/services/Chemcare.aspx"><FONT color=#666666 size=2 face=Arial,Sans-Serif>ChemCare®</FONT></A></B><FONT color=#666666 size=2 face=Arial,Sans-Serif> | </FONT><A href="http://www.univar.com/US/services/MiniBulk.aspx"><FONT color=#666666 size=2 face=Arial,Sans-Serif><STRONG>Mini-Bulk</STRONG></FONT></A><FONT color=#666666><FONT face=Arial,Sans-Serif><FONT size=2> | <B></B><B><A href="http://www.univar.com/us"><FONT color=#666666>Univar.com</FONT></A></B></FONT></FONT></FONT></P>
+<P class=sidebar><FONT color=#666666 size=2 face=Arial,Sans-Serif>Customer Service +1 855 888 8648</FONT></P></TD>
+<TD class=content vAlign=top colSpan=2 align=left>
+<P class=contentxxsmall><SPAN class=sidebar><B><FONT color=#666666><FONT face=Arial,Sans-Serif><FONT size=2>Connect with Univar</A></FONT></FONT></FONT></B></SPAN></P>
+<P class=contentxxsmall><SPAN class=sidebar><A href="http://www.facebook.com/Univar"><FONT size=2 face=Arial,Sans-Serif><IMG border=0 alt="Visit Univar on Facebook" src="https://c.na13.content.force.com/servlet/servlet.ImageServer?id=01530000000UqXS&amp;oid=00D300000000RsQ&amp;lastMod=1347382444000" width=25 height=25></FONT></A><FONT size=2 face=Arial,Sans-Serif>&nbsp;&nbsp;</FONT><A href="http://www.twitter.com/Univar"><FONT size=2 face=Arial,Sans-Serif><IMG border=0 alt="Follow Univar on Twitter" src="https://c.na13.content.force.com/servlet/servlet.ImageServer?id=01530000000UqXX&amp;oid=00D300000000RsQ&amp;lastMod=1350508710000" width=25 height=25></FONT></A><FONT size=2 face=Arial,Sans-Serif>&nbsp; </FONT><A href="http://www.linkedin.com/groups?gid=2162680&amp;trk=group-name"><FONT size=2 face=Arial,Sans-Serif><IMG border=0 alt="Visit Univar on LinkedIn" src="https://c.na13.content.force.com/servlet/servlet.ImageServer?id=01530000000Uv05&amp;oid=00D300000000RsQ&amp;lastMod=1350508834000" width=25 height=25></FONT></A></SPAN><BR></P></TD></TR></TBODY></TABLE>]]></td>
+</tr>
+</table>

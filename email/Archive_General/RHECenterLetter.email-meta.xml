@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>R &amp; H E-center letter to notify customer to sign up</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>R&amp;H E-Center Letter</name>
+    <style>none</style>
+    <subject>R&amp;H E-Center Letter with Request form attached</subject>
+    <type>custom</type>
+</EmailTemplate>

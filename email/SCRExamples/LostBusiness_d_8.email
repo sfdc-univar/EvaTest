@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>We miss your business!</TITLE>
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+
+<!-- /// CSS goes here in case the /HEAD tags get stripped \\\ --> 
+<STYLE TYPE="text/css">
+<!--
+ .topText {font-size:10px; color:#003399; line-height:25px; align:"center";}
+.introText {font-size:20px; color:#FFFFFF; line-height 30px; text-align:"center";}
+ .title {font-size:16px; font-weight:bold; color:#000000;}
+ .subTitle {font-size:13px; font-weight:bold; color:#000000;}
+ p {font-size:12px; color:#666666; line-height:20px; font-family: verdana;}
+.sideText{font-size:12px; color:#000000; line-height:20px; font-family: verdana;}
+ .footerText {font-size:11px; color:#666666;}
+ .headerBanner {font-size: 18px; font-weight: bold;}
+ td {font-family: verdana;}
+-->
+</STYLE>
+<!-- \\\ CSS goes here in case the /HEAD tags get stripped /// --> 
+
+
+<!-- /// Sometimes, BODY tags get stripped. This table is for background color when that happens.  \\\ --> 
+<table width="100%" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top" align="center">
+<!-- \\\ Sometimes, BODY tags get stripped. This table is for background color when that happens.  /// --> 
+
+<table style="BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; cellSpacing=0; cellPadding=0; valign=top; aalign=center; width=530; bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+<tr>
+<td bgcolor="#000000" font="FFFFFF" class="headerBanner" colspan="2" WIDTH="819" HEIGHT="108" BORDER="0"><a href="http://www.univarusa.com" title="Visit Univarusa.com"><IMG align= "center" SRC="https://na1.salesforce.com/servlet/servlet.ImageServer?oid=00D300000000RsQ&id=015300000007Ojv" WIDTH="819" HEIGHT="117" BORDER="0" ALT="Contact Center"></a><span class="introText"></td>
+</tr>
+
+<tr>
+<!-- /// gutter \\\ -->
+<!-- <td valign="top">
+
+<!-- \\\ gutter /// -->
+
+<!-- /// content cell \\\ -->
+<td valign="top" style="padding:10px">
+<p>
+{!Contact.FirstName},<br>
+At Univar, we value each and every one of our customers. It’s been a while since you’ve placed an order with us, and I’d like the opportunity to serve your company again.
+</p>
+<p>
+As a Univar customer, you can always expect to receive unparalleled customer service, and the highest quality products the industry has to offer—delivered when you need them, and at a competitive price. As a Sales Specialist representing Univar, my goal is to show you how Univar can help make the process of acquiring your raw materials simple and cost-efficient, and to win you back as one of our valued customers. 
+</p>
+<p>
+I’d like the opportunity to discuss how Univar can meet your facility’s needs. I will be contacting you shortly, however if there’s anything I can do for you, please don’t hesitate to call me. 
+</p>
+</td>
+<td valign="middle" align="center" style="padding:5px">
+<IMG align="center" SRC="https://na1.salesforce.com/servlet/servlet.ImageServer?oid=" WIDTH="136" HEIGHT="182" BORDER="0" align="center" ALT="Sales Rep Name">
+</td>
+</tr>
+<tr>
+<td valign="top" style="padding:10px">
+<p>
+Sincerely, <br>
+<IMG SRC="https://na1.salesforce.com/servlet/servlet.ImageServer?oid=" HSPACE="4" VSPACE="6" WIDTH="222" HEIGHT="47" BORDER="0" ALT="Sales Rep Signature">
+<br>
+<b>Sales Rep Name</b><br>
+Sales Specialist<br>
+Branch Name<br>
+</p>
+</td>
+<td width="220" style="BORDER: #669933 5px solid; padding:5px" bgcolor="#FFFFFF">
+<p>
+<span class="subTitle"><i>Name</i><br>Sales Specialist</span><br>
+<span class="sideText">
+Phone Number<br>
+<a href="mailto:Sales rep email">Sales rep email</a>
+</span>
+</p>
+<p2>
+<span class="subTitle">To place an order:<br>Call ----</span>
+<br>
+<span class="sideText">
+Order Number
+<br>
+<a href="mailto:"order email">
+order email</a>
+</span>
+</p>
+</td>
+
+
+
+
+<!-- \\\ content cell /// -->
+
+
+<!-- /// gutter \\\ -->
+
+<!-- \\\ gutter /// -->
+
+</tr>
+
+
+<!-- /// footer area with contact info and opt-out link \\\ -->
+<tr>
+<td bgcolor="#EEEEEE" style="border-top: 1px solid #333333;" valign="middle" align="center" colspan="3">
+<p>
+<a href="http://www.univarusa.com/chemcare.htm">ChemCare</a> &nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="http://www.univarusa.com">Univar USA</a>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="http://www.univarusa.com/ebusiness.htm">Online Ordering</a>
+<br>
+</p>
+</td>
+</tr>
+</table>
+<!-- \\\ footer area with contact info and opt-out link /// -->
+<span class="footerText">
+<br>
+This email was sent to <b> {!Contact.Email} </b> from <b> Univar USA Inc. </b> 
+<br>
+17425 NE Union Hill Rd., Redmond, WA 98052
+</span>
+
+
+
+
+
+<!-- /// Sometimes, BODY tags get stripped. This table is for background color when that happens.  \\\ --> 
+</td>
+</tr>
+</table>
+<!-- \\\ Sometimes, BODY tags get stripped. This table is for background color when that happens.  /// --> 
+
+<br>
+<br>
+
+</BODY>
+</HTML>

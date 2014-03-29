@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Intro letter to new accts turned over from Kathy to Kent</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TUrnover of accts from Kathy to Kent</name>
+    <style>none</style>
+    <subject>New Unviar Sales Rep</subject>
+    <type>text</type>
+</EmailTemplate>

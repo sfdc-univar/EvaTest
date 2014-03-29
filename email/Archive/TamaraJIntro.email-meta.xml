@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Email to follow-up with intro call.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Tamara J. Intro</name>
+    <style>none</style>
+    <subject>Hello from Tamara Jerome</subject>
+    <textOnly>Hello from Tamara Jerome, your Univar Sales Specialist
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+&lt;!-- 
+
+ --&gt;
+
+
+
+
+
+
+
+{!Contact.FirstName},
+
+It was a pleasure speaking with you on the phone today. I&apos;ll be calling again in the coming weeks to ensure that Univar is providing you with all the products and services that you require.
+
+If you have any current need or requirement you would like to discuss please feel free to contact me at your leisure. My office hours are 7:30-4:00.
+
+
+I look forward to helping you make the process of acquiring ingredients easy and cost-efficient. Univar and I can show you how.
+
+
+
+
+
+
+Tamara Jerome
+Food Specialist
+
+
+(866) 406-4724 
+
+Tamara.Jerome@univarusa.com 
+
+
+
+To place an order:
+Call Rebeca Vargus
+
+
+
+(323) 837-7029
+
+
+Rebeca.Vargus@univarusa.com
+
+
+
+
+
+Sincerely, 
+
+
+
+
+Univar | Los Angeles
+
+2600 S Garfield Ave
+
+Commerce, CA 90040
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Food Ingredients
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering</textOnly>
+    <type>custom</type>
+</EmailTemplate>

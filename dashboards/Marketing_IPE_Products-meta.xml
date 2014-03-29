@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Products:IPE Program</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <roleAndSubordinates>CentralRegionalSalesDirector</roleAndSubordinates>
+        <roleAndSubordinates>CorporateAccountDirectorSalesEast</roleAndSubordinates>
+        <roleAndSubordinates>CorporateAccountDirectorSalesWest</roleAndSubordinates>
+        <roleAndSubordinates>DirectorCASE</roleAndSubordinates>
+        <roleAndSubordinates>DirectorEnergyIndustry</roleAndSubordinates>
+        <roleAndSubordinates>DirectorFoodIndustry</roleAndSubordinates>
+        <roleAndSubordinates>DirectorPersonalCare</roleAndSubordinates>
+        <roleAndSubordinates>DirectorPharmaceutical</roleAndSubordinates>
+        <roleAndSubordinates>EasternRegionalSalesDirector</roleAndSubordinates>
+        <roleAndSubordinates>GlobalExecutives</roleAndSubordinates>
+        <roleAndSubordinates>WesternRegionalSalesDirector</roleAndSubordinates>
+    </sharedTo>
+</DashboardFolder>

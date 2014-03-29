@@ -1,0 +1,14 @@
+*** DO NOT REPLY TO THIS MESSAGE. *** 
+
+A Prospect Account has been re-assigned to you.
+
+Account Name: {!Account.Name} 
+City & State: {!Account.ShippingCity}, {!Account.ShippingStateCode}
+
+Click here to view prospect: {!Account.Link} 
+
+You have received this email because a Prospect account was recently re-assigned to you in Salesforce.com.  
+
+The Account History section at the bottom of this account will show who did the reassignment.  Please check with them if you have any questions.
+
+*** DO NOT REPLY TO THIS MESSAGE***

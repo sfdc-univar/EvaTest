@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Product Announcement JBL - Tri Mag Citrate</name>
+    <style>none</style>
+    <subject>BASF</subject>
+    <textOnly>Univar USA distributes Jungbunzlauer&apos;s Trimagnesium Citrates
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;!-- 
+ --&gt;
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Advantages of
+Trimagnesium
+Citrates
+
+
+Superior Bioavailability
+
+
+High Solubility
+
+
+Neutral Taste
+
+
+High Mineral Content
+
+
+
+
+Applications of
+Trimagnesium
+Citrates
+
+
+Food
+
+
+Beverages
+
+
+Nutritional Supplements
+
+
+Pharmaceuticals
+
+
+
+
+
+
+
+
+Need to add Magnesium to your product? 
+
+
+
+
+Univar is a distributor for Trimagnesium Citrates, Jungbunzlaur&apos;s newest additions to their product portfolio. One of the world&apos;s leading producers of citric acid, Jungbuzlaur produces two different hydration forms of trimagnesium citrates: anhydrous and nonanhydrate. 
+
+
+
+
+Magnesium is one of the most important minerals in the human body and Trimagnesium citrates are among the most readily absorbably magnesium salts.
+
+
+
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+
+
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+
+
+
+
+&lt;!--
+
+
+
+
+To learn more please speak with your 
+
+
+Univar Representative 
+
+or 
+
+contact your nearest 
+
+
+Univar branch. 
+
+
+
+ 
+
+
+--&gt;
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Personal Care
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+This email was sent from Univar USA Inc. 
+
+
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Email to transfer David&apos;s LA accounts to Lidia</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Lidia S. Intro - David&apos;s LA accts</name>
+    <style>none</style>
+    <subject>Introducing Lidia Smorodina, your new Univar Sales Specialist</subject>
+    <textOnly>Hello from Lidia Smorodina, your Univar Sales Specialist
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+&lt;!-- 
+ --&gt;
+
+Goodbye
+
+
+Univar recently offered me a great opportunity. I begin serving Univar customers in Omaha, Nebraska on Monday, August 13.
+
+
+As excited as I am for the new challenges that await me, I’m sorry to be leaving the associates and friends I’ve become acquainted with in the Los Angeles area over the last year. It’s been a pleasure to serve you. 
+
+
+
+
+
+
+
+
+
+
+Hello!
+
+
+I’m your new Sales Specialist. You have my assurance that you’ll continue to receive the same great service you’ve always received from Univar. 
+
+
+David has filled me in on your company’s operations. I’ve dedicated the last year to serving Univar’s Los Angeles customers, so I’m aware of the issues that industrial chemical users in southern California face—I’m here to help you navigate through those challenges. In the coming weeks, I’d like to speak with you for a few minutes to learn more about your business and the ways Univar and I can assist you. 
+
+
+In the meantime, please contact me if there’s anything I can do for you. My number one priority is to help your business grow. Your success is my success.
+
+
+Sincerely, 
+
+
+
+
+Sales Specialist
+
+Univar | Los Angeles
+
+
+
+
+
+
+
+
+
+
+
+
+
+Lidia Smorodina
+Sales Specialist
+
+
+(800) 978-2615 
+
+Lidia.Smorodina@univarusa.com 
+
+
+
+To place an order call:
+ 
+
+(800) 201-4439
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering
+
+
+
+
+
+
+
+
+
+
+This email was sent from Univar USA Inc. 
+
+
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

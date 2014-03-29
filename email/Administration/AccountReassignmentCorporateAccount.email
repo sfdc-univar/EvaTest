@@ -1,0 +1,20 @@
+*** DO NOT REPLY TO THIS MESSAGE. *** 
+
+A Corporate or Multi-Plant Account has been re-assigned to you.
+
+Account Name: {!Account.Name} 
+Corporate Account Number:  {!Account.GroupAccountNumber__c}
+
+Click here to view account: {!Account.Link} 
+
+You have received this email because a Corporate or Multi-Plant Account was recently re-assigned to you in Salesforce.com.  
+
+The most common reason for reassignment is that this account was changed over to you in the UVX, and the automated integration process is now completing the reassignment in SFDC.  
+
+If you wish to confirm the origin of this reassignment, please see the Account History section at the bottom of this account:
+ -  If it shows "SFDC Integration", then this change originated on the UVX.  
+ -  If it shows a real person, check with them if you have any questions about the reassignment.
+
+Any further reassignments of CA/MPA accounts should generally be done on the UVX, and then nightly integration will bring over the changes.
+
+*** DO NOT REPLY TO THIS MESSAGE***

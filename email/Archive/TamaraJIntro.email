@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>Hello from Tamara Jerome, your Univar Sales Specialist</TITLE>
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+
+<!-- /// CSS goes here in case the /HEAD tags get stripped \\\ --> 
+<STYLE TYPE="text/css">
+<!--
+ .topText {font-size:10px; color:#003399; line-height:25px; align:"center";}
+.introText {font-size:20px; color:#FFFFFF; line-height 30px; text-align:"center";}
+ .title {font-size:16px; font-weight:bold; color:#000000;}
+ .subTitle {font-size:13px; font-weight:bold; color:#000000;}
+ p {font-size:12px; color:#666666; line-height:20px; font-family: verdana;}
+.sideText{font-size:12px; color:#000000; line-height:20px; font-family: verdana;}
+ .footerText {font-size:11px; color:#666666;}
+ .headerBanner {font-size: 18px; font-weight: bold;}
+ td {font-family: verdana;}
+-->
+</STYLE>
+<!-- \\\ CSS goes here in case the /HEAD tags get stripped /// --> 
+
+
+<!-- /// Sometimes, BODY tags get stripped. This table is for background color when that happens.  \\\ --> 
+<table width="100%" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top" align="center">
+<!-- \\\ Sometimes, BODY tags get stripped. This table is for background color when that happens.  /// --> 
+
+<table style="BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; cellSpacing=0; cellPadding=0; valign=top; aalign=center; width=530; bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+<tr>
+<td bgcolor="#000000" font="FFFFFF" class="headerBanner" colspan="3" WIDTH="819" HEIGHT="108" BORDER="0"><a href="http://www.univarusa.com/pagesi/food" title="Visit Univarusa.com"><IMG align= "center" SRC="https://na1.salesforce.com/servlet/servlet.ImageServer?oid=00D300000000RsQ&id=015300000007Os4" WIDTH="816" HEIGHT="112" BORDER="0" ALT="Fresh Ideas Univar Food Ingredients"></a><span class="introText"></td>
+</tr>
+
+<tr>
+<!-- /// gutter \\\ -->
+<!-- <td valign="top">
+
+<IMG SRC="http://www.mailchimp.com/resources/templates/newsletter/images/shim.gif" WIDTH="15" HEIGHT="5" BORDER="0"></td> -->
+<!-- \\\ gutter /// -->
+
+<!-- /// content cell \\\ -->
+<td valign="middle" align="center" style="padding:5px" width="231">
+<IMG align="center" SRC="https://na1.salesforce.com/servlet/servlet.ImageServer?oid=00D300000000RsQ&id=015300000007NIF" WIDTH="130" HEIGHT="186" BORDER="0" align="center" ALT="Tamara Jerome"></td>
+<td valign="top" style="padding:10px">
+<p>
+{!Contact.FirstName},<br>
+It was a pleasure speaking with you on the phone today. I'll be calling again in the coming weeks to ensure that Univar is providing you with all the products and services that you require.</p>
+<p>
+If you have any current need or requirement you would like to discuss please feel free to contact me at your leisure.  My office hours are 7:30-4:00.
+</p>
+<p>
+I look forward to helping you make the process of acquiring ingredients easy and cost-efficient. Univar and I can show you how.
+</p>
+</td>
+</tr>
+<tr>
+<td width="231" style="BORDER: #FFFFFF 5px solid; padding:5px" bgcolor="#FFFFCC">
+<p>
+<span class="subTitle"><i>Tamara Jerome</i><br>Food Specialist</span><br>
+<span class="sideText">
+(866) 406-4721 <br>
+<a href="mailto:Tamara.Jerome@univarusa.com">Tamara.Jerome@univarusa.com </a>
+</span>
+</p>
+<p2>
+<span class="subTitle">To place an order:<br>Call Rebeca Vargas</span>
+<br>
+<span class="sideText">
+(323) 837-7029
+<br>
+<a href="mailto:Rebeca.Vargas@univarusa.com">Rebeca.Vargas@univarusa.com</a>
+</span>
+</p>
+</td>
+<td valign="top" style="padding:10px">
+<p>
+Sincerely, <br>
+<IMG SRC="https://na1.salesforce.com/servlet/servlet.ImageServer?oid=00D300000000RsQ&id=015300000007Osx" HSPACE="4" VSPACE="6" WIDTH="222" HEIGHT="46" BORDER="0" ALT="Tamara Jerome Signature">
+<br>
+<b>Tamara Jerome</b><br>
+Food Specialist<br>
+Univar | Los Angeles<br>
+</p>
+
+
+
+</td>
+<!-- \\\ content cell /// -->
+
+
+<!-- /// gutter \\\ -->
+<td valign="top"><IMG SRC="http://www.mailchimp.com/resources/templates/newsletter/images/shim.gif" WIDTH="15" HEIGHT="5" BORDER="0"></td>
+<!-- \\\ gutter /// -->
+
+</tr>
+
+
+<!-- /// footer area with contact info and opt-out link \\\ -->
+<tr>
+<td bgcolor="#EEEEEE" style="border-top: 1px solid #333333;" valign="middle" align="center" colspan="3">
+<p>
+<a href="http://www.univarusa.com/chemcare.htm">ChemCare</a> &nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="http://www.univarusa.com">Univar USA</a>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="http://www.univarusa.com/pagesi/food">Food Ingredients</a>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="http://www.univarusa.com/ebusiness.htm">Online Ordering</a>
+<br>
+</p>
+</td>
+</tr>
+</table>
+<!-- \\\ footer area with contact info and opt-out link /// -->
+<span class="footerText">
+<br>
+This email was sent to <b> {!Contact.Email} </b> from <b> Univar USA Inc. </b> 
+<br>
+17425 NE Union Hill Rd., Redmond, WA 98052
+</span>
+
+
+
+<!-- /// Sometimes, BODY tags get stripped. This table is for background color when that happens.  \\\ --> 
+</td>
+</tr>
+</table>
+<!-- \\\ Sometimes, BODY tags get stripped. This table is for background color when that happens.  /// --> 
+
+<br>
+<br>
+
+</BODY>
+</HTML>

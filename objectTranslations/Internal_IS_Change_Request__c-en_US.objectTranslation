@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Internal IS Change Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Internal IS Change Requests</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actual Completion Date --></label>
+        <name>Actual_Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Business Lead --></label>
+        <name>Approval_Business_Lead__c</name>
+        <picklistValues>
+            <masterLabel>Approve</masterLabel>
+            <translation><!-- Approve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need More Info</masterLabel>
+            <translation><!-- Need More Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approver Comments --></label>
+        <name>Approver_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>Assigned_To__c</name>
+        <picklistValues>
+            <masterLabel>Brian Feldtman</masterLabel>
+            <translation><!-- Brian Feldtman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Management Group</masterLabel>
+            <translation><!-- Data Management Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Security</masterLabel>
+            <translation><!-- Data Security --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eli Edwards</masterLabel>
+            <translation><!-- Eli Edwards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eva Delorio</masterLabel>
+            <translation><!-- Eva Delorio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hugh Compton</masterLabel>
+            <translation><!-- Hugh Compton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integration - Other</masterLabel>
+            <translation><!-- Integration - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kathy Miller</masterLabel>
+            <translation><!-- Kathy Miller --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maria Fitzsimons</masterLabel>
+            <translation><!-- Maria Fitzsimons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PC Support</masterLabel>
+            <translation><!-- PC Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shashank Makhija</masterLabel>
+            <translation><!-- Shashank Makhija --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheila McEvoy</masterLabel>
+            <translation><!-- Sheila McEvoy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signe Einess</masterLabel>
+            <translation><!-- Signe Einess --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Benefit Measure --></label>
+        <name>Benefit_Measure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benefit of Proposed Solution --></label>
+        <name>Benefit_of_Proposed_Solution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Drivers --></label>
+        <name>Business_Drivers__c</name>
+        <picklistValues>
+            <masterLabel>Optimization of Internal Operations</masterLabel>
+            <translation><!-- Optimization of Internal Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (Describe in Text Field)</masterLabel>
+            <translation><!-- Other (Describe in Text Field) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Growth or Margin Enhancement</masterLabel>
+            <translation><!-- Sales Growth or Margin Enhancement --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Business Opportunity or Problem --></label>
+        <name>Business_Opportunity_or_Problem__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box if it&apos;s complete in Sandbox and ready for review, but not done in Production yet. --></help>
+        <label><!-- Complete in Sandbox --></label>
+        <name>Complete_in_Sandbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Completion Date --></label>
+        <name>Estimated_Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Approval Date --></label>
+        <name>Final_Approval_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- IS Approver --></label>
+        <name>IS_Approver__c</name>
+        <picklistValues>
+            <masterLabel>Approve</masterLabel>
+            <translation><!-- Approve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs More Info</masterLabel>
+            <translation><!-- Needs More Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IS Cost Estimate --></label>
+        <name>IS_Cost_Estimate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Description --></label>
+        <name>Other_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Proposed Solution --></label>
+        <name>Proposed_Solution__c</name>
+    </fields>
+    <fields>
+        <help><!-- Numeric portion of the Remedy  Change Request  (&quot;CRQ&quot;) number corresponding to this change.  All changes must be entered as CRQ tickets in Remedy before closing in SFDC. --></help>
+        <label><!-- Remedy CRQ # --></label>
+        <name>Remedy_CRQ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Assigned</masterLabel>
+            <translation><!-- Assigned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Development</masterLabel>
+            <translation><!-- In Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation><!-- On Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending 3rd Party - Hold</masterLabel>
+            <translation><!-- Pending 3rd Party - Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending IS Resources</masterLabel>
+            <translation><!-- Pending IS Resources --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Learning Services Resources</masterLabel>
+            <translation><!-- Pending Learning Services Resources --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Worklog --></label>
+        <name>Worklog__c</name>
+    </fields>
+    <layouts>
+        <layout>Internal IS Change Request Layout</layout>
+        <sections>
+            <label><!-- Approvals --></label>
+            <section>Approvals</section>
+        </sections>
+        <sections>
+            <label><!-- Approver Comments --></label>
+            <section>Approver Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Business Drivers --></label>
+            <section>Business Drivers</section>
+        </sections>
+        <sections>
+            <label><!-- Business Opportunity or Problem --></label>
+            <section>Business Opportunity or Problem</section>
+        </sections>
+        <sections>
+            <label><!-- Cost Estimates --></label>
+            <section>Cost Estimates</section>
+        </sections>
+        <sections>
+            <label><!-- Proposed Solution --></label>
+            <section>Proposed Solution</section>
+        </sections>
+        <sections>
+            <label><!-- Worklog --></label>
+            <section>Worklog</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- A Remedy CHG # is required on all Completed changes.  If you have not already created the Remedy CHG ticket for this change, please do so, then come back and enter the CHG number here. --></errorMessage>
+        <name>Completed_Requires_CHG</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Actual Completion Date is required if you are Completing a ticket. --></errorMessage>
+        <name>Completed_Requires_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Change Request must be assigned if status is &apos;Assigned&apos; or &apos;In Development&apos; --></errorMessage>
+        <name>Require_Assigned_To</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter Final Approval Date! --></errorMessage>
+        <name>Require_Final_Approval_Date</name>
+    </validationRules>
+</CustomObjectTranslation>

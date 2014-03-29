@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Campaign Notes</value>
+        </caseValues>
+        <name>description_campaign</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Campaigns --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Award Period --></label>
+        <name>Award_Period__c</name>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Year</masterLabel>
+            <translation><!-- Multi-Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation><!-- Quarterly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annually</masterLabel>
+            <translation><!-- Semi-Annually --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unspecified</masterLabel>
+            <translation><!-- Unspecified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yearly</masterLabel>
+            <translation><!-- Yearly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Campaign Record Type --></label>
+        <name>Campaign_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Campaign Tactic --></label>
+        <name>DB_Campaign_Tactic__c</name>
+        <picklistValues>
+            <masterLabel>Direct Mail</masterLabel>
+            <translation><!-- Direct Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employment Seminars</masterLabel>
+            <translation><!-- Employment Seminars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Website</masterLabel>
+            <translation><!-- Internal Website --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lunches</masterLabel>
+            <translation><!-- Lunches --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Banners/Ads</masterLabel>
+            <translation><!-- Online Banners/Ads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partners</masterLabel>
+            <translation><!-- Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print Advertisement</masterLabel>
+            <translation><!-- Print Advertisement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Relations</masterLabel>
+            <translation><!-- Public Relations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral Program</masterLabel>
+            <translation><!-- Referral Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Call Down</masterLabel>
+            <translation><!-- Sales Call Down --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webinars</masterLabel>
+            <translation><!-- Webinars --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Description --></label>
+        <name>Data_Quality_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Score --></label>
+        <name>Data_Quality_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due to Customer --></label>
+        <name>Due_to_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Volume lbs --></label>
+        <name>Estimated_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Bid Calculated --></label>
+        <name>Next_Bid_Calculated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Volume Growth --></label>
+        <name>Potential_Volume_Growth__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFQ Line Items --></label>
+        <name>RFQ_Line_Items__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFQ Volume (lbs) --></label>
+        <name>RFQ_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Received From CAM --></label>
+        <name>Received_From_CAM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Account --></label>
+        <name>Related_Account__c</name>
+        <relationshipLabel><!-- Campaigns --></relationshipLabel>
+    </fields>
+    <fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Aborted</masterLabel>
+            <translation><!-- Aborted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awarded</masterLabel>
+            <translation><!-- Awarded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Did Not Bid</masterLabel>
+            <translation><!-- Did Not Bid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned</masterLabel>
+            <translation><!-- Planned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Advertisement</masterLabel>
+            <translation><!-- Advertisement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banner Ads</masterLabel>
+            <translation><!-- Banner Ads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bid</masterLabel>
+            <translation><!-- Bid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Management</masterLabel>
+            <translation><!-- Change Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Mail</masterLabel>
+            <translation><!-- Direct Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partners</masterLabel>
+            <translation><!-- Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product-focused Sales Blitz</masterLabel>
+            <translation><!-- Product-focused Sales Blitz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Relations</masterLabel>
+            <translation><!-- Public Relations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral Program</masterLabel>
+            <translation><!-- Referral Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminar / Conference</masterLabel>
+            <translation><!-- Seminar / Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telemarketing</masterLabel>
+            <translation><!-- Telemarketing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Univar Award Sales ($) --></label>
+        <name>Univar_Award_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Univar Award Volume (lbs) --></label>
+        <name>Univar_Award_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Univar Bid Sales ($) --></label>
+        <name>Univar_Bid_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Univar Bid Volume (lbs) --></label>
+        <name>Univar_Bid_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Univar Incumbent Volume (lbs) --></label>
+        <name>Univar_Incumbent_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Univar Line Items Bid --></label>
+        <name>Univar_Line_Items_Bid__c</name>
+    </fields>
+    <layouts>
+        <layout>Bid Campaign Layout</layout>
+        <sections>
+            <label><!-- Results --></label>
+            <section>Results</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Bid Master Page Layout</layout>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Campaign Layout</layout>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Bid Child --></label>
+        <name>Bid_Campaigns</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Bid Master --></label>
+        <name>Bid_Master</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Standard Campaigns --></label>
+        <name>Standard_Campaigns</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Add_Related_Accounts --></label>
+        <name>Add_Related_Accounts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_New_Bid --></label>
+        <name>Create_New_Bid</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Leads --></label>
+        <name>Leads</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendExactTargetEmail --></label>
+        <name>SendExactTargetEmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewAllCampaignMembers --></label>
+        <name>ViewAllCampaignMembers</name>
+    </webLinks>
+</CustomObjectTranslation>

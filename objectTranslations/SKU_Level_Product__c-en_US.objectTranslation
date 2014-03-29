@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SKU-Level Product</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SKU-Level Products</value>
+    </caseValues>
+    <fields>
+        <label><!-- Product SKU# --></label>
+        <name>Product_SKU__c</name>
+    </fields>
+    <fields>
+        <label><!-- SFDC Product --></label>
+        <name>SFDC_Product__c</name>
+        <relationshipLabel><!-- SKU-Level Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- UVX Product Family Code --></label>
+        <name>UVX_Product_Family_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- UVX Product Family --></label>
+        <name>UVX_Product_Family__c</name>
+    </fields>
+    <fields>
+        <label><!-- UVX Product Name 1 --></label>
+        <name>UVX_Product_Name_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- UVX Product Name 2 --></label>
+        <name>UVX_Product_Name_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- UVX Product Short Name --></label>
+        <name>UVX_Product_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- UVX Vendor Name --></label>
+        <name>UVX_Vendor_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- UVX Vendor Number --></label>
+        <name>UVX_Vendor_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor --></label>
+        <name>Vendor__c</name>
+        <relationshipLabel><!-- SKU-Level Products --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>SKU-Level Product Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Vendor Info --></label>
+            <section>Vendor Info</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

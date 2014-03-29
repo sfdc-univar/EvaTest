@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Use this for WER Market Developers for Bionomics</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Leads for Bionomics</name>
+    <style>none</style>
+    <subject>New Lead Assigned to You for Bionomics 200508 Campaign</subject>
+    <type>text</type>
+</EmailTemplate>

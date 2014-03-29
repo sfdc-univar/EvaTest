@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Promo: Kerry Dairy Flavors</name>
+    <style>none</style>
+    <subject>Univar Introduces New Dairy Flavors from Kerry Ingredients</subject>
+    <textOnly>New Dairy Flavors and Natural Preservative for Bakery
+----------------------------------------------------------------------------  
+Univar offers a new line of Kerry dairy flavors for bakery to add NATURAL butter flavor easily as a powder or paste to shortening or oil based bakery formulations where the flavor of butter is missing! The unique benefit is the buttery flavor is maintained throughout the typical storage and shelf life of a bakery good. The ease of use, clean labeling and cost effective application is unique to this line of butter flavor products. We have an option for you to add the flavor of indulgence back to your bakery product without sacrificing cost!
+ 
+Additionally, Univar offers bakery customers a natural option for extending shelf life by preventing mold formation with UpgradeTM by Kerry Food Ingredients. If you need a natural option for preservation of your bakery product, contact us today.
+ 
+Order a sample today or contact us for application assistance via the Samples &amp; Formulating button on the right and we will send you the unique Univar Interative formulation tool for selecting the right ingredients by trend.
+
+ 
+Resources
+---------------------------------------------------------------------------- 
+Download a Brochure: http://www.univarusa.com/infonotices/74B273148392129F8825773B005D5C82
+Samples &amp; Formulation: http://www.surveymonkey.com/s/X796RTP
+Contact Univar: http://www.univarusa.com/contactweb
+  
+ 
+---------------------------------------------------------------------------- 
+ChemCare  |     http://chemcare.univarusa.com/
+Univar     |     http://www.univarusa.com/
+Online Ordering     |     http://www.univarusa.com/pagesi/ebusiness.htm
+Contact Us   |    http://www.univarusa.com/contactweb</textOnly>
+    <type>custom</type>
+</EmailTemplate>

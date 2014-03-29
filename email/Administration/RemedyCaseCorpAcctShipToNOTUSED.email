@@ -1,0 +1,37 @@
+#System Info 
+#AR-Message-Begin Do Not Delete This Line 
+Schema: HPD:HelpDesk 
+Server: ARSERVER 
+Login: Vanmail 
+Password: 
+Action: Submit 
+Format: Short 
+#Case Info 
+Requester Login Name+ !240000005!:idkam 
+Requester Name+ !240000001!: Kathy Miller
+Category !200000003!: salesforce.com (SFDC) 
+Type !200000004!: Production Support 
+Item !200000005!: Security
+
+Assigned To Group+ !240000006!: Security/Email Admin
+
+Summary ! 8!: New Ship-To {!Account.Name} ({!Account.CustomerNumber__c}-{!Account.ShipToNumber__c}) for Corp Acct {!Account.GroupAccountNumber__c} 
+Description !240000007!: [$$A Ship-To Account has been created or maintained, and it now rolls up to a Corporate Account (it did not previously). 
+
+Corporate Account : {!Account.GroupAccountNumber__c}. 
+
+Ship-To Details: 
+Account Name: {!Account.Name} 
+Owner: {!Account.OwnerFullName}
+Customer : {!Account.CustomerNumber__c}-{!Account.ShipToNumber__c} 
+Ship-To Name: {!Account.ShipToName__c} 
+
+Please do the following: 
+1. Add the CAM and his/her CASC to this Ship-To's Account Team with READ/WRITE access for the Account, Opportunity and Case. (The CAM is the owner of the parent Corporate Account, visible using View Hierarchy. The CASC is available from the CAM's Outlook record, and also on the CAM's SFDC user record - look at the Default Account Team section) 
+
+2. Add the owner of this ship-to ({!Account.OwnerFullName}) to the Public Group corresponding to this Corporate Account. $$] 
+Status ! 7!: New 
+Case Type !260000130!: Request 
+Source !260000128!: Web 
+Submitter !2!: idkam 
+#AR-Message-End Do Not Delete This Line

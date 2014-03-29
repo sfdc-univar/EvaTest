@@ -1,0 +1,10 @@
+Dear {!Change_Request__c.OwnerFullName},
+
+Your Change Request listed below is complete:
+
+{!Change_Request__c.Name}.
+
+To view the Change Request, click below:
+{!Change_Request__c.Link}
+
+Salesforce.com Administrator

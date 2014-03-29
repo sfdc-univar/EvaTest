@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Email to customer who hasn&apos;t ordered in awhile.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Lost Business</name>
+    <style>none</style>
+    <subject>Univar: How can I help you?</subject>
+    <textOnly>Univar: How can I help you?
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+&lt;!-- 
+
+ --&gt;
+
+
+
+
+
+{!Contact.FirstName},
+
+At Univar, we value each and every one of our customers. It’s been a while since you’ve placed an order with us, and I’d like the opportunity to serve your company again.
+
+
+As a Univar customer, you can always expect to receive unparalleled customer service, and the highest quality products the industry has to offer—delivered when you need them, and at a competitive price. As a Sales Specialist representing Univar, my goal is to show you how Univar can help make the process of acquiring your raw materials simple and cost-efficient, and to win you back as one of our valued customers. 
+
+
+I’d like the opportunity to discuss how Univar can meet your facility’s needs. I will be contacting you shortly, however if there’s anything I can do for you, please don’t hesitate to call me. 
+
+
+
+
+
+
+
+
+
+Sincerely, 
+
+
+
+
+David Wright
+
+Univar Sales Specialist
+
+
+
+
+
+
+David Wright
+Sales Specialist
+
+
+(866) 944-6515
+
+David.Wright@univarusa.com 
+
+
+
+
+
+
+
+
+
+
+
+&lt;!-- --&gt;
+
+
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering
+
+
+
+
+
+
+
+
+
+
+This email was sent to {!Contact.Email} from Univar USA Inc. 
+
+
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

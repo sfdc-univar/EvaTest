@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Executive: Opportunity Pipelines</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <roleAndSubordinates>CentralRegionalSalesDirector</roleAndSubordinates>
+        <roleAndSubordinates>ChemCareNationalManagers</roleAndSubordinates>
+        <roleAndSubordinates>EasternRegionalSalesDirector</roleAndSubordinates>
+        <roleAndSubordinates>GlobalExecutives</roleAndSubordinates>
+        <roleAndSubordinates>MarketDevelopmentManager</roleAndSubordinates>
+        <roleAndSubordinates>MarketingCommunications</roleAndSubordinates>
+        <roleAndSubordinates>MiniBulkSalesVPDirector</roleAndSubordinates>
+        <roleAndSubordinates>VPMarketing</roleAndSubordinates>
+        <roleAndSubordinates>VPNewBusinessDevelopment</roleAndSubordinates>
+        <roleAndSubordinates>VPProdMgmtProcurement</roleAndSubordinates>
+        <roleAndSubordinates>VPSalesMarketing</roleAndSubordinates>
+        <roleAndSubordinates>WesternRegionalSalesDirector</roleAndSubordinates>
+    </sharedTo>
+</DashboardFolder>

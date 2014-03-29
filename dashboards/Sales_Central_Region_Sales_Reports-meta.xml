@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Sales:Central Region:Sales Reports</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <roleAndSubordinates>CentralChemCareMisc</roleAndSubordinates>
+        <roleAndSubordinates>CentralChemCareSalesManagerSouth1</roleAndSubordinates>
+        <roleAndSubordinates>CentralChemCareSalesManagerSouth2</roleAndSubordinates>
+        <roleAndSubordinates>CentralChemCareSalesSupportManager</roleAndSubordinates>
+        <roleAndSubordinates>CentralChemCareSpecialistSouth1</roleAndSubordinates>
+        <roleAndSubordinates>CentralChemCareSpecialistSouth2</roleAndSubordinates>
+        <roleAndSubordinates>CentralChemCareSpecialistSouth3</roleAndSubordinates>
+        <roleAndSubordinates>CentralIndustryManagerChemCare</roleAndSubordinates>
+        <roleAndSubordinates>CentralIndustryManagerEnergy</roleAndSubordinates>
+        <roleAndSubordinates>CentralIndustryManagersMisc</roleAndSubordinates>
+        <roleAndSubordinates>CentralIndustryRepsEnergy</roleAndSubordinates>
+        <roleAndSubordinates>CentralInsideSalesMgrSC0</roleAndSubordinates>
+        <roleAndSubordinates>CentralRegionalAccessMisc</roleAndSubordinates>
+        <roleAndSubordinates>CentralRegionalAccountManagers</roleAndSubordinates>
+        <roleAndSubordinates>CentralRegionalSalesDirector</roleAndSubordinates>
+        <roleAndSubordinates>CentralStrategicAccounts</roleAndSubordinates>
+        <roleAndSubordinates>Central_Inside_Sales_Mgr_NC0</roleAndSubordinates>
+        <roleAndSubordinates>Central_Inside_Sales_Supervisor_NC01</roleAndSubordinates>
+        <roleAndSubordinates>Central_Inside_Sales_Supervisor_NC02</roleAndSubordinates>
+        <roleAndSubordinates>GlobalExecutives</roleAndSubordinates>
+        <roleAndSubordinates>HACERCentralHouseAccountUserOnly</roleAndSubordinates>
+        <roleAndSubordinates>MarketingCommunications</roleAndSubordinates>
+        <roleAndSubordinates>NC0CentralBDR</roleAndSubordinates>
+        <roleAndSubordinates>RVPCentralRegion</roleAndSubordinates>
+        <roleAndSubordinates>VPMarketing</roleAndSubordinates>
+        <roleAndSubordinates>VPSalesMarketing</roleAndSubordinates>
+    </sharedTo>
+</DashboardFolder>

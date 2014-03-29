@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notify new Owner when a Ship-To Account has been assigned to them</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Account Reassignment: Ship-To</name>
+    <style>none</style>
+    <subject>SFDC Ship-To Account Reassigned to You: {!Account.Name} (#{!Account.CustomerNumber__c}-{!Account.ShipToNumber__c})</subject>
+    <type>text</type>
+</EmailTemplate>

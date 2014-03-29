@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Change Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Change Requests</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actual Completion Date --></label>
+        <name>Actual_Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Business Lead --></label>
+        <name>Approval_Business_Lead__c</name>
+        <picklistValues>
+            <masterLabel>Approve</masterLabel>
+            <translation><!-- Approve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need More Info</masterLabel>
+            <translation><!-- Need More Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Contact Center --></label>
+        <name>Approval_Contact_Center__c</name>
+        <picklistValues>
+            <masterLabel>Approve</masterLabel>
+            <translation><!-- Approve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need more info</masterLabel>
+            <translation><!-- Need more info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Corporate Accounts --></label>
+        <name>Approval_Corporate_Accounts__c</name>
+        <picklistValues>
+            <masterLabel>Approve</masterLabel>
+            <translation><!-- Approve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need More Info</masterLabel>
+            <translation><!-- Need More Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Learning Services --></label>
+        <name>Approval_Learning_Services__c</name>
+        <picklistValues>
+            <masterLabel>Approve</masterLabel>
+            <translation><!-- Approve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need More Info</masterLabel>
+            <translation><!-- Need More Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Marketing Support --></label>
+        <name>Approval_Marketing_Support__c</name>
+        <picklistValues>
+            <masterLabel>Approve</masterLabel>
+            <translation><!-- Approve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need More Info</masterLabel>
+            <translation><!-- Need More Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval NCR --></label>
+        <name>Approval_NCR__c</name>
+        <picklistValues>
+            <masterLabel>Approve</masterLabel>
+            <translation><!-- Approve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need More Info</masterLabel>
+            <translation><!-- Need More Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval NER --></label>
+        <name>Approval_NER__c</name>
+        <picklistValues>
+            <masterLabel>Approve</masterLabel>
+            <translation><!-- Approve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need More Info</masterLabel>
+            <translation><!-- Need More Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Project Sponsors --></label>
+        <name>Approval_Project_Sponsors__c</name>
+        <picklistValues>
+            <masterLabel>Approve</masterLabel>
+            <translation><!-- Approve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need More Info</masterLabel>
+            <translation><!-- Need More Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval SCR --></label>
+        <name>Approval_SCR__c</name>
+        <picklistValues>
+            <masterLabel>Approve</masterLabel>
+            <translation><!-- Approve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need More Info</masterLabel>
+            <translation><!-- Need More Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval SER --></label>
+        <name>Approval_SER__c</name>
+        <picklistValues>
+            <masterLabel>Approve</masterLabel>
+            <translation><!-- Approve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need More Info</masterLabel>
+            <translation><!-- Need More Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval WER --></label>
+        <name>Approval_WER__c</name>
+        <picklistValues>
+            <masterLabel>Approve</masterLabel>
+            <translation><!-- Approve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need More Info</masterLabel>
+            <translation><!-- Need More Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approvals --></label>
+        <name>Approvals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approver Comments --></label>
+        <name>Approver_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deployment Assigned To --></label>
+        <name>AssignTo__c</name>
+        <relationshipLabel><!-- Change Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>Assigned_To__c</name>
+        <picklistValues>
+            <masterLabel>Bonnie Briant</masterLabel>
+            <translation><!-- Bonnie Briant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brian Feldtman</masterLabel>
+            <translation><!-- Brian Feldtman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Management - Market Development</masterLabel>
+            <translation><!-- Data Management - Market Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Security - David Williamson</masterLabel>
+            <translation><!-- Data Security - David Williamson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eva DeLorio</masterLabel>
+            <translation><!-- Eva DeLorio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integration - Other</masterLabel>
+            <translation><!-- Integration - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integration - Shashank Makhija</masterLabel>
+            <translation><!-- Integration - Shashank Makhija --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kathy Miller</masterLabel>
+            <translation><!-- Kathy Miller --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maria Fitzsimons</masterLabel>
+            <translation><!-- Maria Fitzsimons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PC Support</masterLabel>
+            <translation><!-- PC Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheila McEvoy</masterLabel>
+            <translation><!-- Sheila McEvoy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signe Einess</masterLabel>
+            <translation><!-- Signe Einess --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Benefit Measure --></label>
+        <name>Benefit_Measure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benefits of Proposed Solution --></label>
+        <name>Benefits_of_Proposed_Solution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Drivers --></label>
+        <name>Business_Drivers__c</name>
+        <picklistValues>
+            <masterLabel>Optimization of Internal Operations</masterLabel>
+            <translation><!-- Optimization of Internal Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (Describe in text field)</masterLabel>
+            <translation><!-- Other (Describe in text field) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Growth/Margin Enhancement</masterLabel>
+            <translation><!-- Sales Growth/Margin Enhancement --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Business Opportunity or Problem --></label>
+        <name>Business_Opportunity_or_Problem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation Reason --></label>
+        <name>Cancellation_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Champ Discussion --></label>
+        <name>Champ_Discussion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Change_Request_Status__c</name>
+        <picklistValues>
+            <masterLabel>Assigned</masterLabel>
+            <translation><!-- Assigned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Development</masterLabel>
+            <translation><!-- In Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation><!-- On Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending I.S. Resources</masterLabel>
+            <translation><!-- Pending I.S. Resources --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending L.S. Resources</masterLabel>
+            <translation><!-- Pending L.S. Resources --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Deployment --></label>
+        <name>Deployment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Completion Date --></label>
+        <name>Estimated_Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Approval --></label>
+        <name>Final_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- I.S. Cost Estimate Required? --></label>
+        <name>I_S_Cost_Estimate_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- I.S. Cost Estimate --></label>
+        <name>I_S_Cost_Estimate__c</name>
+    </fields>
+    <fields>
+        <label><!-- L.S. Cost Estimate Required? --></label>
+        <name>L_S_Cost_Estimate_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- L.S. Cost Estimate --></label>
+        <name>L_S_Cost_Estimate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Description --></label>
+        <name>Other_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Proposed Solution --></label>
+        <name>Proposed_Solution__c</name>
+    </fields>
+    <fields>
+        <help><!-- Numeric portion of the Remedy  Change Request  (&quot;CRQ&quot;) number corresponding to this change.  All changes must be entered as CRQ tickets in Remedy before closing in SFDC. --></help>
+        <label><!-- Remedy CRQ # --></label>
+        <name>Remedy_CRQ__c</name>
+    </fields>
+    <fields>
+        <label><!-- Worklog --></label>
+        <name>Worklog__c</name>
+    </fields>
+    <layouts>
+        <layout>Change Request Layout</layout>
+        <sections>
+            <label><!-- Approvals --></label>
+            <section>Approvals</section>
+        </sections>
+        <sections>
+            <label><!-- Approver Comments --></label>
+            <section>Approver Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Business Drivers --></label>
+            <section>Business Drivers</section>
+        </sections>
+        <sections>
+            <label><!-- Business Opportunity or Problem (USOP/SFDC) --></label>
+            <section>Business Opportunity or Problem (USOP/SFDC)</section>
+        </sections>
+        <sections>
+            <label><!-- Cost Estimates --></label>
+            <section>Cost Estimates</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Proposed Solution --></label>
+            <section>Proposed Solution</section>
+        </sections>
+        <sections>
+            <label><!-- Worklog --></label>
+            <section>Worklog</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter the reason you are cancelling this Change Request.  If you did not intend to cancel this request, then update the status to a different value and remove the cancellation reason. --></errorMessage>
+        <name>Cancellation_Reason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Remedy CHG # is required on all Completed changes.  If you have not already created the Remedy CHG ticket for this change, please do so, then come back and enter the CHG number here. --></errorMessage>
+        <name>Completed_Requires_CHG</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Actual Completion Date is required on all Completed requests. --></errorMessage>
+        <name>Completed_Requires_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Deployment Date has been entered, then status must be Completed.  If this Change Request is not actually completed, please do not enter a deployment date. --></errorMessage>
+        <name>Completed_and_Deployed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Change Request must be assigned if status is &apos;Assigned&apos; or &apos;In Development&apos; --></errorMessage>
+        <name>Require_Assigned_To</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- NewCasefromthisChangeRequest --></label>
+        <name>NewCasefromthisChangeRequest</name>
+    </webLinks>
+</CustomObjectTranslation>

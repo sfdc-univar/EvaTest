@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Select_More_Accounts</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select More Accounts</shortDescription>
+        <value>Please select at least two accounts.</value>
+    </labels>
+    <labels>
+        <fullName>String_Too_Short</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>String Too Short</shortDescription>
+        <value>The search query needs to have at least 2 or more characters.</value>
+    </labels>
+    <labels>
+        <fullName>Too_Many_Accounts_Selected</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Too Many Accounts Selected</shortDescription>
+        <value>Only 3 accounts maximum may be merged at a time.</value>
+    </labels>
+</CustomLabels>

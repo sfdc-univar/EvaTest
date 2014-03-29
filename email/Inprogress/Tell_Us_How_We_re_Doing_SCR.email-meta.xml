@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Tell Us How We&apos;re Doing - SCR</name>
+    <style>none</style>
+    <subject>Tell Us How We&apos;re Doing</subject>
+    <textOnly>Tell us how we&apos;re doing...
+ 
+As a valued Univar customer, we&amp;rsquo;d like your opinion. You&amp;rsquo;re invited to take part in a Customer Survey to tell us how well Univar is serving you&amp;mdash;where we&amp;rsquo;re successful, and where we need improvement.
+ 
+Please take our quick, less than 5 minute survey.  You may choose to enter a random drawing at the end of the survey to be one of three winners of a $100 Amazon gift card. Thank you for taking the time to let us know how we rate.
+ 
+
+ 
+If you experience problems with the above link, please email us at: CustomerCare@univarusa.com
+
+
+  Contact Us                Univar USA                Online Ordering 3</textOnly>
+    <type>custom</type>
+</EmailTemplate>

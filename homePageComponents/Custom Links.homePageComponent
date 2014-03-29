@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>&lt;SCRIPT type=text/javascript&gt;
+var ftriploc1 = location.hostname;
+var notrip1 = &quot;&quot;;
+var pos = ftriploc1.indexOf(&quot;field-trip.&quot;);
+if(pos &gt; -1){
+//var notrip1 = ftriploc1.replace(&quot;field-trip.&quot;,&quot;&quot;);
+var notrip1 = &quot;//c.na13.visual.force.com&quot;;
+//alert(notrip1);
+}
+var pos1=ftriploc1.indexOf(&quot;apex&quot;);
+//reset host url for apex pages
+if(pos1 &gt;-1){
+notrip1 =  &quot;//c.na13.visual.force.com&quot;;
+}
+document.write(&apos;&lt;iframe src=&apos; + notrip1 + &apos;/apex/HomepageLinks style=&quot;TEXT-ALIGN: left; HEIGHT: 64px&quot; id=linkFrame height=auto frameBorder=0 width=195 marginWidth=0 scrolling=no&gt;&lt;/IFRAME&gt;&apos;);
+// Create browser compatible event handler.
+  var eventMethod1 = window.addEventListener ? &quot;addEventListener&quot; : &quot;attachEvent&quot;;
+  var eventer = window[eventMethod1];
+  var messageEvent1 = eventMethod1 == &quot;attachEvent&quot; ? &quot;onmessage&quot; : &quot;message&quot;;
+  eventer(messageEvent1, function(a) {
+var aF = a.data.split(&apos;~&apos;);
+if(aF[0] == &apos;aframe&apos;){
+        document.getElementById(&apos;linkFrame&apos;).style.height = aF[1] + &apos;px&apos;;
+}
+  }, false);
+&lt;/SCRIPT&gt;
+&lt;BR&gt;</body>
+    <pageComponentType>htmlArea</pageComponentType>
+    <width>narrow</width>
+</HomePageComponent>

@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>We miss your business!</TITLE>
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+
+<!-- /// CSS goes here in case the /HEAD tags get stripped \\\ --> 
+<STYLE TYPE="text/css">
+<!--
+ .topText {font-size:10px; color:#003399; line-height:25px; align:"center";}
+.introText {font-size:20px; color:#FFFFFF; line-height 30px; text-align:"center";}
+ .title {font-size:16px; font-weight:bold; color:#000000;}
+ .subTitle {font-size:13px; font-weight:bold; color:#000000;}
+ p {font-size:12px; color:#666666; line-height:20px; font-family: verdana;}
+.sideText{font-size:12px; color:#000000; line-height:20px; font-family: verdana;}
+ .footerText {font-size:11px; color:#666666;}
+ .headerBanner {font-size: 18px; font-weight: bold;}
+ td {font-family: verdana;}
+-->
+</STYLE>
+<!-- \\\ CSS goes here in case the /HEAD tags get stripped /// --> 
+
+
+<!-- /// Sometimes, BODY tags get stripped. This table is for background color when that happens.  \\\ --> 
+<table width="100%" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top" align="center">
+<!-- \\\ Sometimes, BODY tags get stripped. This table is for background color when that happens.  /// --> 
+
+<table style="BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; cellSpacing=0; cellPadding=0; valign=top; aalign=center; width=530; bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+<tr>
+<td bgcolor="#000000" font="FFFFFF" class="headerBanner" colspan="2" WIDTH="819" HEIGHT="108" BORDER="0"><a href="http://www.univarusa.com" title="Visit Univarusa.com"><IMG align= "center" SRC="https://na1.salesforce.com/servlet/servlet.ImageServer?oid=00D300000000RsQ&id=015300000007Ojv" WIDTH="819" HEIGHT="117" BORDER="0" ALT="Contact Center"></a><span class="introText"></td>
+</tr>
+
+<tr>
+<!-- /// gutter \\\ -->
+<!-- <td valign="top">
+
+<IMG SRC="http://www.mailchimp.com/resources/templates/newsletter/images/shim.gif" WIDTH="15" HEIGHT="5" BORDER="0"></td> -->
+<!-- \\\ gutter /// -->
+
+<!-- /// content cell \\\ -->
+<td valign="top" style="padding:10px">
+<p>
+{!Contact.FirstName},<br>
+I would like to take this time to introduce myself as your Sales Representative for your Hazardous/Non-Hazardous waste disposal needs.  I have 8 years of experience in environmental consulting and hazardous waste disposal.  
+</p>
+<p>
+You can be assured, that the unparalled customer service which you have become accustomed to will continue.  And as a Sales Specialist representing Univar, my goal is to show you how Univar can 
+help assist in making your waste disposal process simple and cost-efficient.
+<p>
+In the near future, I will be contacting you by phone to visit with you.  This will allow me to learn more about  your waste disposal needs.  However, if you should need anything sooner, please feel free to contact me at the numbers listed.   
+</p>
+<p>
+</td>
+<td valign="middle" align="center" style="padding:5px">
+<IMG align="center" SRC="https://na1.salesforce.com/servlet/servlet.ImageServer?oid=00D300000000RsQ&id=015300000008r9y" WIDTH="235" HEIGHT="172" BORDER="0" align="center" Alt="Dana LeBlanc">
+</td>
+</tr>
+<tr>
+<td valign="top" style="padding:10px">
+<p>
+Sincerely, <br>
+<br>
+<b>Dana LeBlanc </b><br>
+Sales Specialist, ChemCare<br>
+Univar | South Central Region, ChemCare Sales <br>
+</p>
+</td>
+<td width="220" style="BORDER: #669933 5px solid; padding:5px" bgcolor="#FFFFFF">
+<p>
+<span class="subTitle"><i>Dana LeBlanc</i><br>Sales Specialist</span><br>
+<span class="sideText">
+800-960-9300<br>
+<a href="mailto:Dana.LeBlanc@univarusa.com">Dana.LeBlanc@univarusa.com </a>
+</span>
+</p>
+<p2>
+<span class="subTitle">For waste pickup:<br>Call Mark Louiviere</span>
+<br>
+<span class="sideText">
+800-960-9300
+<br>
+<a href="mailto:Mark.Louiviere@univarusa.com">Mark.Louiviere@univarusa.com</a>
+</span>
+</p>
+</td>
+
+
+
+
+<!-- \\\ content cell /// -->
+
+
+<!-- /// gutter \\\ -->
+<!-- <td valign="top"><IMG SRC="http://www.mailchimp.com/resources/templates/newsletter/images/shim.gif" WIDTH="15" HEIGHT="5" BORDER="0"></td> -->
+<!-- \\\ gutter /// -->
+
+</tr>
+
+
+<!-- /// footer area with contact info and opt-out link \\\ -->
+<tr>
+<td bgcolor="#EEEEEE" style="border-top: 1px solid #333333;" valign="middle" align="center" colspan="3">
+<p>
+<a href="http://www.univarusa.com/chemcare.htm">ChemCare</a> &nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="http://www.univarusa.com">Univar USA</a>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="http://www.univarusa.com/ebusiness.htm">Online Ordering</a>
+<br>
+</p>
+</td>
+</tr>
+</table>
+<!-- \\\ footer area with contact info and opt-out link /// -->
+<span class="footerText">
+<br>
+This email was sent to <b> {!Contact.Email} </b> from <b> Univar USA Inc. </b> 
+<br>
+17425 NE Union Hill Rd., Redmond, WA 98052
+</span>
+
+
+
+
+
+<!-- /// Sometimes, BODY tags get stripped. This table is for background color when that happens.  \\\ --> 
+</td>
+</tr>
+</table>
+<!-- \\\ Sometimes, BODY tags get stripped. This table is for background color when that happens.  /// --> 
+
+<br>
+<br>
+
+</BODY>
+</HTML>

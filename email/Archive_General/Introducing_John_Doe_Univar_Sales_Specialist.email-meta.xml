@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Introducing Firstname Lastname, Univar USA Sales Specialist</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Introducing John Doe, Univar Sales Specialist</name>
+    <style>none</style>
+    <subject>Introducing {!User.FirstName} {!User.LastName}, Univar USA Sales Specialist</subject>
+    <type>text</type>
+</EmailTemplate>

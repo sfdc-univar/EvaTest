@@ -1,0 +1,18 @@
+A new Sample Request has been created for one of your Accounts.
+
+Account Name: {!Account.Name}
+Ship-To Name: {!Account.ShipToName__c}
+Customer Number: {!Account.CustomerNumber__c}-{!Account.ShipToNumber__c}
+Sample Contact Name:  {!SampleRequest__c.ContactId__c}
+
+Producer Name: {!SampleRequest__c.Producer_NAME__c}
+Product: {!SampleRequest__c.Product2Id__c}
+Product Description:  {!SampleRequest__c.ProductDescription__c}
+
+Industry Application:  {!SampleRequest__c.IndustryApplication__c}
+Specific Use:  {!SampleRequest__c.SpecificApplicationUse__c}
+
+Please perform sample request follow-up requirement by completing the required fields in the “follow-up” section of the sample record.  Click below to view the Sample Request record in Salesforce.com.
+
+To view this Sample Request, click the link below: 
+{!SampleRequest__c.Link}

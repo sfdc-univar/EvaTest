@@ -1,0 +1,16 @@
+{!Account.OwnerFirstName},
+
+Your Account "{!Account.Name}" has been flagged for Performance Improvement.  Please review the "Account Profitability Summary" section of the account referenced below and create an APP record to improve the performance of this account.
+
+Customer Number:  {!Account.CustomerNumber__c} - {!Account.ShipToNumber__c}
+
+Economic Contribution Margin, Year Month:  {!Account.AcornECMYM__c}
+
+Economic Contribution Margin, YTD:  {!Account.AcornECMYTD__c}
+
+YTD Raw GM:  {!Account.AcornRawGMPctYTD__c}%
+
+Link to Account in SFDC:
+{!Account.Link}
+
+If you have any questions or comments, please discuss them with your manager.

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification to the requestor once a Reassignment Request has been fulfilled.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Account Reassignment Completed Notification</name>
+    <style>none</style>
+    <subject>Your Account Reassignment has been Completed</subject>
+    <textOnly>Hello {!User.FirstName},
+
+An Account Reassignment that you requested is now complete. 
+
+https://c.na13.visual.force.com/apex/AccountsReassignmentsVFTab?fcf=00Ba0000009snc0
+
+Click above link to view your Account Reassignment Requests and please defer to your manager for any questions.</textOnly>
+    <type>custom</type>
+</EmailTemplate>

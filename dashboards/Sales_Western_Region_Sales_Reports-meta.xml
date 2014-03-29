@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Sales:Western Region:Sales Reports</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <roleAndSubordinates>RVPWesternRegion</roleAndSubordinates>
+        <roleAndSubordinates>WE0WesternBDRServiceSpecialist</roleAndSubordinates>
+        <roleAndSubordinates>WesternIndustryRegionalManagers</roleAndSubordinates>
+        <roleAndSubordinates>WesternMiniBulkRep1</roleAndSubordinates>
+        <roleAndSubordinates>WesternMiniBulkRep2</roleAndSubordinates>
+        <roleAndSubordinates>WesternMiniBulkSM1</roleAndSubordinates>
+        <roleAndSubordinates>WesternMiniBulkSM2</roleAndSubordinates>
+        <roleAndSubordinates>WesternRegionalAccessMisc</roleAndSubordinates>
+        <roleAndSubordinates>WesternRegionalSalesDirector</roleAndSubordinates>
+    </sharedTo>
+</DashboardFolder>

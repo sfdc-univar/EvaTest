@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <links>CPP_Customer_Product_Profiles_Report</links>
+    <links>CPPOpportunityDatabase</links>
+    <links>CONTACTS_Depth_of_Contact_Rept</links>
+    <links>OPPORTUNITIESS_OPEN_Report_CY</links>
+    <links>PRODUCTIVITY_Call_Planning_Next_Week</links>
+    <links>PRODUCTIVITY_Completed_Calls_Last_Week</links>
+    <links>TERRITORY_Snapshot</links>
+    <pageComponentType>links</pageComponentType>
+</HomePageComponent>

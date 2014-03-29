@@ -1,0 +1,10 @@
+Dear {!Internal_IS_Change_Request__c.OwnerFullName},
+
+Your Internal IS Change Request listed below is complete: 
+
+{!Internal_IS_Change_Request__c.Name}
+
+To view the completed Internal Change Request, click the link below: 
+{!Internal_IS_Change_Request__c.Link}
+
+Salesforce.com Administrator

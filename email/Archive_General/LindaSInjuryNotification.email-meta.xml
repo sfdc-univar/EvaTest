@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to follow-up with intro call.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Linda S. Injury Notification</name>
+    <style>none</style>
+    <subject>Hello from Linda Sandridge at Univar</subject>
+    <textOnly>Hello from Linda Sandridge, your Univar Food Specialist
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+&lt;!-- 
+
+ --&gt;
+
+
+
+
+
+ 
+
+
+{!Contact.FirstName},
+
+I&apos;m sorry to inform you that I will not able to visit your location for the next six weeks because of a recent leg injury. Although I&apos;m unable to meet with you personally, I&apos;ll be available and in contact with you via phone and email from my home office. 
+
+Your business is very important to me and I intend to minimize the inconvenience to you as much as possible. My contact information is on the left, please feel free to call or email me if you have any questions or concerns.
+
+
+I appreciate your patience over the next few weeks and hope to see you again as soon as I&apos;m able!
+
+
+Sincerely, 
+
+
+
+Linda Sandridge
+
+Food Specialist
+
+Univar | Atlanta
+
+
+
+
+
+
+
+Linda Sandridge
+Food Specialist
+
+
+(678) 644-7551
+
+Linda.Sandridge@univarusa.com 
+
+
+
+To place an order:
+Call the Atlanta Branch
+
+
+
+(770) 246-7700
+
+
+
+
+&lt;!-- 
+
+Sincerely, 
+
+
+
+Linda Sandridge
+
+Food Specialist
+
+Univar | Atlanta
+
+
+
+
+ --&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Food Ingredients
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering
+
+
+
+
+
+
+
+
+
+
+This email was sent to {!Contact.Email} from Univar USA Inc. 
+
+
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

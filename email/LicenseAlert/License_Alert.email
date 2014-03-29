@@ -1,0 +1,6 @@
+<messaging:emailTemplate subject="SFDC Univar IC Available Licenses" recipientType="User" relatedToType="ApexClass">
+<messaging:htmlEmailBody >
+ <h2>SFDC US-IC Available Licenses</h2>
+<c:availableLicenses ></c:availableLicenses>
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

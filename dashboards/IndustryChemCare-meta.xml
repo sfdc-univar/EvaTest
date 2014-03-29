@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Industry:ChemCare</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <group>AllGeneralManagers</group>
+        <group>AllRVPs</group>
+        <group>ChemCareManagers</group>
+        <group>ReportingChemCareExecutive</group>
+        <group>ReportingUnivarExecutive</group>
+        <group>ReportingViewAllReportsCentral</group>
+        <group>ReportingViewAllReportsEastern</group>
+        <group>ReportingViewAllReportsWestern</group>
+        <role>CentralChemCareSalesManagerSouth1</role>
+        <role>CentralChemCareSalesManagerSouth2</role>
+        <role>ChemCareNationalManagers</role>
+        <role>EasternChemCareManagerNortheast</role>
+        <role>EasternRegionalChemCareManager</role>
+        <role>Eastern_ChemCare_Manager_Southeast</role>
+    </sharedTo>
+</DashboardFolder>

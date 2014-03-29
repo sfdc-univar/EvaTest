@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Web-to-Lead Notification for the WER Lead queue</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Web-to-Lead for WER</name>
+    <style>none</style>
+    <subject>New Lead for WER!</subject>
+    <type>text</type>
+</EmailTemplate>

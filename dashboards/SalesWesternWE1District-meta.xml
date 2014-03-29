@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Sales:Western:WE1 District</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <group>ReportingViewAllReportsWestern</group>
+        <role>BusinessDevelopmentExecutive</role>
+        <role>GlobalExecutives</role>
+        <roleAndSubordinates>WE1GeneralManagers</roleAndSubordinates>
+    </sharedTo>
+</DashboardFolder>

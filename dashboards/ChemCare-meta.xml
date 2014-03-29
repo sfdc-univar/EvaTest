@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>ChemCare</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <role>CentralChemCareMisc</role>
+        <role>CentralChemCareSalesManagerSouth1</role>
+        <role>CentralChemCareSalesManagerSouth2</role>
+        <role>CentralChemCareSalesSupportManager</role>
+        <role>CentralChemCareSpecialistSouth1</role>
+        <role>CentralChemCareSpecialistSouth2</role>
+        <role>CentralChemCareSpecialistSouth3</role>
+        <role>CentralIndustryManagerChemCare</role>
+        <role>ChemCareNationalManagers</role>
+        <role>ChemCareTSDFVirtualUser</role>
+        <role>EasternChemCareManagerNortheast</role>
+        <role>EasternChemCareStaffNortheast</role>
+        <role>EasternChemCareStaffSE</role>
+        <role>EasternRegionalChemCareManager</role>
+        <role>Eastern_ChemCare_Manager_Southeast</role>
+        <role>GlobalExecutives</role>
+        <role>RVPCentralRegion</role>
+        <role>RVPEasternRegion</role>
+        <role>RVPWesternRegion</role>
+        <role>VPSalesMarketing</role>
+        <role>WE1Chemcare</role>
+        <role>WE2ChemCare</role>
+        <role>WE3Chemcare</role>
+        <role>WE4Chemcare</role>
+        <role>WE5ChemCare</role>
+    </sharedTo>
+</DashboardFolder>

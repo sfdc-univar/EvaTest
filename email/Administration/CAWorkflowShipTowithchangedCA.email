@@ -1,0 +1,31 @@
+The Corporate Account number on this Ship-To has just been changed. This Ship-To previously rolled up to a different CA#. Now it rolls up to CA #{!Account.GroupAccountNumber__c} 
+
+Ship-To Details: {!Account.Name}, Cust #{!Account.CustomerNumber__c}-{!Account.ShipToNumber__c}
+Owner: {!Account.OwnerFullName}
+
+If the Semi-Automated CA Account Team maintenance process is going to be run, you do not need to do anything now. Just keep this email as a record of CA-related maintenance for this week.
+
+Otherwise, please follow these steps:
+
+1. Update the CAM & CASC on the Ship-To Account Team:
+  - link to this Ship-To: {!Account.Link}
+  - Get the old CA# from the Account History section, & go to that CA to find the old CAM
+  - If the CAM has not changed, continue to Step 2.
+  - If the CAM has changed: 
+      - remove the old CAM & CASC from the Account Team on this Ship-To
+      - add the new CAM & CASC to the Account Team on this Ship-To, with READ/WRITE access and the appropriate roles for each.
+      - The CASC is available from the CAM's Outlook record, and also on the Default Account Team of the CAM's SFDC user record. Not all CAMs have CASCS.
+ 
+2. Maintain Account Team - OLD Corporate Account:
+  - Go to the old parent CA
+  - Use View Hierarchy to see if this ship-to owner ({!Account.OwnerFullName}) owns any other accounts rolling up to the old CA
+  - If the answer is yes, continue to Step 3
+  - If not, remove this ship-to owner from the Account Team on the old CA
+
+3. Maintain Account Team - NEW Corporate Account:
+  - Go to the new parent CA
+  - Use View Hierarchy to see if this ship-to owner ({!Account.OwnerFullName}) owns any other accounts rolling up to this (new) CA
+  - If the answer is yes, you are done.
+  - If not, ADD this ship-to owner to the Account Team on the new parent Corporate Account, with following settings:
+      - READ-ONLY ACCESS
+      - Team Role = "CA / MPA Ship-To Owner"

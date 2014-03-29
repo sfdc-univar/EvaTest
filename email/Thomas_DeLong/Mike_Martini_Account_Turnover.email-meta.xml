@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Mike Martini Account Turnover</name>
+    <style>none</style>
+    <subject>Account Manager Change</subject>
+    <textOnly>{!Contact.FirstName},
+
+For your information, please be advised that Mike Martini has been reassigned to new responsibilities at Univar effective immediately. Until a new Account Manager is named to manage his accounts, please direct all inquiries to:
+
+Kristin Iverson
+Pharmaceutical Industry Manager
+(916) 801-8086
+kristin.iverson@univarusa.com
+
+or
+
+Thomas DeLong
+Sales Manager
+(323) 837-7114
+thomas.delong@univarusa.com
+
+Thank you for your continued business and we look forward to serving your future requirements.
+ 
+Sincerely, 
+ 
+Thomas DeLong
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ChemCare     |     Univar     |     Online Ordering     |      Contact Us
+ 
+ 
+ 
+ This email was sent to {!Contact.Email} from Univar 
+
+
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

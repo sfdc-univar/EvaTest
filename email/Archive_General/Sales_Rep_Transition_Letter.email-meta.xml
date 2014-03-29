@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to customer to alert of account transition</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Sales Rep Transition Letter</name>
+    <style>none</style>
+    <subject>Introducing Sherry Z, your new Univar Sales Specialist</subject>
+    <textOnly>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;&gt;
+&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;META HTTP-EQUIV=&quot;Content-Type&quot; CONTENT=&quot;text/html; charset=iso-8859-1&quot;&gt;
+&lt;TITLE&gt;Hello from Lidia Smorodina, your Univar Sales Specialist&lt;/TITLE&gt;
+&lt;/HEAD&gt;
+&lt;BODY bgcolor=&quot;#FFFFFF&quot;&gt;
+
+&lt;!-- /// CSS goes here in case the /HEAD tags get stripped \\\ --&gt; 
+&lt;STYLE TYPE=&quot;text/css&quot;&gt;
+&lt;!--
+ .topText {font-size:10px; color:#003399; line-height:25px; align:&quot;center&quot;;}
+.introText {font-size:20px; color:#FFFFFF; line-height 30px; text-align:&quot;center&quot;;}
+ .title {font-size:16px; font-weight:bold; color:#000000;}
+ .subTitle {font-size:13px; font-weight:bold; color:#000000;}
+ p {font-size:12px; color:#666666; line-height:20px; font-family: verdana;}
+.sideText{font-size:12px; color:#000000; line-height:20px; font-family: verdana;}
+ .footerText {font-size:11px; color:#666666;}
+ .headerBanner {font-size: 18px; font-weight: bold;}
+ td {font-family: verdana;}
+ H2 {font-size:14px; color:#666666; line-height:20px; font-family: verdana;}
+--&gt;
+&lt;/STYLE&gt;
+&lt;!-- \\\ CSS goes here in case the /HEAD tags get stripped /// --&gt; 
+
+
+&lt;!-- /// Sometimes, BODY tags get stripped. This table is for background color when that happens.  \\\ --&gt; 
+&lt;table width=&quot;100%&quot; bgcolor=&quot;#FFFFFF&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; align=&quot;center&quot;&gt;
+&lt;!-- \\\ Sometimes, BODY tags get stripped. This table is for background color when that happens.  /// --&gt; 
+
+&lt;table style=&quot;BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 
+
+1px solid; cellSpacing=0; cellPadding=0; valign=top; aalign=center; width=819; bgcolor=&quot;#FFFFFF&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+&lt;tr&gt;
+&lt;td bgcolor=&quot;#000000&quot; font=&quot;FFFFFF&quot; class=&quot;headerBanner&quot; colspan=&quot;3&quot; WIDTH=&quot;819&quot; HEIGHT=&quot;108&quot; BORDER=&quot;0&quot;&gt;&lt;a 
+
+href=&quot;http://www.univarusa.com&quot; title=&quot;Visit Univarusa.com&quot;&gt;&lt;IMG align= &quot;center&quot; 
+
+SRC=&quot;https://na1.salesforce.com/servlet/servlet.ImageServer?oid=00D300000000RsQ&amp;id=015300000007Ojv&quot; WIDTH=&quot;819&quot; HEIGHT=&quot;117&quot; BORDER=&quot;0&quot; 
+
+ALT=&quot;Contact Center&quot;&gt;&lt;/a&gt;&lt;span class=&quot;introText&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;middle&quot; align=&quot;left&quot; style=&quot;padding:5px&quot; &quot;border-bottom: 1px solid #000000&quot; colspan=&quot;2&quot;&gt;
+&lt;IMG align=&quot;left&quot; SRC=&quot;https://na1.salesforce.com/servlet/servlet.ImageServer?oid=00D300000000RsQ&amp;id=015300000007NIA&quot; WIDTH=&quot;136&quot; 
+
+HEIGHT=&quot;182&quot; BORDER=&quot;0&quot; align=&quot;center&quot; valign=&quot;middle&quot; hspace=&quot;10&quot; vspace=&quot;10&quot; alt=&quot;David Wright&quot;&gt;
+&lt;!-- &lt;/td&gt;
+&lt;td valign=&quot;right&quot; style=&quot;padding:10px&quot; &quot;border-bottom: 1px solid #000000&quot; width=&quot;619&quot;&gt; --&gt;
+&lt;H2&gt;
+Goodbye
+&lt;/H2&gt;
+&lt;p&gt;
+Univar recently offered me a great opportunity. I begin serving Univar customers in Omaha, Nebraska on Monday, August 13.
+&lt;/p&gt;
+&lt;p&gt;
+As excited as I am for the new challenges that await me, I’m sorry to be leaving the associates and friends I’ve become acquainted with in the Los Angeles area over the last year. It’s been a pleasure to serve you. 
+&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+
+
+&lt;!-- /// content cell \\\ --&gt;
+&lt;td valign=&quot;top&quot; style=&quot;padding:10px&quot; rowspan=&quot;2&quot;&gt;
+&lt;hr colspan=&quot;3&quot;&gt;
+&lt;H2&gt;
+Hello!
+&lt;/H2&gt;
+&lt;p&gt;
+I’m your new Sales Specialist. You have my assurance that you’ll continue to receive the same great service you’ve always received from Univar. 
+&lt;/p&gt;
+&lt;p&gt;
+David has filled me in on your company’s operations. I’ve dedicated the last year to serving Univar’s Los Angeles customers, so I’m aware of the issues that industrial chemical users in southern California face—I’m here to help you navigate through those challenges.  
+&lt;/p&gt;
+&lt;p&gt;
+In the coming weeks, I’d like to speak with you for a few minutes to learn more about your business and the ways Univar and I can assist you. 
+&lt;/p&gt;
+&lt;p&gt;
+In the meantime, please contact me if there’s anything I can do for you. My number one priority is to help your business grow. Your success is my success.
+&lt;/p&gt;
+&lt;p&gt;
+Sincerely, &lt;br&gt;
+&lt;IMG SRC=&quot;https://na1.salesforce.com/servlet/servlet.ImageServer?oid=00D300000000RsQ&amp;id=015300000007Orp&quot; HSPACE=&quot;4&quot; VSPACE=&quot;6&quot; 
+
+WIDTH=&quot;252&quot; HEIGHT=&quot;53&quot; BORDER=&quot;0&quot; ALT=&quot;Lidia Smorodina Signature&quot;&gt;
+&lt;br&gt;
+Sales Specialist&lt;br&gt;
+Univar | Los Angeles&lt;br&gt;
+&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;middle&quot; align=&quot;center&quot; style=&quot;padding:5px&quot; colspan=&quot;1.5&quot;&gt;
+&lt;br&gt;
+&lt;IMG align=&quot;center&quot; SRC=&quot;https://na1.salesforce.com/servlet/servlet.ImageServer?oid=00D300000000RsQ&amp;id=015300000007TLF&quot; WIDTH=&quot;162&quot; 
+
+HEIGHT=&quot;180&quot; BORDER=&quot;0&quot; align=&quot;center&quot; ALT=&quot;Lidia Smorodina&quot;&gt;&lt;/td&gt;
+&lt;br&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;middle&quot; width=&quot;224&quot; style=&quot;BORDER: #669933 5px solid; padding:5px&quot; bgcolor=&quot;#FFFFFF&quot;&gt;
+&lt;p&gt;
+&lt;span class=&quot;subTitle&quot;&gt;&lt;i&gt;Lidia Smorodina&lt;/i&gt;&lt;br&gt;Sales Specialist&lt;/span&gt;&lt;br&gt;
+&lt;span class=&quot;sideText&quot;&gt;
+(800) 978-2615 &lt;br&gt;
+&lt;a href=&quot;mailto:Lidia.Smorodina@univarusa.com&quot;&gt;Lidia.Smorodina@univarusa.com &lt;/a&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p2&gt;
+&lt;span class=&quot;subTitle&quot;&gt;To place an order call:&lt;br&gt; &lt;/span&gt;
+&lt;span class=&quot;sideText&quot;&gt;
+(800) 201-4439
+&lt;br&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;/td&gt;
+
+
+
+&lt;/tr&gt;
+
+
+&lt;!-- /// footer area with contact info and opt-out link \\\ --&gt;
+&lt;tr&gt;
+&lt;td bgcolor=&quot;#EEEEEE&quot; style=&quot;border-top: 1px solid #333333;&quot; valign=&quot;middle&quot; align=&quot;center&quot; colspan=&quot;3&quot;&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://www.univarusa.com/chemcare.htm&quot;&gt;ChemCare&lt;/a&gt; &amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&lt;a href=&quot;http://www.univarusa.com&quot;&gt;Univar USA&lt;/a&gt;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&lt;a href=&quot;http://www.univarusa.com/ebusiness.htm&quot;&gt;Online Ordering&lt;/a&gt;
+&lt;br&gt;
+&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;!-- \\\ footer area with contact info and opt-out link /// --&gt;
+&lt;span class=&quot;footerText&quot;&gt;
+&lt;br&gt;
+This email was sent from &lt;b&gt; Univar USA Inc. &lt;/b&gt; 
+&lt;br&gt;
+17425 NE Union Hill Rd., Redmond, WA 98052
+&lt;/span&gt;
+
+
+
+
+
+&lt;!-- /// Sometimes, BODY tags get stripped. This table is for background color when that happens.  \\\ --&gt; 
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;!-- \\\ Sometimes, BODY tags get stripped. This table is for background color when that happens.  /// --&gt; 
+
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;/BODY&gt;
+&lt;/HTML&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

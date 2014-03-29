@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>eBusiness</name>
+    <style>none</style>
+    <subject>Univar Invites you to Order Products Online</subject>
+    <textOnly>Univar invites you to order your products online as an eBusiness Partner!
+ 
+ 
+The eBusiness Partners program is free to Univar customers - it takes just minutes to register.
+ 
+As an eBusiness Partner, you can:
+ 
+-Place orders online
+-View order status
+-View, print, save documents
+-(MSDS, Certificates of Analysis) 
+-View product information 
+
+Place your next order online! Go to: http://www.univarusa.com/vwr-inc/partnerregistration.nsf/Customer?OpenForm
+ 
+Use your Customer and Ship-to numbers to register:
+Customer number:  {!Account.CustomerNumber__c}  
+Ship-To:  {!Account.ShipToNumber__c}
+
+Want to learn more? Go to: http://www.univarusa.com/pagesi/ebusiness.htm</textOnly>
+    <type>custom</type>
+</EmailTemplate>

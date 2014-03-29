@@ -1,0 +1,2027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Decline</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewEvent</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer sales call</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Internal meeting</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Office meeting</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Personal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Phone call/conference call</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Producer meeting</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Prospect sales call</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Send Letter/Quote</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tote Tracking</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Vacation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>true</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Bid</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>C&amp;S Service Visit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Challenger</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Holiday</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Joint Call - BCS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Joint Call - CASE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Joint Call - ChemCare</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Joint Call - Food</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Joint Call - HIC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Joint Call - Manager</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Joint Call - Mini-Bulk/IC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Joint Call - Mining</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Joint Call - O&amp;G</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Joint Call - Personal Care</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Joint Call - Pharma</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Joint Call - Producer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Joint Call - TSDF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Joint Call - Univar</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Joint Call - Water Treatment</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Meeting - External</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Meeting - Internal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mini-Bulk - DEF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mini-Bulk - Greenfield</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mini-Bulk - Maintenance</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mini-Bulk - UPC</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Office</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Personal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Producer Meeting</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Product Training</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sales Call</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sick</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>To-Do</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Travel</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Vacation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>true</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>WhatId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WhoId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <recordTypes>
+        <fullName>CAMEvent</fullName>
+        <active>true</active>
+        <description>Corporate Account Manager Event</description>
+        <label>CAM Event</label>
+        <picklistValues>
+            <picklist>Producer__c</picklist>
+            <values>
+                <fullName>AB Colby</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ADM Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Accurez</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Air Products %26 Chems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Akzo Chemicals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BASF Corporation UV%2FEB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Basf Corporation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bayer Matl Science</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bayer PU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Butvar Solutia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cabot Corp Pb</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cabot Corporation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cargill Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Caschem Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chem Oddities Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ChemTech Specialties</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cimbar Cartersville</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Composite One</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cytec Surface Specialties</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dow Chemical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dow Corning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ei Dupont Denemours</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engelhard Corp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Essential Industries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Horsehead Industries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huntsman Corp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ISP Technologies</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ineos Melamines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inolex Chemical Co</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Johnson Polymer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kemira</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lanxess</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lucite Int%27l Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Luzenac America Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Millennium Chemicals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mozel Misc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mozel Packaging</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NANYA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OMYA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purity Zinc Metals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RPP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rhodia Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Special Materials</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sphere Services Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Swancor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Texas Petrochemical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Silica Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>United Minerals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Univar1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vanderbilt Rt Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Velsicol Chemical Corp</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product__c</picklist>
+            <values>
+                <fullName>1%2C4 Butanediol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Abex 18S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Accelerator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Acclaim</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Additol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adura</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alkamide</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alkamuls</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Amicure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Amine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ancamide</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ancamine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ancarez</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anchor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anquamine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anquawhite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Antarox</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Arcol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Barimite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Barytes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Baybond</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Baydur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bayferrox</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bayflex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bayhydrol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bayhydur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Baypren</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Baytec</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Beckopox</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Benzyl Alcohol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Black Pearls</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Butvar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cabosil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cabosperse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cardura</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cimbar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Curezol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DEH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Daotan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decoupage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desmocap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desmocoll</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desmodur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desmophen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desmoseal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dicyanex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Diglycolamine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispercoll</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Elftex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Elvacite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Epikure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Epirez</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eplink</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Epodil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Epon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Essential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Geropon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hardener OZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Heloxy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hybridur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IPDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Igepal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Imicure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jeffamine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joncryl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jonwax</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kadox</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Laroflex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lexorez</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lubrhophos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Macrynal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Madurit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Miracare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Miranol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mirataine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mistron</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Modaflow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mogul</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monarch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mondur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monoethanolamine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Morpholine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Multiflow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Multranol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N-Methyldiethanolamine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NPEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nanogel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nicron</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nonylphenol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omyacarb</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PCBTF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PFAZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pergut</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phenodur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Polycare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Propylene Carbonate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pulpro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recyclospheres</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Regal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resimene</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resydrol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rhodafac</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rhodapon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Roskydal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santolink</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silverline</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Surfonamine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Surfonic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Surwet R</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Swancor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Titanium Dioxide</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Triethanolamine 85%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Viacryl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vulcan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>XAMA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>XUS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zinc Dust</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zinc Oxide</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Customer sales call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone call%2Fconference call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Producer meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect sales call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tote Tracking</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>C%26S Service Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Holiday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - BCS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - CASE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - ChemCare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - Food</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - HIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - Mini-Bulk%2FIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - Mining</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - O%26G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - Personal Care</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - Pharma</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - Producer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - TSDF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - Water Treatment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting - External</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting - Internal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mini-Bulk - DEF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mini-Bulk - Greenfield</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mini-Bulk - Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mini-Bulk - UPC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Producer Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Call</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Sick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Travel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vacation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>ICEvents</fullName>
+        <active>true</active>
+        <description>Events record type for non CAM users</description>
+        <label>IC Events</label>
+        <picklistValues>
+            <picklist>Producer__c</picklist>
+            <values>
+                <fullName>AB Colby</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ADM Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Accurez</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Air Products %26 Chems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Akzo Chemicals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BASF Corporation UV%2FEB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Basf Corporation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bayer Matl Science</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bayer PU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Butvar Solutia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cabot Corp Pb</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cabot Corporation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cargill Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Caschem Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chem Oddities Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ChemTech Specialties</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cimbar Cartersville</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Composite One</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cytec Surface Specialties</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dow Chemical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dow Corning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ei Dupont Denemours</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engelhard Corp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Essential Industries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Horsehead Industries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Huntsman Corp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ISP Technologies</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ineos Melamines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inolex Chemical Co</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Johnson Polymer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kemira</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lanxess</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lucite Int%27l Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Luzenac America Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Millennium Chemicals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mozel Misc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mozel Packaging</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NANYA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OMYA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purity Zinc Metals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RPP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rhodia Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Special Materials</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sphere Services Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Swancor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Texas Petrochemical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Silica Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>United Minerals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Univar1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vanderbilt Rt Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Velsicol Chemical Corp</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product__c</picklist>
+            <values>
+                <fullName>1%2C4 Butanediol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Abex 18S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Accelerator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Acclaim</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Additol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adura</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alkamide</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alkamuls</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Amicure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Amine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ancamide</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ancamine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ancarez</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anchor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anquamine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anquawhite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Antarox</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Arcol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Barimite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Barytes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Baybond</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Baydur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bayferrox</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bayflex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bayhydrol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bayhydur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Baypren</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Baytec</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Beckopox</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Benzyl Alcohol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Black Pearls</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Butvar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cabosil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cabosperse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cardura</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cimbar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Curezol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DEH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DEN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DER</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Daotan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decoupage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desmocap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desmocoll</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desmodur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desmophen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Desmoseal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dicyanex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Diglycolamine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispercoll</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Elftex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Elvacite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Epikure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Epirez</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eplink</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Epodil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Epon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Essential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Geropon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hardener OZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Heloxy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hybridur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IPDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Igepal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Imicure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jeffamine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joncryl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jonwax</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kadox</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Laroflex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lexorez</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lubrhophos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Macrynal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Madurit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Miracare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Miranol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mirataine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mistron</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Modaflow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mogul</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monarch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mondur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monoethanolamine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Morpholine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Multiflow</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Multranol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N-Methyldiethanolamine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NPEL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nanogel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nicron</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nonylphenol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omyacarb</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PCBTF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PFAZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pergut</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phenodur</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Polycare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Propylene Carbonate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pulpro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recyclospheres</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Regal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resimene</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Resydrol</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rhodafac</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rhodapon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Roskydal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Santolink</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silverline</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Surfonamine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Surfonic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Surwet R</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Swancor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Titanium Dioxide</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Triethanolamine 85%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Viacryl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vulcan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>XAMA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>XUS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zinc Dust</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zinc Oxide</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer sales call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone call%2Fconference call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Producer meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect sales call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Letter%2FQuote</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tote Tracking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vacation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Bid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C%26S Service Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Holiday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - BCS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - CASE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - ChemCare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - Food</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - HIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - Mini-Bulk%2FIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - Mining</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - O%26G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - Personal Care</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - Pharma</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - Producer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - TSDF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Joint Call - Water Treatment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting - External</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting - Internal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mini-Bulk - DEF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mini-Bulk - Greenfield</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mini-Bulk - Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mini-Bulk - UPC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Producer Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Call</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Sick</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To-Do</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Travel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vacation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+</CustomObject>

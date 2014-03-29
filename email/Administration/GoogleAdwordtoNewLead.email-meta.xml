@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notify the Marketing Dev/Leads Personnel that a new Lead was created from the Google Adwords.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Google Adword to New Lead</name>
+    <style>none</style>
+    <subject>New Web-generated lead assigned to your group:  {!Lead.Name} from {!Lead.Company}</subject>
+    <type>text</type>
+</EmailTemplate>

@@ -1,0 +1,16 @@
+A Corporate or Multi-Plant Account has been reassigned.
+
+Details:
+New Owner: {!Account.OwnerFullName}, 
+Corporate Account #: {!Account.GroupAccountNumber__c} 
+Corporate Account Type: {!Account.GroupAccountType__c}
+
+link: {!Account.Link}
+
+The account teams should be updated the next time somebody runs the semi-automated Account Team update process. To assign account teams in the meantime, if it is going to be awhile, do the following: 
+
+1. Use Mass Reassign Account Team to remove the previous CAM ({!Account.OwnerFullName}) and CASC from the account teams on all related (child) accounts. 
+ - you can find the previous owner in the Account History section of the record
+- find the CASC by looking at the CAMs user record (not all CAMs have CASCs)
+
+2. Use Mass Reassign Account Team to add the CAM ({!Account.OwnerFullName}) to the account teams on all related (child) accounts

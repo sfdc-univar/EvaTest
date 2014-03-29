@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Univar_email_template</letterhead>
+    <name>Darla&apos;s Out Of Office</name>
+    <style>formalLetter</style>
+    <subject>Heads up for Next Week</subject>
+    <textOnly>Good Morning!
+
+Just a heads up that I will be out of the office next week from Wednesday 10/2 through Tuesday 10/8 returning Wednesday, 10/9.  
+
+With this in mind, please submit your orders in advance so that I can assist you this week.
+
+Please let me know what I can do for you today so that next week is a productive one for you and your team.
+
+Thank you for being my customer!
+
+Best Regards,
+
+Darla Langdon
+Account Representative
+Univar
+T  +1 877-285-0220 
+D  +1 253-872-5080
+F  +1 425-497-3762 (Please note my new fax number)
+
+All transactions are subject to Univar&apos;s Standard Terms &amp; Conditions, available at www.univarusa.com or upon request.  Univar rejects all other terms and conditions unless otherwise agreed upon in writing by an authorized Univar representative.</textOnly>
+    <type>html</type>
+</EmailTemplate>

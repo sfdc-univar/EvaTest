@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>NOTICE:  Univar USA Delivery Schedule Changes</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>UnivarLetterhead</letterhead>
+    <name>HS Delivery Date Changes</name>
+    <style>formalLetter</style>
+    <subject>HS Delivery Schedule Changes</subject>
+    <textOnly>{!Today}
+Dear {!NullValue(Contact.FirstName, &quot;Sir or Madam&quot;)},
+ 
+I was pleasantly surprised to see you recently placed your first order for PRODUCT NAME HERE.  On behalf of all of us at Univar I want to thank you for choosing Univar as one of your valued suppliers. 
+ 
+We know you have choices of who to purchase your raw materials from.   We value your business and will do our part to make sure Univar supplies you with quality product, when you want it, and at a competitive price.
+ 
+Thanks agin for allowing Univar to supply your needs.  If you have any questions, or would like further information on Univar’s  capabilities, please feel free to call me at 1-800-XXX-XXXX.  Also our website has added information that might be of some interest to you www.univarusa.com.
+ 
+ 
+P.S. For your added convenience you can order on line!!  Next time we talk just ask me how!!</textOnly>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Sales:Eastern Region:Overview</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <group>ReportingViewAllReportsEastern</group>
+        <role>GlobalExecutives</role>
+        <roleAndSubordinates>RVPEasternRegion</roleAndSubordinates>
+    </sharedTo>
+</DashboardFolder>

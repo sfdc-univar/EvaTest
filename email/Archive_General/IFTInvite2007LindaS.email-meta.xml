@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>IFT Invite 2007 - Linda S.</name>
+    <style>none</style>
+    <subject>Visit Univar at IFT 2007!</subject>
+    <textOnly>Visit Univar at IFT 2007!
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+{!Contact.FirstName},
+
+ 
+Although I will not be able to attend IFT this year because of my recent leg injury, I want to invite you to visit Univar&apos;s booth. Univar will be featuring several new products with a new energy drink at Booth #2658. Please stop by and try a sample!
+
+
+Also, make sure to ask to get a copy of the Univar Food Formulation tool that has the latest food industry trends and supplier food ingredient technologies to solve the most difficult formulation challenges.
+
+
+Fresh Ideas start at Booth #2658! Enjoy IFT 2007!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Food Ingredients
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering
+
+
+
+
+
+
+
+
+
+
+This email was sent to {!Contact.Email} from Univar USA Inc. 
+
+
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

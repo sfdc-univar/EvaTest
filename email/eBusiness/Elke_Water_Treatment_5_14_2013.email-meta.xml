@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Water Treatment Chemistry  #1 supplier is Univar !</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Univar_email_template</letterhead>
+    <name>Elke Water Treatment 5/14/2013</name>
+    <style>formalLetter</style>
+    <subject>Water Treatment Chemistry&apos;s #1 supplier is Univar</subject>
+    <textOnly>Dear {!Contact.Name},
+
+Your #1 supplier of all Water Treatment Chemistry is Univar.
+
+If you treat potable water, waste water, swimming pools, etc., you need to take advantage of Univar’s global buying power and delivery network.
+
+In the coming days, I will call you to discuss our reliable and cost-effective solutions for purchasing Water Treatment Chemistry for your facility(s):
+
+   •Algae control
+   •Coagulants
+   •Corrosion inhibitors
+   •Dechlorination
+   •Disinfection
+   •Fluorides
+   •Filter aids
+   •Nitrification
+   •Odor control
+   •Oxidation
+   •pH adjustment
+   •Phosphorus removal
+   •Settling/de-watering
+   •Softeners
+   •and more!
+
+Please review the attached Water Treatment Chemistry product line card and let me know how I can help you!
+
+
+
+Elke Kunz
+
+Account Representative
+Univar USA
+T  800-980-7124
+F  425-497-3758
+Elke.Kunz@UnivarUSA.com</textOnly>
+    <type>html</type>
+</EmailTemplate>

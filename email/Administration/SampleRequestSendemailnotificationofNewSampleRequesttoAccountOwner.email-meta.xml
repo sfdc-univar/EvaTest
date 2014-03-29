@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Send email notification of New Sample Request to Account Owner.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Sample Request:  Send email notification of New Sample Request to Account Owner</name>
+    <style>none</style>
+    <subject>New Sample Request:  Product &quot;{!SampleRequest__c.Product2Id__c}&quot;, Customer &quot;{!SampleRequest__c.AccountId__c}&quot;</subject>
+    <type>text</type>
+</EmailTemplate>

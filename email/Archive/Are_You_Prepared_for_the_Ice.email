@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>We miss your business!</TITLE>
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+
+<!-- /// CSS goes here in case the /HEAD tags get stripped \\\ --> 
+<STYLE TYPE="text/css">
+<!--
+ .topText {font-size:10px; color:#003399; line-height:25px; align:"center";}
+.introText {font-size:20px; color:#FFFFFF; line-height 30px; text-align:"center";}
+ .title {font-size:16px; font-weight:bold; color:#000000;}
+ .subTitle {font-size:13px; font-weight:bold; color:#000000;}
+ p {font-size:12px; color:#666666; line-height:20px; font-family: verdana;}
+.sideText{font-size:12px; color:#000000; line-height:20px; font-family: verdana;}
+ .footerText {font-size:11px; color:#666666;}
+ .headerBanner {font-size: 18px; font-weight: bold;}
+ td {font-family: verdana;}
+-->
+</STYLE>
+<!-- \\\ CSS goes here in case the /HEAD tags get stripped /// --> 
+
+
+<!-- /// Sometimes, BODY tags get stripped. This table is for background color when that happens.  \\\ --> 
+<table width="100%" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top" align="center">
+<!-- \\\ Sometimes, BODY tags get stripped. This table is for background color when that happens.  /// --> 
+
+<table style="BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; cellSpacing=0; cellPadding=0; valign=top; aalign=center; width=530; bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+<tr>
+<td bgcolor="#000000" font="FFFFFF" class="headerBanner" colspan="2" WIDTH="819" HEIGHT="108" BORDER="0"><a href="http://www.univarusa.com" title="Visit Univarusa.com"><IMG align= "center" SRC="https://na1.salesforce.com/servlet/servlet.ImageServer?oid=00D300000000RsQ&id=015300000007Ojv" WIDTH="819" HEIGHT="117" BORDER="0" ALT></a><span class="introText"></td>
+</tr>
+
+<tr>
+<!-- /// gutter \\\ -->
+<!-- <td valign="top">
+
+<IMG SRC="http://www.mailchimp.com/resources/templates/newsletter/images/shim.gif" WIDTH="15" HEIGHT="5" BORDER="0"></td> -->
+<!-- \\\ gutter /// -->
+
+<!-- /// content cell \\\ -->
+<td valign="top" style="padding:10px">
+<p>
+{!Contact.FirstName},<br>
+Dear Customer:
+ <p>
+The ice is coming, do you have ice melt?
+<p>
+Be prepared for ice and snow this winter with ice melt products from Univar. Icy roads cause hundreds of deaths each year. More than tornadoes, lightning, floods, and hurricanes combined. Even more common are the injuries caused each year by slippery sidewalks and walkways.
+<p> 
+Don't let snow and ice catch you unprepared this winter, stock up on Ice Melt today! Give Univar a call to discuss your best options for snow and ice melting this season.  Call the number below to the Univar nearest your shipping location.
+</p>
+</td>
+</td>
+</tr>
+<tr>
+<td valign="top" style="padding:10px">
+<p>
+Sincerely, <br>
+<br>
+<b>Univar USA</b><br>
+Univar | South Central Region<br>
+</p>
+All transactions are subject to Univar's Standard Terms & Conditions, available at www.univarusa.com or upon request.  Univar rejects all other terms and conditions unless otherwise agreed upon in writing by an authorized Univar representative.
+<p>
+</td>
+<td width="220" style="BORDER: #669933 5px solid; padding:5px" bgcolor="#FFFFFF">
+<p>
+<span class="subTitle"><i></i><br></span><br>
+<span class="sideText">
+<br>
+<a href </a>
+</span>
+</p>
+<p2>
+<span class="subTitle">To inquire or to place an order, call:<br>
+</span>Oklahoma City<br>405-745-2376
+</span>Denver<br>303-388-5657
+<br></span>
+<br>
+<span class="sideText">
+<br>
+<a </span>
+</p>
+</td>
+
+
+
+
+<!-- \\\ content cell /// -->
+
+
+<!-- /// gutter \\\ -->
+<!-- <td valign="top"><IMG SRC="http://www.mailchimp.com/resources/templates/newsletter/images/shim.gif" WIDTH="15" HEIGHT="5" BORDER="0"></td> -->
+<!-- \\\ gutter /// -->
+
+</tr>
+
+
+<!-- /// footer area with contact info and opt-out link \\\ -->
+<tr>
+<td bgcolor="#EEEEEE" style="border-top: 1px solid #333333;" valign="middle" align="center" colspan="3">
+<p>
+<a href="http://www.univarusa.com/chemcare.htm">ChemCare</a> &nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="http://www.univarusa.com">Univar USA</a>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a href="http://www.univarusa.com/ebusiness.htm">Online Ordering</a>
+<br>
+</p>
+</td>
+</tr>
+</table>
+<!-- \\\ footer area with contact info and opt-out link /// -->
+<span class="footerText">
+<br>
+This email was sent to <b> {!Contact.Email} </b> from <b> Univar USA Inc. </b> 
+<br>
+17425 NE Union Hill Rd., Redmond, WA 98052
+</span>
+
+
+
+
+
+<!-- /// Sometimes, BODY tags get stripped. This table is for background color when that happens.  \\\ --> 
+</td>
+</tr>
+</table>
+<!-- \\\ Sometimes, BODY tags get stripped. This table is for background color when that happens.  /// --> 
+
+<br>
+<br>
+
+</BODY>
+</HTML>

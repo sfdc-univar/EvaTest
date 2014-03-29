@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>For winter &apos;09, Ice melt products</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Ice Melt Promo</name>
+    <style>none</style>
+    <subject>Prepare for icy roads and walkways this winter</subject>
+    <textOnly>The ice is coming, do you have ice melt?
+ 
+Be prepared for ice and snow this winter with ice melt products from Univar. Icy roads cause hundreds of deaths each year. More than tornadoes, lightning, floods, and hurricanes combined. Even more common are the injuries caused each year by slippery sidewalks and walkways.
+ 
+Don&apos;t let snow and ice catch you unprepared this winter, stock up on Ice Melt today! Give me a call to discuss your best options for snow and ice melting this season.
+ 
+
+Sales Rep Name
+Sales Rep Phone Number</textOnly>
+    <type>custom</type>
+</EmailTemplate>

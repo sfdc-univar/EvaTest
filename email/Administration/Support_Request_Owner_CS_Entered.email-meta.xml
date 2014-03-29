@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Sends EM to Account Owner when the &quot;Cost Support Entered in DCS&quot; date is not blank.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NoLogoLetterhead</letterhead>
+    <name>Support Request-Owner-CS Entered</name>
+    <style>freeForm</style>
+    <subject>Your Support Request has Reached Final Approval:  {!Support_Request__c.Name}</subject>
+    <textOnly>Dear {!Account.OwnerFullName}, 
+
+A Support Request has been resolved. 
+____________________________________________________________
+ 
+Request Name:  {!Support_Request__c.Name}
+
+Account Name:  {!Support_Request__c.Account__c}
+____________________________________________________________
+ 
+Product Name: {!Support_Request__c.Product__c} 
+Product Desc: {!Support_Request__c.Product_Description__c} 
+Product Number: {!Support_Request__c.Product_Number__c} 
+Competitive Supplier: {!Support_Request__c.Competitive_Supplier__c} 
+Competitive Producer: {!Support_Request__c.Competitive_Producer__c}
+Requestor Comments:  {!Support_Request__c.Requestor_Comments__c}
+ 
+Annual Pounds: {!Support_Request__c.Annual_Lbs__c}
+Average Order Size: {!Support_Request__c.Average_Order_Size__c} 
+Application: {!Support_Request__c.Application__c} 
+____________________________________________________________
+
+Support Amount:  {!Support_Request__c.Support_Amount__c}
+Competitor&apos;s Price per UOM:  {!Support_Request__c.Per_UOM__c} per {!Support_Request__c.UOM__c}
+NOTE: The price displayed is rounded to two decimal places. See the entire Support Request for full details.
+ 
+____________________________________________________________
+ 
+To act upon this Support Request, click below: 
+
+{!Support_Request__c.Link} 
+ 
+
+ </textOnly>
+    <type>html</type>
+</EmailTemplate>

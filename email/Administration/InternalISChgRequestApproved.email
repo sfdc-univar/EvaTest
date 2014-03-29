@@ -1,0 +1,12 @@
+The Internal IS Change Request listed below has Final Approval and is awaiting your review: 
+
+Change Request Name: 
+"{!Internal_IS_Change_Request__c.Name}"
+
+Business Opportunity or Problem: 
+"{!Internal_IS_Change_Request__c.Business_Opportunity_or_Problem__c}"
+
+To view this Change Request, click the link below: 
+{!Internal_IS_Change_Request__c.Link}
+
+Salesforce.com Administrator

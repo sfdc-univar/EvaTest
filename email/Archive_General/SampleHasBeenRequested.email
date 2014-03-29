@@ -1,0 +1,11 @@
+Dear {!SampleRequest_ShipToContactName_ID}:
+
+Thank you for your sample request of  {!SampleRequest_Product2_ID}
+{!SampleRequest__c.ProductDescription__c}.
+
+We have contacted {!SampleRequest_Producder_ID}.
+Your sample should be shipped to you within {!SampleRequest__c.ShipUrgency__c}.
+
+We look forward to doing business with you.
+Sincerely,
+{!Account.OwnerFullName}

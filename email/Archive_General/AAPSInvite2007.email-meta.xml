@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Evite to AAPS Exposition</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>AAPS Invite 2007</name>
+    <style>none</style>
+    <subject>Visit Univar at AAPS 2007!</subject>
+    <textOnly>Visit Univar at AAPS 2007!
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Univar Pharmaceutical Ingredients
+
+
+
+Invites you to visit
+
+
+
+Stand # 2830
+
+
+
+
+
+At the 2007 AAPS Annual Exposition
+
+
+
+
+San Diego Convention Center
+
+
+
+
+
+Monday November 12 : 12:00 pm – 5:30 pm
+
+Tuesday November 13: 9:30 am – 6:15 pm
+
+Wednesday November 14 : 9:30 am – 4:30pm
+
+
+
+
+
+
+
+
+
+
+
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Pharmaceutical Ingredients
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering
+
+
+
+
+
+
+
+
+
+
+This email was sent from Univar USA Inc. 
+
+
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

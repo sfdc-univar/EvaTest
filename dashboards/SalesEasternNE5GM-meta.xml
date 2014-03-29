@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Sales:Eastern:NE5:GM:Thomas Wolk</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <group>ReportingViewAllReportsEastern</group>
+        <role>CorporateAccountVP</role>
+        <role>GlobalExecutives</role>
+        <role>NE54SEASalesManagerAtlanta</role>
+        <role>NE54SEEDistrictManagerAtlanta</role>
+        <role>NE54SEIDistrictManagerChattanooga</role>
+        <role>NE54SEJSalesManagerNashville</role>
+        <role>NE54SESSalesManagerPuertoRico</role>
+        <role>NE54SEWSalesManagerAtlanta</role>
+        <role>NE54SEZSalesManagerFlorida</role>
+        <role>NE5GeneralManagers</role>
+    </sharedTo>
+</DashboardFolder>

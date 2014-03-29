@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CaseSharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <ownerRules>
+        <fullName>BISSupport</fullName>
+        <sharedTo>
+            <group>GBASSupport</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>GBASSupport</group>
+        </sharedFrom>
+        <caseAccessLevel>Edit</caseAccessLevel>
+        <name>BIS Support</name>
+    </ownerRules>
+</CaseSharingRules>

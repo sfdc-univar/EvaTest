@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>EM Direct Report when Manager approves action plans</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Workflow_Email_Letterhead</letterhead>
+    <name>Coaching - Final Approval</name>
+    <style>freeForm</style>
+    <subject>{!CoachingWorksheet__c.Name}: We’ve Completed Your Coaching Worksheet</subject>
+    <textOnly>Dear {!CoachingWorksheet__c.DirectReportFirstName__c},
+
+Thanks for turning this around.  You can access the final worksheet by clicking here:  {!CoachingWorksheet__c.Link}</textOnly>
+    <type>html</type>
+</EmailTemplate>

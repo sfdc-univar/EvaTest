@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Sales:Central:NC0:Contact Center</name>
+    <publicFolderAccess>ReadWrite</publicFolderAccess>
+    <sharedTo>
+        <group>InsideSalesNC0</group>
+        <group>ReportingViewAllReportsCentral</group>
+        <role>GlobalExecutives</role>
+        <roleAndSubordinates>Central_Inside_Sales_Mgr_NC0</roleAndSubordinates>
+    </sharedTo>
+</DashboardFolder>

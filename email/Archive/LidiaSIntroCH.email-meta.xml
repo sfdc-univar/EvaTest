@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Email to follow-up with intro call.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Lidia S. Intro - CH</name>
+    <style>none</style>
+    <subject>Hello from Lidia Smorodina</subject>
+    <textOnly>Hello from Lidia Smorodina, your Univar Sales Specialist
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+&lt;!-- 
+
+ --&gt;
+
+
+
+
+
+
+
+{!Contact.FirstName},
+
+I’m pleased to introduce myself as your new Univar Industrial Chemical Sales Specialist. My colleague Richard Marsh will now be serving customers in the Seattle area. You have my promise that this will be a seamless transition—you’ll continue to receive the same great service you’ve always received from Univar. 
+
+
+Richard has filled me in on your company’s operations and chemical needs, and I’m excited to begin our partnership.
+
+
+In the coming weeks, I’d like to spend a few minutes with you in order to learn more about your business and the ways Univar and I can assist you. I’ll be calling you soon. In the meantime, please call me if there’s anything I can do for you. 
+
+
+My number one priority is to help your business grown, increasing your profits. Your success is my success.
+
+
+
+
+
+
+Lidia Smorodina
+Sales Specialist
+
+
+(866) 456-6048 
+
+Lidia.Smorodina@univarusa.com 
+
+
+
+To place an order,
+call our order desk: 
+
+
+
+
+(708) 728-6800 
+
+
+
+
+
+Sincerely, 
+
+
+
+
+ Sales Specialist
+
+
+Univar | Chicago
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering</textOnly>
+    <type>custom</type>
+</EmailTemplate>

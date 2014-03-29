@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Mike M backing up Elke 2013 mass email</name>
+    <style>none</style>
+    <subject>Univar sales contact  /  Mike Monson backing up Elke Kunz</subject>
+    <type>text</type>
+</EmailTemplate>

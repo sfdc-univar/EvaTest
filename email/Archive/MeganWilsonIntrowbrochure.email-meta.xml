@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Email to follow-up with intro call when a brochure or product line card will be attached.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Megan Wilson Intro w/brochure</name>
+    <style>none</style>
+    <subject>Thank you from Megan Wilson and Univar</subject>
+    <textOnly>Thank you from Megan Wilson and Univar
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+&lt;!-- 
+
+ --&gt;
+
+
+
+
+
+
+
+{!Contact.FirstName},
+
+It was a pleasure speaking to you on the phone today. I&apos;ll be calling you again in the coming weeks to learn more about your business and the ways Univar and I can help you.
+
+Attached to this email, you’ll find for your reference a Univar product brochure in PDF format. 
+
+
+In the meantime, please contact me if there’s anything I can do for you. My number one priority is to help your business grow.
+
+
+
+
+
+
+Megan Wilson
+Sales Specialist
+
+
+(866) 644-6509
+
+Megan.Wilson@univarusa.com 
+
+
+
+
+
+
+
+Sincerely, 
+
+
+
+
+Megan Wilson
+
+Sales Specialist
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Holidays Card 2013</name>
+    <style>none</style>
+    <subject>Happy Holidays from Univar!</subject>
+    <textOnly>Happy holidays!
+
+Best wishes for a safe and prosperous New Year!</textOnly>
+    <type>custom</type>
+</EmailTemplate>

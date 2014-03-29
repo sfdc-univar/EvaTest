@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CPP Supplier Info</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CPP Suppliers Info</value>
+    </caseValues>
+    <fields>
+        <label><!-- Annual LBS --></label>
+        <name>Annual_LBS_by_Supplier__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPP --></label>
+        <name>CPP__c</name>
+        <relationshipLabel><!-- CPP Suppliers Info --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Est. sales Value --></label>
+        <name>Est_sales_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contract expiration date. --></help>
+        <label><!-- Exp Date --></label>
+        <name>Exp_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- FOB --></label>
+        <name>FOB__c</name>
+        <picklistValues>
+            <masterLabel>Delivered</masterLabel>
+            <translation><!-- Delivered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship point</masterLabel>
+            <translation><!-- Ship point --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse</masterLabel>
+            <translation><!-- Warehouse --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Price Source --></label>
+        <name>Price_Source__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price Book</masterLabel>
+            <translation><!-- Price Book --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price Unknown</masterLabel>
+            <translation><!-- Price Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verbal</masterLabel>
+            <translation><!-- Verbal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Written - Invoice</masterLabel>
+            <translation><!-- Written - Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Written - Quote</masterLabel>
+            <translation><!-- Written - Quote --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Producer --></label>
+        <name>Producer__c</name>
+        <relationshipLabel><!-- CPP Producer Info --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Supplier --></label>
+        <name>Supplier__c</name>
+        <relationshipLabel><!-- CPP Suppliers Info --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- $UOM --></label>
+        <name>UOM__c</name>
+        <picklistValues>
+            <masterLabel>Bag</masterLabel>
+            <translation><!-- Bag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bottle</masterLabel>
+            <translation><!-- Bottle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Box</masterLabel>
+            <translation><!-- Box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulk</masterLabel>
+            <translation><!-- Bulk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can</masterLabel>
+            <translation><!-- Can --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carboy</masterLabel>
+            <translation><!-- Carboy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton</masterLabel>
+            <translation><!-- Carton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case</masterLabel>
+            <translation><!-- Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cubic Foot</masterLabel>
+            <translation><!-- Cubic Foot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cylinder</masterLabel>
+            <translation><!-- Cylinder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drum</masterLabel>
+            <translation><!-- Drum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Each</masterLabel>
+            <translation><!-- Each --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiber Drum</masterLabel>
+            <translation><!-- Fiber Drum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gallon</masterLabel>
+            <translation><!-- Gallon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Half Pint</masterLabel>
+            <translation><!-- Half Pint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kilogram</masterLabel>
+            <translation><!-- Kilogram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LB</masterLabel>
+            <translation><!-- LB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pail</masterLabel>
+            <translation><!-- Pail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quart</masterLabel>
+            <translation><!-- Quart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rail Car</masterLabel>
+            <translation><!-- Rail Car --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supersack</masterLabel>
+            <translation><!-- Supersack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tank Truck</masterLabel>
+            <translation><!-- Tank Truck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ton</masterLabel>
+            <translation><!-- Ton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tote</masterLabel>
+            <translation><!-- Tote --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- % of Vol. --></label>
+        <name>of_Vol__c</name>
+    </fields>
+    <fields>
+        <label><!-- $ per UOM --></label>
+        <name>per_UOM__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

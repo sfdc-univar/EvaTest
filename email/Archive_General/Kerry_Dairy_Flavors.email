@@ -1,0 +1,275 @@
+<html>
+<head>
+<custom name="opencounter" type="tracking">
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title>Generic Template - Right Sidebar</title>
+   <style type="text/css" media="screen">
+      body {
+         background-color: #eeeeee;
+      }
+
+      a img {
+         border: none;
+      }
+
+      table.bg1 {
+         background-color: #eeeeee;
+      }
+
+      table.bg2 {
+         background-color: #ffffff;
+      }
+
+      td.permission {
+         background-color: #eeeeee;
+         padding: 10px 20px 10px 20px;
+      }
+
+      td.permission p {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.permission p a {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #333333;
+      }
+
+      td.body {
+         padding: 0 20px 20px 20px;
+         background-color: #ffffff;
+      }
+
+      td.sidebar h3 {
+         font-family: Arial;
+         font-size: 15px;
+         font-weight: bold;
+         color: #333333;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.sidebar ul {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 6px 0 14px 24px;
+         padding: 0;
+      }
+
+      td.sidebar ul li a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+      }
+
+      td.sidebar h4 {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: bold;
+         color: #680606;
+         margin: 6px 0 0 0;
+         padding: 0;
+      }
+
+      td.sidebar h4 a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: bold;
+         color: #680606;
+         text-decoration: none;
+      }
+
+      td.sidebar p {
+         font-family: Arial;
+         font-size: 12px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 10px 0;
+         padding: 0;
+      }
+
+      td.sidebar p a {
+         font-family: Arial;
+         font-size: 12px;
+         font-weight: normal;
+         color: #680606;
+         text-decoration: none;
+      }
+
+      td.buttons {
+        padding: 20px 0 0 0; 
+      }
+
+      td.mainbar h2 {
+         font-family: Arial;
+         font-size: 20px;
+         font-weight: bold;
+         color: #dd6633;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.mainbar h2 a {
+         font-family: Arial;
+         font-size: 20px;
+         font-weight: bold;
+         color: #dd6633;
+         text-decoration: none;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.mainbar img.hr {
+         margin: 0;
+         padding: 0 0 10px 0;
+      }
+
+      td.mainbar p {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 14px 0;
+         padding: 0;
+      }
+
+      td.mainbar p a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #dd6633;
+      }
+
+      td.mainbar p.more a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+         text-decoration: none;
+      }
+
+      td.mainbar ul {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #dd6633;
+         margin: 0 0 14px 24px;
+         padding: 0;
+      }
+
+      td.mainbar ul li a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #dd6633;
+      }
+
+      td.footer {
+         padding: 0 20px 0 20px;
+         background-image: url('https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000UUng&oid=00D300000000RsQ&lastMod=1257880344000');
+         background-repeat: no-repeat;
+         background-position: top center;
+         background-color: #666666;
+         height: 38px;
+         vertical-align: middle;
+      }
+
+      td.footer p {
+         font-family: Arial;
+         font-size: 14px;
+         font-weight: normal;
+         color: #ffffff;
+         line-height: 16px;
+         margin: 0;
+         padding: 10;
+		 
+      }
+	  
+	  td.footer p a {
+		 font-family: Arial;
+         font-size: 14px;
+         font-weight: normal;
+         color: #ffffff;
+		 text-decoration: underline
+		 
+	  }
+   </style>
+</head>
+<body>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="bg1">
+   <tr>
+      <td align="center">
+         
+         <table width="600" border="0" cellspacing="0" cellpadding="0" class="bg2">
+           
+            <tr>
+               <td class="header" align="left"><a href="http://www.univarusa.com/pagesi/food"><img src="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000Ub9y&oid=00D300000000RsQ&lastMod=1274204073000" alt="Header" width="600" height="150" /></a></td>
+            </tr>
+            <tr>
+               <td valign="top" class="body">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                     <tr>
+                        <td valign="top" class="mainbar" align="left" colspan="3">
+                           <h2>New Dairy Flavors and Natural Preservative for Bakery</h2>
+                          <hr class="hr">
+                          </td>
+                          </tr>
+ 					<tr>
+                        <td width="370" valign="top" class="mainbar" align="left">
+                           <!-- <img class="hr" src="hr.gif" alt="Header" width="340" height="3" /> -->
+                           
+                            <p>Univar offers a new line of Kerry dairy flavors for bakery to add NATURAL butter flavor easily as a powder or paste to shortening or oil based bakery formulations where the flavor of butter is missing!  The unique benefit is the buttery flavor is maintained throughout the typical storage and shelf life of a bakery good.  The ease of use, clean labeling and cost effective application is unique to this line of butter flavor products.  We have an option for you to add the flavor of indulgence back to your bakery product without sacrificing cost!</p>
+                           <p>
+                          Additionally, Univar offers bakery customers a natural option for extending shelf life by preventing mold formation with  Upgrade<sup>TM</sup>  by Kerry Food Ingredients.  If you need a natural option for preservation of your bakery product, contact us today.
+                          </p>
+                          <p>Order a sample today or contact us for application assistance via the Samples & Formulating button on the right and we will send you the unique <strong>Univar Interative formulation tool </strong>for selecting the right ingredients by trend.</p>
+                          
+                           <h2>Resources</h2>
+                           <!-- <img class="hr" src="hr.gif" alt="Header" width="340" height="3" /> -->
+                           <hr>                      
+            <ul>
+            
+                              <li><a href="http://www.univarusa.com/infonotices/74B273148392129F8825773B005D5C82">Download a Brochure</a></li>
+                              <li><a href="http://www.surveymonkey.com/s/X796RTP">Samples & Formulation</a></li>
+                              <li><a href="http://www.univarusa.com/contactweb">Contact Univar</a></li>
+                           </ul>
+                     </td>
+                        
+                        <td width="20"></td>
+                        
+                        <td valign="top" width="170" class="sidebar" align="center">
+                          <p>
+                            <a href="http://www.univarusa.com/infonotices/74B273148392129F8825773B005D5C82"><img src="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000UbA8&oid=00D300000000RsQ&lastMod=1274205513000" alt="First Button" width="173" height="71" border="0"></a><br> 
+                            <br>
+                            <a href="http://www.surveymonkey.com/s/X796RTP"><img src="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000UbAD&oid=00D300000000RsQ&lastMod=1274475364000" alt="First Button" width="173" height="71" border="0"></a><br> 
+                            <br>
+                            <a href="http://www.univarusa.com/contactweb"><img src="https://na1.salesforce.com/servlet/servlet.ImageServer?id=01530000000UWXs&oid=00D300000000RsQ&lastMod=1264529403000" alt="First Button" width="173" height="71"></a><br> 
+                            <br>
+                          <a href="http://www.dowcorning.com/default.aspx?bhcp=1"><a href="http://www.univarusa.com/pagesi/personal"></a></p>
+                       </p></td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+            <tr>
+               <td valign="middle" align="Center" class="footer" height="38">
+                  <p><a href="http://chemcare.univarusa.com/">ChemCare</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.univarusa.com/">Univar</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.univarusa.com/pagesi/ebusiness.htm">Online Ordering</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.univarusa.com/contactweb">Contact Us</a><br />
+                                </td>
+            </tr>
+         </table>
+         <table cellpadding="2" cellspacing="0" width="600" ID="Table5" Border=0 align="center"><tr><td align="center"><font face="verdana" size="1" color="#444444"><br><br></font></td></tr></table></td>
+   </tr>
+</table>
+
+</body>
+</html>

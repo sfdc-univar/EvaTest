@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>SC4 - Intro Letter ChemCare customers</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Intro Letter</name>
+    <style>none</style>
+    <subject>Intro Letter</subject>
+    <textOnly>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;&gt;
+&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;META HTTP-EQUIV=&quot;Content-Type&quot; CONTENT=&quot;text/html; charset=iso-8859-1&quot;&gt;
+&lt;TITLE&gt;We miss your business!&lt;/TITLE&gt;
+&lt;/HEAD&gt;
+&lt;BODY bgcolor=&quot;#FFFFFF&quot;&gt;
+
+&lt;!-- /// CSS goes here in case the /HEAD tags get stripped \\\ --&gt; 
+&lt;STYLE TYPE=&quot;text/css&quot;&gt;
+&lt;!--
+ .topText {font-size:10px; color:#003399; line-height:25px; align:&quot;center&quot;;}
+.introText {font-size:20px; color:#FFFFFF; line-height 30px; text-align:&quot;center&quot;;}
+ .title {font-size:16px; font-weight:bold; color:#000000;}
+ .subTitle {font-size:13px; font-weight:bold; color:#000000;}
+ p {font-size:12px; color:#666666; line-height:20px; font-family: verdana;}
+.sideText{font-size:12px; color:#000000; line-height:20px; font-family: verdana;}
+ .footerText {font-size:11px; color:#666666;}
+ .headerBanner {font-size: 18px; font-weight: bold;}
+ td {font-family: verdana;}
+--&gt;
+&lt;/STYLE&gt;
+&lt;!-- \\\ CSS goes here in case the /HEAD tags get stripped /// --&gt; 
+
+
+&lt;!-- /// Sometimes, BODY tags get stripped. This table is for background color when that happens.  \\\ --&gt; 
+&lt;table width=&quot;100%&quot; bgcolor=&quot;#FFFFFF&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; align=&quot;center&quot;&gt;
+&lt;!-- \\\ Sometimes, BODY tags get stripped. This table is for background color when that happens.  /// --&gt; 
+
+&lt;table style=&quot;BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; cellSpacing=0; cellPadding=0; valign=top; aalign=center; width=530; bgcolor=&quot;#FFFFFF&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+&lt;tr&gt;
+&lt;td bgcolor=&quot;#000000&quot; font=&quot;FFFFFF&quot; class=&quot;headerBanner&quot; colspan=&quot;2&quot; WIDTH=&quot;819&quot; HEIGHT=&quot;108&quot; BORDER=&quot;0&quot;&gt;&lt;a href=&quot;http://www.univarusa.com&quot; title=&quot;Visit Univarusa.com&quot;&gt;&lt;IMG align= &quot;center&quot; SRC=&quot;https://na1.salesforce.com/servlet/servlet.ImageServer?oid=00D300000000RsQ&amp;id=015300000007Ojv&quot; WIDTH=&quot;819&quot; HEIGHT=&quot;117&quot; BORDER=&quot;0&quot; ALT=&quot;Contact Center&quot;&gt;&lt;/a&gt;&lt;span class=&quot;introText&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;!-- /// gutter \\\ --&gt;
+&lt;!-- &lt;td valign=&quot;top&quot;&gt;
+
+&lt;IMG SRC=&quot;http://www.mailchimp.com/resources/templates/newsletter/images/shim.gif&quot; WIDTH=&quot;15&quot; HEIGHT=&quot;5&quot; BORDER=&quot;0&quot;&gt;&lt;/td&gt; --&gt;
+&lt;!-- \\\ gutter /// --&gt;
+
+&lt;!-- /// content cell \\\ --&gt;
+&lt;td valign=&quot;top&quot; style=&quot;padding:10px&quot;&gt;
+&lt;p&gt;
+{!Contact.FirstName},&lt;br&gt;
+At Univar, we value each and every one of our customers. 
+It’s been a while since you’ve placed an order with us, and 
+I’d like the opportunity to serve your company again.
+&lt;/p&gt;
+&lt;p&gt;
+As a Univar customer, you can always expect to receive 
+unparalleled customer service, and the highest quality 
+products the industry has to offer—delivered when you 
+need them, and at a competitive price. As a Sales Specialist representing Univar, my goal is to show you how Univar can 
+help make the process of acquiring your raw materials 
+simple and cost-efficient, and to win you back as one of
+ our valued customers. 
+&lt;/p&gt;
+&lt;p&gt;
+I’d like the opportunity to discuss how Univar can meet your 
+facility’s needs. I will be contacting you shortly, however if 
+there’s anything I can do for you, please don’t hesitate to 
+call me. 
+&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;middle&quot; align=&quot;center&quot; style=&quot;padding:5px&quot;&gt;
+&lt;IMG align=&quot;center&quot; SRC=&quot;https://na1.salesforce.com/servlet/servlet.ImageServer?oid=00D300000000RsQ&amp;id=015300000007blB&quot; WIDTH=&quot;235&quot; HEIGHT=&quot;172&quot; BORDER=&quot;0&quot; align=&quot;center&quot; Alt=&quot;Joni Worthington&quot;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot; style=&quot;padding:10px&quot;&gt;
+&lt;p&gt;
+Sincerely, &lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Joni Worthington &lt;/b&gt;&lt;br&gt;
+Sales Specialist&lt;br&gt;
+Univar | Memphis, Little Rock, Mobile, Lafayette, Geismar&lt;br&gt;
+&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width=&quot;220&quot; style=&quot;BORDER: #669933 5px solid; padding:5px&quot; bgcolor=&quot;#FFFFFF&quot;&gt;
+&lt;p&gt;
+&lt;span class=&quot;subTitle&quot;&gt;&lt;i&gt;Joni Worthington&lt;/i&gt;&lt;br&gt;Sales Specialist&lt;/span&gt;&lt;br&gt;
+&lt;span class=&quot;sideText&quot;&gt;
+713-286-6912&lt;br&gt;
+&lt;a href=&quot;mailto:Joni.Worthington@univarusa.com&quot;&gt;Joni.Worthington@univarusa.com &lt;/a&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;p2&gt;
+&lt;span class=&quot;subTitle&quot;&gt;To place an order:&lt;br&gt;Call Holly LeBlanc&lt;/span&gt;
+&lt;br&gt;
+&lt;span class=&quot;sideText&quot;&gt;
+337-896-1000
+&lt;br&gt;
+&lt;a href=&quot;mailto:Holly.LeBlanc@univarusa.com&quot;&gt;Holly.LeBlanc@univarusa.com&lt;/a&gt;
+&lt;/span&gt;
+&lt;/p&gt;
+&lt;/td&gt;
+
+
+
+
+&lt;!-- \\\ content cell /// --&gt;
+
+
+&lt;!-- /// gutter \\\ --&gt;
+&lt;!-- &lt;td valign=&quot;top&quot;&gt;&lt;IMG SRC=&quot;http://www.mailchimp.com/resources/templates/newsletter/images/shim.gif&quot; WIDTH=&quot;15&quot; HEIGHT=&quot;5&quot; BORDER=&quot;0&quot;&gt;&lt;/td&gt; --&gt;
+&lt;!-- \\\ gutter /// --&gt;
+
+&lt;/tr&gt;
+
+
+&lt;!-- /// footer area with contact info and opt-out link \\\ --&gt;
+&lt;tr&gt;
+&lt;td bgcolor=&quot;#EEEEEE&quot; style=&quot;border-top: 1px solid #333333;&quot; valign=&quot;middle&quot; align=&quot;center&quot; colspan=&quot;3&quot;&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://www.univarusa.com/chemcare.htm&quot;&gt;ChemCare&lt;/a&gt; &amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&lt;a href=&quot;http://www.univarusa.com&quot;&gt;Univar USA&lt;/a&gt;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&amp;nbsp;
+&lt;a href=&quot;http://www.univarusa.com/ebusiness.htm&quot;&gt;Online Ordering&lt;/a&gt;
+&lt;br&gt;
+&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;!-- \\\ footer area with contact info and opt-out link /// --&gt;
+&lt;span class=&quot;footerText&quot;&gt;
+&lt;br&gt;
+This email was sent to &lt;b&gt; {!Contact.Email} &lt;/b&gt; from &lt;b&gt; Univar USA Inc. &lt;/b&gt; 
+&lt;br&gt;
+17425 NE Union Hill Rd., Redmond, WA 98052
+&lt;/span&gt;
+
+
+
+
+
+&lt;!-- /// Sometimes, BODY tags get stripped. This table is for background color when that happens.  \\\ --&gt; 
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;!-- \\\ Sometimes, BODY tags get stripped. This table is for background color when that happens.  /// --&gt; 
+
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;/BODY&gt;
+&lt;/HTML&gt;</textOnly>
+    <type>custom</type>
+</EmailTemplate>

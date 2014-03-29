@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>&lt;FORM action=https://na1.salesforce.com/00O300000016wjo method=get&gt;Account Name: &lt;INPUT name=pv0&gt;&lt;BR&gt;Ship To: &lt;INPUT name=pv1&gt; &lt;BR&gt;&lt;INPUT type=submit value=&quot;Submit Query&quot;&gt; &lt;/FORM&gt;</body>
+    <pageComponentType>htmlArea</pageComponentType>
+    <width>narrow</width>
+</HomePageComponent>

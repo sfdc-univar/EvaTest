@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Coaching Worksheet</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Coaching Worksheets</value>
+    </caseValues>
+    <fields>
+        <help><!-- Number of days since Session Date --></help>
+        <label><!-- Aging Days --></label>
+        <name>AgingDays__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Email Sent --></label>
+        <name>Date_Email_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Direct Report First Name --></label>
+        <name>DirectReportFirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Direct Report Name --></label>
+        <name>DirectReportNameLink__c</name>
+    </fields>
+    <fields>
+        <label><!-- Direct Report Name - No Link --></label>
+        <name>DirectReportNm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Direct Report --></label>
+        <name>DirectReport__c</name>
+        <relationshipLabel><!-- Coaching Worksheets (Direct Report) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Date when this worksheet received final approval --></help>
+        <label><!-- Final Approval Date --></label>
+        <name>FinalApprovalDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Helpful Information --></label>
+        <name>Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Instructions --></label>
+        <name>Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager First Name --></label>
+        <name>ManagerFirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Name --></label>
+        <name>ManagerName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager --></label>
+        <name>Manager__c</name>
+        <relationshipLabel><!-- Coaching Worksheets (Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Next Steps and Action Items --></label>
+        <name>NextStepsandActionItems__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observations &amp; Notes --></label>
+        <name>ObservationsAndNotes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity 1 --></label>
+        <name>Opportunity1__c</name>
+        <picklistValues>
+            <masterLabel>Tailor: Agility</masterLabel>
+            <translation><!-- Tailor: Agility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailor: Incorporates Economic Drivers</masterLabel>
+            <translation><!-- Tailor: Incorporates Economic Drivers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailor: Leverages Individual Value Drivers</masterLabel>
+            <translation><!-- Tailor: Leverages Individual Value Drivers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailor: Sales Innovation</masterLabel>
+            <translation><!-- Tailor: Sales Innovation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Allocates Resources Effectively</masterLabel>
+            <translation><!-- Take Control: Allocates Resources Effectively --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Business &amp; Financial Acumen</masterLabel>
+            <translation><!-- Take Control: Business &amp; Financial Acumen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Creates Constructive Tension to Drive Action</masterLabel>
+            <translation><!-- Take Control: Creates Constructive Tension to Drive Action --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Is Comfortable Discussing Money/ROI</masterLabel>
+            <translation><!-- Take Control: Is Comfortable Discussing Money/ROI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Results Orientation</masterLabel>
+            <translation><!-- Take Control: Results Orientation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Confidence in Commercial Teaching</masterLabel>
+            <translation><!-- Teach: Confidence in Commercial Teaching --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Drives Two-Way Communication</masterLabel>
+            <translation><!-- Teach: Drives Two-Way Communication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Offers Unique Perspective</masterLabel>
+            <translation><!-- Teach: Offers Unique Perspective --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Strong Industry Awareness</masterLabel>
+            <translation><!-- Teach: Strong Industry Awareness --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opportunity 2 --></label>
+        <name>Opportunity2__c</name>
+        <picklistValues>
+            <masterLabel>Tailor: Agility</masterLabel>
+            <translation><!-- Tailor: Agility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailor: Incorporates Economic Drivers</masterLabel>
+            <translation><!-- Tailor: Incorporates Economic Drivers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailor: Leverages Individual Value Drivers</masterLabel>
+            <translation><!-- Tailor: Leverages Individual Value Drivers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailor: Sales Innovation</masterLabel>
+            <translation><!-- Tailor: Sales Innovation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Allocates Resources Effectively</masterLabel>
+            <translation><!-- Take Control: Allocates Resources Effectively --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Business &amp; Financial Acumen</masterLabel>
+            <translation><!-- Take Control: Business &amp; Financial Acumen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Creates Constructive Tension to Drive Action</masterLabel>
+            <translation><!-- Take Control: Creates Constructive Tension to Drive Action --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Is Comfortable Discussing Money/ROI</masterLabel>
+            <translation><!-- Take Control: Is Comfortable Discussing Money/ROI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Results Orientation</masterLabel>
+            <translation><!-- Take Control: Results Orientation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Confidence in Commercial Teaching</masterLabel>
+            <translation><!-- Teach: Confidence in Commercial Teaching --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Drives Two-Way Communication</masterLabel>
+            <translation><!-- Teach: Drives Two-Way Communication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Offers Unique Perspective</masterLabel>
+            <translation><!-- Teach: Offers Unique Perspective --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Strong Industry Awareness</masterLabel>
+            <translation><!-- Teach: Strong Industry Awareness --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opportunity 3 --></label>
+        <name>Opportunity3__c</name>
+        <picklistValues>
+            <masterLabel>Tailor: Agility</masterLabel>
+            <translation><!-- Tailor: Agility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailor: Incorporates Economic Drivers</masterLabel>
+            <translation><!-- Tailor: Incorporates Economic Drivers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailor: Leverages Individual Value Drivers</masterLabel>
+            <translation><!-- Tailor: Leverages Individual Value Drivers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailor: Sales Innovation</masterLabel>
+            <translation><!-- Tailor: Sales Innovation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Allocates Resources Effectively</masterLabel>
+            <translation><!-- Take Control: Allocates Resources Effectively --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Business &amp; Financial Acumen</masterLabel>
+            <translation><!-- Take Control: Business &amp; Financial Acumen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Creates Constructive Tension to Drive Action</masterLabel>
+            <translation><!-- Take Control: Creates Constructive Tension to Drive Action --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Is Comfortable Discussing Money/ROI</masterLabel>
+            <translation><!-- Take Control: Is Comfortable Discussing Money/ROI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Results Orientation</masterLabel>
+            <translation><!-- Take Control: Results Orientation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Confidence in Commercial Teaching</masterLabel>
+            <translation><!-- Teach: Confidence in Commercial Teaching --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Drives Two-Way Communication</masterLabel>
+            <translation><!-- Teach: Drives Two-Way Communication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Offers Unique Perspective</masterLabel>
+            <translation><!-- Teach: Offers Unique Perspective --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Strong Industry Awareness</masterLabel>
+            <translation><!-- Teach: Strong Industry Awareness --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Owner Link --></label>
+        <name>OwnerLink__c</name>
+        <relationshipLabel><!-- Coaching Worksheets (Owner Link) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Owner Role --></label>
+        <name>OwnerRole__c</name>
+    </fields>
+    <fields>
+        <help><!-- (Optional) Account that this Coaching Worksheet is related to --></help>
+        <label><!-- Related Account --></label>
+        <name>RelatedAccount__c</name>
+        <relationshipLabel><!-- Coaching Worksheets --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The coaching observation date that this worksheet is for --></help>
+        <label><!-- Session Date --></label>
+        <name>SessionDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Draft: Not yet released for review by Direct Report.
+Direct Report Review: Direct Report needs to review &amp; submit for approval
+Feedback Received: Direct Report has submitted for approval. Now waiting for manager review.
+Manager Approved: Complete. --></help>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Direct Report Review</masterLabel>
+            <translation><!-- Direct Report Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feedback Received</masterLabel>
+            <translation><!-- Feedback Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager Approved</masterLabel>
+            <translation><!-- Manager Approved --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Strength 1 --></label>
+        <name>Strength1__c</name>
+        <picklistValues>
+            <masterLabel>Tailor: Agility</masterLabel>
+            <translation><!-- Tailor: Agility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailor: Incorporates Economic Drivers</masterLabel>
+            <translation><!-- Tailor: Incorporates Economic Drivers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailor: Leverages Individual Value Drivers</masterLabel>
+            <translation><!-- Tailor: Leverages Individual Value Drivers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailor: Sales Innovation</masterLabel>
+            <translation><!-- Tailor: Sales Innovation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Allocates Resources Effectively</masterLabel>
+            <translation><!-- Take Control: Allocates Resources Effectively --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Business &amp; Financial Acumen</masterLabel>
+            <translation><!-- Take Control: Business &amp; Financial Acumen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Creates Constructive Tension to Drive Action</masterLabel>
+            <translation><!-- Take Control: Creates Constructive Tension to Drive Action --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Is Comfortable Discussing Money/ROI</masterLabel>
+            <translation><!-- Take Control: Is Comfortable Discussing Money/ROI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Results Orientation</masterLabel>
+            <translation><!-- Take Control: Results Orientation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Confidence in Commercial Teaching</masterLabel>
+            <translation><!-- Teach: Confidence in Commercial Teaching --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Drives Two-Way Communication</masterLabel>
+            <translation><!-- Teach: Drives Two-Way Communication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Offers Unique Perspective</masterLabel>
+            <translation><!-- Teach: Offers Unique Perspective --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Strong Industry Awareness</masterLabel>
+            <translation><!-- Teach: Strong Industry Awareness --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Strength 2 --></label>
+        <name>Strength2__c</name>
+        <picklistValues>
+            <masterLabel>Tailor: Agility</masterLabel>
+            <translation><!-- Tailor: Agility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailor: Incorporates Economic Drivers</masterLabel>
+            <translation><!-- Tailor: Incorporates Economic Drivers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailor: Leverages Individual Value Drivers</masterLabel>
+            <translation><!-- Tailor: Leverages Individual Value Drivers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailor: Sales Innovation</masterLabel>
+            <translation><!-- Tailor: Sales Innovation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Allocates Resources Effectively</masterLabel>
+            <translation><!-- Take Control: Allocates Resources Effectively --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Business &amp; Financial Acumen</masterLabel>
+            <translation><!-- Take Control: Business &amp; Financial Acumen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Creates Constructive Tension to Drive Action</masterLabel>
+            <translation><!-- Take Control: Creates Constructive Tension to Drive Action --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Is Comfortable Discussing Money/ROI</masterLabel>
+            <translation><!-- Take Control: Is Comfortable Discussing Money/ROI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Results Orientation</masterLabel>
+            <translation><!-- Take Control: Results Orientation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Confidence in Commercial Teaching</masterLabel>
+            <translation><!-- Teach: Confidence in Commercial Teaching --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Drives Two-Way Communication</masterLabel>
+            <translation><!-- Teach: Drives Two-Way Communication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Offers Unique Perspective</masterLabel>
+            <translation><!-- Teach: Offers Unique Perspective --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Strong Industry Awareness</masterLabel>
+            <translation><!-- Teach: Strong Industry Awareness --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Strength 3 --></label>
+        <name>Strength3__c</name>
+        <picklistValues>
+            <masterLabel>Tailor: Agility</masterLabel>
+            <translation><!-- Tailor: Agility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailor: Incorporates Economic Drivers</masterLabel>
+            <translation><!-- Tailor: Incorporates Economic Drivers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailor: Leverages Individual Value Drivers</masterLabel>
+            <translation><!-- Tailor: Leverages Individual Value Drivers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailor: Sales Innovation</masterLabel>
+            <translation><!-- Tailor: Sales Innovation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Allocates Resources Effectively</masterLabel>
+            <translation><!-- Take Control: Allocates Resources Effectively --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Business &amp; Financial Acumen</masterLabel>
+            <translation><!-- Take Control: Business &amp; Financial Acumen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Creates Constructive Tension to Drive Action</masterLabel>
+            <translation><!-- Take Control: Creates Constructive Tension to Drive Action --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Is Comfortable Discussing Money/ROI</masterLabel>
+            <translation><!-- Take Control: Is Comfortable Discussing Money/ROI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Take Control: Results Orientation</masterLabel>
+            <translation><!-- Take Control: Results Orientation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Confidence in Commercial Teaching</masterLabel>
+            <translation><!-- Teach: Confidence in Commercial Teaching --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Drives Two-Way Communication</masterLabel>
+            <translation><!-- Teach: Drives Two-Way Communication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Offers Unique Perspective</masterLabel>
+            <translation><!-- Teach: Offers Unique Perspective --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teach: Strong Industry Awareness</masterLabel>
+            <translation><!-- Teach: Strong Industry Awareness --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Green = Session Date up to 2 days ago
+Yellow = Session Date 3-6 days ago
+Red = Session Date 7 or more days ago --></help>
+        <label><!-- Timeliness --></label>
+        <name>Timeliness__c</name>
+    </fields>
+    <fields>
+        <label><!-- Worksheet Link --></label>
+        <name>WorksheetNameURL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Worksheet Name --></label>
+        <name>WorksheetName__c</name>
+    </fields>
+    <layouts>
+        <layout>Coaching Layout - 1. New or Draft</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Observations &amp; Notes from Session --></label>
+            <section>Observations &amp; Notes from Session</section>
+        </sections>
+        <sections>
+            <label><!-- Prioritize Notes from Interaction --></label>
+            <section>Prioritize Notes from Interaction</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Coaching Layout - 2. and 3. Direct Report Review and Feedback Received</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Determine Next Steps and Agree upon Action Items --></label>
+            <section>Determine Next Steps and Agree upon Action Items</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Observations &amp; Notes from Session --></label>
+            <section>Observations &amp; Notes from Session</section>
+        </sections>
+        <sections>
+            <label><!-- Prioritize Notes from Interaction --></label>
+            <section>Prioritize Notes from Interaction</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Coaching Layout - 4. Manager Approved</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Determine Next Steps and Agree upon Action Items --></label>
+            <section>Determine Next Steps and Agree upon Action Items</section>
+        </sections>
+        <sections>
+            <label><!-- Observations &amp; Notes from Session --></label>
+            <section>Observations &amp; Notes from Session</section>
+        </sections>
+        <sections>
+            <label><!-- Prioritize Notes from Interaction --></label>
+            <section>Prioritize Notes from Interaction</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- 2. Direct Report Review --></label>
+        <name>DirectReportReview</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 1. Draft --></label>
+        <name>Draft</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 3. Feedback Received --></label>
+        <name>FeedbackReceived</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 4. Manager Approved --></label>
+        <name>ManagerApproved</name>
+    </recordTypes>
+    <sharingReasons>
+        <label><!-- Direct Report --></label>
+        <name>Direct_Report</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You cannot create a Coaching Worksheet for yourself.  Your Manager will create one for you and send it to you for your review. --></errorMessage>
+        <name>Direct_Report_Cannot_Create_for_Self</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Your manager is still editing this worksheet. You will receive an email when it is ready for you to review and edit. --></errorMessage>
+        <name>Direct_Report_Cannot_Edit_Draft</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot change owner --></errorMessage>
+        <name>OwnerChange_Not_Allowed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Session Date cannot be in the future. --></errorMessage>
+        <name>Session_Date_Cannot_be_in_Future</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Session Date is required. --></errorMessage>
+        <name>Session_Date_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Lost Business 2.0 Sherry Zeman</name>
+    <style>none</style>
+    <subject>We miss your business!</subject>
+    <textOnly>{!Contact.FirstName},
+
+At Univar, we value each and every one of our customers. It’s been a while since you’ve placed an order with us, and I’d like the opportunity to serve your company again. 
+
+As a Univar customer, you can always expect to receive unparalleled customer service, and the highest quality products the industry has to offer—delivered when you need them, and at a competitive price. As a Sales Specialist representing Univar, my goal is to show you how Univar can help make the process of acquiring your raw materials simple and cost-efficient, and to win you back as one of our valued customers. 
+
+I’d like the opportunity to discuss how Univar can meet your facility’s needs. I will be contacting you shortly, however if there’s anything I can do for you, please don’t hesitate to call me. 
+ 
+Sincerely, 
+ 
+Sherry Zeman
+Sales Specialist
+Univar | South Central Region
+(800)765-7300
+Sherry.Zeman@univarusa.com 
+
+To place an order, 
+Call Customer Service
+(800)765-7300
+
+This email was sent to {!Contact.Email} from Univar USA Inc. 
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

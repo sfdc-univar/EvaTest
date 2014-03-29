@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Sales:Central:NC3:GM:Jamie Jeffries</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <group>ReportingViewAllReportsCentral</group>
+        <role>GlobalExecutives</role>
+        <role>NC34CSBSalesManagerSanAntonioOD</role>
+        <role>NC34SCWSalesManagerDallas</role>
+        <role>NC3DistrictManagerDallasSanAntonioOD</role>
+        <role>NC3_General_Manager</role>
+    </sharedTo>
+</DashboardFolder>

@@ -1,0 +1,20 @@
+A new Corporate Account has been created.
+
+Details: 
+CA Name: {!Account.Name}
+CA Number: {!Account.GroupAccountNumber__c} 
+Owner (CAM): {!Account.OwnerFullName}
+
+link: {!Account.Link} 
+
+The account teams should be updated the next time somebody runs the semi-automated Account Team update process.  To assign account teams in the meantime, if it is going to be awhile, do the following:
+
+1.  Use Mass Reassign Account Team to add the CAM ({!Account.OwnerFullName}) to the account teams on all related (child) accounts:
+  - Criteria: Account Type = Ship-To or Prospect and Corporate / Multi-Plant Account Number = {!Account.GroupAccountNumber__c} 
+  - READ/WRITE access to all items
+  - Team Role = 'CA/MPA Manager'
+
+2. Use the same process and criteria to add the CASC, if there is one:
+  - CASC's Team Role = 'CA Support Coordinator'
+  - The CASC is available from the CAM's Outlook record, and also on the Default Account Team of the CAM's SFDC user record. 
+  - Not all CAMs have CASCS.

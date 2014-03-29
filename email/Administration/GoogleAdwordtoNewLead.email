@@ -1,0 +1,8 @@
+A new lead was created today using a Google Adword.  The following lead has been assigned to your group:
+
+Company:  {!Lead.Company} 
+Lead Name:  {!Lead.Name}  
+
+Click on this link to access the lead directly:  {!Lead.Link}
+
+DO NOT RESPOND TO THIS EMAIL.  IF THE ASSIGNMENT WAS INCORRECT, CONTACT YOUR SFDC ADMINISTRATOR.

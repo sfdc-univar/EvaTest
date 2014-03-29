@@ -1,0 +1,237 @@
+<apex:component controller="copado.WizardUtilsController">
+
+    <script>
+        var localizationobj = {};
+        localizationobj.pagergotopagestring = '{!SUBSTITUTE($Label.copado__JQX_PAGERGOTOPAGESTRING,"'","\'")}';
+        localizationobj.pagershowrowsstring = '{!SUBSTITUTE($Label.copado__JQX_PAGERSHOWROWSSTRING,"'","\'")}';
+        localizationobj.pagerrangestring = ' {!SUBSTITUTE($Label.copado__JQX_PAGERRANGESTRING,"'","\'")} ';
+        localizationobj.pagernextbuttonstring = '{!SUBSTITUTE($Label.copado__JQX_PAGERNEXTBUTTONSTRING,"'","\'")}';
+        localizationobj.pagerpreviousbuttonstring = '{!SUBSTITUTE($Label.copado__JQX_PAGERPREVIOUSBUTTONSTRING,"'","\'")}';
+        localizationobj.sortascendingstring = '{!SUBSTITUTE($Label.copado__JQX_SORTASCENDINGSTRING,"'","\'")}';
+        localizationobj.sortdescendingstring = '{!SUBSTITUTE($Label.copado__JQX_SORTDESCENDINGSTRING,"'","\'")}';
+        localizationobj.sortremovestring = '{!SUBSTITUTE($Label.copado__JQX_SORTREMOVESTRING,"'","\'")}';
+    </script>
+
+    <script type="text/javascript">
+     var Base64={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",encode:function(c){var a="",d,b,f,g,h,e,j=0;for(c=Base64._utf8_encode(c);j<c.length;)d=c.charCodeAt(j++),b=c.charCodeAt(j++),f=c.charCodeAt(j++),g=d>>2,d=(d&3)<<4|b>>4,h=(b&15)<<2|f>>6,e=f&63,isNaN(b)?h=e=64:isNaN(f)&&(e=64),a=a+this._keyStr.charAt(g)+this._keyStr.charAt(d)+this._keyStr.charAt(h)+this._keyStr.charAt(e);return a},decode:function(c){var a="",d,b,f,g,h,e=0;for(c=c.replace(/[^A-Za-z0-9\+\/\=]/g,"");e<c.length;)d=this._keyStr.indexOf(c.charAt(e++)),b=this._keyStr.indexOf(c.charAt(e++)),g=this._keyStr.indexOf(c.charAt(e++)),h=this._keyStr.indexOf(c.charAt(e++)),d=d<<2|b>>4,b=(b&15)<<4|g>>2,f=(g&3)<<6|h,a+=String.fromCharCode(d),64!=g&&(a+=String.fromCharCode(b)),64!=h&&(a+=String.fromCharCode(f));return a=Base64._utf8_decode(a)},_utf8_encode:function(c){c=c.replace(/\r\n/g,"\n");for(var a="",d=0;d<c.length;d++){var b=c.charCodeAt(d);128>b?a+=String.fromCharCode(b):(127<b&&2048>b?a+=String.fromCharCode(b>>6|192):(a+=String.fromCharCode(b>>12|224),a+=String.fromCharCode(b>>6&63|128)),a+=String.fromCharCode(b&63|128))}return a},_utf8_decode:function(c){for(var a="",d=0,b=c1=c2=0;d<c.length;)b=c.charCodeAt(d),128>b?(a+=String.fromCharCode(b),d++):191<b&&224>b?(c2=c.charCodeAt(d+1),a+=String.fromCharCode((b&31)<<6|c2&63),d+=2):(c2=c.charCodeAt(d+1),c3=c.charCodeAt(d+2),a+=String.fromCharCode((b&15)<<12|(c2&63)<<6|c3&63),d+=3);return a}};
+  
+     //IE helper
+     !window.console&&(window.console={log:function(){},error:function(){}});
+     
+     Date.fromISOString = (function(){
+        var tzoffset = (new Date).getTimezoneOffset();
+        function fastDateParse(y, m, d, h, i, s, ms){ // this -> tz
+            return new Date(y, m - 1, d, h || 0, +(i || 0) - this, s || 0, ms || 0);
+          }
+        
+          // result function
+          return function(isoDateString){
+            var tz = isoDateString.substr(10).match(/([\-\+])(\d{1,2}):?(\d{1,2})?/) || 0;
+            if (tz)
+              tz = tzoffset + (tz[1] == '-' ? -1 : 1) * (tz[3] != null ? +tz[2] * 60 + (+tz[3]) : +tz[2]);
+            return fastDateParse.apply(tz || 0, isoDateString.split(/\D/));
+          }
+        })();
+  
+     //namespace
+     var dw = dw || {};
+     dw.u = {
+         conf: {
+             retryLimit : 300,
+             retryUISelector: '#retry-label'
+         }
+     };
+        
+     dw.u.retry = function(url,cb,postData,avoidRetry, onError){
+          if(dw.u.getRemote.attempts < dw.u.conf.retryLimit){
+              dw.u.getRemote(url,cb,postData,avoidRetry, onError);
+              //$(dw.u.conf.retryUISelector).append('...');
+          }
+          else{
+              console.log('retry fail', dw.u.getRemote.attempts , dw.u.conf.retryLimit)
+              alert('{!$Label.copado__OOPS_SOMETHING_WENT_WRONG_GETTING_ORG_REMOTE_DATA}');
+              return false;
+          }
+     };
+     
+     
+        
+     dw.u.getRemote = function(url,cb,postData,avoidRetry, onError){
+            
+            dw.u.getRemote.attempts++; 
+            console.log('get remote url',url);
+            console.log('copado aouth' ,"userId {!userId}","orgId {!orgId}","sessionId {!sessionId}","token {!token}")            
+            sforce.connection.remoteFunction({
+                url : url,
+                requestHeaders: {
+                        "Content-Type": "text/json",
+                        "userId": "{!userId}",
+                        "orgId": "{!orgId}",
+                        "sessionId": "{!sessionId}",
+                        "token": "{!token}"
+                },
+                method: postData ? 'POST':"GET",
+                requestData: postData?postData:{},
+                onSuccess : function(res) {
+                    
+                    //check response
+                    try{
+                        console.log('remote response');
+                        var obj = $.parseJSON(res.replace(/(\r\n|\n|\r)/gm,' '));
+                        
+                        //FIXME: understand why parse is giving an string
+                        if(typeof obj === 'string'){
+                            obj = $.parseJSON(obj.replace(/(\r\n|\n|\r)/gm,' '));
+                        }
+                        
+                        
+                        if(obj.ok){
+                            console.log('remote started, retrying...',obj.ok);
+                            setTimeout(function(){
+                                dw.u.retry(url,cb,postData,avoidRetry, onError);
+                            },1000);
+                            return;
+                        }
+                        
+                        if(obj.error){
+                           console.log('remote obj.error',obj.error)
+                           avoidRetry = true;
+                           throw obj.error;
+                        }
+                        cb && cb(obj);
+                        
+                    }catch(e){
+                        console.log('catch')
+                        console.log('remote error',e);
+                        if (avoidRetry) {
+                          try{
+                            $('#loading').hide();    
+                          }
+                          catch(e){}
+                          try{
+                            $('#jqxgrid').html(e);  
+                          }
+                          catch(e){}
+                        }
+                        onError && onError(e);
+                        !avoidRetry && setTimeout(function(){
+                             dw.u.retry(url,cb,postData,avoidRetry, onError);
+                        },1000);
+                        
+                    } 
+                },
+                onFailure : function(response) {
+                    console.log('onFailure',onError,response)
+                    if(onError){
+                        onError(response);
+                        return;
+                    }
+                    !avoidRetry && setTimeout(function(){
+                         dw.u.retry(url,cb,postData,avoidRetry, onError);
+                    },1000);
+                },
+                timeout: 25000
+            });
+        };
+       dw.u.getRemote.attempts = 0; 
+        
+       dw.u.getAttach= function(parentId,name){
+        
+           var q = "Select Id, Body,LastModifiedDate From Attachment where name = '"+name+"' and parentId = '"+parentId+"' limit 1",
+           result =  sforce.connection.query(q),
+           records = result.getArray("records");
+           return records;
+       };
+       
+       //upsert
+       dw.u.upsertAttach = function(parentId,name, body, alreadyCheck){
+            
+            var Id = false;
+            if(!alreadyCheck){
+
+                var attach = dw.u.getAttach(parentId,name);
+                if(attach.length){
+                    Id = attach[0].Id;
+                }
+                
+            }    
+
+            var att = new sforce.SObject("Attachment");
+            att.parentId = parentId;
+            att.name = name;
+            att.body = Base64.encode(body);
+            
+            if(Id){att.Id = Id;}
+           
+            var result = sforce.connection.upsert("Id",[att]); 
+    
+            
+       };
+       
+       //this function try to recover the data from cached attach
+       //if is not cached it get from remote source and save it in attach
+       dw.u.getCachedRemote = function(opt){
+           
+           /*
+           opt sample
+           { 
+               url: remoteUrl,
+               parentId: ':)',
+               name: 'Metadata' ,
+               success:function(){},
+               error:function(){},
+               
+           };*/
+           
+           var attach = dw.u.getAttach(opt.parentId,opt.name);
+            if(opt.force || attach.length !=1){
+
+                //get remote and save
+                dw.u.getRemote.attempts = 0;
+                
+                 dw.u.getRemote(opt.url,function(res){
+                   
+                     //save as attach
+                     dw.u.upsertAttach(opt.parentId,opt.name,JSON.stringify(res), !opt.force);
+                     opt.success(res,0);
+                 });
+            
+            }else{
+                try{
+                    //decode the attach body
+                    var res = Base64.decode(attach[0].Body);
+                    
+                    //format date
+                    var date = Date.fromISOString(attach[0].LastModifiedDate);
+                    
+                    //parse json
+                    opt.success($.parseJSON(res),date.toLocaleString());
+                             
+                }catch(e){
+                    //console.log(Base64.decode(attach[0].Body));
+                    console.error('Exception on saved data:',e);
+                    opt.error();
+                }
+            }
+       
+       }; 
+       
+       dw.u.getSavedStepData = function(type){
+             if(!rock.stepId)return false;
+              
+              var attach = dw.u.getAttach(rock.stepId ,type);
+              if(attach.length >0){
+                  try{
+                    //decode the attach body
+                    var res = Base64.decode(attach[0].Body);
+                    //parse json
+                    return $.parseJSON(res);
+                             
+                   }catch(e){
+                    console.log('Exception on saved data:',e);
+                   }
+              }
+              return false;
+         };
+  </script>
+</apex:component>

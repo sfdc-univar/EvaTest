@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Invite for SCC NCR Teamworks tradeshow</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Teamworks Evite 2010</name>
+    <style>none</style>
+    <subject>Visit Univar at SCC TEAMWORKS 2010</subject>
+    <textOnly>Visit Univar at SCC TEAMWORKS 2010
+
+Univar Personal Care Ingredients invites you to visit 
+Booth 211 &amp; 213 
+@ TEAMWORKS 2010 
+Donald E. Stephens Convention Center 
+Rosemont, IL.
+March 31, 2010
+
+9:00 AM - Noon    Educational Session
+Noon - 6:00 PM    Tradeshow Exhibits 
+
+The following specialty ingredient suppliers will be displaying with Univar at our booth:
+
+BASF
+CP Kelco
+Dow Corning
+Dupont   
+
+Univar will also have information on ingredients from other key specialty industry partners.
+
+Be sure to stop by our booth to learn about our newest ingredients, and to enter our drawing for a Spa Gift Certificate!
+ 
+Resources
+-------------------------------
+About the Event | http://www.midwestscc.org/teamworks/#about
+Register for the Event | http://www.midwestscc.org/teamworks/#register</textOnly>
+    <type>custom</type>
+</EmailTemplate>

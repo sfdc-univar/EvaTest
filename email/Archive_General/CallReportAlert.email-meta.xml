@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Sends alert to read a call report</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Call Report Alert</name>
+    <style>none</style>
+    <subject>Call Report Alert!</subject>
+    <textOnly>A new Call Report has been entered for {!Account.Name} pertaining to {!CPP__c.Product2Id__c}.</textOnly>
+    <type>custom</type>
+</EmailTemplate>

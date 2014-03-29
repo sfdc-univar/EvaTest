@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <description>OPPORTUNITIESS:  OPEN Report CY - Open Opportunties: $10K Min Annual Sales $; Closing in 30-60 Days; 10 Customers/Prospect Count Max</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Open OPPORTUNITIES</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>https://na1.salesforce.com/00O30000001KT3V</url>
+</CustomPageWebLink>

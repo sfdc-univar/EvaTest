@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessType>Shared</accessType>
+    <name>Sales:Eastern:NE4:GM:David Chatham</name>
+    <publicFolderAccess>ReadOnly</publicFolderAccess>
+    <sharedTo>
+        <group>ReportingViewAllReportsEastern</group>
+        <role>GlobalExecutives</role>
+        <role>NE44SE4DistrictManager_SP_GB_CT</role>
+        <role>NE44SENSalesManager_Spartanburg</role>
+        <role>NE44SEXSalesManager_Richmond</role>
+        <role>NE4DirectReports</role>
+        <role>NE4GeneralManagers</role>
+        <role>NE4_4SET_District_Manager_Richmond</role>
+    </sharedTo>
+</DashboardFolder>

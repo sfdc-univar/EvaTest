@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Email for contacts you haven&apos;t been able to reach by phone</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Hard-to-reach contact</name>
+    <style>none</style>
+    <subject>Univar can help your business: Tell me how</subject>
+    <textOnly>Is there anything Univar can help you with?
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{!Contact.FirstName},
+
+My name is David Wright. My responsibility as your Univar Sales Specialist is to make sure that Univar is providing you the best service possible for your raw material and related service needs. Whether your needs are industrial, food, personal care, energy, or waste disposal services, I am here to assist you to ensure that your business always runs smoothly. I&apos;ve been unable to reach you by phone, and I thought I would send you this message and include my contact information in case you’d like to get in touch with me.
+
+
+I realize you have a very busy schedule, but if there is a convenient time, I’m interested in learning more about your business. 
+
+
+Please feel free to contact me if you have any questions or if I can help you in any way. 
+
+
+Sincerely, 
+
+
+
+
+David Wright
+
+Sales Specialist
+
+Univar | Burlington &amp; Omaha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+David Wright
+Sales Specialist
+
+
+(866) 644-6515
+
+David.Wright@univarusa.com 
+
+
+
+To place an order,
+call our order desk:
+
+
+
+(800) 325-5174 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ChemCare  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Univar USA
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Online Ordering
+
+
+
+
+
+
+
+
+
+
+This email was sent to {!Contact.Email} from Univar USA Inc. 
+
+
+17425 NE Union Hill Rd., Redmond, WA 98052</textOnly>
+    <type>custom</type>
+</EmailTemplate>

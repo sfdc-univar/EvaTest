@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SIC Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SIC Mappings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Industry --></label>
+        <name>Industry__c</name>
+        <picklistValues>
+            <masterLabel>Business/Government</masterLabel>
+            <translation><!-- Business/Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CASE</masterLabel>
+            <translation><!-- CASE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemical Mfg</masterLabel>
+            <translation><!-- Chemical Mfg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comp&apos;s/Plastic/Rubber</masterLabel>
+            <translation><!-- Comp&apos;s/Plastic/Rubber --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation><!-- Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electric/Gas/Water</masterLabel>
+            <translation><!-- Electric/Gas/Water --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics</masterLabel>
+            <translation><!-- Electronics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy</masterLabel>
+            <translation><!-- Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food</masterLabel>
+            <translation><!-- Food --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forest</masterLabel>
+            <translation><!-- Forest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glass</masterLabel>
+            <translation><!-- Glass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Household and Industrial Cleaning</masterLabel>
+            <translation><!-- Household and Industrial Cleaning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mining</masterLabel>
+            <translation><!-- Mining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not assigned</masterLabel>
+            <translation><!-- Not assigned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Industries</masterLabel>
+            <translation><!-- Other Industries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Care</masterLabel>
+            <translation><!-- Personal Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmaceutical</masterLabel>
+            <translation><!-- Pharmaceutical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary/Fab&apos;d Metal</masterLabel>
+            <translation><!-- Primary/Fab&apos;d Metal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation</masterLabel>
+            <translation><!-- Transportation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SIC Code --></label>
+        <name>SIC_Code__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
